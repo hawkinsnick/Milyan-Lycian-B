@@ -1,0 +1,3 @@
+# Milyan corpus research skill
+
+Use the repository's structured records as evidence, not as a source of automatically established translations. Check `docs/METHODOLOGY.md` and record-level citations. Distinguish Milyan/Lycian B from Lycian A. Never manufacture missing readings, etymologies, translations, dates, or citations. Clearly label proposed interpretations and competing scholarly analyses. Require source and rights checks before adding transcriptions or images. Report verified coverage and unverified gaps separately. Update this skill and the master corpus skill whenever the corpus data or methodology changes. Current corpus contains zero verified inscription records.
