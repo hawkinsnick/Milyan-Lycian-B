@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0.0",
+  "status": "BLOCKED_TEXT_COLLATION",
+  "record_count": 3,
+  "physical_monuments": 2,
+  "verified_readings": 0,
+  "blockers": [
+    "critical edition line-by-line collation",
+    "source rights verification",
+    "independent reading adjudication",
+    "bundle validation and cross-project admission"
+  ],
+  "do_not_claim": [
+    "complete scholarly 1.0",
+    "expert validation",
+    "independent replication"
+  ]
+}
