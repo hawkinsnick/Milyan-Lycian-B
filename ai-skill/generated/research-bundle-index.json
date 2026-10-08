@@ -6,11 +6,17 @@
     "data/inscriptions.json",
     "docs/METHODOLOGY.md",
     "ai-skill/SKILL.md",
-    "ai-skill/references/authority-profile.json"
+    "ai-skill/references/authority-profile.json",
+    "data/lines.json",
+    "research/source-reconciliation.json",
+    "scripts/research_api.py",
+    "docs/RESEARCH-API.md"
   ],
   "record_count": 3,
   "verified_record_count": 0,
   "transcribed_record_count": 0,
   "physical_monument_count": 2,
-  "readiness": "PRE_EXPERT_INCOMPLETE"
+  "readiness": "PRE_EXPERT_INCOMPLETE",
+  "line_count": 0,
+  "verified_line_count": 0
 }
