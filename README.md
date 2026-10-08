@@ -21,3 +21,6 @@ Initial scaffold (0.1.0). **No inscriptions have yet been verified or transcribe
 
 ## AI skill
 See `skills/milyan/SKILL.md`. Integration with the master corpus skill is pending verification of its repository and current format.
+
+## Corpus inventory checkpoint
+Three provisional segment records (TL 44c, TL 44d, TL 55) cover two monuments. Zero verified text transcriptions. See `docs/COVERAGE.md`, `docs/SOURCES.md`, `ai-skill/SKILL.md` and `research/pre-expert-maximum.json`. This is **not yet** a scholarly text-level 1.0 release.
