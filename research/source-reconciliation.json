@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0.0",
+  "method": "Do not treat bibliography discovery as line-level collation",
+  "witnesses": [
+    {
+      "id": "MIL-TL-055",
+      "primary_edition_candidate": "Schürr 2005 (full bibliographic identity unverified)",
+      "digital_reference": "TITUS Lycian and Milyan corpus",
+      "edition_access": "not verified",
+      "diplomatic_reading": "not acquired",
+      "line_mapping": "not verified",
+      "variant_apparatus": "not acquired",
+      "rights": "not cleared",
+      "gate": "BLOCKED"
+    },
+    {
+      "id": "MIL-TL-044-C",
+      "primary_edition_candidate": "Schürr 2016 (full bibliographic identity unverified)",
+      "digital_reference": "TITUS Lycian and Milyan corpus",
+      "edition_access": "not verified",
+      "diplomatic_reading": "not acquired",
+      "line_mapping": "c32–65 reported, not independently checked",
+      "variant_apparatus": "not acquired",
+      "rights": "not cleared",
+      "gate": "BLOCKED"
+    },
+    {
+      "id": "MIL-TL-044-D",
+      "primary_edition_candidate": "Schürr 2018 (full bibliographic identity unverified)",
+      "digital_reference": "TITUS Lycian and Milyan corpus",
+      "edition_access": "not verified",
+      "diplomatic_reading": "not acquired",
+      "line_mapping": "d1–71 reported, not independently checked",
+      "variant_apparatus": "not acquired",
+      "rights": "not cleared",
+      "gate": "BLOCKED"
+    }
+  ],
+  "policy": "No readings promoted to verified without source-specific edition locator, rights status and collation evidence."
+}
