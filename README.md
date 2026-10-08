@@ -24,3 +24,7 @@ See `skills/milyan/SKILL.md`. Integration with the master corpus skill is pendin
 
 ## Corpus inventory checkpoint
 Three provisional segment records (TL 44c, TL 44d, TL 55) cover two monuments. Zero verified text transcriptions. See `docs/COVERAGE.md`, `docs/SOURCES.md`, `ai-skill/SKILL.md` and `research/pre-expert-maximum.json`. This is **not yet** a scholarly text-level 1.0 release.
+
+## Reproducible validation and 1.0 gates
+
+Run `python scripts/validate_corpus.py` and `python ai-skill/scripts/validate_bundle.py`. GitHub Actions runs both on push and pull requests. See `docs/RELEASE-GATES.md`, `docs/RESEARCH-WORKFLOW.md`, `docs/INTEROPERABILITY.md`, and `docs/REVIEW-HANDOFF.md`. Passing structural validation is not the same as verifying epigraphic readings.
