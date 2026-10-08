@@ -9,3 +9,8 @@
 - Registered TL 44c, TL 44d and TL 55 as provisional, source-attributed targets (two monuments).
 - Added corpus research skill, authority profile, generated index, coverage, source bibliography and validation script.
 - Added master AI registry entry with admission PENDING; no verified text yet.
+
+## Evidence-tooling checkpoint
+- Added machine-readable source-reconciliation matrix and line-level schema.
+- Added read-only research API, coverage, KWIC, JSON/CSV exports and API smoke tests.
+- Updated AI skill and research bundle index; scholarly text verification remains blocked.
