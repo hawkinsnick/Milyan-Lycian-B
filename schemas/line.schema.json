@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Milyan line with editorial provenance",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "inscription_id",
+    "line_label",
+    "status",
+    "readings"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^MIL-TL-"
+    },
+    "inscription_id": {
+      "enum": [
+        "MIL-TL-044-C",
+        "MIL-TL-044-D",
+        "MIL-TL-055"
+      ]
+    },
+    "line_label": {
+      "type": "string",
+      "minLength": 1
+    },
+    "status": {
+      "enum": [
+        "provisional",
+        "verified"
+      ]
+    },
+    "readings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "layer",
+          "text",
+          "source",
+          "rights"
+        ],
+        "properties": {
+          "layer": {
+            "enum": [
+              "diplomatic",
+              "normalized",
+              "editorial"
+            ]
+          },
+          "text": {
+            "type": "string"
+          },
+          "source": {
+            "type": "string"
+          },
+          "rights": {
+            "type": "string"
+          },
+          "uncertainty": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  }
+}
