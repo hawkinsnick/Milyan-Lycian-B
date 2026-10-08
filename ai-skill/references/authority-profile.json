@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0.0",
+  "corpus": "milyan",
+  "canonical_dataset": "data/inscriptions.json",
+  "authority_level": "provisional bibliographic inventory only",
+  "attested_transcriptions_verified": 0,
+  "inscription_record_count": 3,
+  "distinct_monuments": 2,
+  "source_independence": "not established",
+  "linguistic_inference": "blocked until transcription and critical-edition collation",
+  "rights": "source specific; metadata only",
+  "review": "human epigraphic validation outstanding"
+}
