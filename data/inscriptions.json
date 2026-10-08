@@ -1,1 +1,78 @@
-[]
+[
+  {
+    "id": "MIL-TL-044-C",
+    "language": "milyan",
+    "status": "provisional",
+    "site": "Xanthos",
+    "object_type": "inscribed pillar monument",
+    "date_note": "Late fifth century BCE proposed in secondary scholarship; requires edition-level verification",
+    "diplomatic_transcription": null,
+    "normalized_transliteration": null,
+    "uncertainties": [
+      "Milyan passage on face c; line scope cited as c32–65 in scholarship; physical line attribution must be verified against critical edition.",
+      "No transcription imported."
+    ],
+    "sources": [
+      {
+        "citation": "Martínez Rodríguez, Lycian hba-. Towards the interpretation of TL 44a.49",
+        "locator": "Introduction, description of TL 44 language blocks; https://www.researchgate.net/publication/369020329_Lycian_hba-_Towards_the_interpretation_of_TL_44a49"
+      },
+      {
+        "citation": "Melchert, Corpus of Lycian and Milyan inscriptions, TITUS electronic edition",
+        "locator": "TL 44; https://titus.uni-frankfurt.de/texte/etcs/anatol/lycian/lyccot.htm"
+      }
+    ],
+    "rights": "Metadata and brief factual description only; no edition transcription or image reused."
+  },
+  {
+    "id": "MIL-TL-044-D",
+    "language": "milyan",
+    "status": "provisional",
+    "site": "Xanthos",
+    "object_type": "inscribed pillar monument",
+    "date_note": "Late fifth century BCE proposed in secondary scholarship; requires edition-level verification",
+    "diplomatic_transcription": null,
+    "normalized_transliteration": null,
+    "uncertainties": [
+      "Milyan face d; cited as 71 lines; validate segmentation and edition readings.",
+      "Same physical monument as MIL-TL-044-C; not an independent artifact.",
+      "No transcription imported."
+    ],
+    "sources": [
+      {
+        "citation": "Martínez Rodríguez, Lycian hba-. Towards the interpretation of TL 44a.49",
+        "locator": "Introduction; TL 44d 1–71; https://www.researchgate.net/publication/369020329_Lycian_hba-_Towards_the_interpretation_of_TL_44a49"
+      },
+      {
+        "citation": "TITUS Lycian and Milyan inscription corpus",
+        "locator": "TL 44; https://titus.uni-frankfurt.de/texte/etcs/anatol/lycian/lyccot.htm"
+      }
+    ],
+    "rights": "Metadata only; no transcription or image reused."
+  },
+  {
+    "id": "MIL-TL-055",
+    "language": "milyan",
+    "status": "provisional",
+    "site": "Antiphellos",
+    "object_type": "inscribed tomb",
+    "date_note": "Dating pending source collation",
+    "diplomatic_transcription": null,
+    "normalized_transliteration": null,
+    "uncertainties": [
+      "Verify monument identity and detailed text boundaries against critical editions.",
+      "No transcription imported."
+    ],
+    "sources": [
+      {
+        "citation": "Pisidian, Lycian, Milyan, Handbook of Comparative and Historical Indo-European Linguistics",
+        "locator": "Milyan section; TL 55; https://ebrary.net/106916/economics/pisidian"
+      },
+      {
+        "citation": "TITUS Lycian and Milyan inscription corpus",
+        "locator": "TL 55; https://titus.uni-frankfurt.de/texte/etcs/anatol/lycian/lyccot.htm"
+      }
+    ],
+    "rights": "Metadata only; no transcription or image reused."
+  }
+]
