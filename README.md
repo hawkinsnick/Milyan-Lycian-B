@@ -28,3 +28,7 @@ Three provisional segment records (TL 44c, TL 44d, TL 55) cover two monuments. Z
 ## Reproducible validation and 1.0 gates
 
 Run `python scripts/validate_corpus.py` and `python ai-skill/scripts/validate_bundle.py`. GitHub Actions runs both on push and pull requests. See `docs/RELEASE-GATES.md`, `docs/RESEARCH-WORKFLOW.md`, `docs/INTEROPERABILITY.md`, and `docs/REVIEW-HANDOFF.md`. Passing structural validation is not the same as verifying epigraphic readings.
+
+## Research API and source reconciliation
+
+The read-only [research API](docs/RESEARCH-API.md) provides inscription search, coverage, KWIC, and exports. The [source reconciliation matrix](research/source-reconciliation.json) tracks edition access, rights and reading verification. The line layer is intentionally empty until verified source readings can be entered; no linguistic inference is warranted from empty results.
