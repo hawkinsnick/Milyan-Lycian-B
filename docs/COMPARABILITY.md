@@ -1,0 +1,3 @@
+# Milyan–Lycian A comparability gate
+
+Milyan (Lycian B) and Lycian A are related but distinct Anatolian languages. Similar script conventions or apparent cognates do not authorize shared readings without explicit linguistic evidence. Compare source editions, writing conventions, morphology and etymologies only after the Milyan lines have been authenticated. Track each candidate cognate and scholarly analysis separately with bibliographic locators. Never pool counts across TL 44c and TL 44d as independent monuments. Present unresolved etymologies as competing hypotheses, not verified dictionary senses.
