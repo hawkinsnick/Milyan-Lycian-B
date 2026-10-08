@@ -1,0 +1,85 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Milyan inscription record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "language",
+    "status",
+    "sources",
+    "rights"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "language": {
+      "const": "milyan"
+    },
+    "status": {
+      "enum": [
+        "provisional",
+        "verified"
+      ]
+    },
+    "site": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "object_type": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "date_note": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "diplomatic_transcription": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "normalized_transliteration": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "uncertainties": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "citation",
+          "locator"
+        ],
+        "properties": {
+          "citation": {
+            "type": "string"
+          },
+          "locator": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "rights": {
+      "type": "string"
+    }
+  }
+}
