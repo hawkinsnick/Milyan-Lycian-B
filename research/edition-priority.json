@@ -1,0 +1,26 @@
+{
+  "status": "bibliography_review_pending",
+  "targets": [
+    {
+      "record": "MIL-TL-044-C",
+      "preferred_edition": "Schürr 2016, edition of TL 44c Milyan segment",
+      "secondary": "Melchert/TITUS Lycian Corpus",
+      "task": "Confirm exact bibliographic metadata and line numbering; collate critical apparatus"
+    },
+    {
+      "record": "MIL-TL-044-D",
+      "preferred_edition": "Schürr 2018, edition of TL 44d",
+      "secondary": "Melchert/TITUS Lycian Corpus",
+      "task": "Confirm exact bibliographic metadata, strophe boundaries, variant readings"
+    },
+    {
+      "record": "MIL-TL-055",
+      "preferred_edition": "Schürr 2005, edition of TL 55",
+      "secondary": "Melchert/TITUS Lycian Corpus",
+      "task": "Confirm bibliographic metadata and line readings"
+    }
+  ],
+  "discovery_source": "Elena Martínez Rodríguez dissertation, index of Lycian inscriptions, section 5.2",
+  "source_url": "https://diposit.ub.edu/dspace/bitstream/2445/182952/4/EMR_PhD_THESIS.pdf",
+  "caveat": "Source priority is a bibliographic lead; editions not yet collated or rights cleared."
+}
