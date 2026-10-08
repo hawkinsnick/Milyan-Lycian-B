@@ -12,3 +12,4 @@ jobs:
           python-version: '3.12'
       - run: python scripts/validate_corpus.py
       - run: python ai-skill/scripts/validate_bundle.py
+      - run: python tests/test_research_api.py
