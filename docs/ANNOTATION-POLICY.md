@@ -1,0 +1,3 @@
+# Linguistic annotation and hypothesis policy
+
+Each analysis must identify: witness and line, exact attested form, edition and locator, segmentation hypothesis, morphological proposal, confidence rationale, competing proposals, and rights. A source edition's segmentation is an editorial claim, not a physical observation. Do not infer translations from an undeciphered or disputed string; Milyan is attested but limited, and linguistic analyses remain subject to scholarly disagreement. Keep Lycian A comparanda in separate attributed relations rather than inserting them as Milyan tokens. No morphology or lexicon entries are currently validated.
