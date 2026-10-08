@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0.0",
+  "corpus": "milyan",
+  "generated_from": "initial bibliographic inventory; not an independently validated text edition",
+  "files": [
+    "data/inscriptions.json",
+    "docs/METHODOLOGY.md",
+    "ai-skill/SKILL.md",
+    "ai-skill/references/authority-profile.json"
+  ],
+  "record_count": 3,
+  "verified_record_count": 0,
+  "transcribed_record_count": 0,
+  "physical_monument_count": 2,
+  "readiness": "PRE_EXPERT_INCOMPLETE"
+}
