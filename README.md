@@ -17,10 +17,10 @@ Initial scaffold (0.1.0). **No inscriptions have yet been verified or transcribe
 `data/inscriptions.json` starts as an empty verified catalog. See `docs/METHODOLOGY.md` and `schemas/inscription.schema.json` before contributing.
 
 ## Licensing
-**License decision pending.** No blanket reuse permission is granted for third-party material. Repository text and future source transcriptions must be individually reviewed for rights and attribution before import or redistribution.
+Project-original code is covered by PolyForm Noncommercial 1.0.0; copyrightable project-original corpus content and documentation are CC BY-NC 4.0, to the extent contributors own the rights. See `LICENSE`, `LICENSE-CODE`, `LICENSE-CONTENT.md`, `LICENSING.md`, and `NOTICE`. **Third-party source editions, transcriptions, images and datasets are not relicensed**, and each requires source-specific rights verification before redistribution.
 
 ## AI skill
-See `skills/milyan/SKILL.md`. Integration with the master corpus skill is pending verification of its repository and current format.
+See `skills/milyan/SKILL.md`. The master corpus registry lists this repository as a **pending admission candidate**, not a validated scholarly corpus. See `corpus-factory/CORPUS-ADMISSION-CONTRACT.md`.
 
 ## Corpus inventory checkpoint
 Three provisional segment records (TL 44c, TL 44d, TL 55) cover two monuments. Zero verified text transcriptions. See `docs/COVERAGE.md`, `docs/SOURCES.md`, `ai-skill/SKILL.md` and `research/pre-expert-maximum.json`. This is **not yet** a scholarly text-level 1.0 release.
