@@ -1,7 +1,7 @@
 ---
 name: milyan-corpus-research
 description: Evidence-first Milyan (Lycian B) inscription research and source criticism.
-version: 1.0.0
+version: 0.3.1
 ---
 # Milyan corpus skill
 
