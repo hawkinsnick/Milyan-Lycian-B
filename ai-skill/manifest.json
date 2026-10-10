@@ -1,0 +1,15 @@
+{
+  "name": "milyan-corpus-research",
+  "version": "0.3.1",
+  "skill_version": "0.3.1",
+  "canonical_project": "hawkinsnick/Milyan-Lycian-B",
+  "governing_file": "ai-skill/SKILL.md",
+  "authority_profile": "ai-skill/references/authority-profile.json",
+  "bundle_index": "ai-skill/generated/research-bundle-index.json",
+  "bundle_schema": "1.0.0",
+  "validation": "ai-skill/scripts/validate_bundle.py",
+  "compatibility": "native_inventory_schema; master Corpus Project AI Research Contract 0.3+ not yet certified",
+  "scientific_gate": "PRE_EXPERT_INCOMPLETE",
+  "rights": "source-specific; metadata only",
+  "notes": "Do not infer verified transcriptions, independently validated texts, or master-contract compatibility from the existence of this manifest."
+}
