@@ -13,3 +13,4 @@ jobs:
       - run: python scripts/validate_corpus.py
       - run: python ai-skill/scripts/validate_bundle.py
       - run: python tests/test_research_api.py
+      - run: python tests/test_fleet_contract.py

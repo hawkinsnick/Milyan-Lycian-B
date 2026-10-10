@@ -32,3 +32,5 @@ Run `python scripts/validate_corpus.py` and `python ai-skill/scripts/validate_bu
 ## Research API and source reconciliation
 
 The read-only [research API](docs/RESEARCH-API.md) provides inscription search, coverage, KWIC, and exports. The [source reconciliation matrix](research/source-reconciliation.json) tracks edition access, rights and reading verification. The line layer is intentionally empty until verified source readings can be entered; no linguistic inference is warranted from empty results.
+
+Fleet research-contract implementation and replay: [admission guide](docs/FLEET-ADMISSION.md).
