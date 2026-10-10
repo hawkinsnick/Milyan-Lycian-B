@@ -1,0 +1,11 @@
+{
+  "schema_version": "1.0.0",
+  "canonical_repository": "hawkinsnick/Milyan-Lycian-B",
+  "source_commit": "b68dc809844c28acdc0d8581d217b9f5b0a75247",
+  "source_tree": "b68dc809844c28acdc0d8581d217b9f5b0a75247",
+  "generated_at_utc": null,
+  "source_state_kind": "baseline_reference",
+  "validation_status": "NOT_EXECUTED",
+  "master_contract_0_3_1": "NOT_CERTIFIED",
+  "note": "Baseline Git tree reference only; generated bundle may not reflect this commit. Do not treat as verified hash lock or master contract certification."
+}
