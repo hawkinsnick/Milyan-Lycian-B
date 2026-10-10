@@ -9,3 +9,6 @@ Load `ai-skill/references/authority-profile.json` and `ai-skill/generated/resear
 
 ## Evidence querying
 Use `python scripts/research_api.py coverage`, `inscriptions`, `lines`, `kwic --text QUERY`, or `export`. Source reconciliation is in `research/source-reconciliation.json`. The line layer currently has zero records: zero search results do **not** establish word absence. Do not infer morphology, phonology or translations from metadata alone. Consult `docs/RESEARCH-API.md`.
+
+## Fleet research contract
+Follow `ai-skill/references/corpus-project-contract.md`. Read `ai-skill/generated/fleet-contract-index.json` and replay `python ai-skill/scripts/fleet_contract.py` before claiming synchronized authority. Missing or changed hashes mean stale input, not permission to infer missing evidence. This adapter preserves the native bundle schema. Software admission is separate from expert certification, independent witnesses, and source-specific rights clearance.

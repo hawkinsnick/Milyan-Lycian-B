@@ -8,8 +8,10 @@
   "bundle_index": "ai-skill/generated/research-bundle-index.json",
   "bundle_schema": "1.0.0",
   "validation": "ai-skill/scripts/validate_bundle.py",
-  "compatibility": "native_inventory_schema; master Corpus Project AI Research Contract 0.3+ not yet certified",
+  "compatibility": "Corpus Project AI Research Contract 0.3+ via native-schema-preserving fleet adapter",
   "scientific_gate": "PRE_EXPERT_INCOMPLETE",
   "rights": "source-specific; metadata only",
-  "notes": "Do not infer verified transcriptions, independently validated texts, or master-contract compatibility from the existence of this manifest."
+  "master_contract_0_3_1": "IMPLEMENTED",
+  "validation_status": "REPLAY_REQUIRED",
+  "note": "Replay validates software contracts and authority integrity, not epigraphic truth or source permissions."
 }

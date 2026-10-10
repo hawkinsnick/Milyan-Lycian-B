@@ -12,3 +12,6 @@ for r in records:
     assert r['language']=='milyan' and r['sources'] and r['rights']
     for s in r['sources']: assert s['citation'] and s['locator']
 print('PASS: record identity, evidence provenance, bundle counts')
+
+import runpy
+runpy.run_path(str(root / "ai-skill/scripts/fleet_contract.py"))["replay"]()
