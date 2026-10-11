@@ -1,0 +1,118 @@
+{
+  "schema_version": "1.0",
+  "source": {
+    "citation": "Kalinka, Ernst (1901), Tituli Asiae Minoris I: Tituli Lyciae lingua Lycia conscripti, Vindobonae: Alfred Hoelder",
+    "institutional_bibliography": "https://www.oeaw.ac.at/en/oeai/publishing/corpora-and-editions/tituli-asiae-minoris",
+    "scan_provider": "Getty Research Institute / Internet Archive",
+    "scan_item": "https://archive.org/details/gri_33125010455224",
+    "pdf_url": "https://archive.org/download/gri_33125010455224/gri_33125010455224.pdf",
+    "pdf_sha256": "0a25872a235602955772da2d73bc3f8fd6d342bae050ab6abf70216e4368f9da",
+    "scan_rights_statement": "NOT_IN_COPYRIGHT (provider metadata); only factual locators published here, no scan payload relicensed",
+    "observation_date": "2026-10-11",
+    "inspection": "Rendered pages visually reviewed; OCR not treated as reliable critical transcription",
+    "visually_inspected_pdf_pages": [
+      44,
+      48,
+      51,
+      52,
+      53,
+      54,
+      63,
+      64
+    ]
+  },
+  "entries": [
+    {
+      "project_segment": "MIL-TL-044-C",
+      "edition_identifier": "TAM I 44c",
+      "entry_introduction": {
+        "printed_page": 38,
+        "pdf_page": 48
+      },
+      "facsimile": {
+        "printed_page": 41,
+        "pdf_page": 51,
+        "heading": "c) latus septentrionale"
+      },
+      "transliteration": {
+        "printed_page": 43,
+        "pdf_page": 53,
+        "source_label_range": "32–65"
+      },
+      "relation": "source-attributed edition-label correspondence; exact reading equivalence not adjudicated"
+    },
+    {
+      "project_segment": "MIL-TL-044-D",
+      "edition_identifier": "TAM I 44d",
+      "entry_introduction": {
+        "printed_page": 38,
+        "pdf_page": 48
+      },
+      "facsimile": {
+        "printed_page": 41,
+        "pdf_page": 51,
+        "heading": "d) latus occidentale"
+      },
+      "transliteration": [
+        {
+          "printed_page": 43,
+          "pdf_page": 53,
+          "label_range": "1–53"
+        },
+        {
+          "printed_page": 44,
+          "pdf_page": 54,
+          "label_range": "54–71"
+        }
+      ],
+      "relation": "source-attributed edition-label correspondence; exact reading equivalence not adjudicated"
+    },
+    {
+      "project_segment": "MIL-TL-055",
+      "edition_identifier": "TAM I 55",
+      "entry_introduction": {
+        "printed_page": 53,
+        "pdf_page": 63
+      },
+      "facsimile_and_transliteration": {
+        "printed_page": 54,
+        "pdf_page": 64
+      },
+      "relation": "same catalogue label; page locator only, no certified one-to-one line join"
+    }
+  ],
+  "source_lineage": "eDiAna cites Kalinka and later editions; the scan is not an independent inscription or newly independent reading witness.",
+  "discrepancies": [
+    {
+      "id": "MIL-COUNT-055",
+      "project_segment": "MIL-TL-055",
+      "earlier_description": {
+        "printed_page": 53,
+        "pdf_page": 63,
+        "reported_inscription_lines": 8
+      },
+      "frozen_ediana_text_rows": 9,
+      "state": "UNRESOLVED_SEGMENTATION_DENOMINATOR",
+      "policy": "Do not renumber, discard the ninth digital row or infer a missing physical line; reconcile source segmentation against editions and monument evidence."
+    },
+    {
+      "id": "MIL-LOCATOR-044",
+      "source_header_citation": "Kalinka 1901a:34-48",
+      "observed_entry_introduction": {
+        "printed_page": 38,
+        "pdf_page": 48
+      },
+      "observed_printed_page_34": {
+        "pdf_page": 44,
+        "catalogue_entries": [
+          39,
+          40
+        ]
+      },
+      "policy": "Keep original citation verbatim; broad bibliography is not a precise text-page locator."
+    }
+  ],
+  "reading_comparison_status": "NOT_COMPLETE; historical transliteration and variants not imported or equated",
+  "canonical_readings_promoted": 0,
+  "independent_review": false
+}

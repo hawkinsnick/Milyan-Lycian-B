@@ -1,21 +1,22 @@
 {
   "builder_sha256": "4b61ca559d0817b09e869f6c3ca38ae7478071a0466f89861e71954d1bb499d6",
   "completion_rule": "Enumeration is a completed work map, not completed collation. Resolve every open task using exact inspected evidence or a documented access/rights dependency; leave scientific adjudication to independent review.",
-  "config_sha256": "5110999b2bb71902b732c222816bd3d3a0bb318b9c4f4d14973653e1c2be8394",
-  "evidence_fingerprint": "165dc01aa89d51d40495e8894aef6471a87608f849163c26bbc9f7d94177709e",
+  "config_sha256": "5cdc0fd49539362e79163da17270fb25e1f9819677be92fe20fbd4082953221f",
+  "evidence_fingerprint": "c4559be316a355b660399002ad6f89de0fe60444429d4bd51e59b0ccecc64f66",
   "input_sha256": {
     "analysis/upstream-epidoc-validation.json": "af3266900705a5e7fe0a7b44cc568f875f66e9e004dea1cb21ed5ae70053432f",
     "data/inscriptions.json": "7fa678885ee42fa7124fe15f55479f6de7db59fb1fc038d7b2edd0523457f78f",
     "data/reference/ediana-milyan-source.json": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
     "data/reference/lines.json": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
     "data/reference/records.json": "315d64c998b380d84616e217c79636979f5576f8814dabeb815cbd07758c1565",
-    "docs/EDIANA-REFERENCE.md": "a3b0c37a5800f9c5e2148e3011bd6139825cfa392b58458881bc00e7c1e8aa3c",
+    "docs/EDIANA-REFERENCE.md": "9682947ceefedd072e62c2d9ec256af8b7f4f847ec024edf4dca486eebfd1034",
     "interchange/epidoc/milyan-reference.xml": "1386ebed41b325e073ec6ab656bc0a32821cd809eb72ba2798288b07ab58fee7",
     "interchange/epidoc/upstream-pins.json": "240d9f8b31142c9146b6c5f63ce29019af9101cefa276a590cbe78ff637ab01a",
     "research/ediana-reference-crosswalk.json": "dbf6f6465b1db6e1804e3acb5d891bac48157d2d78b4a6c601b76726d184949c",
-    "research/pre-expert-maximum.json": "085066454f3e15d081b5987c2257e08c78918a4b53d4ebd7a1bdd06a86fbfdf5",
+    "research/pre-expert-maximum.json": "062b8fafc144a661b74e316ebe257c5fbb563419a040365eddb8bfecb649b6f6",
+    "research/primary-edition-locator-control.json": "12a1cd9b6e38eea0f91fabc9e5d2ac766f970f3213342d88f730854142dd4a47",
     "research/reference-manifest.json": "8b97f89970c4518b6f4c421b1eeffb25ffe0dce29c2067c84633646d2a0a3a30",
-    "research/source-reconciliation.json": "0086e0ec5af07c9b5a3f11b8ef033edc0b168828817322bc41114d41409388ed",
+    "research/source-reconciliation.json": "01692b734428ee9a4d603a7024a821c9dfb1feb96e70bd2328afd8280f4aa39b",
     "scripts/build_reference.py": "40c58078b92ab0b9f1394f21bd70b5fcfc36894e322a52da49ba1bc66d0a8487"
   },
   "native_review_links": [
@@ -3356,6 +3357,18 @@
       "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
       "json_pointer": "/source",
       "kind": "source",
+      "source_path": "research/primary-edition-locator-control.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/source/citation",
+      "kind": "citation",
+      "source_path": "research/primary-edition-locator-control.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/source",
+      "kind": "source",
       "source_path": "research/reference-manifest.json"
     }
   ],
@@ -3386,6 +3399,15 @@
       "native_task_id": null,
       "source_path": "research/pre-expert-maximum.json",
       "task": "independent reading adjudication"
+    },
+    {
+      "blocker_is_not_established_by_a_label": true,
+      "collection_disposition": "OPEN_REQUIRES_DISPOSITION",
+      "json_pointer": "/blockers/3",
+      "native_status": null,
+      "native_task_id": null,
+      "source_path": "research/pre-expert-maximum.json",
+      "task": "TL 55 historical eight-line description versus nine digital rows; exact reading and segmentation comparison"
     }
   ],
   "terminal_pre_expert_maximum_established": false

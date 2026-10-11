@@ -39,13 +39,13 @@
     },
     {
       "path": "ai-skill/SKILL.md",
-      "sha256": "15f4aa3008a0d8094339aba1dc4421988c3c0975e4c3c7f00c7c29d71f9bce74",
-      "bytes": 3703
+      "sha256": "41e84468253f99bd45dcdae27377d50c146c37659a0f03fb27876e5ee4d45719",
+      "bytes": 4470
     },
     {
       "path": "ai-skill/generated/research-bundle-index.json",
-      "sha256": "36dfb9c378f539a7fa6be4894d2034fc081d93dcdd51022c6f9277eb264c79c4",
-      "bytes": 1264
+      "sha256": "2340e0ab227d6762b5ecbc9a21db1d6d42cf4ef020b174a82ecdc853bd9028cc",
+      "bytes": 1317
     },
     {
       "path": "ai-skill/manifest.json",
@@ -54,8 +54,8 @@
     },
     {
       "path": "ai-skill/references/authority-profile.json",
-      "sha256": "1295fcca159467e97da71c3d9a65c551e1de0deaac63426b12fbf4a37f3df85c",
-      "bytes": 1235
+      "sha256": "80d13fcc105ea7f0a03b09f84890e163bf89216415e3ad508b4e03a5fcbf5ad0",
+      "bytes": 1334
     },
     {
       "path": "ai-skill/references/corpus-project-contract.md",
@@ -114,8 +114,8 @@
     },
     {
       "path": "docs/EDIANA-REFERENCE.md",
-      "sha256": "a3b0c37a5800f9c5e2148e3011bd6139825cfa392b58458881bc00e7c1e8aa3c",
-      "bytes": 4215
+      "sha256": "9682947ceefedd072e62c2d9ec256af8b7f4f847ec024edf4dca486eebfd1034",
+      "bytes": 4982
     },
     {
       "path": "docs/METHODOLOGY.md",
@@ -139,13 +139,18 @@
     },
     {
       "path": "research/collection-work-ledger.json",
-      "sha256": "9b4f3a3f7d69ca711a3d0e76338622f17c3ac536b55b45bd27fd711ebf7de259",
-      "bytes": 126734
+      "sha256": "ad23d6acd0366009d059acbba75e52ab98242aeb065b8750e5046ec514358752",
+      "bytes": 127724
     },
     {
       "path": "research/ediana-reference-crosswalk.json",
       "sha256": "dbf6f6465b1db6e1804e3acb5d891bac48157d2d78b4a6c601b76726d184949c",
       "bytes": 1165
+    },
+    {
+      "path": "research/primary-edition-locator-control.json",
+      "sha256": "12a1cd9b6e38eea0f91fabc9e5d2ac766f970f3213342d88f730854142dd4a47",
+      "bytes": 3900
     },
     {
       "path": "research/reference-manifest.json",
@@ -154,12 +159,12 @@
     },
     {
       "path": "research/source-reconciliation.json",
-      "sha256": "0086e0ec5af07c9b5a3f11b8ef033edc0b168828817322bc41114d41409388ed",
-      "bytes": 1558
+      "sha256": "01692b734428ee9a4d603a7024a821c9dfb1feb96e70bd2328afd8280f4aa39b",
+      "bytes": 1821
     },
     {
       "path": "review/collection-packet.json",
-      "sha256": "81c3e4442498a759b16bbe4c27b9f9a07a6a407cc95ed9b0ce8ed74d52874967",
+      "sha256": "85e3ed1e0b3c2357d85918e84a6ecea3f4ce1a9353767033c4d675995373b534",
       "bytes": 1824
     },
     {

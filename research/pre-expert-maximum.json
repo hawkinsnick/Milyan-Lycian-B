@@ -7,7 +7,8 @@
   "blockers": [
     "critical edition line-by-line collation and competing reading apparatus",
     "source-specific rights for additional primary components",
-    "independent reading adjudication"
+    "independent reading adjudication",
+    "TL 55 historical eight-line description versus nine digital rows; exact reading and segmentation comparison"
   ],
   "do_not_claim": [
     "complete scholarly 1.0",
@@ -21,6 +22,7 @@
     "source-label section crosswalk and exact-text replay",
     "JSON/CSV API reference queries",
     "lossless EpiDoc reference export with pinned upstream RNG/Schematron and adversarial tests",
-    "native/fleet bundle authority integrity"
+    "native/fleet bundle authority integrity",
+    "Visual primary scan inspection; precise page/face locators and segmentation discrepancies"
   ]
 }

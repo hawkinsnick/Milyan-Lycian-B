@@ -24,7 +24,8 @@
     "analysis/upstream-epidoc-validation.json",
     "interchange/epidoc/upstream-pins.json",
     "scripts/build_reference.py",
-    "scripts/validate_upstream_epidoc.py"
+    "scripts/validate_upstream_epidoc.py",
+    "research/primary-edition-locator-control.json"
   ],
   "record_count": 3,
   "verified_record_count": 0,
