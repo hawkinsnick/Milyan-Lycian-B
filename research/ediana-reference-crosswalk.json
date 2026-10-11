@@ -1,0 +1,35 @@
+[
+  {
+    "source_record_id": "EDIANA-MILYAN-0",
+    "source_header": "· TL 55 (Antiphellos)",
+    "source_row": 0,
+    "project_segment": "MIL-TL-055",
+    "relation": "source_label_correspondence",
+    "status": "source_attributed_not_physical_certification",
+    "bibliography": [
+      "Kalinka 1901a:53f. / Schürr 2005a"
+    ]
+  },
+  {
+    "source_record_id": "EDIANA-MILYAN-1",
+    "source_header": "· TL 44c (Xanthos)",
+    "source_row": 0,
+    "project_segment": "MIL-TL-044-C",
+    "relation": "source_label_correspondence",
+    "status": "source_attributed_not_physical_certification",
+    "bibliography": [
+      "Kalinka 1901a:34-48 / Borchhardt & Eichner 1997-1999a:17-56 / Schürr 2016d / Schürr 2018b / Sasseville 2021d"
+    ]
+  },
+  {
+    "source_record_id": "EDIANA-MILYAN-1",
+    "source_header": "· TL 44d (Xanthos)",
+    "source_row": 35,
+    "project_segment": "MIL-TL-044-D",
+    "relation": "source_label_correspondence",
+    "status": "source_attributed_not_physical_certification",
+    "bibliography": [
+      "Kalinka 1901a:34-48 / Borchhardt & Eichner 1997-1999a:17-56 / Schürr 2016d / Schürr 2018b / Sasseville 2021d"
+    ]
+  }
+]

@@ -25,3 +25,5 @@ Attribution does not imply endorsement by the project or contributors.
 
 ## Existing copies
 This policy applies to material distributed under these terms. It does not revoke permissions already granted for copies previously released under an earlier irrevocable license.
+
+Source component exception: `data/reference/*` and its reference-derived crosswalk and EpiDoc export retain eDiAna CC-BY-SA-4.0 attribution and share-alike terms. Project-original NC restrictions do not apply to these components. See docs/EDIANA-REFERENCE.md and research/reference-manifest.json.

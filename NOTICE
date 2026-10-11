@@ -5,3 +5,5 @@ This repository distinguishes ancient/public-domain subject matter from modern s
 Project-original material is licensed only as stated in LICENSE, LICENSE-CODE, LICENSE-CONTENT.md, and LICENSING.md. Third-party/source-derived material retains its upstream terms and is not relicensed by this project. Public-domain material remains public domain. Bibliographic citation, public web access, or inclusion of factual metadata does not by itself establish permission to redistribute protected source content.
 
 Consult source metadata, provenance files, rights matrices/registers, and per-record source fields before redistributing derived material. No endorsement by cited scholars, publishers, museums, databases, or institutions is implied.
+
+Source component exception: `data/reference/*` and its reference-derived crosswalk and EpiDoc export retain eDiAna CC-BY-SA-4.0 attribution and share-alike terms. Project-original NC restrictions do not apply to these components. See docs/EDIANA-REFERENCE.md and research/reference-manifest.json.

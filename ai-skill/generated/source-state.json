@@ -1,11 +1,11 @@
 {
   "schema_version": "1.0.0",
   "canonical_repository": "hawkinsnick/Milyan-Lycian-B",
-  "source_commit": "b68dc809844c28acdc0d8581d217b9f5b0a75247",
-  "source_tree": "b68dc809844c28acdc0d8581d217b9f5b0a75247",
+  "source_commit": "c8e5281baf995b5208f054d180fd150d755c6d46",
+  "source_tree": "a1b0a857da7c07fed6edb6efdace72f220f901cf",
   "generated_at_utc": null,
-  "source_state_kind": "baseline_reference",
-  "validation_status": "NOT_EXECUTED",
-  "master_contract_0_3_1": "NOT_CERTIFIED",
-  "note": "Baseline Git tree reference only; generated bundle may not reflect this commit. Do not treat as verified hash lock or master contract certification."
+  "source_state_kind": "checkout_base_plus_native_authority_hashes",
+  "validation_status": "REPLAY_REQUIRED",
+  "master_contract_0_3_1": "IMPLEMENTED",
+  "note": "Checkout base identifies pre-repair tree. Exact repaired inputs are hashed by fleet-contract-index.json. No independent scholarly certification."
 }

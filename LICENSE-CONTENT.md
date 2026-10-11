@@ -9,3 +9,5 @@ You may share and adapt the licensed project-original material for noncommercial
 Suggested attribution: “Data/material from the hawkinsnick corpus project, with repository name and version or commit where practicable.”
 
 This license does not apply to third-party/source-derived components except where the relevant rights holder has separately placed them under compatible terms. See LICENSING.md, NOTICE, source metadata, and rights matrices.
+
+Source component exception: `data/reference/*` and its reference-derived crosswalk and EpiDoc export retain eDiAna CC-BY-SA-4.0 attribution and share-alike terms. Project-original NC restrictions do not apply to these components. See docs/EDIANA-REFERENCE.md and research/reference-manifest.json.

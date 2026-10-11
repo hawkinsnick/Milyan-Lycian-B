@@ -10,7 +10,7 @@
   "validation": "ai-skill/scripts/validate_bundle.py",
   "compatibility": "Corpus Project AI Research Contract 0.3+ via native-schema-preserving fleet adapter",
   "scientific_gate": "PRE_EXPERT_INCOMPLETE",
-  "rights": "source-specific; metadata only",
+  "rights": "source specific; frozen eDiAna reference CC-BY-SA-4.0",
   "master_contract_0_3_1": "IMPLEMENTED",
   "validation_status": "REPLAY_REQUIRED",
   "note": "Replay validates software contracts and authority integrity, not epigraphic truth or source permissions."

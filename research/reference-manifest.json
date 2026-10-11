@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "source": {
+    "authority": "eDiAna",
+    "cache_repository": "hawkinsnick/Lycian-and-Carian",
+    "cache_commit": "8ae31f14326b5162271ed699a53343d2c0b657b7",
+    "cache_path": "data/raw/ediana/milyan-1-0.json",
+    "raw_path": "data/reference/ediana-milyan-source.json",
+    "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+    "observation_date": "2026-10-11",
+    "acquisition": "Previously acquired frozen cache; direct live retrieval returned HTTP 403 on observation date. No fresh live-content replay claimed."
+  },
+  "rights": {
+    "license": "CC-BY-SA-4.0",
+    "evidence": "https://www.ediana.gwi.uni-muenchen.de/assets/pdfs/citation.pdf",
+    "locator": "p.1 citation and hyperlink policy; p.2 imprint",
+    "attribution": "Miller, Jared; Rieken, Elisabeth; Hackstein, Olav; Yakubovich, Ilya (eds.), 2017–, eDiAna. Cite individual lemma authors for interpretations and the printed editions listed in source headers.",
+    "change_notice": "Project-derived row IDs, provenance wrappers, section crosswalk and JSON/EpiDoc serialization; original source text strings preserved exactly."
+  },
+  "coverage": {
+    "digital_catalogue_records": 2,
+    "source_text_rows": 114,
+    "source_header_rows": 3,
+    "project_bibliographic_targets": 3,
+    "section_rows": {
+      "MIL-TL-055": 9,
+      "MIL-TL-044-C": 34,
+      "MIL-TL-044-D": 71
+    },
+    "canonical_verified_readings": 0,
+    "new_certified_physical_joins": 0,
+    "independent_reviews": 0
+  },
+  "xml_sha256": "1386ebed41b325e073ec6ab656bc0a32821cd809eb72ba2798288b07ab58fee7",
+  "roundtrip": "Every derived line field and exact source text preserved; raw annotations retained in source JSON, not converted into critical apparatus.",
+  "limits": [
+    "Source rows are not unique physical objects or independent witnesses.",
+    "Digital source segmentation and readings are not independently authenticated.",
+    "Brackets and combining marks remain opaque source transcription conventions; no graphical certainty is inferred.",
+    "Live source updates and critical-edition variant collation remain open."
+  ],
+  "scientific_approval_granted": false
+}
