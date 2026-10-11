@@ -1,10 +1,6 @@
 {
-  "schema_version": "1.0.0",
-  "canonical_repository": "hawkinsnick/Milyan-Lycian-B",
-  "source_commit": "8c5685784d7e395f28a8aaf0437551df0c6dccdc",
-  "generated_at_utc": null,
-  "source_state_kind": "canonical_source_commit_plus_native_authority_hashes",
-  "validation_status": "REPLAY_REQUIRED",
-  "master_contract_0_3_1": "IMPLEMENTED",
-  "note": "Canonical source commit identifies the updated corpus instructions and status authorities. Exact inputs are hashed by fleet-contract-index.json; no independent scholarly certification."
+  "schema_version": "1.0",
+  "source_commit": "dd1fc234a96fc429456213b0ada209dc321ee926",
+  "bundle_index": "ai-skill/generated/research-bundle-index.json",
+  "native_schema_preserved": true
 }

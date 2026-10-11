@@ -37,5 +37,188 @@
   "line_count": 0,
   "verified_line_count": 0,
   "reference_record_count": 2,
-  "reference_text_row_count": 114
+  "reference_text_row_count": 114,
+  "artifacts": [
+    {
+      "path": "README.md",
+      "role": "native_authority",
+      "sha256": "cc88a78574d854784254c761b643bbe9aee8f17f70048c47896924dfe70bdfcc",
+      "bytes": 6178
+    },
+    {
+      "path": "ai-skill/SKILL.md",
+      "role": "native_authority",
+      "sha256": "023e5c08dcedd913a8e0048e4048830947e920645a401ad2eeaa5b443b88864f",
+      "bytes": 5778
+    },
+    {
+      "path": "ai-skill/references/authority-profile.json",
+      "role": "native_authority",
+      "sha256": "11d48653bb4d59b257116e291a890bfdd74ffc15ec82a866f9c1a119caa184cc",
+      "bytes": 1939
+    },
+    {
+      "path": "ai-skill/scripts/build_bundle.py",
+      "role": "native_authority",
+      "sha256": "506258212d294ab6fda8a941abda01c3bf4e5a2fe8fb975ab49e42aee1b90320",
+      "bytes": 2222
+    },
+    {
+      "path": "ai-skill/scripts/publish_sync.py",
+      "role": "native_authority",
+      "sha256": "d8eba15aaa833fc4071e98bdd22da53385bce1c5cbafc973443cb42f7e39cc0e",
+      "bytes": 2836
+    },
+    {
+      "path": "ai-skill/scripts/validate_bundle.py",
+      "role": "native_authority",
+      "sha256": "1337e8dcafce7d53a8391339552b910ba0fe9bccc2001f2e5afc96237c437a77",
+      "bytes": 1150
+    },
+    {
+      "path": "analysis/upstream-epidoc-validation.json",
+      "role": "native_authority",
+      "sha256": "af3266900705a5e7fe0a7b44cc568f875f66e9e004dea1cb21ed5ae70053432f",
+      "bytes": 543
+    },
+    {
+      "path": "data/inscriptions.json",
+      "role": "native_authority",
+      "sha256": "7fa678885ee42fa7124fe15f55479f6de7db59fb1fc038d7b2edd0523457f78f",
+      "bytes": 3237
+    },
+    {
+      "path": "data/lines.json",
+      "role": "native_authority",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "bytes": 3
+    },
+    {
+      "path": "data/reference/ediana-milyan-source.json",
+      "role": "native_authority",
+      "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+      "bytes": 332547
+    },
+    {
+      "path": "data/reference/lines.json",
+      "role": "native_authority",
+      "sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "bytes": 110279
+    },
+    {
+      "path": "data/reference/records.json",
+      "role": "native_authority",
+      "sha256": "315d64c998b380d84616e217c79636979f5576f8814dabeb815cbd07758c1565",
+      "bytes": 5402
+    },
+    {
+      "path": "docs/AI-INTEGRITY.md",
+      "role": "native_authority",
+      "sha256": "8619d2ac88ca104eb10570b6c5c83021da5e5cdb57a7af1de076131d185207b0",
+      "bytes": 1766
+    },
+    {
+      "path": "docs/COLLECTION-REVIEW.md",
+      "role": "native_authority",
+      "sha256": "0c9de3329b7386d15b29f288c144e9e1445537a664b5e6aac7c7c00b32700583",
+      "bytes": 1226
+    },
+    {
+      "path": "docs/EDIANA-REFERENCE.md",
+      "role": "native_authority",
+      "sha256": "9682947ceefedd072e62c2d9ec256af8b7f4f847ec024edf4dca486eebfd1034",
+      "bytes": 4982
+    },
+    {
+      "path": "docs/METHODOLOGY.md",
+      "role": "native_authority",
+      "sha256": "3bafeba0679354b180bf48897cb802aa2748925b292ec9fa5e28a7a262500a2b",
+      "bytes": 1122
+    },
+    {
+      "path": "docs/RESEARCH-API.md",
+      "role": "native_authority",
+      "sha256": "d67eb5234a157a17f3ba9c63bd429507684dc15443e7cde8e35f55ea9351078d",
+      "bytes": 1063
+    },
+    {
+      "path": "interchange/epidoc/milyan-reference.xml",
+      "role": "native_authority",
+      "sha256": "1386ebed41b325e073ec6ab656bc0a32821cd809eb72ba2798288b07ab58fee7",
+      "bytes": 124395
+    },
+    {
+      "path": "interchange/epidoc/upstream-pins.json",
+      "role": "native_authority",
+      "sha256": "240d9f8b31142c9146b6c5f63ce29019af9101cefa276a590cbe78ff637ab01a",
+      "bytes": 1025
+    },
+    {
+      "path": "research/collection-work-ledger.json",
+      "role": "native_authority",
+      "sha256": "bdbc7f07eb0945d46cb9203fed318004f23cbc6af8194cf8c9c1d0553efc7b99",
+      "bytes": 127935
+    },
+    {
+      "path": "research/cross-corpus-dependencies.json",
+      "role": "native_authority",
+      "sha256": "dd10675875646324a036e14d1b9edeb3466b9b75bc0bd94f9564bee88db0de67",
+      "bytes": 4188
+    },
+    {
+      "path": "research/ediana-reference-crosswalk.json",
+      "role": "native_authority",
+      "sha256": "dbf6f6465b1db6e1804e3acb5d891bac48157d2d78b4a6c601b76726d184949c",
+      "bytes": 1165
+    },
+    {
+      "path": "research/primary-edition-locator-control.json",
+      "role": "native_authority",
+      "sha256": "12a1cd9b6e38eea0f91fabc9e5d2ac766f970f3213342d88f730854142dd4a47",
+      "bytes": 3900
+    },
+    {
+      "path": "research/reference-manifest.json",
+      "role": "native_authority",
+      "sha256": "8b97f89970c4518b6f4c421b1eeffb25ffe0dce29c2067c84633646d2a0a3a30",
+      "bytes": 2187
+    },
+    {
+      "path": "research/source-reconciliation.json",
+      "role": "native_authority",
+      "sha256": "01692b734428ee9a4d603a7024a821c9dfb1feb96e70bd2328afd8280f4aa39b",
+      "bytes": 1821
+    },
+    {
+      "path": "review/collection-packet.json",
+      "role": "native_authority",
+      "sha256": "faa09857b67289a333708fb55139849ef68e5e3ad1d87e4f00672590fd5d936d",
+      "bytes": 1824
+    },
+    {
+      "path": "scripts/build_current_summary.py",
+      "role": "native_authority",
+      "sha256": "935c0c0d704f6d08fea6c3cac3b233c057ec4ef0403b760d0b12a5b76486d1b6",
+      "bytes": 3998
+    },
+    {
+      "path": "scripts/build_reference.py",
+      "role": "native_authority",
+      "sha256": "40c58078b92ab0b9f1394f21bd70b5fcfc36894e322a52da49ba1bc66d0a8487",
+      "bytes": 7586
+    },
+    {
+      "path": "scripts/research_api.py",
+      "role": "native_authority",
+      "sha256": "0c4fc39f2aa63e898550e6b9dea58b40c719d3374c71fc2a005e18bcb91e05c7",
+      "bytes": 3722
+    },
+    {
+      "path": "scripts/validate_upstream_epidoc.py",
+      "role": "native_authority",
+      "sha256": "e54a492d8954c04578b4ca41a7e2dc81b7a319bf5d0865610d12e93815e2ad63",
+      "bytes": 3546
+    }
+  ],
+  "source_commit": "dd1fc234a96fc429456213b0ada209dc321ee926"
 }
