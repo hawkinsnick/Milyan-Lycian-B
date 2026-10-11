@@ -39,13 +39,13 @@
     },
     {
       "path": "ai-skill/SKILL.md",
-      "sha256": "6e06bb8e6983e977aca377cfa621f2fc6366eeae48593209039ef9261f866787",
-      "bytes": 1874
+      "sha256": "5c0932c1b67844559c59bf8e5a98f681a8ddd8d5e02000673d03cbd1ee19ee32",
+      "bytes": 2321
     },
     {
       "path": "ai-skill/generated/research-bundle-index.json",
-      "sha256": "fc0b51e324347cd890f315e55684c993c7c647668f94461f895c07f0c0788396",
-      "bytes": 631
+      "sha256": "9e4e9fbeefd9207eb0f63c5e9e6c5a178cb4c5cdfddf254e99958d2fd79c60d7",
+      "bytes": 745
     },
     {
       "path": "ai-skill/manifest.json",
@@ -88,6 +88,11 @@
       "bytes": 3
     },
     {
+      "path": "docs/COLLECTION-REVIEW.md",
+      "sha256": "0c9de3329b7386d15b29f288c144e9e1445537a664b5e6aac7c7c00b32700583",
+      "bytes": 1226
+    },
+    {
       "path": "docs/METHODOLOGY.md",
       "sha256": "3bafeba0679354b180bf48897cb802aa2748925b292ec9fa5e28a7a262500a2b",
       "bytes": 1122
@@ -98,9 +103,19 @@
       "bytes": 793
     },
     {
+      "path": "research/collection-work-ledger.json",
+      "sha256": "a308621503b2e9faea8dc4b73e01c4384916171aa0a9d6c56cc23f49e3584486",
+      "bytes": 7546
+    },
+    {
       "path": "research/source-reconciliation.json",
       "sha256": "0086e0ec5af07c9b5a3f11b8ef033edc0b168828817322bc41114d41409388ed",
       "bytes": 1558
+    },
+    {
+      "path": "review/collection-packet.json",
+      "sha256": "1459af19955180e0920af7ec5cf66b4d704679a8d7baa74f34a067101f059087",
+      "bytes": 1820
     },
     {
       "path": "scripts/research_api.py",

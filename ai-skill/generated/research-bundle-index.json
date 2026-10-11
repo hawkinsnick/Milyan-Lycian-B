@@ -10,7 +10,10 @@
     "data/lines.json",
     "research/source-reconciliation.json",
     "scripts/research_api.py",
-    "docs/RESEARCH-API.md"
+    "docs/RESEARCH-API.md",
+    "research/collection-work-ledger.json",
+    "review/collection-packet.json",
+    "docs/COLLECTION-REVIEW.md"
   ],
   "record_count": 3,
   "verified_record_count": 0,
