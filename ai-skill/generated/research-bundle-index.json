@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "corpus": "milyan",
-  "generated_from": "initial bibliographic inventory; not an independently validated text edition",
+  "generated_from": "Provisional bibliographic inventory and populated frozen eDiAna reference layer; not an independently validated critical edition",
   "files": [
     "data/inscriptions.json",
     "docs/METHODOLOGY.md",
@@ -25,7 +25,9 @@
     "interchange/epidoc/upstream-pins.json",
     "scripts/build_reference.py",
     "scripts/validate_upstream_epidoc.py",
-    "research/primary-edition-locator-control.json"
+    "research/primary-edition-locator-control.json",
+    "README.md",
+    "scripts/build_current_summary.py"
   ],
   "record_count": 3,
   "verified_record_count": 0,
