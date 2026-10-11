@@ -10,6 +10,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - run: python scripts/build_current_summary.py --check
+      - run: python scripts/test_current_summary.py
       - run: python scripts/validate_corpus.py
       - run: python ai-skill/scripts/validate_bundle.py
       - run: python tests/test_research_api.py

@@ -1,9 +1,17 @@
 # Milyan (Lycian B) Corpus
 
+<!-- CURRENT-STATUS:START -->
+## Current evidence status
+
+Populated, frozen eDiAna reference layer; structural fleet admission is distinct from scholarly acceptance. 2 digital catalogue records provide 114 source text rows across 3 provisional segments on 2 reported monuments. Canonical verified readings: 0; independent reviews: 0. Primary-edition collation and the TL 55 segmentation discrepancy remain open.
+
+Authorities: [reference manifest](research/reference-manifest.json) and [remaining gates](research/pre-expert-maximum.json). Reference rows are not independently certified physical lines.
+<!-- CURRENT-STATUS:END -->
+
 Research-oriented, provenance-first corpus for Milyan, also called Lycian B. Milyan is distinct from Lycian A; 'Lycian B' is an alternative designation, not a second language.
 
-## Status
-Initial scaffold (0.1.0). **No inscriptions have yet been verified or transcribed.** Empty datasets must not be interpreted as evidence of absence.
+## Evidence layers
+Canonical verified transcriptions remain absent; the separately attributed digital reference layer is populated. Empty canonical results must not be interpreted as evidence of absence.
 
 ## Scope and standards
 - Primary inscription catalog with stable identifiers, object provenance, dating, and bibliography.
@@ -14,13 +22,13 @@ Initial scaffold (0.1.0). **No inscriptions have yet been verified or transcribe
 - Respect source copyrights and permissions; bibliographic metadata alone does not license reproduction.
 
 ## Dataset
-`data/inscriptions.json` starts as an empty verified catalog. See `docs/METHODOLOGY.md` and `schemas/inscription.schema.json` before contributing.
+`data/inscriptions.json` contains the provisional bibliographic segment inventory. See `docs/METHODOLOGY.md` and `schemas/inscription.schema.json` before contributing.
 
 ## Licensing
 Project-original code is covered by PolyForm Noncommercial 1.0.0; copyrightable project-original corpus content and documentation are CC BY-NC 4.0, to the extent contributors own the rights. See `LICENSE`, `LICENSE-CODE`, `LICENSE-CONTENT.md`, `LICENSING.md`, and `NOTICE`. **Third-party source editions, transcriptions, images and datasets are not relicensed**, and each requires source-specific rights verification before redistribution.
 
 ## AI skill
-See `skills/milyan/SKILL.md`. The master corpus registry lists this repository as a **pending admission candidate**, not a validated scholarly corpus. See `corpus-factory/CORPUS-ADMISSION-CONTRACT.md`.
+Use `ai-skill/SKILL.md`; `skills/milyan/SKILL.md` is the legacy instruction path. The master corpus registry structurally admits this repository through its native contract adapter; this does not certify readings or scholarly completeness. See `corpus-factory/CORPUS-ADMISSION-CONTRACT.md`.
 
 ## Corpus inventory checkpoint
 Three provisional segment records (TL 44c, TL 44d, TL 55) cover two monuments. Zero verified text transcriptions. See `docs/COVERAGE.md`, `docs/SOURCES.md`, `ai-skill/SKILL.md` and `research/pre-expert-maximum.json`. This is **not yet** a scholarly text-level 1.0 release.
@@ -31,7 +39,7 @@ Run `python scripts/validate_corpus.py` and `python ai-skill/scripts/validate_bu
 
 ## Research API and source reconciliation
 
-The read-only [research API](docs/RESEARCH-API.md) provides inscription search, coverage, KWIC, and exports. The [source reconciliation matrix](research/source-reconciliation.json) tracks edition access, rights and reading verification. The line layer is intentionally empty until verified source readings can be entered; no linguistic inference is warranted from empty results.
+The read-only [research API](docs/RESEARCH-API.md) provides inscription search, coverage, KWIC, and exports. The [source reconciliation matrix](research/source-reconciliation.json) tracks edition access, rights and reading verification. The canonical verified line layer is intentionally empty; request `--layer reference` for populated source-attributed rows. No linguistic inference is warranted from an empty canonical result.
 
 Fleet research-contract implementation and replay: [admission guide](docs/FLEET-ADMISSION.md).
 

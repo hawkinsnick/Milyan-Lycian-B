@@ -14,3 +14,6 @@
 - Added machine-readable source-reconciliation matrix and line-level schema.
 - Added read-only research API, coverage, KWIC, JSON/CSV exports and API smoke tests.
 - Updated AI skill and research bundle index; scholarly text verification remains blocked.
+
+## 2026-10-11 — current-summary reconciliation
+Generate the current README summary from native authorities and reject drift in CI. Update individual skill authority routing; retain historical research gates and release scope.
