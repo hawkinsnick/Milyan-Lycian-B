@@ -12,3 +12,7 @@ Use `python scripts/research_api.py coverage`, `inscriptions`, `lines`, `kwic --
 
 ## Fleet research contract
 Follow `ai-skill/references/corpus-project-contract.md`. Read `ai-skill/generated/fleet-contract-index.json` and replay `python ai-skill/scripts/fleet_contract.py` before claiming synchronized authority. Missing or changed hashes mean stale input, not permission to infer missing evidence. This adapter preserves the native bundle schema. Software admission is separate from expert certification, independent witnesses, and source-specific rights clearance.
+
+## Source-bound collection review
+
+Read `docs/COLLECTION-REVIEW.md`, `research/collection-work-ledger.json` and `review/collection-packet.json` before completeness, identity, reading or rights claims. Replay `python scripts/build_collection_handoff.py`; each declared view retains its own unit. No generated packet or syntactically valid decision grants independent review, permission or admission. Keep Linear A restricted source payload local.

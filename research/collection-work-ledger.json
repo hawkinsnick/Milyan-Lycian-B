@@ -1,0 +1,188 @@
+{
+  "builder_sha256": "4b61ca559d0817b09e869f6c3ca38ae7478071a0466f89861e71954d1bb499d6",
+  "completion_rule": "Enumeration is a completed work map, not completed collation. Resolve every open task using exact inspected evidence or a documented access/rights dependency; leave scientific adjudication to independent review.",
+  "config_sha256": "7b42ade55ad09973670c8f4bfc7a0795b938f59fb1ea1c8b6bd530c9ceb852c5",
+  "evidence_fingerprint": "2891dccf60ea519cf6a09051d9cab09d10f668cf94b114460ed07f04f9693fb1",
+  "input_sha256": {
+    "data/inscriptions.json": "7fa678885ee42fa7124fe15f55479f6de7db59fb1fc038d7b2edd0523457f78f",
+    "research/pre-expert-maximum.json": "5fb40c5c10155c1879736a33f402a9afa38968921a2011a5d78c7e110236ed95",
+    "research/source-reconciliation.json": "0086e0ec5af07c9b5a3f11b8ef033edc0b168828817322bc41114d41409388ed"
+  },
+  "native_review_links": [
+    "docs/METHODOLOGY.md"
+  ],
+  "question_definitions": {
+    "language_or_script_classification": "Attribute membership and classification to named authorities; preserve disagreement.",
+    "object_identity": "Confirm the object, face and inventory concordance; distinguish source entries from physical objects.",
+    "reading_and_layout": "Compare the exact edition rows, figures and layout; preserve competing readings with page/line locators.",
+    "reuse_rights": "Check the applicable license or permission for each component; project terms do not override upstream rights.",
+    "source_independence": "Identify shared editorial and photographic lineage; a derivative is not an independent witness.",
+    "uncertainty": "Retain damage, restorations, unreadable signs and competing segmentations; do not silently normalize them."
+  },
+  "record_identity_is_not_object_identity": true,
+  "record_views": [
+    {
+      "enumerated": 3,
+      "representation": "PUBLIC_NATIVE_IDENTIFIERS_AND_POINTERS_ONLY",
+      "unit": "provisional_inscription_entry",
+      "view": "provisional-bibliography"
+    }
+  ],
+  "records": [
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/0",
+      "native_id": "MIL-TL-044-C",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "provisional-bibliography:MIL-TL-044-C",
+      "source_file_sha256": "7fa678885ee42fa7124fe15f55479f6de7db59fb1fc038d7b2edd0523457f78f",
+      "source_lead_pointers": [
+        "/0/sources/0/citation",
+        "/0/sources/1/citation"
+      ],
+      "source_path": "data/inscriptions.json",
+      "source_record_sha256": "8e0e05832b6b3d77c223c163269a39526abcc499cd5533690039373affeb5fc5",
+      "unit": "provisional_inscription_entry"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/1",
+      "native_id": "MIL-TL-044-D",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "provisional-bibliography:MIL-TL-044-D",
+      "source_file_sha256": "7fa678885ee42fa7124fe15f55479f6de7db59fb1fc038d7b2edd0523457f78f",
+      "source_lead_pointers": [
+        "/1/sources/0/citation",
+        "/1/sources/1/citation"
+      ],
+      "source_path": "data/inscriptions.json",
+      "source_record_sha256": "8fcd6f85c0995adeaaf0a637ea7c01676efce0b211552a28944da3e1e0ece18f",
+      "unit": "provisional_inscription_entry"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/2",
+      "native_id": "MIL-TL-055",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "provisional-bibliography:MIL-TL-055",
+      "source_file_sha256": "7fa678885ee42fa7124fe15f55479f6de7db59fb1fc038d7b2edd0523457f78f",
+      "source_lead_pointers": [
+        "/2/sources/0/citation",
+        "/2/sources/1/citation"
+      ],
+      "source_path": "data/inscriptions.json",
+      "source_record_sha256": "b72eab90780eb8460068b13f548438abed87f5de85a4243f5bf9c24a385af30d",
+      "unit": "provisional_inscription_entry"
+    }
+  ],
+  "repository": "hawkinsnick/Milyan-Lycian-B",
+  "review_dimensions": [
+    "object_identity",
+    "reading_and_layout",
+    "uncertainty",
+    "language_or_script_classification",
+    "source_independence",
+    "reuse_rights"
+  ],
+  "schema_version": "1.0",
+  "scientific_approval_granted": false,
+  "scope": "Declared native snapshots and source/task registers only; not a language-wide inventory",
+  "source_leads": [
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/0/sources/0/citation",
+      "kind": "citation",
+      "source_path": "data/inscriptions.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/0/sources/1/citation",
+      "kind": "citation",
+      "source_path": "data/inscriptions.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/1/sources/0/citation",
+      "kind": "citation",
+      "source_path": "data/inscriptions.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/1/sources/1/citation",
+      "kind": "citation",
+      "source_path": "data/inscriptions.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/2/sources/0/citation",
+      "kind": "citation",
+      "source_path": "data/inscriptions.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/2/sources/1/citation",
+      "kind": "citation",
+      "source_path": "data/inscriptions.json"
+    }
+  ],
+  "tasks": [
+    {
+      "blocker_is_not_established_by_a_label": true,
+      "collection_disposition": "OPEN_REQUIRES_DISPOSITION",
+      "json_pointer": "/blockers/0",
+      "native_status": null,
+      "native_task_id": null,
+      "source_path": "research/pre-expert-maximum.json",
+      "task": "critical edition line-by-line collation"
+    },
+    {
+      "blocker_is_not_established_by_a_label": true,
+      "collection_disposition": "OPEN_REQUIRES_DISPOSITION",
+      "json_pointer": "/blockers/1",
+      "native_status": null,
+      "native_task_id": null,
+      "source_path": "research/pre-expert-maximum.json",
+      "task": "source rights verification"
+    },
+    {
+      "blocker_is_not_established_by_a_label": true,
+      "collection_disposition": "OPEN_REQUIRES_DISPOSITION",
+      "json_pointer": "/blockers/2",
+      "native_status": null,
+      "native_task_id": null,
+      "source_path": "research/pre-expert-maximum.json",
+      "task": "independent reading adjudication"
+    },
+    {
+      "blocker_is_not_established_by_a_label": true,
+      "collection_disposition": "OPEN_REQUIRES_DISPOSITION",
+      "json_pointer": "/blockers/3",
+      "native_status": null,
+      "native_task_id": null,
+      "source_path": "research/pre-expert-maximum.json",
+      "task": "bundle validation and cross-project admission"
+    }
+  ],
+  "terminal_pre_expert_maximum_established": false
+}
