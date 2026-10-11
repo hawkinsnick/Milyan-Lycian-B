@@ -14,3 +14,5 @@ python tests/test_research_api.py
 ```
 
 KWIC currently returns zero hits because no verified lines have been entered; it does **not** show that a word is absent from Milyan. JSON export preserves status and provenance. Line data remain empty until edition-level transcription rights and source verification are resolved. CSV is a convenience format and serializes nested data as JSON strings.
+
+A populated digital reference can now be queried with `--layer reference`; see [source and scope](EDIANA-REFERENCE.md). Canonical lines remain empty and verified canonical readings remain zero. Reference KWIC searches exact source strings without lexical adjudication.

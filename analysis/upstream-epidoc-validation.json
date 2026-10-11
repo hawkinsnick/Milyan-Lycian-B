@@ -1,0 +1,13 @@
+{
+  "status": "PASS_FROZEN_EDIANA_REFERENCE_VIEW_ONLY",
+  "schema_sha256": "8fae80ec418cd235455380252fb74a1ad7c37806a79e3fb7b93d05264aa08cd3",
+  "xml_sha256": "1386ebed41b325e073ec6ab656bc0a32821cd809eb72ba2798288b07ab58fee7",
+  "embedded_patterns": 57,
+  "embedded_rules": 57,
+  "active_patterns": 57,
+  "fired_rules": 348,
+  "failed_asserts": 0,
+  "successful_reports": 0,
+  "scope": "114 eDiAna source text rows; not complete epigraphic corpus coverage or independent expert acceptance",
+  "all_schematron_reports_block_acceptance": true
+}

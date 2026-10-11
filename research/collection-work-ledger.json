@@ -1,12 +1,22 @@
 {
   "builder_sha256": "4b61ca559d0817b09e869f6c3ca38ae7478071a0466f89861e71954d1bb499d6",
   "completion_rule": "Enumeration is a completed work map, not completed collation. Resolve every open task using exact inspected evidence or a documented access/rights dependency; leave scientific adjudication to independent review.",
-  "config_sha256": "7b42ade55ad09973670c8f4bfc7a0795b938f59fb1ea1c8b6bd530c9ceb852c5",
-  "evidence_fingerprint": "2891dccf60ea519cf6a09051d9cab09d10f668cf94b114460ed07f04f9693fb1",
+  "config_sha256": "5110999b2bb71902b732c222816bd3d3a0bb318b9c4f4d14973653e1c2be8394",
+  "evidence_fingerprint": "165dc01aa89d51d40495e8894aef6471a87608f849163c26bbc9f7d94177709e",
   "input_sha256": {
+    "analysis/upstream-epidoc-validation.json": "af3266900705a5e7fe0a7b44cc568f875f66e9e004dea1cb21ed5ae70053432f",
     "data/inscriptions.json": "7fa678885ee42fa7124fe15f55479f6de7db59fb1fc038d7b2edd0523457f78f",
-    "research/pre-expert-maximum.json": "5fb40c5c10155c1879736a33f402a9afa38968921a2011a5d78c7e110236ed95",
-    "research/source-reconciliation.json": "0086e0ec5af07c9b5a3f11b8ef033edc0b168828817322bc41114d41409388ed"
+    "data/reference/ediana-milyan-source.json": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+    "data/reference/lines.json": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+    "data/reference/records.json": "315d64c998b380d84616e217c79636979f5576f8814dabeb815cbd07758c1565",
+    "docs/EDIANA-REFERENCE.md": "a3b0c37a5800f9c5e2148e3011bd6139825cfa392b58458881bc00e7c1e8aa3c",
+    "interchange/epidoc/milyan-reference.xml": "1386ebed41b325e073ec6ab656bc0a32821cd809eb72ba2798288b07ab58fee7",
+    "interchange/epidoc/upstream-pins.json": "240d9f8b31142c9146b6c5f63ce29019af9101cefa276a590cbe78ff637ab01a",
+    "research/ediana-reference-crosswalk.json": "dbf6f6465b1db6e1804e3acb5d891bac48157d2d78b4a6c601b76726d184949c",
+    "research/pre-expert-maximum.json": "085066454f3e15d081b5987c2257e08c78918a4b53d4ebd7a1bdd06a86fbfdf5",
+    "research/reference-manifest.json": "8b97f89970c4518b6f4c421b1eeffb25ffe0dce29c2067c84633646d2a0a3a30",
+    "research/source-reconciliation.json": "0086e0ec5af07c9b5a3f11b8ef033edc0b168828817322bc41114d41409388ed",
+    "scripts/build_reference.py": "40c58078b92ab0b9f1394f21bd70b5fcfc36894e322a52da49ba1bc66d0a8487"
   },
   "native_review_links": [
     "docs/METHODOLOGY.md"
@@ -26,6 +36,18 @@
       "representation": "PUBLIC_NATIVE_IDENTIFIERS_AND_POINTERS_ONLY",
       "unit": "provisional_inscription_entry",
       "view": "provisional-bibliography"
+    },
+    {
+      "enumerated": 2,
+      "representation": "PUBLIC_NATIVE_IDENTIFIERS_AND_POINTERS_ONLY",
+      "unit": "digital_catalogue_entry",
+      "view": "ediana-reference-records"
+    },
+    {
+      "enumerated": 114,
+      "representation": "PUBLIC_NATIVE_IDENTIFIERS_AND_POINTERS_ONLY",
+      "unit": "digital_source_text_row",
+      "view": "ediana-reference-text-rows"
     }
   ],
   "records": [
@@ -94,6 +116,2447 @@
       "source_path": "data/inscriptions.json",
       "source_record_sha256": "b72eab90780eb8460068b13f548438abed87f5de85a4243f5bf9c24a385af30d",
       "unit": "provisional_inscription_entry"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/0",
+      "native_id": "EDIANA-MILYAN-0",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-records:EDIANA-MILYAN-0",
+      "source_file_sha256": "315d64c998b380d84616e217c79636979f5576f8814dabeb815cbd07758c1565",
+      "source_lead_pointers": [
+        "/0/source_id",
+        "/0/source_headers/0/bibliography",
+        "/0/source_url"
+      ],
+      "source_path": "data/reference/records.json",
+      "source_record_sha256": "bb0291396a108c8266de4fa2b35ffa59a5cd5bec26037039c16c718bba610542",
+      "unit": "digital_catalogue_entry"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/1",
+      "native_id": "EDIANA-MILYAN-1",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-records:EDIANA-MILYAN-1",
+      "source_file_sha256": "315d64c998b380d84616e217c79636979f5576f8814dabeb815cbd07758c1565",
+      "source_lead_pointers": [
+        "/1/source_id",
+        "/1/source_headers/0/bibliography",
+        "/1/source_headers/1/bibliography",
+        "/1/source_url"
+      ],
+      "source_path": "data/reference/records.json",
+      "source_record_sha256": "bf491b84aaa117eca8f7888195c5bcd353e70160d5c7c6bc8f084727a6c30bbe",
+      "unit": "digital_catalogue_entry"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/0",
+      "native_id": "EDIANA-MILYAN-0-ROW-1",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-0-ROW-1",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/0/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "84d139b272b2300915069a685287007aa6423c25a40c3ff06d40a9f88c5a5cd7",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/1",
+      "native_id": "EDIANA-MILYAN-0-ROW-2",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-0-ROW-2",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/1/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "835da9906eb6944ce606754f433117b3c08820ed4654b00aa701f9c935526c8f",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/2",
+      "native_id": "EDIANA-MILYAN-0-ROW-3",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-0-ROW-3",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/2/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "90802ebe2d2e22fde302401a79c3132c46c742dfccd7547c71e04edcb4c22571",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/3",
+      "native_id": "EDIANA-MILYAN-0-ROW-4",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-0-ROW-4",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/3/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "70e3e7ee58bbb6b4d090ef59fc67948c44957c1a10dca16ae98133aa2520263d",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/4",
+      "native_id": "EDIANA-MILYAN-0-ROW-5",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-0-ROW-5",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/4/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "67c670422f5ad2a3c30bc267f5312d60bacae17d918b9a70a69b62ec88741776",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/5",
+      "native_id": "EDIANA-MILYAN-0-ROW-6",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-0-ROW-6",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/5/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "2be97b6bac88ef6e1eaa91a59327e636580fb07915fb427a8cd3e481a3c32933",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/6",
+      "native_id": "EDIANA-MILYAN-0-ROW-7",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-0-ROW-7",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/6/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "eee3f7aeadb7b3937f7786ca0aa8608fdb4346dc1987e8d4fc15b34341ec3ae4",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/7",
+      "native_id": "EDIANA-MILYAN-0-ROW-8",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-0-ROW-8",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/7/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "cc24300a31af0f1376d69df1749da02b7b7c1c929e75a606f9c6c93a11a77fb3",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/8",
+      "native_id": "EDIANA-MILYAN-0-ROW-9",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-0-ROW-9",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/8/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "d60bb6253ec0296745f0bd92fc035ec489880d74d5baf6080786586d69f113d2",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/9",
+      "native_id": "EDIANA-MILYAN-1-ROW-1",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-1",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/9/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "ea438a921e1c274519f4f06f3169a911cc568495e67b9c8272b452e4440b3568",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/10",
+      "native_id": "EDIANA-MILYAN-1-ROW-2",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-2",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/10/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "23d64255617d64a63b5e2958d547ff9d93caf31ca6e8d56d142b363440f9b54c",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/11",
+      "native_id": "EDIANA-MILYAN-1-ROW-3",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-3",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/11/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "c2ef24cdd3aadf9d9aee1c11a0a1220e4751d07f705e140c1fac2af7dfb0aa51",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/12",
+      "native_id": "EDIANA-MILYAN-1-ROW-4",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-4",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/12/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "02fbcae94f1ec2ed1ccdab3f0e93f84302b5bd80f84ef8bcd99fbfbc553626ec",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/13",
+      "native_id": "EDIANA-MILYAN-1-ROW-5",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-5",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/13/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "aa61ff7e2227e82a09bdd4ce7b8130670b1eb04a4a807aeb43837f9f3bd9b2f2",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/14",
+      "native_id": "EDIANA-MILYAN-1-ROW-6",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-6",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/14/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "f591e123ec9a7c3849c00daeda93379981000e550c68e51a5e1b89ee3456d773",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/15",
+      "native_id": "EDIANA-MILYAN-1-ROW-7",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-7",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/15/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "bccd652f094a8271e86dff37c45d90438e1e1108ebf9696f8ef91913d4a9d8a7",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/16",
+      "native_id": "EDIANA-MILYAN-1-ROW-8",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-8",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/16/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "a98138b39b9879be6c46c335bc19892091a99c7f11a2e5cab2592c8fe7a37122",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/17",
+      "native_id": "EDIANA-MILYAN-1-ROW-9",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-9",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/17/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "a2f42487c4bac7ce001ed006c48e3f6adfb5545894f83e40d08f2b388a0ce0b1",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/18",
+      "native_id": "EDIANA-MILYAN-1-ROW-10",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-10",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/18/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "09e3af2c6904781fa95f35154be6c47b546138b2c99178b248f46df01f0b9d0d",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/19",
+      "native_id": "EDIANA-MILYAN-1-ROW-11",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-11",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/19/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "8f84cda06baf28376695781285dc4ac2d0b80bf1e8d5cbc10a613d3e441e600a",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/20",
+      "native_id": "EDIANA-MILYAN-1-ROW-12",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-12",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/20/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "5209d56f67242deaae352f70b931d0aff7e35613bb83b048e98bcbd330b41ef5",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/21",
+      "native_id": "EDIANA-MILYAN-1-ROW-13",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-13",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/21/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "2c717f7c36505b44f03d30ccf8bde649bf50c5820a3f232b4711dbf4b69934ba",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/22",
+      "native_id": "EDIANA-MILYAN-1-ROW-14",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-14",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/22/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "918e6ee8d580acf38c41a8a52a0ce1d2bb3b50aae742f935a1abb029f9f4e78c",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/23",
+      "native_id": "EDIANA-MILYAN-1-ROW-15",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-15",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/23/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "ad7de04cb9e4a40e16b1b5347ebf23f85a72b4e4a1334b86240f482dc3907839",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/24",
+      "native_id": "EDIANA-MILYAN-1-ROW-16",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-16",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/24/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "c04384aeafab5afb736bc17513f3c488073062b4cd122a870082c8e00961187e",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/25",
+      "native_id": "EDIANA-MILYAN-1-ROW-17",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-17",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/25/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "42aea6b7ec7301d124466f309d669c305b2c1e7c0a35198d4cacbf151bbb96d9",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/26",
+      "native_id": "EDIANA-MILYAN-1-ROW-18",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-18",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/26/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "ad8edf5bee37fdaaa78d0c6fc8ac3657969d252770fbbb814d1ff9f0c38b01a4",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/27",
+      "native_id": "EDIANA-MILYAN-1-ROW-19",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-19",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/27/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "966c0373fd28a448cac18f5123587c8e1f4f3b92a62a6478bca3b74adf6efea8",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/28",
+      "native_id": "EDIANA-MILYAN-1-ROW-20",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-20",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/28/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "647e10f14f250aa5e468c3493236c5dd408eacfca44284c420e7bc6b7a1a5d7a",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/29",
+      "native_id": "EDIANA-MILYAN-1-ROW-21",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-21",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/29/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "e48583be7b17888bbb76350a9af4d3537927418bf5dd510e2f66fb58cd2ac320",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/30",
+      "native_id": "EDIANA-MILYAN-1-ROW-22",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-22",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/30/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "d6e131e1ab8f04757be92a5c8f43da0040973f771d6f7a5f5921eace08ee9d36",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/31",
+      "native_id": "EDIANA-MILYAN-1-ROW-23",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-23",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/31/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "d8668a4e36a8e34ba52ab3b2b65a4679c55f400d8b4c70852907293720928f69",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/32",
+      "native_id": "EDIANA-MILYAN-1-ROW-24",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-24",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/32/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "e16ac01309aed1bd965aa6adfb194229d43e3c23c2e1dd1be0f3cbf48133a716",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/33",
+      "native_id": "EDIANA-MILYAN-1-ROW-25",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-25",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/33/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "39669dd7b3cbc407ec5023cd79968573881f243cf4de08e81cc880394a23c46f",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/34",
+      "native_id": "EDIANA-MILYAN-1-ROW-26",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-26",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/34/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "92fb2920537cb25d5e482ba4a1a7d806db87d99e2fa2c9c6f053f95875671291",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/35",
+      "native_id": "EDIANA-MILYAN-1-ROW-27",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-27",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/35/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "cb3c5201cd654f2ab901b8109577e63a04cc6c1db4d706b50ee5c02e369a94bb",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/36",
+      "native_id": "EDIANA-MILYAN-1-ROW-28",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-28",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/36/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "9e3b10e041e3286c0ad98f8d21219160ed67658e93edc4a96cdf8bdeb8ab65ac",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/37",
+      "native_id": "EDIANA-MILYAN-1-ROW-29",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-29",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/37/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "4378b9bf94648faa7a8c4ba0b826eb4b4a966a9d5e88bd1507a0847930de7ae1",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/38",
+      "native_id": "EDIANA-MILYAN-1-ROW-30",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-30",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/38/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "ded114ae705cb230cda543160d046d5e2dccd10dc6909be2d922803c2e22e037",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/39",
+      "native_id": "EDIANA-MILYAN-1-ROW-31",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-31",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/39/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "ef175fd84e17a84ee41880873fb38544c4ad020139a9b283f481d3c02411e309",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/40",
+      "native_id": "EDIANA-MILYAN-1-ROW-32",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-32",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/40/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "42f8f122081804efb4d92b8e1773e94e657af554b386e6948818a9c7cefeca37",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/41",
+      "native_id": "EDIANA-MILYAN-1-ROW-33",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-33",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/41/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "a8487eb93f32ff237ff2ea7754c8479f0f9037a189fe6b7e0dba3577620f5771",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/42",
+      "native_id": "EDIANA-MILYAN-1-ROW-34",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-34",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/42/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "9775edd0e9cf60c6dfed85f60fb6bc6bb4b54e269d0df834a9d354c938c83cb2",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/43",
+      "native_id": "EDIANA-MILYAN-1-ROW-36",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-36",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/43/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "3edacf5beaaaf5625399958eca3648f76b6182c8f9ddbc1632a3d23fbe7426ac",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/44",
+      "native_id": "EDIANA-MILYAN-1-ROW-37",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-37",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/44/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "2bf3aaaa957bf04752c6781ba3e8554b4d10602d600e81328720525bbab4b2ec",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/45",
+      "native_id": "EDIANA-MILYAN-1-ROW-38",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-38",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/45/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "887a174dc341c2a5faf47bc7fa96dfd6d5e0c8758c911c42fbb4106229c38bb4",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/46",
+      "native_id": "EDIANA-MILYAN-1-ROW-39",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-39",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/46/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "5cff80c6f16b9a410e6a12ed22dd72d0d48e76886a37c895450d8ac15a72a701",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/47",
+      "native_id": "EDIANA-MILYAN-1-ROW-40",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-40",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/47/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "8feb487ca1719fae467127b13d8e4e5b8ace67f30d3414fa332583cec0000e67",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/48",
+      "native_id": "EDIANA-MILYAN-1-ROW-41",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-41",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/48/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "718bc0f0898dc14645f86936a0d463337f86221997887fc2068840a605723a92",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/49",
+      "native_id": "EDIANA-MILYAN-1-ROW-42",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-42",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/49/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "0879dd23f6f80c5f2d072fe6b74d44dcc1c2528395d08c67cb012badb75fc773",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/50",
+      "native_id": "EDIANA-MILYAN-1-ROW-43",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-43",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/50/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "061c9308aa4c5584bffc95b2704a426c1cd1c7bd8b118d046dfc04786233863c",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/51",
+      "native_id": "EDIANA-MILYAN-1-ROW-44",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-44",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/51/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "0b80f111614e67a8255d92381b9e660679c160944d86bcffc4634011517fca4e",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/52",
+      "native_id": "EDIANA-MILYAN-1-ROW-45",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-45",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/52/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "7bde5459ee61ff960388ce95b104c6e403d30765665b996b00001daef0aee3ad",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/53",
+      "native_id": "EDIANA-MILYAN-1-ROW-46",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-46",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/53/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "dc7f2463d6e11f116ec2583152d1c9c39fecc7677ed514fe4580e0e91ca22ff2",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/54",
+      "native_id": "EDIANA-MILYAN-1-ROW-47",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-47",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/54/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "aa74436a71351f4c1dc269c5f699ca7450358d5bcc3b8827e2823d722b077104",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/55",
+      "native_id": "EDIANA-MILYAN-1-ROW-48",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-48",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/55/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "87e02bcd2ea8c933932de61c72651898b3a0d0416ee782df6fceea5269b0b7f1",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/56",
+      "native_id": "EDIANA-MILYAN-1-ROW-49",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-49",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/56/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "d33ac51b70a7705c4e479b986982a851e221f7e01f0863292834739fabfdc4d4",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/57",
+      "native_id": "EDIANA-MILYAN-1-ROW-50",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-50",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/57/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "6d6b6d3dd30a5c9f4d8a4a3b9aaf274b7e867d8bd9b8f531a1915bdf9c4cac6a",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/58",
+      "native_id": "EDIANA-MILYAN-1-ROW-51",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-51",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/58/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "94af056360b5ffe6a80f1c7b43cb7fa483fa19d04351e2a99e4b28abb73e1f1c",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/59",
+      "native_id": "EDIANA-MILYAN-1-ROW-52",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-52",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/59/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "d8787e81673e8eddbee4123ee10b3e20d398233cf9a5d5be1b953e195ec11e4b",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/60",
+      "native_id": "EDIANA-MILYAN-1-ROW-53",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-53",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/60/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "b92afa4dcf43b25c8aafde632b725959143f71858db6f854a8bca442e9707b8c",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/61",
+      "native_id": "EDIANA-MILYAN-1-ROW-54",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-54",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/61/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "0faf1e81d21579b6869904252e9110d0f1992d82333cd6a87cc52ee5659b795a",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/62",
+      "native_id": "EDIANA-MILYAN-1-ROW-55",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-55",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/62/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "c1171a9946174e2077913a53a6edb593296ff1affd01bb8c438ef898958905ff",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/63",
+      "native_id": "EDIANA-MILYAN-1-ROW-56",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-56",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/63/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "ef2d8c7788f36baf91cccb4d4997aef0745786fd650712d62c40d99ca5abeaef",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/64",
+      "native_id": "EDIANA-MILYAN-1-ROW-57",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-57",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/64/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "e6974bdeb266a5a5d1fcd7c32c34cb2a535692e7d2def021e8c9da9009d7f50b",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/65",
+      "native_id": "EDIANA-MILYAN-1-ROW-58",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-58",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/65/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "5bd8d23bc47446813c6858debb511077644020ccc4fd8a9d30f1e23714e544e7",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/66",
+      "native_id": "EDIANA-MILYAN-1-ROW-59",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-59",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/66/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "0ddce035fbcc9c14e9012f233b6873050996012f5d8f035429d501a17f3aff8d",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/67",
+      "native_id": "EDIANA-MILYAN-1-ROW-60",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-60",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/67/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "04208effa135cbbf9f2c1799a6a89b9455558deb2e6648c2d78d1ab5fb2920a8",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/68",
+      "native_id": "EDIANA-MILYAN-1-ROW-61",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-61",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/68/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "d14420ac037ee9c5aefb018d607756c37a301ddcf468aff14fd333a7ff748895",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/69",
+      "native_id": "EDIANA-MILYAN-1-ROW-62",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-62",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/69/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "91c117b91efb9d89e96f633f4a6ef42be707a93424da6583d19abbdd8dc170cb",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/70",
+      "native_id": "EDIANA-MILYAN-1-ROW-63",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-63",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/70/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "b8cf91e5b6951fd7cfd69ed59e3600c1b0d10b843c69aa0f72c66d999bfd942e",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/71",
+      "native_id": "EDIANA-MILYAN-1-ROW-64",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-64",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/71/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "66ea2644ec14582755ce39501f395c7291684756a98dbab831c14033938a7521",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/72",
+      "native_id": "EDIANA-MILYAN-1-ROW-65",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-65",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/72/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "93c0ea0f580ef8eac5e2077aeedc62e2a22321255169af8b98adfce1d44772ec",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/73",
+      "native_id": "EDIANA-MILYAN-1-ROW-66",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-66",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/73/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "2e479fc8abfaf3a902ae77d2345e13818d4bad62e0a30b01a2223d01b1fb873f",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/74",
+      "native_id": "EDIANA-MILYAN-1-ROW-67",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-67",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/74/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "e37751884e5bb87a0b1f9a2a392db198f7956dd36e9e1db692c202a4ade23a89",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/75",
+      "native_id": "EDIANA-MILYAN-1-ROW-68",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-68",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/75/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "cc892f738a257c3d3bc8636a7129cde5a7362e3ee317c5683e60921612fd0355",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/76",
+      "native_id": "EDIANA-MILYAN-1-ROW-69",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-69",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/76/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "6fbbd8282fa46eb185e80122dfab93d0d8d909f0a7ea871a0a79b7a5672b1091",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/77",
+      "native_id": "EDIANA-MILYAN-1-ROW-70",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-70",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/77/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "4a346faf22cb252fd29d16b74c715f8791be1c21e6b16b65bc734f291432e4ff",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/78",
+      "native_id": "EDIANA-MILYAN-1-ROW-71",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-71",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/78/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "e056ff25d312b600f779c60b881c38cfaabc67eea53acdaec266294ccbaca89e",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/79",
+      "native_id": "EDIANA-MILYAN-1-ROW-72",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-72",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/79/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "a1bef800563bef766f993e406aaa74dbd79037dd5aa24e994aca1075d245f96d",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/80",
+      "native_id": "EDIANA-MILYAN-1-ROW-73",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-73",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/80/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "7775673cf49e9b1f607f354ed0c36b74b27aafdb02eb094c9dfbbf92c49201fb",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/81",
+      "native_id": "EDIANA-MILYAN-1-ROW-74",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-74",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/81/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "7b496447834576518c5722b32f720eccd5042a3cbd5fbd6909d3ecc389a3b0f5",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/82",
+      "native_id": "EDIANA-MILYAN-1-ROW-75",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-75",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/82/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "5e662424a8cf7c671055c9f03ee497ca77ed035f510d8c29758a0ad023e65511",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/83",
+      "native_id": "EDIANA-MILYAN-1-ROW-76",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-76",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/83/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "7ca6d53be7f2067a69118ee99886422831f25f9cc36ad8112c2daed6f77ea41b",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/84",
+      "native_id": "EDIANA-MILYAN-1-ROW-77",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-77",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/84/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "209595727b9f0009db76ab79ec33aec3b61d73e401c99179f537a8987d2b1b2e",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/85",
+      "native_id": "EDIANA-MILYAN-1-ROW-78",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-78",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/85/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "e3505b7583400095988c45242e738654611622bc3a155e3a29e30aedf0f8e80e",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/86",
+      "native_id": "EDIANA-MILYAN-1-ROW-79",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-79",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/86/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "10753c8670ea98c988146d224849c9b53fcb86c69c17e6dd26baefb0c75a0ccb",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/87",
+      "native_id": "EDIANA-MILYAN-1-ROW-80",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-80",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/87/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "320ba67ae67db3c1dda813952d75fd64ebe21e342bfe9607054cf4c28bfcdb86",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/88",
+      "native_id": "EDIANA-MILYAN-1-ROW-81",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-81",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/88/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "c028afa51c1a8cc3fa310a731ee28ec2cc834ff783a9403eb4e28efe6f9ad9e8",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/89",
+      "native_id": "EDIANA-MILYAN-1-ROW-82",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-82",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/89/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "16d4e879d167c5a0031462c8f2fed23ed581dd4d2dc7590fa6d17fd9b3892a06",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/90",
+      "native_id": "EDIANA-MILYAN-1-ROW-83",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-83",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/90/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "88e60159c544233d6eac9eb9e487c3164ec7fa5e3ed64f1a8278dd8c25d17cae",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/91",
+      "native_id": "EDIANA-MILYAN-1-ROW-84",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-84",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/91/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "8a35833c76b9ae77d8a1aeba9f7f0bc0118132f6266b645dd2c996c1fb06290f",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/92",
+      "native_id": "EDIANA-MILYAN-1-ROW-85",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-85",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/92/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "165d695e17d6b34c0e06b32456377998d3ee988ece5305ba2f9f1bd404259a78",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/93",
+      "native_id": "EDIANA-MILYAN-1-ROW-86",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-86",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/93/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "0c57b2d691ce9e5c4446cb10e28fc0ad67f804b3f303ad4140108c15e2edd102",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/94",
+      "native_id": "EDIANA-MILYAN-1-ROW-87",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-87",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/94/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "9bf1459f5dcbf088f1362324a313b177bd394fb0f98aa10b89c43c068fa1db6a",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/95",
+      "native_id": "EDIANA-MILYAN-1-ROW-88",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-88",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/95/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "c17757f753edfada3b034c25c1e1592773bcd5782081d8f4d9e2d1e5df46e89b",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/96",
+      "native_id": "EDIANA-MILYAN-1-ROW-89",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-89",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/96/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "c7eb49793259a2b2161f5e78bd5572d8a63f38fa23f68dfea80e96824b9528b7",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/97",
+      "native_id": "EDIANA-MILYAN-1-ROW-90",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-90",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/97/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "8f9199226ed1bd9af8a6a1b74df37ce0a432526fba2dd3570e404344416588da",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/98",
+      "native_id": "EDIANA-MILYAN-1-ROW-91",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-91",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/98/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "9210c283ea8016b5bb05ddbc77de23e6323d0a972b0c0cd1bf3e7ba6c157aab6",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/99",
+      "native_id": "EDIANA-MILYAN-1-ROW-92",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-92",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/99/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "87e11f89436f7a4f2e6e5390e2b1270096a8d3f013af4899bafd4cfed7c06d53",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/100",
+      "native_id": "EDIANA-MILYAN-1-ROW-93",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-93",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/100/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "41df5a6b92173aff8d51a2eace52e8129fd28f8be9483ea2bec700af11a85ad9",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/101",
+      "native_id": "EDIANA-MILYAN-1-ROW-94",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-94",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/101/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "112e314043cc205680196a0aa356100baf05548db25ed17753b57c137fe815ef",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/102",
+      "native_id": "EDIANA-MILYAN-1-ROW-95",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-95",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/102/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "7500f1ea2fdc61915983e91a3a4bea796ad1aace2b3fa6e95fe242c9f4d4510c",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/103",
+      "native_id": "EDIANA-MILYAN-1-ROW-96",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-96",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/103/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "4db94231b2427659867b210f13a747b4a5d433e4ac94b7c7dbe5a58d85b3f1aa",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/104",
+      "native_id": "EDIANA-MILYAN-1-ROW-97",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-97",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/104/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "372e4316c337c7e0afa870ee91bbdc062e4b477301486ff25ede161c09c59756",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/105",
+      "native_id": "EDIANA-MILYAN-1-ROW-98",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-98",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/105/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "3975a624b869d11b049540995f64a55f0e9428c5bb77d3d9d93fa84dc0641c04",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/106",
+      "native_id": "EDIANA-MILYAN-1-ROW-99",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-99",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/106/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "9cd949b912f03b14d8693a234d5eba31da98f1956cabc0b76e5242a077d2cce8",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/107",
+      "native_id": "EDIANA-MILYAN-1-ROW-100",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-100",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/107/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "6afe5e7fe0ff34af0c186e3b08d261994da69062bf98b92fe33e0dc39a01aefa",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/108",
+      "native_id": "EDIANA-MILYAN-1-ROW-101",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-101",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/108/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "6149a9a04b0179b0df6eb60ba01046123324893adcb63867c968bc9c404a58f3",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/109",
+      "native_id": "EDIANA-MILYAN-1-ROW-102",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-102",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/109/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "60d9bc9ea9236d793ae4a1665cbe90fd7c9b859291ff8ad1eed3cd8fc06c8d06",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/110",
+      "native_id": "EDIANA-MILYAN-1-ROW-103",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-103",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/110/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "9d902448bfc5ba601779b27468382f65762e0531a6f3421a7cb82b360b71535b",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/111",
+      "native_id": "EDIANA-MILYAN-1-ROW-104",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-104",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/111/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "d4a5e236c860de9e724458d553e0463b387e74d739e6a35ade930543af1149c3",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/112",
+      "native_id": "EDIANA-MILYAN-1-ROW-105",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-105",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/112/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "7f5c849613ef6052f4bc5105f0acf843452507c58664bddc6e1ce6bb540493be",
+      "unit": "digital_source_text_row"
+    },
+    {
+      "assessment": "NOT_ADJUDICATED_BY_COLLECTION_BUILDER",
+      "json_pointer": "/113",
+      "native_id": "EDIANA-MILYAN-1-ROW-106",
+      "questions": [
+        "object_identity",
+        "reading_and_layout",
+        "uncertainty",
+        "language_or_script_classification",
+        "source_independence",
+        "reuse_rights"
+      ],
+      "record_key": "ediana-reference-text-rows:EDIANA-MILYAN-1-ROW-106",
+      "source_file_sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "source_lead_pointers": [
+        "/113/source_url"
+      ],
+      "source_path": "data/reference/lines.json",
+      "source_record_sha256": "3b698266446956acb34541b59636dce8c022e970426e9cabda4886d4e4fd8446",
+      "unit": "digital_source_text_row"
     }
   ],
   "repository": "hawkinsnick/Milyan-Lycian-B",
@@ -144,6 +2607,756 @@
       "json_pointer": "/2/sources/1/citation",
       "kind": "citation",
       "source_path": "data/inscriptions.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/0/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/1/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/2/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/3/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/4/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/5/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/6/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/7/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/8/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/9/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/10/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/11/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/12/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/13/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/14/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/15/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/16/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/17/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/18/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/19/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/20/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/21/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/22/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/23/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/24/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/25/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/26/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/27/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/28/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/29/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/30/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/31/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/32/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/33/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/34/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/35/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/36/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/37/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/38/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/39/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/40/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/41/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/42/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/43/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/44/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/45/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/46/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/47/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/48/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/49/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/50/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/51/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/52/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/53/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/54/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/55/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/56/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/57/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/58/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/59/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/60/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/61/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/62/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/63/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/64/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/65/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/66/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/67/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/68/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/69/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/70/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/71/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/72/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/73/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/74/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/75/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/76/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/77/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/78/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/79/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/80/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/81/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/82/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/83/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/84/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/85/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/86/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/87/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/88/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/89/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/90/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/91/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/92/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/93/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/94/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/95/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/96/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/97/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/98/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/99/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/100/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/101/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/102/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/103/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/104/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/105/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/106/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/107/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/108/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/109/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/110/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/111/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/112/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/113/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/lines.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/0/source_id",
+      "kind": "source_id",
+      "source_path": "data/reference/records.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/0/source_headers/0/bibliography/0",
+      "kind": "bibliography",
+      "source_path": "data/reference/records.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/0/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/records.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/1/source_id",
+      "kind": "source_id",
+      "source_path": "data/reference/records.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/1/source_headers/0/bibliography/0",
+      "kind": "bibliography",
+      "source_path": "data/reference/records.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/1/source_headers/1/bibliography/0",
+      "kind": "bibliography",
+      "source_path": "data/reference/records.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/1/source_url",
+      "kind": "source_url",
+      "source_path": "data/reference/records.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/0/bibliography/0",
+      "kind": "bibliography",
+      "source_path": "research/ediana-reference-crosswalk.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/1/bibliography/0",
+      "kind": "bibliography",
+      "source_path": "research/ediana-reference-crosswalk.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/2/bibliography/0",
+      "kind": "bibliography",
+      "source_path": "research/ediana-reference-crosswalk.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/source",
+      "kind": "source",
+      "source_path": "research/reference-manifest.json"
     }
   ],
   "tasks": [
@@ -154,7 +3367,7 @@
       "native_status": null,
       "native_task_id": null,
       "source_path": "research/pre-expert-maximum.json",
-      "task": "critical edition line-by-line collation"
+      "task": "critical edition line-by-line collation and competing reading apparatus"
     },
     {
       "blocker_is_not_established_by_a_label": true,
@@ -163,7 +3376,7 @@
       "native_status": null,
       "native_task_id": null,
       "source_path": "research/pre-expert-maximum.json",
-      "task": "source rights verification"
+      "task": "source-specific rights for additional primary components"
     },
     {
       "blocker_is_not_established_by_a_label": true,
@@ -173,15 +3386,6 @@
       "native_task_id": null,
       "source_path": "research/pre-expert-maximum.json",
       "task": "independent reading adjudication"
-    },
-    {
-      "blocker_is_not_established_by_a_label": true,
-      "collection_disposition": "OPEN_REQUIRES_DISPOSITION",
-      "json_pointer": "/blockers/3",
-      "native_status": null,
-      "native_task_id": null,
-      "source_path": "research/pre-expert-maximum.json",
-      "task": "bundle validation and cross-project admission"
     }
   ],
   "terminal_pre_expert_maximum_established": false

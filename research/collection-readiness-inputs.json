@@ -7,11 +7,31 @@
       "path": "data/inscriptions.json",
       "id_key": "id",
       "unit": "provisional_inscription_entry"
+    },
+    {
+      "name": "ediana-reference-records",
+      "path": "data/reference/records.json",
+      "id_key": "id",
+      "unit": "digital_catalogue_entry"
+    },
+    {
+      "name": "ediana-reference-text-rows",
+      "path": "data/reference/lines.json",
+      "id_key": "id",
+      "unit": "digital_source_text_row"
     }
   ],
   "source_files": [
     "research/source-reconciliation.json",
-    "research/pre-expert-maximum.json"
+    "research/pre-expert-maximum.json",
+    "data/reference/ediana-milyan-source.json",
+    "research/reference-manifest.json",
+    "research/ediana-reference-crosswalk.json",
+    "analysis/upstream-epidoc-validation.json",
+    "interchange/epidoc/upstream-pins.json",
+    "interchange/epidoc/milyan-reference.xml",
+    "scripts/build_reference.py",
+    "docs/EDIANA-REFERENCE.md"
   ],
   "native_review_links": [
     "docs/METHODOLOGY.md"

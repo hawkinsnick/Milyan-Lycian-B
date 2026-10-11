@@ -1,0 +1,22 @@
+{
+  "schema": {
+    "repository": "EpiDoc/Source",
+    "commit": "2368ee115d8008b32c37446301874945bcbe6c18",
+    "path": "schema/9.8/tei-epidoc.rng",
+    "sha256": "8fae80ec418cd235455380252fb74a1ad7c37806a79e3fb7b93d05264aa08cd3",
+    "embedded_patterns": 57,
+    "embedded_rules": 57
+  },
+  "compiler": {
+    "repository": "Schematron/schematron",
+    "commit": "77dcd36c53d12ed786c144ece3b2af7694abdc56",
+    "path": "trunk/schematron/code",
+    "files_sha256": {
+      "iso_dsdl_include.xsl": "43ff20a1afd89d8a744d1c0b8df94ac5559ffa6a820d1ffbf508d6431ee4fdd9",
+      "iso_abstract_expand.xsl": "c5267f124abf23eeb6669884e40a98607c055bfaa1f39e73b7d578feceeb6e46",
+      "iso_svrl_for_xslt2.xsl": "0588d617924a0686255f6d182633d434c7986d561be8fcc3b363907d3f671b26",
+      "iso_schematron_skeleton_for_saxon.xsl": "95f3195d9f437ea8ff5f75d1a27f4e68ae20b236fe0d4a217bb4209f498a10a3"
+    }
+  },
+  "boundary": "Upstream sources fetched separately, not redistributed; digest mismatch and any upstream assert/report fail closed."
+}

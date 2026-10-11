@@ -13,7 +13,18 @@
     "docs/RESEARCH-API.md",
     "research/collection-work-ledger.json",
     "review/collection-packet.json",
-    "docs/COLLECTION-REVIEW.md"
+    "docs/COLLECTION-REVIEW.md",
+    "data/reference/ediana-milyan-source.json",
+    "data/reference/records.json",
+    "data/reference/lines.json",
+    "research/reference-manifest.json",
+    "research/ediana-reference-crosswalk.json",
+    "docs/EDIANA-REFERENCE.md",
+    "interchange/epidoc/milyan-reference.xml",
+    "analysis/upstream-epidoc-validation.json",
+    "interchange/epidoc/upstream-pins.json",
+    "scripts/build_reference.py",
+    "scripts/validate_upstream_epidoc.py"
   ],
   "record_count": 3,
   "verified_record_count": 0,
@@ -21,5 +32,7 @@
   "physical_monument_count": 2,
   "readiness": "PRE_EXPERT_INCOMPLETE",
   "line_count": 0,
-  "verified_line_count": 0
+  "verified_line_count": 0,
+  "reference_record_count": 2,
+  "reference_text_row_count": 114
 }

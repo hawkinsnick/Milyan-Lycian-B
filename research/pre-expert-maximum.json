@@ -1,18 +1,26 @@
 {
   "schema_version": "1.0.0",
-  "status": "BLOCKED_TEXT_COLLATION",
+  "status": "POPULATED_FROZEN_REFERENCE_CRITICAL_COLLATION_OPEN",
   "record_count": 3,
   "physical_monuments": 2,
   "verified_readings": 0,
   "blockers": [
-    "critical edition line-by-line collation",
-    "source rights verification",
-    "independent reading adjudication",
-    "bundle validation and cross-project admission"
+    "critical edition line-by-line collation and competing reading apparatus",
+    "source-specific rights for additional primary components",
+    "independent reading adjudication"
   ],
   "do_not_claim": [
     "complete scholarly 1.0",
     "expert validation",
     "independent replication"
+  ],
+  "reference_records": 2,
+  "reference_text_rows": 114,
+  "completed_scoped_gates": [
+    "frozen eDiAna source acquisition from immutable cache and component license attribution",
+    "source-label section crosswalk and exact-text replay",
+    "JSON/CSV API reference queries",
+    "lossless EpiDoc reference export with pinned upstream RNG/Schematron and adversarial tests",
+    "native/fleet bundle authority integrity"
   ]
 }

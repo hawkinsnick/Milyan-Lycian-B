@@ -1,0 +1,31 @@
+name: Milyan frozen reference interoperability
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    env:
+      EPIDOC_SCHEMA: /tmp/epidoc-source/schema/9.8/tei-epidoc.rng
+      SCHEMATRON_COMPILER: /tmp/iso-schematron/trunk/schematron/code
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m pip install 'lxml>=5,<7' 'saxonche==12.9.0'
+      - name: Acquire exact upstream validation dependencies
+        run: |
+          git init /tmp/epidoc-source
+          git -C /tmp/epidoc-source remote add origin https://github.com/EpiDoc/Source.git
+          git -C /tmp/epidoc-source fetch --depth 1 origin 2368ee115d8008b32c37446301874945bcbe6c18
+          git -C /tmp/epidoc-source checkout --detach FETCH_HEAD
+          git init /tmp/iso-schematron
+          git -C /tmp/iso-schematron remote add origin https://github.com/Schematron/schematron.git
+          git -C /tmp/iso-schematron fetch --depth 1 origin 77dcd36c53d12ed786c144ece3b2af7694abdc56
+          git -C /tmp/iso-schematron checkout --detach FETCH_HEAD
+      - run: python scripts/build_reference.py
+      - run: python scripts/validate_upstream_epidoc.py --schema "$EPIDOC_SCHEMA" --compiler "$SCHEMATRON_COMPILER"
+      - run: python -m unittest discover -s tests -p test_reference.py
+      - run: python -m unittest discover -s tests -p test_upstream_epidoc.py
+      - run: python scripts/build_collection_handoff.py

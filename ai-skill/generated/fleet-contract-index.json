@@ -24,38 +24,38 @@
     },
     {
       "path": "LICENSE-CONTENT.md",
-      "sha256": "b9ebe0eb3be14975a155af9ad462e32ad4c4686e01466980e8649587ea93dc9e",
-      "bytes": 969
+      "sha256": "08625edd17ac64b3d837499b654d3178240bae5db9c165ae4ec04bb7782ec2a1",
+      "bytes": 1267
     },
     {
       "path": "LICENSING.md",
-      "sha256": "ab9b5ec64d32f4e987fa4081dec15853a6b87858a4a8dbb7162af4ab9a54c7e8",
-      "bytes": 2487
+      "sha256": "3390ae7ed576a8de35790d19ad6bb615fc9ed9bc0c6ee3f430d4c5883d809956",
+      "bytes": 2785
     },
     {
       "path": "NOTICE",
-      "sha256": "cc5120da762ed398aac92590de299e5f07114af48ec2766259df03dc81c98cdb",
-      "bytes": 918
+      "sha256": "e6a95d9900cacac45c4f8e75a1ab8939370655dc2c74996f6d9161364f2be143",
+      "bytes": 1216
     },
     {
       "path": "ai-skill/SKILL.md",
-      "sha256": "5c0932c1b67844559c59bf8e5a98f681a8ddd8d5e02000673d03cbd1ee19ee32",
-      "bytes": 2321
+      "sha256": "15f4aa3008a0d8094339aba1dc4421988c3c0975e4c3c7f00c7c29d71f9bce74",
+      "bytes": 3703
     },
     {
       "path": "ai-skill/generated/research-bundle-index.json",
-      "sha256": "9e4e9fbeefd9207eb0f63c5e9e6c5a178cb4c5cdfddf254e99958d2fd79c60d7",
-      "bytes": 745
+      "sha256": "36dfb9c378f539a7fa6be4894d2034fc081d93dcdd51022c6f9277eb264c79c4",
+      "bytes": 1264
     },
     {
       "path": "ai-skill/manifest.json",
-      "sha256": "78b43d5d828034e89ee0e0eca51a554f4ce287be1bf868f8a05e6cf789c1c635",
-      "bytes": 803
+      "sha256": "2aeda7a342417059f0e1b4a49dfd7b6ccef4f403a3ec5adeb735513127e20ade",
+      "bytes": 826
     },
     {
       "path": "ai-skill/references/authority-profile.json",
-      "sha256": "39438118bcd8f2925fd2b3f32fe5df07da61af560f0648831dbc1c090b5b949a",
-      "bytes": 502
+      "sha256": "1295fcca159467e97da71c3d9a65c551e1de0deaac63426b12fbf4a37f3df85c",
+      "bytes": 1235
     },
     {
       "path": "ai-skill/references/corpus-project-contract.md",
@@ -78,6 +78,11 @@
       "bytes": 840
     },
     {
+      "path": "analysis/upstream-epidoc-validation.json",
+      "sha256": "af3266900705a5e7fe0a7b44cc568f875f66e9e004dea1cb21ed5ae70053432f",
+      "bytes": 543
+    },
+    {
       "path": "data/inscriptions.json",
       "sha256": "7fa678885ee42fa7124fe15f55479f6de7db59fb1fc038d7b2edd0523457f78f",
       "bytes": 3237
@@ -88,9 +93,29 @@
       "bytes": 3
     },
     {
+      "path": "data/reference/ediana-milyan-source.json",
+      "sha256": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0",
+      "bytes": 332547
+    },
+    {
+      "path": "data/reference/lines.json",
+      "sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "bytes": 110279
+    },
+    {
+      "path": "data/reference/records.json",
+      "sha256": "315d64c998b380d84616e217c79636979f5576f8814dabeb815cbd07758c1565",
+      "bytes": 5402
+    },
+    {
       "path": "docs/COLLECTION-REVIEW.md",
       "sha256": "0c9de3329b7386d15b29f288c144e9e1445537a664b5e6aac7c7c00b32700583",
       "bytes": 1226
+    },
+    {
+      "path": "docs/EDIANA-REFERENCE.md",
+      "sha256": "a3b0c37a5800f9c5e2148e3011bd6139825cfa392b58458881bc00e7c1e8aa3c",
+      "bytes": 4215
     },
     {
       "path": "docs/METHODOLOGY.md",
@@ -99,13 +124,33 @@
     },
     {
       "path": "docs/RESEARCH-API.md",
-      "sha256": "e159e239561a319f639343cd01bf8d2ca483a0ccb4252efef1394b3cfefd0d51",
-      "bytes": 793
+      "sha256": "d67eb5234a157a17f3ba9c63bd429507684dc15443e7cde8e35f55ea9351078d",
+      "bytes": 1063
+    },
+    {
+      "path": "interchange/epidoc/milyan-reference.xml",
+      "sha256": "1386ebed41b325e073ec6ab656bc0a32821cd809eb72ba2798288b07ab58fee7",
+      "bytes": 124395
+    },
+    {
+      "path": "interchange/epidoc/upstream-pins.json",
+      "sha256": "240d9f8b31142c9146b6c5f63ce29019af9101cefa276a590cbe78ff637ab01a",
+      "bytes": 1025
     },
     {
       "path": "research/collection-work-ledger.json",
-      "sha256": "a308621503b2e9faea8dc4b73e01c4384916171aa0a9d6c56cc23f49e3584486",
-      "bytes": 7546
+      "sha256": "9b4f3a3f7d69ca711a3d0e76338622f17c3ac536b55b45bd27fd711ebf7de259",
+      "bytes": 126734
+    },
+    {
+      "path": "research/ediana-reference-crosswalk.json",
+      "sha256": "dbf6f6465b1db6e1804e3acb5d891bac48157d2d78b4a6c601b76726d184949c",
+      "bytes": 1165
+    },
+    {
+      "path": "research/reference-manifest.json",
+      "sha256": "8b97f89970c4518b6f4c421b1eeffb25ffe0dce29c2067c84633646d2a0a3a30",
+      "bytes": 2187
     },
     {
       "path": "research/source-reconciliation.json",
@@ -114,13 +159,23 @@
     },
     {
       "path": "review/collection-packet.json",
-      "sha256": "1459af19955180e0920af7ec5cf66b4d704679a8d7baa74f34a067101f059087",
-      "bytes": 1820
+      "sha256": "81c3e4442498a759b16bbe4c27b9f9a07a6a407cc95ed9b0ce8ed74d52874967",
+      "bytes": 1824
+    },
+    {
+      "path": "scripts/build_reference.py",
+      "sha256": "40c58078b92ab0b9f1394f21bd70b5fcfc36894e322a52da49ba1bc66d0a8487",
+      "bytes": 7586
     },
     {
       "path": "scripts/research_api.py",
-      "sha256": "6f04eab74308d7d3548dce1aa8468451456b5d4ef48d5e05040e3fb19562f3cb",
-      "bytes": 2332
+      "sha256": "0c4fc39f2aa63e898550e6b9dea58b40c719d3374c71fc2a005e18bcb91e05c7",
+      "bytes": 3722
+    },
+    {
+      "path": "scripts/validate_upstream_epidoc.py",
+      "sha256": "e54a492d8954c04578b4ca41a7e2dc81b7a319bf5d0865610d12e93815e2ad63",
+      "bytes": 3546
     }
   ]
 }
