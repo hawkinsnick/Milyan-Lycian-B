@@ -50,3 +50,7 @@ The EpiDoc reference export round-trips every derived line field and exact sourc
 
 ### Primary edition locator controls
 `research/primary-edition-locator-control.json` records visual inspection of the Getty/Internet Archive Kalinka 1901 scan. TL 44c/d facsimiles are on printed p.41; the relevant transliterations are on p.43 (c32–65 and d1–53) and p.44 (d54–71). TL 55 is introduced on p.53 and illustrated/transliterated on p.54. Printed page and PDF ordinal are separate fields. The historical eight-line description of TL 55 differs from nine frozen eDiAna rows; preserve the discrepancy without forcing row-to-physical-line equality. Keep broad bibliography verbatim while using precise observed locators. This scan belongs to the same source genealogy; no new independent witness, exact reading equivalence or expert acceptance follows.
+
+## AI integrity checkpoint — 2026-10-11
+
+[AI integrity controls](docs/AI-INTEGRITY.md) document source-bound bundle publication and checked cross-corpus dependency safeguards. Reading coverage and scholarly acceptance are unchanged.

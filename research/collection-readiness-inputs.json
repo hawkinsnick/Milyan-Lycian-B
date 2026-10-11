@@ -32,7 +32,9 @@
     "interchange/epidoc/milyan-reference.xml",
     "scripts/build_reference.py",
     "docs/EDIANA-REFERENCE.md",
-    "research/primary-edition-locator-control.json"
+    "research/primary-edition-locator-control.json",
+    "research/cross-corpus-dependencies.json",
+    "docs/AI-INTEGRITY.md"
   ],
   "native_review_links": [
     "docs/METHODOLOGY.md"
