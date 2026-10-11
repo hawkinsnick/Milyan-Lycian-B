@@ -31,7 +31,8 @@
     "interchange/epidoc/upstream-pins.json",
     "interchange/epidoc/milyan-reference.xml",
     "scripts/build_reference.py",
-    "docs/EDIANA-REFERENCE.md"
+    "docs/EDIANA-REFERENCE.md",
+    "research/primary-edition-locator-control.json"
   ],
   "native_review_links": [
     "docs/METHODOLOGY.md"

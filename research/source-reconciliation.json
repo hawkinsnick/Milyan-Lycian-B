@@ -36,5 +36,7 @@
       "gate": "BLOCKED"
     }
   ],
-  "policy": "No readings promoted to verified without source-specific edition locator, rights status and collation evidence."
+  "policy": "No readings promoted to verified without source-specific edition locator, rights status and collation evidence. Page inspection and label correspondence do not certify exact reading equivalence or source independence.",
+  "lawful_reference_population": "Frozen eDiAna reference, 114 source text rows",
+  "primary_scan_control": "research/primary-edition-locator-control.json"
 }

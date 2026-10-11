@@ -36,6 +36,10 @@
     {
       "path": "scripts/validate_upstream_epidoc.py",
       "required": true
+    },
+    {
+      "path": "research/primary-edition-locator-control.json",
+      "required": true
     }
   ]
 }
