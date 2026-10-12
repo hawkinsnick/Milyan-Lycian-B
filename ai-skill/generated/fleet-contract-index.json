@@ -39,18 +39,18 @@
     },
     {
       "path": "README.md",
-      "sha256": "8173b1ca69c175d206caae8f6b94c6f4ed82de6a9a0f83869bbd3e58e9e6e782",
-      "bytes": 5942
+      "sha256": "cc88a78574d854784254c761b643bbe9aee8f17f70048c47896924dfe70bdfcc",
+      "bytes": 6178
     },
     {
       "path": "ai-skill/SKILL.md",
-      "sha256": "02c0110901cf6fd48f556654cd1d2b27d70fdcf96fe208be4f4453345e68557a",
-      "bytes": 4797
+      "sha256": "023e5c08dcedd913a8e0048e4048830947e920645a401ad2eeaa5b443b88864f",
+      "bytes": 5778
     },
     {
       "path": "ai-skill/generated/research-bundle-index.json",
-      "sha256": "434119f2872b9357c64e690f233df1df0b614bc79c6db6484373307017bc2a3d",
-      "bytes": 1426
+      "sha256": "bc5e50e91bd68444ba0d08ef4661b7322d7c7c9ebf7d96920276f8cb64c54cb4",
+      "bytes": 7476
     },
     {
       "path": "ai-skill/manifest.json",
@@ -59,8 +59,8 @@
     },
     {
       "path": "ai-skill/references/authority-profile.json",
-      "sha256": "bb4627a51022cf4959a2bcd0161f1909055b9995ff86338d172a1c9149d291b8",
-      "bytes": 1567
+      "sha256": "11d48653bb4d59b257116e291a890bfdd74ffc15ec82a866f9c1a119caa184cc",
+      "bytes": 1939
     },
     {
       "path": "ai-skill/references/corpus-project-contract.md",
@@ -73,14 +73,24 @@
       "bytes": 473
     },
     {
+      "path": "ai-skill/scripts/build_bundle.py",
+      "sha256": "506258212d294ab6fda8a941abda01c3bf4e5a2fe8fb975ab49e42aee1b90320",
+      "bytes": 2222
+    },
+    {
       "path": "ai-skill/scripts/fleet_contract.py",
       "sha256": "e0df5afe8d83a17cd72758ea7e7fb1a96307bcb76173ebe74137c39680dadf48",
       "bytes": 3316
     },
     {
+      "path": "ai-skill/scripts/publish_sync.py",
+      "sha256": "d8eba15aaa833fc4071e98bdd22da53385bce1c5cbafc973443cb42f7e39cc0e",
+      "bytes": 2836
+    },
+    {
       "path": "ai-skill/scripts/validate_bundle.py",
-      "sha256": "e1b7f4208fc99b688aee65241b3fe18aad8a19bf82d3e710e85b5e717fddc236",
-      "bytes": 840
+      "sha256": "1337e8dcafce7d53a8391339552b910ba0fe9bccc2001f2e5afc96237c437a77",
+      "bytes": 1150
     },
     {
       "path": "analysis/upstream-epidoc-validation.json",
@@ -111,6 +121,11 @@
       "path": "data/reference/records.json",
       "sha256": "315d64c998b380d84616e217c79636979f5576f8814dabeb815cbd07758c1565",
       "bytes": 5402
+    },
+    {
+      "path": "docs/AI-INTEGRITY.md",
+      "sha256": "8619d2ac88ca104eb10570b6c5c83021da5e5cdb57a7af1de076131d185207b0",
+      "bytes": 1766
     },
     {
       "path": "docs/COLLECTION-REVIEW.md",
@@ -144,8 +159,13 @@
     },
     {
       "path": "research/collection-work-ledger.json",
-      "sha256": "ad23d6acd0366009d059acbba75e52ab98242aeb065b8750e5046ec514358752",
-      "bytes": 127724
+      "sha256": "bdbc7f07eb0945d46cb9203fed318004f23cbc6af8194cf8c9c1d0553efc7b99",
+      "bytes": 127935
+    },
+    {
+      "path": "research/cross-corpus-dependencies.json",
+      "sha256": "dd10675875646324a036e14d1b9edeb3466b9b75bc0bd94f9564bee88db0de67",
+      "bytes": 4188
     },
     {
       "path": "research/ediana-reference-crosswalk.json",
@@ -169,7 +189,7 @@
     },
     {
       "path": "review/collection-packet.json",
-      "sha256": "85e3ed1e0b3c2357d85918e84a6ecea3f4ce1a9353767033c4d675995373b534",
+      "sha256": "faa09857b67289a333708fb55139849ef68e5e3ad1d87e4f00672590fd5d936d",
       "bytes": 1824
     },
     {

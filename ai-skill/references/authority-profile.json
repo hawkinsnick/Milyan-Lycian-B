@@ -50,6 +50,21 @@
       "path": "scripts/build_current_summary.py",
       "role": "current_summary_builder",
       "required": true
+    },
+    {
+      "role": "cross_corpus_dependencies",
+      "path": "research/cross-corpus-dependencies.json",
+      "required": true
+    },
+    {
+      "role": "sync_publication_guard",
+      "path": "ai-skill/scripts/publish_sync.py",
+      "required": true
+    },
+    {
+      "role": "ai_integrity_guide",
+      "path": "docs/AI-INTEGRITY.md",
+      "required": true
     }
   ]
 }
