@@ -1,0 +1,69 @@
+{
+  "format": "milyan-tl55-count-reconciliation-v1",
+  "checked": "2026-10-14",
+  "segment": "MIL-TL-055",
+  "source": {
+    "citation": "Ernst Kalinka, Tituli Asiae Minoris I (1901)",
+    "url": "https://archive.org/download/gri_33125010455224/gri_33125010455224.pdf",
+    "sha256": "0a25872a235602955772da2d73bc3f8fd6d342bae050ab6abf70216e4368f9da",
+    "printed_pages": [
+      53,
+      54
+    ],
+    "pdf_ordinals": [
+      63,
+      64
+    ],
+    "inspection": "DIRECT_RENDERED_PAGE_AND_DETAIL_IMAGES",
+    "rights": "Provider NOT_IN_COPYRIGHT; scan bytes not republished"
+  },
+  "historical_count": {
+    "value": 8,
+    "voice": "TEXIER_QUOTED_BY_KALINKA",
+    "locator": "printed p.53, entry 55; French descriptive quotation ending with attribution Texier",
+    "retained_not_corrected": true
+  },
+  "edition_observation": {
+    "transliteration_entry_groups": 9,
+    "locator": "printed p.54, TL55 transliteration below facsimiles",
+    "unit": "PRINTED_ENTRY_GROUP_NOT_TYPOGRAPHICAL_WRAP_LINE",
+    "final_short_group_present": true,
+    "group_numbering": "PROJECT_REVIEW_ORDINAL_1_TO_9; not printed numeric line labels",
+    "full_reading_equivalence_verified": false
+  },
+  "reference": {
+    "path": "data/reference/lines.json",
+    "sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+    "source_manifest": "research/reference-manifest.json",
+    "rows": 9,
+    "all_reference_rows": 114
+  },
+  "boundary_examples": [
+    {
+      "printed_group": 7,
+      "printed_terminal": "m̃qri-",
+      "next_group_initial": "ti",
+      "digital_row": 7,
+      "digital_terminal": "m̃qri//ti :",
+      "status": "SOURCE_BOUNDARY_CONVENTIONS_DIFFER; NOT_FULL_READING_EQUIVALENCE"
+    },
+    {
+      "printed_group": 8,
+      "printed_terminal": "krbbla",
+      "next_group_initial": "it[u]newñ[t]i",
+      "digital_row": 8,
+      "digital_terminal": "xrbbla&lang;t&rang;//i :",
+      "status": "INITIAL_CHARACTER_ALLOCATION_DIFFERS; NOT_GLYPH_ADJUDICATION"
+    }
+  ],
+  "disposition": "HISTORICAL_COUNT_VOICE_ACCOUNTED_EDITION_AND_REFERENCE_GROUP_COUNTS_AGREE",
+  "canonical_verified_readings_added": 0,
+  "independent_reviews_added": 0,
+  "physical_line_count_certified": false,
+  "exact_text_and_segmentation_collation_complete": false,
+  "limits": [
+    "The eight-line quotation is not silently rewritten as nine.",
+    "Matching counts and selected boundary observations do not prove exact full-text correspondence or physical line count.",
+    "All 114 frozen source strings remain unchanged."
+  ]
+}

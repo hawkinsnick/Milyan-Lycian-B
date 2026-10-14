@@ -3,7 +3,7 @@
 <!-- CURRENT-STATUS:START -->
 ## Current evidence status
 
-Populated, frozen eDiAna reference layer; structural fleet admission is distinct from scholarly acceptance. 2 digital catalogue records provide 114 source text rows across 3 provisional segments on 2 reported monuments. Canonical verified readings: 0; independent reviews: 0. Primary-edition collation and the TL 55 segmentation discrepancy remain open.
+Populated, frozen eDiAna reference layer; structural fleet admission is distinct from scholarly acceptance. 2 digital catalogue records provide 114 source text rows across 3 provisional segments on 2 reported monuments. Canonical verified readings: 0; independent reviews: 0. TL 55 count voices are accounted: a quoted historical eight-line description and nine printed edition entry groups. Exact reading/boundary collation and independent assessment remain open.
 
 Authorities: [reference manifest](research/reference-manifest.json) and [remaining gates](research/pre-expert-maximum.json). Reference rows are not independently certified physical lines.
 <!-- CURRENT-STATUS:END -->
@@ -54,3 +54,5 @@ The EpiDoc reference export round-trips every derived line field and exact sourc
 ## AI integrity checkpoint — 2026-10-11
 
 [AI integrity controls](docs/AI-INTEGRITY.md) document source-bound bundle publication and checked cross-corpus dependency safeguards. Reading coverage and scholarly acceptance are unchanged.
+
+[TL 55 count reconciliation and remaining reading limits](docs/TL55-COUNT-RECONCILIATION.md).

@@ -21,3 +21,9 @@ Generate the current README summary from native authorities and reject drift in 
 ## Unreleased — AI integrity checkpoint
 
 Require checked native dependency projections, preserve corpus-native bundle schemas, and publish synchronized bundles only on their validated source parent. Add Git race and hostile dependency tests; no new readings or expert acceptance.
+
+## TL55 count reconciliation — 14 October 2026
+
+Read `research/tl55-count-reconciliation-2026-10-14.json` and `docs/TL55-COUNT-RECONCILIATION.md`. Attribute eight to Texier quoted by Kalinka p.53; p.54 has nine transliteration entry groups, including the short final group, matching the nine frozen reference rows in count. Preserve differing boundary allocation, unchanged source strings and the historical quotation. This accounts for source count voices; it does not certify nine physical lines, exact full-reading equivalence, independent witness or accepted readings.
+
+Validation now rebuilds the native AI bundle before checking its authority hashes, so newly declared source authorities are checked in the source commit CI. Publication still uses the exact checked source parent.

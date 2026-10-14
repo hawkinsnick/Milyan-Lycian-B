@@ -34,7 +34,11 @@
     "docs/EDIANA-REFERENCE.md",
     "research/primary-edition-locator-control.json",
     "research/cross-corpus-dependencies.json",
-    "docs/AI-INTEGRITY.md"
+    "docs/AI-INTEGRITY.md",
+    "research/tl55-count-reconciliation-2026-10-14.json",
+    "docs/TL55-COUNT-RECONCILIATION.md",
+    "scripts/validate_tl55_reconciliation.py",
+    "research/edition-priority.json"
   ],
   "native_review_links": [
     "docs/METHODOLOGY.md"

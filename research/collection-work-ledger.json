@@ -1,8 +1,8 @@
 {
   "builder_sha256": "4b61ca559d0817b09e869f6c3ca38ae7478071a0466f89861e71954d1bb499d6",
   "completion_rule": "Enumeration is a completed work map, not completed collation. Resolve every open task using exact inspected evidence or a documented access/rights dependency; leave scientific adjudication to independent review.",
-  "config_sha256": "3a8eaa6e5fd63b055aa0e87054dde343b5908465506bea8fef99d6941202bb80",
-  "evidence_fingerprint": "20a42a85e3d506d3fc12be0aa5058f4ce04f5cf28f160337014cacb7514f9e90",
+  "config_sha256": "67260dec250361ff73f0eeda36e59edffcdf530af5ca69cfad73c214b1b3aa9e",
+  "evidence_fingerprint": "973eaee1274c2322190c9a9fc3110fcd8b68454d3d8dd5013d5df60dafb382bc",
   "input_sha256": {
     "analysis/upstream-epidoc-validation.json": "af3266900705a5e7fe0a7b44cc568f875f66e9e004dea1cb21ed5ae70053432f",
     "data/inscriptions.json": "7fa678885ee42fa7124fe15f55479f6de7db59fb1fc038d7b2edd0523457f78f",
@@ -11,15 +11,19 @@
     "data/reference/records.json": "315d64c998b380d84616e217c79636979f5576f8814dabeb815cbd07758c1565",
     "docs/AI-INTEGRITY.md": "8619d2ac88ca104eb10570b6c5c83021da5e5cdb57a7af1de076131d185207b0",
     "docs/EDIANA-REFERENCE.md": "9682947ceefedd072e62c2d9ec256af8b7f4f847ec024edf4dca486eebfd1034",
+    "docs/TL55-COUNT-RECONCILIATION.md": "e4657729c66486c27e71b23c93cc58da837534d88f3944aa6cb98af1d6c7a979",
     "interchange/epidoc/milyan-reference.xml": "1386ebed41b325e073ec6ab656bc0a32821cd809eb72ba2798288b07ab58fee7",
     "interchange/epidoc/upstream-pins.json": "240d9f8b31142c9146b6c5f63ce29019af9101cefa276a590cbe78ff637ab01a",
     "research/cross-corpus-dependencies.json": "dd10675875646324a036e14d1b9edeb3466b9b75bc0bd94f9564bee88db0de67",
     "research/ediana-reference-crosswalk.json": "dbf6f6465b1db6e1804e3acb5d891bac48157d2d78b4a6c601b76726d184949c",
-    "research/pre-expert-maximum.json": "062b8fafc144a661b74e316ebe257c5fbb563419a040365eddb8bfecb649b6f6",
-    "research/primary-edition-locator-control.json": "12a1cd9b6e38eea0f91fabc9e5d2ac766f970f3213342d88f730854142dd4a47",
+    "research/edition-priority.json": "72d9771a680fe0eba8ae86ca621e60fc67b66b8fbf89c1aa6ae6c07b9d4996ae",
+    "research/pre-expert-maximum.json": "d5c0c37972356109e65eae2585f62d158404be5b1c2a38a1f15b812d62c58d24",
+    "research/primary-edition-locator-control.json": "88363904eb79da33f1832cc50755299e1d5ae8aab3c404f7c2a8f7395193ef2f",
     "research/reference-manifest.json": "8b97f89970c4518b6f4c421b1eeffb25ffe0dce29c2067c84633646d2a0a3a30",
-    "research/source-reconciliation.json": "01692b734428ee9a4d603a7024a821c9dfb1feb96e70bd2328afd8280f4aa39b",
-    "scripts/build_reference.py": "40c58078b92ab0b9f1394f21bd70b5fcfc36894e322a52da49ba1bc66d0a8487"
+    "research/source-reconciliation.json": "d2516c9974f022020e740301169f66244a7d48ee3d1d6a570b8643f0d228a734",
+    "research/tl55-count-reconciliation-2026-10-14.json": "483110da5000eed90881a54c2a7028a8800b2ef81ffc45e7cc6794e104c40af1",
+    "scripts/build_reference.py": "40c58078b92ab0b9f1394f21bd70b5fcfc36894e322a52da49ba1bc66d0a8487",
+    "scripts/validate_tl55_reconciliation.py": "d0af5f3851559142141b6c6d1580059f81b8d5bfbe4e627f9889a619e4e8709f"
   },
   "native_review_links": [
     "docs/METHODOLOGY.md"
@@ -3357,6 +3361,36 @@
     },
     {
       "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/targets/2/bibliographic_identity/title",
+      "kind": "title",
+      "source_path": "research/edition-priority.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/targets/2/bibliographic_identity/doi",
+      "kind": "doi",
+      "source_path": "research/edition-priority.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/targets/2/bibliographic_identity/source",
+      "kind": "source",
+      "source_path": "research/edition-priority.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/targets/2/bibliographic_identity/source_url",
+      "kind": "source_url",
+      "source_path": "research/edition-priority.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/source_url",
+      "kind": "source_url",
+      "source_path": "research/edition-priority.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
       "json_pointer": "/source",
       "kind": "source",
       "source_path": "research/primary-edition-locator-control.json"
@@ -3372,6 +3406,30 @@
       "json_pointer": "/source",
       "kind": "source",
       "source_path": "research/reference-manifest.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/source",
+      "kind": "source",
+      "source_path": "research/tl55-count-reconciliation-2026-10-14.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/source/citation",
+      "kind": "citation",
+      "source_path": "research/tl55-count-reconciliation-2026-10-14.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/source/url",
+      "kind": "url",
+      "source_path": "research/tl55-count-reconciliation-2026-10-14.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/reference",
+      "kind": "reference",
+      "source_path": "research/tl55-count-reconciliation-2026-10-14.json"
     }
   ],
   "tasks": [
@@ -3409,7 +3467,7 @@
       "native_status": null,
       "native_task_id": null,
       "source_path": "research/pre-expert-maximum.json",
-      "task": "TL 55 historical eight-line description versus nine digital rows; exact reading and segmentation comparison"
+      "task": "TL 55 exact reading and boundary-convention collation; historical count voice now accounted"
     }
   ],
   "terminal_pre_expert_maximum_established": false

@@ -89,11 +89,14 @@
       "earlier_description": {
         "printed_page": 53,
         "pdf_page": 63,
-        "reported_inscription_lines": 8
+        "reported_inscription_lines": 8,
+        "voice": "TEXIER_QUOTED_BY_KALINKA"
       },
       "frozen_ediana_text_rows": 9,
-      "state": "UNRESOLVED_SEGMENTATION_DENOMINATOR",
-      "policy": "Do not renumber, discard the ninth digital row or infer a missing physical line; reconcile source segmentation against editions and monument evidence."
+      "state": "SOURCE_COUNT_VOICES_ACCOUNTED_EXACT_SEGMENTATION_OPEN",
+      "policy": "Do not renumber, discard the ninth digital row or infer a missing physical line; reconcile source segmentation against editions and monument evidence.",
+      "reconciliation": "research/tl55-count-reconciliation-2026-10-14.json",
+      "observed_edition_entry_groups": 9
     },
     {
       "id": "MIL-LOCATOR-044",
