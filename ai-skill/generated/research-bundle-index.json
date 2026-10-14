@@ -42,20 +42,20 @@
     {
       "path": "README.md",
       "role": "native_authority",
-      "sha256": "cc88a78574d854784254c761b643bbe9aee8f17f70048c47896924dfe70bdfcc",
-      "bytes": 6178
+      "sha256": "3c8bd70f03b4a975bf94fc57a78e0f1e419c0f28498bae924900364247421d03",
+      "bytes": 6384
     },
     {
       "path": "ai-skill/SKILL.md",
       "role": "native_authority",
-      "sha256": "023e5c08dcedd913a8e0048e4048830947e920645a401ad2eeaa5b443b88864f",
-      "bytes": 5778
+      "sha256": "eb56634cb7251817a533866091568a512dab1e5a33232fbaf67ca868dbb98529",
+      "bytes": 6724
     },
     {
       "path": "ai-skill/references/authority-profile.json",
       "role": "native_authority",
-      "sha256": "11d48653bb4d59b257116e291a890bfdd74ffc15ec82a866f9c1a119caa184cc",
-      "bytes": 1939
+      "sha256": "faeda09203ff90de29b144eccf9f0f87f9aabd2b4c037721ca91689d8ac48217",
+      "bytes": 2448
     },
     {
       "path": "ai-skill/scripts/build_bundle.py",
@@ -142,6 +142,12 @@
       "bytes": 1063
     },
     {
+      "path": "docs/TL55-COUNT-RECONCILIATION.md",
+      "role": "native_authority",
+      "sha256": "e4657729c66486c27e71b23c93cc58da837534d88f3944aa6cb98af1d6c7a979",
+      "bytes": 2453
+    },
+    {
       "path": "interchange/epidoc/milyan-reference.xml",
       "role": "native_authority",
       "sha256": "1386ebed41b325e073ec6ab656bc0a32821cd809eb72ba2798288b07ab58fee7",
@@ -156,8 +162,8 @@
     {
       "path": "research/collection-work-ledger.json",
       "role": "native_authority",
-      "sha256": "bdbc7f07eb0945d46cb9203fed318004f23cbc6af8194cf8c9c1d0553efc7b99",
-      "bytes": 127935
+      "sha256": "e170553806b88bf3b811eb5a4ff2917c096c0b1311dffa78823e09251c247499",
+      "bytes": 130521
     },
     {
       "path": "research/cross-corpus-dependencies.json",
@@ -172,10 +178,16 @@
       "bytes": 1165
     },
     {
+      "path": "research/edition-priority.json",
+      "role": "native_authority",
+      "sha256": "72d9771a680fe0eba8ae86ca621e60fc67b66b8fbf89c1aa6ae6c07b9d4996ae",
+      "bytes": 1967
+    },
+    {
       "path": "research/primary-edition-locator-control.json",
       "role": "native_authority",
-      "sha256": "12a1cd9b6e38eea0f91fabc9e5d2ac766f970f3213342d88f730854142dd4a47",
-      "bytes": 3900
+      "sha256": "88363904eb79da33f1832cc50755299e1d5ae8aab3c404f7c2a8f7395193ef2f",
+      "bytes": 4083
     },
     {
       "path": "research/reference-manifest.json",
@@ -186,20 +198,26 @@
     {
       "path": "research/source-reconciliation.json",
       "role": "native_authority",
-      "sha256": "01692b734428ee9a4d603a7024a821c9dfb1feb96e70bd2328afd8280f4aa39b",
-      "bytes": 1821
+      "sha256": "d2516c9974f022020e740301169f66244a7d48ee3d1d6a570b8643f0d228a734",
+      "bytes": 2370
+    },
+    {
+      "path": "research/tl55-count-reconciliation-2026-10-14.json",
+      "role": "native_authority",
+      "sha256": "483110da5000eed90881a54c2a7028a8800b2ef81ffc45e7cc6794e104c40af1",
+      "bytes": 2539
     },
     {
       "path": "review/collection-packet.json",
       "role": "native_authority",
-      "sha256": "faa09857b67289a333708fb55139849ef68e5e3ad1d87e4f00672590fd5d936d",
+      "sha256": "ed499a1d3a03fd9bad03938b08e8de80447acdeddcca46e0be66291d6b0631a3",
       "bytes": 1824
     },
     {
       "path": "scripts/build_current_summary.py",
       "role": "native_authority",
-      "sha256": "935c0c0d704f6d08fea6c3cac3b233c057ec4ef0403b760d0b12a5b76486d1b6",
-      "bytes": 3998
+      "sha256": "61123da07a5e4dd1d58ddfc1617ddda82b9e8747fee8a6d2ba31fe0fb0fa9afc",
+      "bytes": 4109
     },
     {
       "path": "scripts/build_reference.py",
@@ -214,11 +232,17 @@
       "bytes": 3722
     },
     {
+      "path": "scripts/validate_tl55_reconciliation.py",
+      "role": "native_authority",
+      "sha256": "d0af5f3851559142141b6c6d1580059f81b8d5bfbe4e627f9889a619e4e8709f",
+      "bytes": 1207
+    },
+    {
       "path": "scripts/validate_upstream_epidoc.py",
       "role": "native_authority",
       "sha256": "e54a492d8954c04578b4ca41a7e2dc81b7a319bf5d0865610d12e93815e2ad63",
       "bytes": 3546
     }
   ],
-  "source_commit": "5a40a228f7b81a74b53ea0f25ed04982df7aefff"
+  "source_commit": "17500b1067dee265eba1cc88feb9be7a6b3473d5"
 }
