@@ -29,8 +29,8 @@
     },
     {
       "path": "LICENSING.md",
-      "sha256": "3ffe7e9f706db3e162d6f88d7fd4b1cdc57cf43ee72249aaba1747e2ba5e097b",
-      "bytes": 3705
+      "sha256": "106a258213623cbfa8781345c9788a4c6a69e77c38ddece63cc8f2dd28ec942a",
+      "bytes": 4145
     },
     {
       "path": "NOTICE",
@@ -39,18 +39,18 @@
     },
     {
       "path": "README.md",
-      "sha256": "33643edb6fa1cfc90328cae968d41893502c6b80b501376f697188ca39084458",
-      "bytes": 8414
+      "sha256": "1ba2ca88b8bc10022e26021e511f83bf6b9f5fd11ca0caba5a9405e9622a3499",
+      "bytes": 8843
     },
     {
       "path": "ai-skill/SKILL.md",
-      "sha256": "7373a21169815a3273474795cf1b3a9ccc7c265f9bf448fe22c54cc468082e85",
-      "bytes": 11182
+      "sha256": "caca5ea7ee3ed3201922a5fea8aa23754e4eab43a88261d85aad55eb79cf462d",
+      "bytes": 13130
     },
     {
       "path": "ai-skill/generated/research-bundle-index.json",
-      "sha256": "c6090bd6c44b928f1373353aaf7c5fb12195a33d186963b43afe8e3ff1742d3d",
-      "bytes": 11741
+      "sha256": "4a20d62b4fce6662a6cc0658c97c51cd6d75be85047b44250b7850f4f002dd87",
+      "bytes": 12745
     },
     {
       "path": "ai-skill/manifest.json",
@@ -59,8 +59,8 @@
     },
     {
       "path": "ai-skill/references/authority-profile.json",
-      "sha256": "4605b4473a9982898a53301c9a6e5bb811fc6eff471f0ad486c2977947b6f002",
-      "bytes": 3411
+      "sha256": "34359813983c1f603d3c3d6b31e841375e42f6a5390f194722ae419bae112390",
+      "bytes": 4235
     },
     {
       "path": "ai-skill/references/corpus-project-contract.md",
@@ -99,8 +99,8 @@
     },
     {
       "path": "analysis/evidence-query-coverage.json",
-      "sha256": "e93033ac8ae54f4fc6cd42713b98659fc30b7bf2e6e4322cdbdec1100db2261e",
-      "bytes": 9335
+      "sha256": "1f036f69a34f2baa4e4968ba155629b163ac3923484c84ad8dca73fe3e584511",
+      "bytes": 11169
     },
     {
       "path": "analysis/upstream-epidoc-validation.json",
@@ -169,13 +169,18 @@
     },
     {
       "path": "docs/SCHUERR2005-TL55-COLLATION.md",
-      "sha256": "ca9370ad46c8d251ddf89246bb3aeba9a1ddb93c8c90fad32104d50bc7e0d601",
-      "bytes": 5759
+      "sha256": "1ccbff8d687b46ae65942feb910b99a01acb9998622ce612dfb6ba6e6dd307c4",
+      "bytes": 6197
     },
     {
       "path": "docs/TL55-COUNT-RECONCILIATION.md",
       "sha256": "e4657729c66486c27e71b23c93cc58da837534d88f3944aa6cb98af1d6c7a979",
       "bytes": 2453
+    },
+    {
+      "path": "docs/TL55-SIGN-COMPARISON.md",
+      "sha256": "d9f285f5d52dd0bd1224f5c2008fdd8745201893655b9a001f551f9cd4354d97",
+      "bytes": 7126
     },
     {
       "path": "interchange/epidoc/milyan-reference.xml",
@@ -194,8 +199,8 @@
     },
     {
       "path": "research/collection-work-ledger.json",
-      "sha256": "b643bf1c5046857d6195c0f0a5b8baaae269feebbec840947c57d359272a0d0b",
-      "bytes": 154871
+      "sha256": "a46c6bb7fc07bc5d5e61ddf6f991b3457625459e1b7c1cf7ec9218e7aab2f740",
+      "bytes": 155483
     },
     {
       "path": "research/cross-corpus-dependencies.json",
@@ -209,13 +214,13 @@
     },
     {
       "path": "research/edition-priority.json",
-      "sha256": "e10950fc1e5f5759dd7825f970ccf43bfda20b160f9e61d9c7644e4bd2995ac8",
-      "bytes": 2432
+      "sha256": "8b4a3f3f20ec39ac04628898847ba9f982dfe5de27ce191acf670bd283110ee6",
+      "bytes": 2584
     },
     {
       "path": "research/evidence-query-profile.json",
-      "sha256": "e2f14ec01f2caa413a9c5f788270395be90b61551e3c4a1cc9bf87bd398d4454",
-      "bytes": 7551
+      "sha256": "5c0409ca794456dbee6e8788938f24d849310ba78a618bbb27792e40b5b60e34",
+      "bytes": 8933
     },
     {
       "path": "research/primary-edition-locator-control.json",
@@ -253,14 +258,24 @@
       "bytes": 77217
     },
     {
+      "path": "research/tl55-sign-alignment.json",
+      "sha256": "d1a8f561442c2475f9ac293b35cd5710d9825301dc7f43ad256aede7875d294d",
+      "bytes": 964708
+    },
+    {
       "path": "review/collection-packet.json",
-      "sha256": "24a976f616ec1bb0202ee231deef2b7b031aab3dc65e6eb335174f8c590d7af2",
-      "bytes": 1824
+      "sha256": "f2062782a4e485d22d91e535c932c5c7823186c4aacb220094d89ef3808e82e8",
+      "bytes": 1902
     },
     {
       "path": "review/tl55-independent-review.json",
       "sha256": "ce9ef32ba783f9dfa6fdc71ad06b972dabd0b51258643a466e72c5ba71ec3bc5",
       "bytes": 3690
+    },
+    {
+      "path": "review/tl55-sign-adjudication.json",
+      "sha256": "b6ea1af6ddf5fa2e6f973c5293860936b41c5e2ae0244431e3e03f1d26717b6f",
+      "bytes": 35101
     },
     {
       "path": "scripts/attribution_review.py",
@@ -269,8 +284,8 @@
     },
     {
       "path": "scripts/build_current_summary.py",
-      "sha256": "85ebeac6545f1ea94a37d25e39ddf928935e22d00395d975029b5d3f4e51dffa",
-      "bytes": 4362
+      "sha256": "e4a9fb8014ffa2a92e64a11b6128846ad9fc3a7fe49c25d85dfba671c1368dde",
+      "bytes": 4517
     },
     {
       "path": "scripts/build_reference.py",
@@ -284,8 +299,8 @@
     },
     {
       "path": "scripts/research_api.py",
-      "sha256": "10093a94f899711e5d484cb9156db50056ede952f38cd9233112b0e41b73be04",
-      "bytes": 4002
+      "sha256": "41275a7327bd46959d3771f316725c90cd391d2bf9f7c76a84897f5ac40e50e7",
+      "bytes": 4663
     },
     {
       "path": "scripts/test_attribution_review.py",
@@ -306,6 +321,16 @@
       "path": "scripts/tl55_review.py",
       "sha256": "4b85b547e6a191eb62471738eaa47e4d6996335a390e0934ab245709edc2f992",
       "bytes": 3509
+    },
+    {
+      "path": "scripts/tl55_sign_alignment.py",
+      "sha256": "9b8703d09716e0eca08bfacd9f21f7891509be2fba5bf0d3333c0bd1c72b7cd4",
+      "bytes": 14256
+    },
+    {
+      "path": "scripts/tl55_source_glyphs.py",
+      "sha256": "511a4f7380275282457df56738eeafcc75b4614aaa1f34b9ec2abd716044b006",
+      "bytes": 3651
     },
     {
       "path": "scripts/validate_tl55_reconciliation.py",
