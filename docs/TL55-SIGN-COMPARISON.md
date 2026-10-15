@@ -47,3 +47,8 @@ The earlier nine-line/74-entry documentary inventory and six selected issue doss
 The qualified reference units and project annotations use CC-BY-SA-4.0 with existing eDiAna and edition attribution. The source edition, PDF and images retain their rights. Exact-source local replay grants no redistribution licence.
 
 The collection handoff byte-pins the complete register and triage packet but does not reinterpret per-glyph source labels as new bibliographic acquisition leads. Those comparison records remain queryable through their native collections, and the152 pending triage items remain in the linked review packet. This avoids duplicating glyph metadata as null acquisition tasks; it does not remove review obligations or close a scientific gate.
+
+
+## Documentary follow-up completed
+
+All152 triage records now have58 source-located assessments in the [documentary completion register](../research/tl55-documentary-sign-review.json). All36 algorithmically ambiguous records are explained positionally or retained as range/repeated-run comparisons. Original algorithm flags and the external expert packet remain unchanged. Use `research_api.py sign-review` for the completed documentary layer; [scope and remaining limits](TL55-DOCUMENTARY-COMPLETION.md).

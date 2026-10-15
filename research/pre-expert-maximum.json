@@ -8,7 +8,7 @@
     "critical edition line-by-line collation and competing reading apparatus",
     "source-specific rights for additional primary components",
     "independent reading adjudication",
-    "TL55 independent adjudication of exhaustive encoded-sign comparison, including36 ambiguous alignment records; full epigraphic certification remains open"
+    "TL55 independent expert adjudication and epigraphic certification; exhaustive documentary sign comparison and review of all152 flagged records are complete. Range-only correspondences remain explicit, not forced into unique sign pairings."
   ],
   "do_not_claim": [
     "complete scholarly 1.0",
@@ -27,12 +27,15 @@
     "TL55 count voices separated: Texier quoted eight; Kalinka printed transliteration has nine entry groups matching the nine frozen reference rows. No physical-line certification.",
     "Schürr2005 author-posted article acquired; lines1–9 and apparatus routes located; six source differences qualified without rewriting the frozen reference.",
     "TL55 first documentary comparison pass: all9 revised lines and74 apparatus paragraphs reviewed; exhaustive literal span accounting for4 digital break markers; independent review packet prepared, not performed.",
-    "TL55 exhaustive encoded-sign comparison:1348 literal reference grapheme/notation units,1233 source print-unit positions and1441 candidate alignment records;36 ambiguous records retained. All source/reference positions covered and exact source PDF replayed. Not an accepted edition or independent review."
+    "TL55 exhaustive encoded-sign comparison:1348 literal reference grapheme/notation units,1233 source print-unit positions and1441 candidate alignment records;36 ambiguous records retained. All source/reference positions covered and exact source PDF replayed. Not an accepted edition or independent review.",
+    "TL55 documentary sign comparison complete: all1441 encoded candidate records accounted for and all152 flagged records assessed in58 source-located cases. All36 algorithmic ambiguity records have explicit positional, repeated-run or range-only dispositions. No unreviewed flags, accepted readings or independent reviews."
   ],
   "tl55_count_checkpoint": "research/tl55-count-reconciliation-2026-10-14.json",
   "schuerr2005_checkpoint": "research/schuerr2005-tl55-collation.json",
   "tl55_first_pass_review": "research/tl55-first-pass-review.json",
   "tl55_independent_review_packet": "review/tl55-independent-review.json",
   "tl55_sign_comparison": "research/tl55-sign-alignment.json",
-  "tl55_sign_adjudication_packet": "review/tl55-sign-adjudication.json"
+  "tl55_sign_adjudication_packet": "review/tl55-sign-adjudication.json",
+  "tl55_documentary_sign_comparison_complete": true,
+  "tl55_documentary_completion_register": "research/tl55-documentary-sign-review.json"
 }

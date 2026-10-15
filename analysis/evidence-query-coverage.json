@@ -1,7 +1,7 @@
 {
   "format": "corpus-native-evidence-query-coverage-v1",
   "repository": "hawkinsnick/Milyan-Lycian-B",
-  "profile_sha256": "5c0409ca794456dbee6e8788938f24d849310ba78a618bbb27792e40b5b60e34",
+  "profile_sha256": "2ddcac668b0783eacba81337232319bc5448af29133f626672b07ebf4f3e2ada",
   "implementation_sha256": "70aa6686802122667b369811fa569c45c407847ed8965b917f58130c5a685550",
   "collections": [
     {
@@ -135,6 +135,25 @@
         "role": "qualified glyph comparison and exact source-position metadata",
         "encoding": "json"
       }
+    },
+    {
+      "name": "tl55-documentary-sign-review",
+      "native_unit": "completed documentary comparison case",
+      "record_count": 58,
+      "scope": "58 source-located documentary cases cover152 flagged candidate records, including all36 algorithmic ambiguity records. Not58 new readings, alternative pairs or independent witnesses.",
+      "example_ids": [
+        "TL55-REVIEW-01",
+        "TL55-REVIEW-02",
+        "TL55-REVIEW-03"
+      ],
+      "provenance": {
+        "path": "research/tl55-documentary-sign-review.json",
+        "sha256": "1f3bbebfa39481ef52d8ae09f25c107fde18d1be5dfaad5b203f846b0df823d9",
+        "pointer": "/cases",
+        "native_artifacts_snapshot_commit": null,
+        "role": "completed documentary comparison with retained non-unique ranges",
+        "encoding": "json"
+      }
     }
   ],
   "context_resources": [
@@ -257,13 +276,22 @@
       "native_artifacts_snapshot_commit": null,
       "role": "pending sign-adjudication triage; not independent review evidence",
       "encoding": "json"
+    },
+    {
+      "path": "research/tl55-documentary-sign-review.json",
+      "sha256": "1f3bbebfa39481ef52d8ae09f25c107fde18d1be5dfaad5b203f846b0df823d9",
+      "pointer": "",
+      "native_artifacts_snapshot_commit": null,
+      "role": "completed documentary comparison with retained non-unique ranges",
+      "encoding": "json"
     }
   ],
   "scholarly_limits": [
     "Texier quoted by Kalinka reports eight TL55 lines; nine printed entry groups and nine frozen rows do not erase that historical statement. Full text/boundary collation, canonical reading acceptance and physical-line certification remain open.",
     "The first documentary pass covers nine revised lines and 74 apparatus entries. Source label correspondence is not full row equivalence. The independent packet remains PREPARED_NOT_REVIEWED, with no reviewer or accepted readings.",
     "Attribution review inspects pinned native packets, not underlying sources afresh. Its cases and apparatus notes are not independent witnesses or an alternative-pair total.",
-    "The encoded-sign comparison is exhaustive position accounting with candidate alignments;36 ambiguous records and152 pending triage items are not independently verified disagreements. Source PDF replay reproduces the encoding/alignment method, not epigraphic acceptance. No unit counts may be pooled into physical objects, ancient signs or independent witnesses."
+    "The encoded-sign comparison is exhaustive position accounting with candidate alignments;36 ambiguous records and152 pending triage items are not independently verified disagreements. Source PDF replay reproduces the encoding/alignment method, not epigraphic acceptance. No unit counts may be pooled into physical objects, ancient signs or independent witnesses.",
+    "Documentary follow-up covers every flagged TL55 candidate;19 ambiguity records have positional explanations,2 repeated-run and15 range-only dispositions. Original algorithm flags and pending external adjudication remain unchanged. Completion does not confer independent scientific acceptance."
   ],
   "alternative_pair_count": null,
   "independent_witness_count": null,

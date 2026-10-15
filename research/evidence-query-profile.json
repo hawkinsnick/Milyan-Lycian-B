@@ -57,6 +57,14 @@
       "id_pointer": "/id",
       "unit": "candidate encoded-glyph comparison record",
       "scope": "Exhaustive1348-reference/1233-source-unit accounting;36 ambiguous records. Mixed notation/print units, not ancient signs, independent witnesses, accepted readings or alternative-pair counts."
+    },
+    {
+      "name": "tl55-documentary-sign-review",
+      "path": "research/tl55-documentary-sign-review.json",
+      "pointer": "/cases",
+      "id_pointer": "/id",
+      "unit": "completed documentary comparison case",
+      "scope": "58 source-located documentary cases cover152 flagged candidate records, including all36 algorithmic ambiguity records. Not58 new readings, alternative pairs or independent witnesses."
     }
   ],
   "relations": [
@@ -187,13 +195,21 @@
       "encoding": "json",
       "role": "pending sign-adjudication triage; not independent review evidence",
       "source_snapshot_commit": null
+    },
+    {
+      "path": "research/tl55-documentary-sign-review.json",
+      "sha256": "1f3bbebfa39481ef52d8ae09f25c107fde18d1be5dfaad5b203f846b0df823d9",
+      "encoding": "json",
+      "role": "completed documentary comparison with retained non-unique ranges",
+      "source_snapshot_commit": null
     }
   ],
   "scholarly_limits": [
     "Texier quoted by Kalinka reports eight TL55 lines; nine printed entry groups and nine frozen rows do not erase that historical statement. Full text/boundary collation, canonical reading acceptance and physical-line certification remain open.",
     "The first documentary pass covers nine revised lines and 74 apparatus entries. Source label correspondence is not full row equivalence. The independent packet remains PREPARED_NOT_REVIEWED, with no reviewer or accepted readings.",
     "Attribution review inspects pinned native packets, not underlying sources afresh. Its cases and apparatus notes are not independent witnesses or an alternative-pair total.",
-    "The encoded-sign comparison is exhaustive position accounting with candidate alignments;36 ambiguous records and152 pending triage items are not independently verified disagreements. Source PDF replay reproduces the encoding/alignment method, not epigraphic acceptance. No unit counts may be pooled into physical objects, ancient signs or independent witnesses."
+    "The encoded-sign comparison is exhaustive position accounting with candidate alignments;36 ambiguous records and152 pending triage items are not independently verified disagreements. Source PDF replay reproduces the encoding/alignment method, not epigraphic acceptance. No unit counts may be pooled into physical objects, ancient signs or independent witnesses.",
+    "Documentary follow-up covers every flagged TL55 candidate;19 ambiguity records have positional explanations,2 repeated-run and15 range-only dispositions. Original algorithm flags and pending external adjudication remain unchanged. Completion does not confer independent scientific acceptance."
   ],
   "native_artifacts_snapshot_commit": null,
   "snapshot_commit_scope": "Mixed inputs retain their per-artifact anchors. New original review artifacts are byte-pinned and identified by published repository history, not assigned to an earlier commit."

@@ -1,0 +1,4640 @@
+{
+  "format": "tl55-documentary-sign-review-v1",
+  "checked": "2026-10-15",
+  "date_basis": "America/Chicago",
+  "consultation": "VISUAL_REVIEW_OF_REVISED_TRANSCRIPTION_AND_APPARATUS_AGAINST_EXACT_FROZEN_REFERENCE_AND_ENCODED_ALIGNMENT",
+  "source_pdf_sha256": "1ef1d894e82f6ab5ea651d75f51ee69ab3517613c1a4463fe1b028d629a9e64f",
+  "visually_inspected_pdf_ordinals": [
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35
+  ],
+  "inputs": {
+    "research/tl55-sign-alignment.json": "d1a8f561442c2475f9ac293b35cd5710d9825301dc7f43ad256aede7875d294d",
+    "review/tl55-sign-adjudication.json": "b6ea1af6ddf5fa2e6f973c5293860936b41c5e2ae0244431e3e03f1d26717b6f",
+    "research/tl55-first-pass-review.json": "569ce81ab36a50a09f108c758255bec00bcd460a64cdf548a0cf0b0f1b7ac0e0",
+    "data/reference/lines.json": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead"
+  },
+  "scope": {
+    "documentary_sign_comparison_complete": true,
+    "all_152_flagged_records_reviewed": true,
+    "all_36_algorithmically_ambiguous_records_reviewed": true,
+    "all_1441_comparison_records_accounted_for": true,
+    "source_scope": "Nine revised printed lines and apparatus121–129; no monument autopsy or full70-page lexical/poetic study.",
+    "machine_coverage_vs_scientific_truth": "Every candidate record is retained;152 flagged items have58 source-located documentary assessments. Unflagged records retain encoded comparison only, not fresh independent verification.",
+    "source_label_allocation_condition": "All correspondences inherit the earlier provisional digital carryover/source-label allocation; no independent physical-line certification.",
+    "full_epigraphic_certification_granted": false,
+    "independent_reviews_added": 0,
+    "accepted_readings_added": 0
+  },
+  "summary": {
+    "documentary_cases": 58,
+    "flagged_records_reviewed": 152,
+    "algorithmically_ambiguous_records_reviewed": 36,
+    "positional_explanation_records": 19,
+    "repeated_run_records_without_unique_point_pairing": 2,
+    "range_only_records_without_unique_point_pairing": 15,
+    "remaining_unreviewed_flagged_records": 0,
+    "independent_reviews_added": 0,
+    "canonical_readings_added": 0
+  },
+  "cases": [
+    {
+      "id": "TL55-REVIEW-01",
+      "source_label": 1,
+      "alignment_ids": [
+        "TL55-L1-A002",
+        "TL55-L1-A004",
+        "TL55-L1-A005",
+        "TL55-L1-A007",
+        "TL55-L1-A008",
+        "TL55-L1-A009",
+        "TL55-L1-A010",
+        "TL55-L1-A011",
+        "TL55-L1-A012"
+      ],
+      "context_alignment_ids": [
+        "TL55-L1-A002",
+        "TL55-L1-A003",
+        "TL55-L1-A004",
+        "TL55-L1-A005",
+        "TL55-L1-A006",
+        "TL55-L1-A007",
+        "TL55-L1-A008",
+        "TL55-L1-A009",
+        "TL55-L1-A010",
+        "TL55-L1-A011",
+        "TL55-L1-A012"
+      ],
+      "algorithm_ambiguous_records": [
+        "TL55-L1-A002",
+        "TL55-L1-A004",
+        "TL55-L1-A005",
+        "TL55-L1-A010",
+        "TL55-L1-A011",
+        "TL55-L1-A012"
+      ],
+      "documentary_assessment": "Opening: the two restored reference letters correspond by order to two printed lacuna dots. The final doubtful reference vowel corresponds to the later single lacuna dot, not its closing bracket. Printed letters between these ranges lack the reference underdots. This is a positional/qualification comparison; the editor rejects the final vowel reading and no restoration is adopted.",
+      "status": "DOCUMENTARY_REVIEW_COMPLETE_NOT_EPIGRAPHIC_ACCEPTANCE",
+      "ambiguity_disposition": "POSITIONAL_CORRESPONDENCE_DOCUMENTED",
+      "preferred_documentary_correspondences": [
+        {
+          "reference_unit": "EDIANA-MILYAN-0-ROW-1-U002",
+          "source_unit": "S2005-G0002",
+          "relation": "RESTORED_TO_UNKNOWN_POSITION",
+          "accepts_reading": false
+        },
+        {
+          "reference_unit": "EDIANA-MILYAN-0-ROW-1-U003",
+          "source_unit": "S2005-G0004",
+          "relation": "RESTORED_TO_UNKNOWN_POSITION",
+          "accepts_reading": false
+        },
+        {
+          "reference_unit": "EDIANA-MILYAN-0-ROW-1-U008",
+          "source_unit": "S2005-G0010",
+          "relation": "DOUBTFUL_READING_TO_UNKNOWN_POSITION",
+          "accepts_reading": false
+        }
+      ],
+      "unique_point_mapping_claimed": false,
+      "canonical_change_applied": false,
+      "independent_review_added": false,
+      "specific_apparatus_entry_ids": [
+        "S2005-A1-01"
+      ],
+      "specific_apparatus_printed_pages": [
+        123
+      ],
+      "transcription_printed_page": 121,
+      "transcription_pdf_ordinal": 27,
+      "source_position_ids": [
+        "S2005-G0002",
+        "S2005-G0003",
+        "S2005-G0004",
+        "S2005-G0005",
+        "S2005-G0006",
+        "S2005-G0007",
+        "S2005-G0008",
+        "S2005-G0009",
+        "S2005-G0010",
+        "S2005-G0011"
+      ],
+      "reference_position_ids": [
+        "EDIANA-MILYAN-0-ROW-1-U002",
+        "EDIANA-MILYAN-0-ROW-1-U003",
+        "EDIANA-MILYAN-0-ROW-1-U004",
+        "EDIANA-MILYAN-0-ROW-1-U005",
+        "EDIANA-MILYAN-0-ROW-1-U006",
+        "EDIANA-MILYAN-0-ROW-1-U007",
+        "EDIANA-MILYAN-0-ROW-1-U008"
+      ],
+      "anchor_alignment_ids": [
+        "TL55-L1-A001",
+        "TL55-L1-A002",
+        "TL55-L1-A003",
+        "TL55-L1-A004",
+        "TL55-L1-A005",
+        "TL55-L1-A006",
+        "TL55-L1-A007",
+        "TL55-L1-A008",
+        "TL55-L1-A009",
+        "TL55-L1-A010",
+        "TL55-L1-A011",
+        "TL55-L1-A012",
+        "TL55-L1-A013",
+        "TL55-L1-A014",
+        "TL55-L1-A015",
+        "TL55-L1-A016",
+        "TL55-L1-A017"
+      ],
+      "source_anchor_position_ids": [
+        "S2005-G0001",
+        "S2005-G0002",
+        "S2005-G0003",
+        "S2005-G0004",
+        "S2005-G0005",
+        "S2005-G0006",
+        "S2005-G0007",
+        "S2005-G0008",
+        "S2005-G0009",
+        "S2005-G0010",
+        "S2005-G0011",
+        "S2005-G0012",
+        "S2005-G0013",
+        "S2005-G0014",
+        "S2005-G0015"
+      ],
+      "reference_anchor_position_ids": [
+        "EDIANA-MILYAN-0-ROW-1-U001",
+        "EDIANA-MILYAN-0-ROW-1-U002",
+        "EDIANA-MILYAN-0-ROW-1-U003",
+        "EDIANA-MILYAN-0-ROW-1-U004",
+        "EDIANA-MILYAN-0-ROW-1-U005",
+        "EDIANA-MILYAN-0-ROW-1-U006",
+        "EDIANA-MILYAN-0-ROW-1-U007",
+        "EDIANA-MILYAN-0-ROW-1-U008",
+        "EDIANA-MILYAN-0-ROW-1-U009",
+        "EDIANA-MILYAN-0-ROW-1-U010",
+        "EDIANA-MILYAN-0-ROW-1-U011",
+        "EDIANA-MILYAN-0-ROW-1-U012",
+        "EDIANA-MILYAN-0-ROW-1-U013"
+      ]
+    },
+    {
+      "id": "TL55-REVIEW-02",
+      "source_label": 1,
+      "alignment_ids": [
+        "TL55-L1-A170"
+      ],
+      "context_alignment_ids": [
+        "TL55-L1-A170"
+      ],
+      "algorithm_ambiguous_records": [],
+      "documentary_assessment": "Final punctuation: the reference terminal colon has no corresponding printed colon in the revised line. Record a punctuation difference, without inventing a lost sign or deleting the reference colon.",
+      "status": "DOCUMENTARY_REVIEW_COMPLETE_NOT_EPIGRAPHIC_ACCEPTANCE",
+      "ambiguity_disposition": "NO_ALGORITHM_AMBIGUITY_IN_THIS_CASE",
+      "preferred_documentary_correspondences": [],
+      "unique_point_mapping_claimed": false,
+      "canonical_change_applied": false,
+      "independent_review_added": false,
+      "specific_apparatus_entry_ids": [],
+      "specific_apparatus_printed_pages": [],
+      "transcription_printed_page": 121,
+      "transcription_pdf_ordinal": 27,
+      "source_position_ids": [],
+      "reference_position_ids": [
+        "EDIANA-MILYAN-0-ROW-1-U162"
+      ],
+      "anchor_alignment_ids": [
+        "TL55-L1-A165",
+        "TL55-L1-A166",
+        "TL55-L1-A167",
+        "TL55-L1-A168",
+        "TL55-L1-A169",
+        "TL55-L1-A170"
+      ],
+      "source_anchor_position_ids": [
+        "S2005-G0148",
+        "S2005-G0149",
+        "S2005-G0150",
+        "S2005-G0151"
+      ],
+      "reference_anchor_position_ids": [
+        "EDIANA-MILYAN-0-ROW-1-U157",
+        "EDIANA-MILYAN-0-ROW-1-U158",
+        "EDIANA-MILYAN-0-ROW-1-U159",
+        "EDIANA-MILYAN-0-ROW-1-U160",
+        "EDIANA-MILYAN-0-ROW-1-U161",
+        "EDIANA-MILYAN-0-ROW-1-U162"
+      ]
+    },
+    {
+      "id": "TL55-REVIEW-03",
+      "source_label": 2,
+      "alignment_ids": [
+        "TL55-L2-A004",
+        "TL55-L2-A006",
+        "TL55-L2-A009"
+      ],
+      "context_alignment_ids": [
+        "TL55-L2-A004",
+        "TL55-L2-A005",
+        "TL55-L2-A006",
+        "TL55-L2-A007",
+        "TL55-L2-A008",
+        "TL55-L2-A009"
+      ],
+      "algorithm_ambiguous_records": [
+        "TL55-L2-A004"
+      ],
+      "documentary_assessment": "Opening damaged group: the reference isolated dot corresponds to the printed doubtful consonant before chi. Chi has a different doubt status and the later letter forms differ. The anchored group identifies the compared position; neither disputed letter becomes a project reading.",
+      "status": "DOCUMENTARY_REVIEW_COMPLETE_NOT_EPIGRAPHIC_ACCEPTANCE",
+      "ambiguity_disposition": "POSITIONAL_CORRESPONDENCE_DOCUMENTED",
+      "preferred_documentary_correspondences": [
+        {
+          "reference_unit": "EDIANA-MILYAN-0-ROW-2-U004",
+          "source_unit": "S2005-G0155",
+          "relation": "REFERENCE_UNKNOWN_TO_DOUBTFUL_PRINTED_LETTER",
+          "accepts_reading": false
+        }
+      ],
+      "unique_point_mapping_claimed": false,
+      "canonical_change_applied": false,
+      "independent_review_added": false,
+      "specific_apparatus_entry_ids": [
+        "S2005-A2-01"
+      ],
+      "specific_apparatus_printed_pages": [
+        123
+      ],
+      "transcription_printed_page": 121,
+      "transcription_pdf_ordinal": 27,
+      "source_position_ids": [
+        "S2005-G0155",
+        "S2005-G0156",
+        "S2005-G0157",
+        "S2005-G0158",
+        "S2005-G0159"
+      ],
+      "reference_position_ids": [
+        "EDIANA-MILYAN-0-ROW-2-U004",
+        "EDIANA-MILYAN-0-ROW-2-U005",
+        "EDIANA-MILYAN-0-ROW-2-U006",
+        "EDIANA-MILYAN-0-ROW-2-U007",
+        "EDIANA-MILYAN-0-ROW-2-U008",
+        "EDIANA-MILYAN-0-ROW-2-U009"
+      ],
+      "anchor_alignment_ids": [
+        "TL55-L2-A001",
+        "TL55-L2-A002",
+        "TL55-L2-A003",
+        "TL55-L2-A004",
+        "TL55-L2-A005",
+        "TL55-L2-A006",
+        "TL55-L2-A007",
+        "TL55-L2-A008",
+        "TL55-L2-A009",
+        "TL55-L2-A010",
+        "TL55-L2-A011",
+        "TL55-L2-A012",
+        "TL55-L2-A013",
+        "TL55-L2-A014"
+      ],
+      "source_anchor_position_ids": [
+        "S2005-G0152",
+        "S2005-G0153",
+        "S2005-G0154",
+        "S2005-G0155",
+        "S2005-G0156",
+        "S2005-G0157",
+        "S2005-G0158",
+        "S2005-G0159",
+        "S2005-G0160",
+        "S2005-G0161",
+        "S2005-G0162",
+        "S2005-G0163"
+      ],
+      "reference_anchor_position_ids": [
+        "EDIANA-MILYAN-0-ROW-2-U001",
+        "EDIANA-MILYAN-0-ROW-2-U002",
+        "EDIANA-MILYAN-0-ROW-2-U003",
+        "EDIANA-MILYAN-0-ROW-2-U004",
+        "EDIANA-MILYAN-0-ROW-2-U005",
+        "EDIANA-MILYAN-0-ROW-2-U006",
+        "EDIANA-MILYAN-0-ROW-2-U007",
+        "EDIANA-MILYAN-0-ROW-2-U008",
+        "EDIANA-MILYAN-0-ROW-2-U009",
+        "EDIANA-MILYAN-0-ROW-2-U010",
+        "EDIANA-MILYAN-0-ROW-2-U011",
+        "EDIANA-MILYAN-0-ROW-2-U012",
+        "EDIANA-MILYAN-0-ROW-2-U013",
+        "EDIANA-MILYAN-0-ROW-2-U014"
+      ]
+    },
+    {
+      "id": "TL55-REVIEW-04",
+      "source_label": 2,
+      "alignment_ids": [
+        "TL55-L2-A049",
+        "TL55-L2-A050",
+        "TL55-L2-A051"
+      ],
+      "context_alignment_ids": [
+        "TL55-L2-A049",
+        "TL55-L2-A050",
+        "TL55-L2-A051"
+      ],
+      "algorithm_ambiguous_records": [],
+      "documentary_assessment": "Before eke: the reference curly-braced colon is not present in the printed revised sequence. Preserve the opaque reference intervention and absence of a matching printed colon; do not decode the braces as a new accepted correction.",
+      "status": "DOCUMENTARY_REVIEW_COMPLETE_NOT_EPIGRAPHIC_ACCEPTANCE",
+      "ambiguity_disposition": "NO_ALGORITHM_AMBIGUITY_IN_THIS_CASE",
+      "preferred_documentary_correspondences": [],
+      "unique_point_mapping_claimed": false,
+      "canonical_change_applied": false,
+      "independent_review_added": false,
+      "specific_apparatus_entry_ids": [
+        "S2005-A2-04"
+      ],
+      "specific_apparatus_printed_pages": [
+        124
+      ],
+      "transcription_printed_page": 121,
+      "transcription_pdf_ordinal": 27,
+      "source_position_ids": [],
+      "reference_position_ids": [
+        "EDIANA-MILYAN-0-ROW-2-U049",
+        "EDIANA-MILYAN-0-ROW-2-U050",
+        "EDIANA-MILYAN-0-ROW-2-U051"
+      ],
+      "anchor_alignment_ids": [
+        "TL55-L2-A044",
+        "TL55-L2-A045",
+        "TL55-L2-A046",
+        "TL55-L2-A047",
+        "TL55-L2-A048",
+        "TL55-L2-A049",
+        "TL55-L2-A050",
+        "TL55-L2-A051",
+        "TL55-L2-A052",
+        "TL55-L2-A053",
+        "TL55-L2-A054",
+        "TL55-L2-A055",
+        "TL55-L2-A056"
+      ],
+      "source_anchor_position_ids": [
+        "S2005-G0190",
+        "S2005-G0191",
+        "S2005-G0192",
+        "S2005-G0193",
+        "S2005-G0194",
+        "S2005-G0195",
+        "S2005-G0196",
+        "S2005-G0197"
+      ],
+      "reference_anchor_position_ids": [
+        "EDIANA-MILYAN-0-ROW-2-U044",
+        "EDIANA-MILYAN-0-ROW-2-U045",
+        "EDIANA-MILYAN-0-ROW-2-U046",
+        "EDIANA-MILYAN-0-ROW-2-U047",
+        "EDIANA-MILYAN-0-ROW-2-U048",
+        "EDIANA-MILYAN-0-ROW-2-U049",
+        "EDIANA-MILYAN-0-ROW-2-U050",
+        "EDIANA-MILYAN-0-ROW-2-U051",
+        "EDIANA-MILYAN-0-ROW-2-U052",
+        "EDIANA-MILYAN-0-ROW-2-U053",
+        "EDIANA-MILYAN-0-ROW-2-U054",
+        "EDIANA-MILYAN-0-ROW-2-U055",
+        "EDIANA-MILYAN-0-ROW-2-U056"
+      ]
+    },
+    {
+      "id": "TL55-REVIEW-05",
+      "source_label": 2,
+      "alignment_ids": [
+        "TL55-L2-A071",
+        "TL55-L2-A072",
+        "TL55-L2-A073"
+      ],
+      "context_alignment_ids": [
+        "TL55-L2-A071",
+        "TL55-L2-A072",
+        "TL55-L2-A073"
+      ],
+      "algorithm_ambiguous_records": [],
+      "documentary_assessment": "After abura: reference angle-entity notation and its enclosed letter have no printed counterpart in this revised graphic layer. Record the editorial-layer difference, not a newly verified omitted ancient letter.",
+      "status": "DOCUMENTARY_REVIEW_COMPLETE_NOT_EPIGRAPHIC_ACCEPTANCE",
+      "ambiguity_disposition": "NO_ALGORITHM_AMBIGUITY_IN_THIS_CASE",
+      "preferred_documentary_correspondences": [],
+      "unique_point_mapping_claimed": false,
+      "canonical_change_applied": false,
+      "independent_review_added": false,
+      "specific_apparatus_entry_ids": [],
+      "specific_apparatus_printed_pages": [],
+      "transcription_printed_page": 121,
+      "transcription_pdf_ordinal": 27,
+      "source_position_ids": [],
+      "reference_position_ids": [
+        "EDIANA-MILYAN-0-ROW-2-U071",
+        "EDIANA-MILYAN-0-ROW-2-U072",
+        "EDIANA-MILYAN-0-ROW-2-U073"
+      ],
+      "anchor_alignment_ids": [
+        "TL55-L2-A066",
+        "TL55-L2-A067",
+        "TL55-L2-A068",
+        "TL55-L2-A069",
+        "TL55-L2-A070",
+        "TL55-L2-A071",
+        "TL55-L2-A072",
+        "TL55-L2-A073",
+        "TL55-L2-A074",
+        "TL55-L2-A075",
+        "TL55-L2-A076",
+        "TL55-L2-A077",
+        "TL55-L2-A078"
+      ],
+      "source_anchor_position_ids": [
+        "S2005-G0206",
+        "S2005-G0207",
+        "S2005-G0208",
+        "S2005-G0209",
+        "S2005-G0210",
+        "S2005-G0211",
+        "S2005-G0212",
+        "S2005-G0213",
+        "S2005-G0214"
+      ],
+      "reference_anchor_position_ids": [
+        "EDIANA-MILYAN-0-ROW-2-U066",
+        "EDIANA-MILYAN-0-ROW-2-U067",
+        "EDIANA-MILYAN-0-ROW-2-U068",
+        "EDIANA-MILYAN-0-ROW-2-U069",
+        "EDIANA-MILYAN-0-ROW-2-U070",
+        "EDIANA-MILYAN-0-ROW-2-U071",
+        "EDIANA-MILYAN-0-ROW-2-U072",
+        "EDIANA-MILYAN-0-ROW-2-U073",
+        "EDIANA-MILYAN-0-ROW-2-U074",
+        "EDIANA-MILYAN-0-ROW-2-U075",
+        "EDIANA-MILYAN-0-ROW-2-U076",
+        "EDIANA-MILYAN-0-ROW-2-U077",
+        "EDIANA-MILYAN-0-ROW-2-U078"
+      ]
+    },
+    {
+      "id": "TL55-REVIEW-06",
+      "source_label": 2,
+      "alignment_ids": [
+        "TL55-L2-A087"
+      ],
+      "context_alignment_ids": [
+        "TL55-L2-A087"
+      ],
+      "algorithm_ambiguous_records": [],
+      "documentary_assessment": "In the titbeti group: the source has a doubtful alternative consonant; its apparatus preference is qualified. The reference underdot does not make the competing letters equal or secure either reading.",
+      "status": "DOCUMENTARY_REVIEW_COMPLETE_NOT_EPIGRAPHIC_ACCEPTANCE",
+      "ambiguity_disposition": "NO_ALGORITHM_AMBIGUITY_IN_THIS_CASE",
+      "preferred_documentary_correspondences": [],
+      "unique_point_mapping_claimed": false,
+      "canonical_change_applied": false,
+      "independent_review_added": false,
+      "specific_apparatus_entry_ids": [
+        "S2005-A2-05"
+      ],
+      "specific_apparatus_printed_pages": [
+        124
+      ],
+      "transcription_printed_page": 121,
+      "transcription_pdf_ordinal": 27,
+      "source_position_ids": [
+        "S2005-G0222"
+      ],
+      "reference_position_ids": [
+        "EDIANA-MILYAN-0-ROW-2-U087"
+      ],
+      "anchor_alignment_ids": [
+        "TL55-L2-A082",
+        "TL55-L2-A083",
+        "TL55-L2-A084",
+        "TL55-L2-A085",
+        "TL55-L2-A086",
+        "TL55-L2-A087",
+        "TL55-L2-A088",
+        "TL55-L2-A089",
+        "TL55-L2-A090",
+        "TL55-L2-A091",
+        "TL55-L2-A092"
+      ],
+      "source_anchor_position_ids": [
+        "S2005-G0218",
+        "S2005-G0219",
+        "S2005-G0220",
+        "S2005-G0221",
+        "S2005-G0222",
+        "S2005-G0223",
+        "S2005-G0224",
+        "S2005-G0225",
+        "S2005-G0226"
+      ],
+      "reference_anchor_position_ids": [
+        "EDIANA-MILYAN-0-ROW-2-U082",
+        "EDIANA-MILYAN-0-ROW-2-U083",
+        "EDIANA-MILYAN-0-ROW-2-U084",
+        "EDIANA-MILYAN-0-ROW-2-U085",
+        "EDIANA-MILYAN-0-ROW-2-U086",
+        "EDIANA-MILYAN-0-ROW-2-U087",
+        "EDIANA-MILYAN-0-ROW-2-U088",
+        "EDIANA-MILYAN-0-ROW-2-U089",
+        "EDIANA-MILYAN-0-ROW-2-U090",
+        "EDIANA-MILYAN-0-ROW-2-U091",
+        "EDIANA-MILYAN-0-ROW-2-U092"
+      ]
+    },
+    {
+      "id": "TL55-REVIEW-07",
+      "source_label": 2,
+      "alignment_ids": [
+        "TL55-L2-A163"
+      ],
+      "context_alignment_ids": [
+        "TL55-L2-A163"
+      ],
+      "algorithm_ambiguous_records": [],
+      "documentary_assessment": "Initial sign of qlaxa group: base correspondence holds under the recorded convention, but the printed underdot must be retained. The apparatus preference is not independent project certainty.",
+      "status": "DOCUMENTARY_REVIEW_COMPLETE_NOT_EPIGRAPHIC_ACCEPTANCE",
+      "ambiguity_disposition": "NO_ALGORITHM_AMBIGUITY_IN_THIS_CASE",
+      "preferred_documentary_correspondences": [],
+      "unique_point_mapping_claimed": false,
+      "canonical_change_applied": false,
+      "independent_review_added": false,
+      "specific_apparatus_entry_ids": [
+        "S2005-A2-08"
+      ],
+      "specific_apparatus_printed_pages": [
+        124
+      ],
+      "transcription_printed_page": 121,
+      "transcription_pdf_ordinal": 27,
+      "source_position_ids": [
+        "S2005-G0290"
+      ],
+      "reference_position_ids": [
+        "EDIANA-MILYAN-0-ROW-2-U163"
+      ],
+      "anchor_alignment_ids": [
+        "TL55-L2-A158",
+        "TL55-L2-A159",
+        "TL55-L2-A160",
+        "TL55-L2-A161",
+        "TL55-L2-A162",
+        "TL55-L2-A163",
+        "TL55-L2-A164",
+        "TL55-L2-A165",
+        "TL55-L2-A166",
+        "TL55-L2-A167",
+        "TL55-L2-A168"
+      ],
+      "source_anchor_position_ids": [
+        "S2005-G0286",
+        "S2005-G0287",
+        "S2005-G0288",
+        "S2005-G0289",
+        "S2005-G0290",
+        "S2005-G0291",
+        "S2005-G0292",
+        "S2005-G0293",
+        "S2005-G0294"
+      ],
+      "reference_anchor_position_ids": [
+        "EDIANA-MILYAN-0-ROW-2-U158",
+        "EDIANA-MILYAN-0-ROW-2-U159",
+        "EDIANA-MILYAN-0-ROW-2-U160",
+        "EDIANA-MILYAN-0-ROW-2-U161",
+        "EDIANA-MILYAN-0-ROW-2-U162",
+        "EDIANA-MILYAN-0-ROW-2-U163",
+        "EDIANA-MILYAN-0-ROW-2-U164",
+        "EDIANA-MILYAN-0-ROW-2-U165",
+        "EDIANA-MILYAN-0-ROW-2-U166",
+        "EDIANA-MILYAN-0-ROW-2-U167",
+        "EDIANA-MILYAN-0-ROW-2-U168"
+      ]
+    },
+    {
+      "id": "TL55-REVIEW-08",
+      "source_label": 2,
+      "alignment_ids": [
+        "TL55-L2-A173"
+      ],
+      "context_alignment_ids": [
+        "TL55-L2-A173"
+      ],
+      "algorithm_ambiguous_records": [],
+      "documentary_assessment": "Within zpplide: the printed consonant has an underdot absent from the corresponding reference letter. Preserve this uncertainty difference.",
+      "status": "DOCUMENTARY_REVIEW_COMPLETE_NOT_EPIGRAPHIC_ACCEPTANCE",
+      "ambiguity_disposition": "NO_ALGORITHM_AMBIGUITY_IN_THIS_CASE",
+      "preferred_documentary_correspondences": [],
+      "unique_point_mapping_claimed": false,
+      "canonical_change_applied": false,
+      "independent_review_added": false,
+      "specific_apparatus_entry_ids": [
+        "S2005-A2-09"
+      ],
+      "specific_apparatus_printed_pages": [
+        124
+      ],
+      "transcription_printed_page": 121,
+      "transcription_pdf_ordinal": 27,
+      "source_position_ids": [
+        "S2005-G0299"
+      ],
+      "reference_position_ids": [
+        "EDIANA-MILYAN-0-ROW-2-U173"
+      ],
+      "anchor_alignment_ids": [
+        "TL55-L2-A168",
+        "TL55-L2-A169",
+        "TL55-L2-A170",
+        "TL55-L2-A171",
+        "TL55-L2-A172",
+        "TL55-L2-A173",
+        "TL55-L2-A174",
+        "TL55-L2-A175",
+        "TL55-L2-A176",
+        "TL55-L2-A177",
+        "TL55-L2-A178"
+      ],
+      "source_anchor_position_ids": [
+        "S2005-G0295",
+        "S2005-G0296",
+        "S2005-G0297",
+        "S2005-G0298",
+        "S2005-G0299",
+        "S2005-G0300",
+        "S2005-G0301",
+        "S2005-G0302",
+        "S2005-G0303"
+      ],
+      "reference_anchor_position_ids": [
+        "EDIANA-MILYAN-0-ROW-2-U168",
+        "EDIANA-MILYAN-0-ROW-2-U169",
+        "EDIANA-MILYAN-0-ROW-2-U170",
+        "EDIANA-MILYAN-0-ROW-2-U171",
+        "EDIANA-MILYAN-0-ROW-2-U172",
+        "EDIANA-MILYAN-0-ROW-2-U173",
+        "EDIANA-MILYAN-0-ROW-2-U174",
+        "EDIANA-MILYAN-0-ROW-2-U175",
+        "EDIANA-MILYAN-0-ROW-2-U176",
+        "EDIANA-MILYAN-0-ROW-2-U177",
+        "EDIANA-MILYAN-0-ROW-2-U178"
+      ]
+    },
+    {
+      "id": "TL55-REVIEW-09",
+      "source_label": 2,
+      "alignment_ids": [
+        "TL55-L2-A184",
+        "TL55-L2-A185"
+      ],
+      "context_alignment_ids": [
+        "TL55-L2-A184",
+        "TL55-L2-A185"
+      ],
+      "algorithm_ambiguous_records": [],
+      "documentary_assessment": "In the following kãta group: the revised consonant differs from the reference vowel and the opaque exclamation mark is separate editorial notation. No spelling correction is applied.",
+      "status": "DOCUMENTARY_REVIEW_COMPLETE_NOT_EPIGRAPHIC_ACCEPTANCE",
+      "ambiguity_disposition": "NO_ALGORITHM_AMBIGUITY_IN_THIS_CASE",
+      "preferred_documentary_correspondences": [],
+      "unique_point_mapping_claimed": false,
+      "canonical_change_applied": false,
+      "independent_review_added": false,
+      "specific_apparatus_entry_ids": [],
+      "specific_apparatus_printed_pages": [],
+      "transcription_printed_page": 121,
+      "transcription_pdf_ordinal": 27,
+      "source_position_ids": [
+        "S2005-G0309"
+      ],
+      "reference_position_ids": [
+        "EDIANA-MILYAN-0-ROW-2-U184",
+        "EDIANA-MILYAN-0-ROW-2-U185"
+      ],
+      "anchor_alignment_ids": [
+        "TL55-L2-A179",
+        "TL55-L2-A180",
+        "TL55-L2-A181",
+        "TL55-L2-A182",
+        "TL55-L2-A183",
+        "TL55-L2-A184",
+        "TL55-L2-A185",
+        "TL55-L2-A186",
+        "TL55-L2-A187",
+        "TL55-L2-A188",
+        "TL55-L2-A189",
+        "TL55-L2-A190"
+      ],
+      "source_anchor_position_ids": [
+        "S2005-G0304",
+        "S2005-G0305",
+        "S2005-G0306",
+        "S2005-G0307",
+        "S2005-G0308",
+        "S2005-G0309",
+        "S2005-G0310",
+        "S2005-G0311",
+        "S2005-G0312",
+        "S2005-G0313"
+      ],
+      "reference_anchor_position_ids": [
+        "EDIANA-MILYAN-0-ROW-2-U179",
+        "EDIANA-MILYAN-0-ROW-2-U180",
+        "EDIANA-MILYAN-0-ROW-2-U181",
+        "EDIANA-MILYAN-0-ROW-2-U182",
+        "EDIANA-MILYAN-0-ROW-2-U183",
+        "EDIANA-MILYAN-0-ROW-2-U184",
+        "EDIANA-MILYAN-0-ROW-2-U185",
+        "EDIANA-MILYAN-0-ROW-2-U186",
+        "EDIANA-MILYAN-0-ROW-2-U187",
+        "EDIANA-MILYAN-0-ROW-2-U188",
+        "EDIANA-MILYAN-0-ROW-2-U189",
+        "EDIANA-MILYAN-0-ROW-2-U190"
+      ]
+    },
+    {
+      "id": "TL55-REVIEW-10",
+      "source_label": 2,
+      "alignment_ids": [
+        "TL55-L2-A192"
+      ],
+      "context_alignment_ids": [
+        "TL55-L2-A192"
+      ],
+      "algorithm_ambiguous_records": [],
+      "documentary_assessment": "In the final trqqnta group: the printed consonant is underdotted where the reference counterpart is not. Retain the source qualification; the apparatus discusses damage rather than project certainty.",
+      "status": "DOCUMENTARY_REVIEW_COMPLETE_NOT_EPIGRAPHIC_ACCEPTANCE",
+      "ambiguity_disposition": "NO_ALGORITHM_AMBIGUITY_IN_THIS_CASE",
+      "preferred_documentary_correspondences": [],
+      "unique_point_mapping_claimed": false,
+      "canonical_change_applied": false,
+      "independent_review_added": false,
+      "specific_apparatus_entry_ids": [
+        "S2005-A2-10"
+      ],
+      "specific_apparatus_printed_pages": [
+        124
+      ],
+      "transcription_printed_page": 121,
+      "transcription_pdf_ordinal": 27,
+      "source_position_ids": [
+        "S2005-G0315"
+      ],
+      "reference_position_ids": [
+        "EDIANA-MILYAN-0-ROW-2-U192"
+      ],
+      "anchor_alignment_ids": [
+        "TL55-L2-A187",
+        "TL55-L2-A188",
+        "TL55-L2-A189",
+        "TL55-L2-A190",
+        "TL55-L2-A191",
+        "TL55-L2-A192",
+        "TL55-L2-A193",
+        "TL55-L2-A194",
+        "TL55-L2-A195",
+        "TL55-L2-A196",
+        "TL55-L2-A197"
+      ],
+      "source_anchor_position_ids": [
+        "S2005-G0311",
+        "S2005-G0312",
+        "S2005-G0313",
+        "S2005-G0314",
+        "S2005-G0315",
+        "S2005-G0316",
+        "S2005-G0317",
+        "S2005-G0318",
+        "S2005-G0319",
+        "S2005-G0320"
+      ],
+      "reference_anchor_position_ids": [
+        "EDIANA-MILYAN-0-ROW-2-U187",
+        "EDIANA-MILYAN-0-ROW-2-U188",
+        "EDIANA-MILYAN-0-ROW-2-U189",
+        "EDIANA-MILYAN-0-ROW-2-U190",
+        "EDIANA-MILYAN-0-ROW-2-U191",
+        "EDIANA-MILYAN-0-ROW-2-U192",
+        "EDIANA-MILYAN-0-ROW-2-U193",
+        "EDIANA-MILYAN-0-ROW-2-U194",
+        "EDIANA-MILYAN-0-ROW-2-U195",
+        "EDIANA-MILYAN-0-ROW-2-U196",
+        "EDIANA-MILYAN-0-ROW-2-U197"
+      ]
+    },
+    {
+      "id": "TL55-REVIEW-11",
+      "source_label": 3,
+      "alignment_ids": [
+        "TL55-L3-A002",
+        "TL55-L3-A004"
+      ],
+      "context_alignment_ids": [
+        "TL55-L3-A002",
+        "TL55-L3-A003",
+        "TL55-L3-A004"
+      ],
+      "algorithm_ambiguous_records": [
+        "TL55-L3-A002"
+      ],
+      "documentary_assessment": "Opening of source label3: within the existing provisional carryover allocation, the restored reference consonant corresponds to the printed underdotted consonant before the shared following letters. The source’s bracketed edge-occupancy question precedes that consonant and must not be paired with it as a letter. This does not certify the physical boundary.",
+      "status": "DOCUMENTARY_REVIEW_COMPLETE_NOT_EPIGRAPHIC_ACCEPTANCE",
+      "ambiguity_disposition": "POSITIONAL_CORRESPONDENCE_DOCUMENTED",
+      "preferred_documentary_correspondences": [
+        {
+          "reference_unit": "EDIANA-MILYAN-0-ROW-2-U200",
+          "source_unit": "S2005-G0324",
+          "relation": "DIFFERING_LETTER_AT_ANCHORED_POSITION",
+          "accepts_reading": false
+        }
+      ],
+      "unique_point_mapping_claimed": false,
+      "canonical_change_applied": false,
+      "independent_review_added": false,
+      "specific_apparatus_entry_ids": [
+        "S2005-A3-01"
+      ],
+      "specific_apparatus_printed_pages": [
+        124
+      ],
+      "transcription_printed_page": 121,
+      "transcription_pdf_ordinal": 27,
+      "source_position_ids": [
+        "S2005-G0322",
+        "S2005-G0323",
+        "S2005-G0324"
+      ],
+      "reference_position_ids": [
+        "EDIANA-MILYAN-0-ROW-2-U200",
+        "EDIANA-MILYAN-0-ROW-2-U201"
+      ],
+      "anchor_alignment_ids": [
+        "TL55-L3-A001",
+        "TL55-L3-A002",
+        "TL55-L3-A003",
+        "TL55-L3-A004",
+        "TL55-L3-A005",
+        "TL55-L3-A006",
+        "TL55-L3-A007",
+        "TL55-L3-A008",
+        "TL55-L3-A009"
+      ],
+      "source_anchor_position_ids": [
+        "S2005-G0321",
+        "S2005-G0322",
+        "S2005-G0323",
+        "S2005-G0324",
+        "S2005-G0325",
+        "S2005-G0326",
+        "S2005-G0327",
+        "S2005-G0328",
+        "S2005-G0329"
+      ],
+      "reference_anchor_position_ids": [
+        "EDIANA-MILYAN-0-ROW-2-U199",
+        "EDIANA-MILYAN-0-ROW-2-U200",
+        "EDIANA-MILYAN-0-ROW-2-U201",
+        "EDIANA-MILYAN-0-ROW-2-U202",
+        "EDIANA-MILYAN-0-ROW-2-U203",
+        "EDIANA-MILYAN-0-ROW-3-U001",
+        "EDIANA-MILYAN-0-ROW-3-U002",
+        "EDIANA-MILYAN-0-ROW-3-U003"
+      ]
+    },
+    {
+      "id": "TL55-REVIEW-12",
+      "source_label": 3,
+      "alignment_ids": [
+        "TL55-L3-A015"
+      ],
+      "context_alignment_ids": [
+        "TL55-L3-A015"
+      ],
+      "algorithm_ambiguous_records": [],
+      "documentary_assessment": "After the initial damaged group: a reference colon has no printed counterpart at this position. Distinguish the literal source punctuation schemes without inferring lexical division.",
+      "status": "DOCUMENTARY_REVIEW_COMPLETE_NOT_EPIGRAPHIC_ACCEPTANCE",
+      "ambiguity_disposition": "NO_ALGORITHM_AMBIGUITY_IN_THIS_CASE",
+      "preferred_documentary_correspondences": [],
+      "unique_point_mapping_claimed": false,
+      "canonical_change_applied": false,
+      "independent_review_added": false,
+      "specific_apparatus_entry_ids": [
+        "S2005-A3-02"
+      ],
+      "specific_apparatus_printed_pages": [
+        124
+      ],
+      "transcription_printed_page": 121,
+      "transcription_pdf_ordinal": 27,
+      "source_position_ids": [],
+      "reference_position_ids": [
+        "EDIANA-MILYAN-0-ROW-3-U009"
+      ],
+      "anchor_alignment_ids": [
+        "TL55-L3-A010",
+        "TL55-L3-A011",
+        "TL55-L3-A012",
+        "TL55-L3-A013",
+        "TL55-L3-A014",
+        "TL55-L3-A015",
+        "TL55-L3-A016",
+        "TL55-L3-A017",
+        "TL55-L3-A018",
+        "TL55-L3-A019",
+        "TL55-L3-A020"
+      ],
+      "source_anchor_position_ids": [
+        "S2005-G0330",
+        "S2005-G0331",
+        "S2005-G0332",
+        "S2005-G0333",
+        "S2005-G0334",
+        "S2005-G0335",
+        "S2005-G0336",
+        "S2005-G0337"
+      ],
+      "reference_anchor_position_ids": [
+        "EDIANA-MILYAN-0-ROW-3-U004",
+        "EDIANA-MILYAN-0-ROW-3-U005",
+        "EDIANA-MILYAN-0-ROW-3-U006",
+        "EDIANA-MILYAN-0-ROW-3-U007",
+        "EDIANA-MILYAN-0-ROW-3-U008",
+        "EDIANA-MILYAN-0-ROW-3-U009",
+        "EDIANA-MILYAN-0-ROW-3-U010",
+        "EDIANA-MILYAN-0-ROW-3-U011",
+        "EDIANA-MILYAN-0-ROW-3-U012",
+        "EDIANA-MILYAN-0-ROW-3-U013",
+        "EDIANA-MILYAN-0-ROW-3-U014"
+      ]
+    },
+    {
+      "id": "TL55-REVIEW-13",
+      "source_label": 3,
+      "alignment_ids": [
+        "TL55-L3-A023",
+        "TL55-L3-A026",
+        "TL55-L3-A028"
+      ],
+      "context_alignment_ids": [
+        "TL55-L3-A023",
+        "TL55-L3-A024",
+        "TL55-L3-A025",
+        "TL55-L3-A026",
+        "TL55-L3-A027",
+        "TL55-L3-A028"
+      ],
+      "algorithm_ambiguous_records": [],
+      "documentary_assessment": "In the damaged kibeda range: printed qualification differs and the lacuna has optional-position notation absent from the reference. The reference underdots, spaces and opaque bracket extent remain literal. Do not treat the optional parenthesis as an ancient sign.",
+      "status": "DOCUMENTARY_REVIEW_COMPLETE_NOT_EPIGRAPHIC_ACCEPTANCE",
+      "ambiguity_disposition": "NO_ALGORITHM_AMBIGUITY_IN_THIS_CASE",
+      "preferred_documentary_correspondences": [],
+      "unique_point_mapping_claimed": false,
+      "canonical_change_applied": false,
+      "independent_review_added": false,
+      "specific_apparatus_entry_ids": [
+        "S2005-A3-03"
+      ],
+      "specific_apparatus_printed_pages": [
+        124
+      ],
+      "transcription_printed_page": 121,
+      "transcription_pdf_ordinal": 27,
+      "source_position_ids": [
+        "S2005-G0339",
+        "S2005-G0340",
+        "S2005-G0341",
+        "S2005-G0342",
+        "S2005-G0343",
+        "S2005-G0344"
+      ],
+      "reference_position_ids": [
+        "EDIANA-MILYAN-0-ROW-3-U017",
+        "EDIANA-MILYAN-0-ROW-3-U018",
+        "EDIANA-MILYAN-0-ROW-3-U019",
+        "EDIANA-MILYAN-0-ROW-3-U020"
+      ],
+      "anchor_alignment_ids": [
+        "TL55-L3-A018",
+        "TL55-L3-A019",
+        "TL55-L3-A020",
+        "TL55-L3-A021",
+        "TL55-L3-A022",
+        "TL55-L3-A023",
+        "TL55-L3-A024",
+        "TL55-L3-A025",
+        "TL55-L3-A026",
+        "TL55-L3-A027",
+        "TL55-L3-A028",
+        "TL55-L3-A029",
+        "TL55-L3-A030",
+        "TL55-L3-A031",
+        "TL55-L3-A032",
+        "TL55-L3-A033"
+      ],
+      "source_anchor_position_ids": [
+        "S2005-G0335",
+        "S2005-G0336",
+        "S2005-G0337",
+        "S2005-G0338",
+        "S2005-G0339",
+        "S2005-G0340",
+        "S2005-G0341",
+        "S2005-G0342",
+        "S2005-G0343",
+        "S2005-G0344",
+        "S2005-G0345",
+        "S2005-G0346",
+        "S2005-G0347",
+        "S2005-G0348"
+      ],
+      "reference_anchor_position_ids": [
+        "EDIANA-MILYAN-0-ROW-3-U012",
+        "EDIANA-MILYAN-0-ROW-3-U013",
+        "EDIANA-MILYAN-0-ROW-3-U014",
+        "EDIANA-MILYAN-0-ROW-3-U015",
+        "EDIANA-MILYAN-0-ROW-3-U016",
+        "EDIANA-MILYAN-0-ROW-3-U017",
+        "EDIANA-MILYAN-0-ROW-3-U018",
+        "EDIANA-MILYAN-0-ROW-3-U019",
+        "EDIANA-MILYAN-0-ROW-3-U020",
+        "EDIANA-MILYAN-0-ROW-3-U021",
+        "EDIANA-MILYAN-0-ROW-3-U022",
+        "EDIANA-MILYAN-0-ROW-3-U023",
+        "EDIANA-MILYAN-0-ROW-3-U024"
+      ]
+    },
+    {
+      "id": "TL55-REVIEW-14",
+      "source_label": 3,
+      "alignment_ids": [
+        "TL55-L3-A033",
+        "TL55-L3-A034",
+        "TL55-L3-A035"
+      ],
+      "context_alignment_ids": [
+        "TL55-L3-A033",
+        "TL55-L3-A034",
+        "TL55-L3-A035"
+      ],
+      "algorithm_ambiguous_records": [
+        "TL55-L3-A033",
+        "TL55-L3-A034",
+        "TL55-L3-A035"
+      ],
+      "documentary_assessment": "In the following pabana range: the reference consonant corresponds to the single printed lacuna dot between shared flanking letters. Brackets are delimiters, not substitute consonants; the editor’s damaged-position discussion does not identify an accepted replacement.",
+      "status": "DOCUMENTARY_REVIEW_COMPLETE_NOT_EPIGRAPHIC_ACCEPTANCE",
+      "ambiguity_disposition": "POSITIONAL_CORRESPONDENCE_DOCUMENTED",
+      "preferred_documentary_correspondences": [
+        {
+          "reference_unit": "EDIANA-MILYAN-0-ROW-3-U025",
+          "source_unit": "S2005-G0349",
+          "relation": "REFERENCE_LETTER_TO_UNKNOWN_POSITION",
+          "accepts_reading": false
+        }
+      ],
+      "unique_point_mapping_claimed": false,
+      "canonical_change_applied": false,
+      "independent_review_added": false,
+      "specific_apparatus_entry_ids": [
+        "S2005-A3-04"
+      ],
+      "specific_apparatus_printed_pages": [
+        125
+      ],
+      "transcription_printed_page": 121,
+      "transcription_pdf_ordinal": 27,
+      "source_position_ids": [
+        "S2005-G0348",
+        "S2005-G0349",
+        "S2005-G0350"
+      ],
+      "reference_position_ids": [
+        "EDIANA-MILYAN-0-ROW-3-U025"
+      ],
+      "anchor_alignment_ids": [
+        "TL55-L3-A028",
+        "TL55-L3-A029",
+        "TL55-L3-A030",
+        "TL55-L3-A031",
+        "TL55-L3-A032",
+        "TL55-L3-A033",
+        "TL55-L3-A034",
+        "TL55-L3-A035",
+        "TL55-L3-A036",
+        "TL55-L3-A037",
+        "TL55-L3-A038",
+        "TL55-L3-A039",
+        "TL55-L3-A040"
+      ],
+      "source_anchor_position_ids": [
+        "S2005-G0344",
+        "S2005-G0345",
+        "S2005-G0346",
+        "S2005-G0347",
+        "S2005-G0348",
+        "S2005-G0349",
+        "S2005-G0350",
+        "S2005-G0351",
+        "S2005-G0352",
+        "S2005-G0353",
+        "S2005-G0354"
+      ],
+      "reference_anchor_position_ids": [
+        "EDIANA-MILYAN-0-ROW-3-U021",
+        "EDIANA-MILYAN-0-ROW-3-U022",
+        "EDIANA-MILYAN-0-ROW-3-U023",
+        "EDIANA-MILYAN-0-ROW-3-U024",
+        "EDIANA-MILYAN-0-ROW-3-U025",
+        "EDIANA-MILYAN-0-ROW-3-U026",
+        "EDIANA-MILYAN-0-ROW-3-U027",
+        "EDIANA-MILYAN-0-ROW-3-U028",
+        "EDIANA-MILYAN-0-ROW-3-U029",
+        "EDIANA-MILYAN-0-ROW-3-U030"
+      ]
+    },
+    {
+      "id": "TL55-REVIEW-15",
+      "source_label": 3,
+      "alignment_ids": [
+        "TL55-L3-A048"
+      ],
+      "context_alignment_ids": [
+        "TL55-L3-A048"
+      ],
+      "algorithm_ambiguous_records": [],
+      "documentary_assessment": "Before the stanza divider after kuprime: the reference colon is absent in the revised print. The apparatus explicitly questions crowded points; this is punctuation comparison, not a certified deletion on the monument.",
+      "status": "DOCUMENTARY_REVIEW_COMPLETE_NOT_EPIGRAPHIC_ACCEPTANCE",
+      "ambiguity_disposition": "NO_ALGORITHM_AMBIGUITY_IN_THIS_CASE",
+      "preferred_documentary_correspondences": [],
+      "unique_point_mapping_claimed": false,
+      "canonical_change_applied": false,
+      "independent_review_added": false,
+      "specific_apparatus_entry_ids": [
+        "S2005-A3-05"
+      ],
+      "specific_apparatus_printed_pages": [
+        125
+      ],
+      "transcription_printed_page": 121,
+      "transcription_pdf_ordinal": 27,
+      "source_position_ids": [],
+      "reference_position_ids": [
+        "EDIANA-MILYAN-0-ROW-3-U038"
+      ],
+      "anchor_alignment_ids": [
+        "TL55-L3-A043",
+        "TL55-L3-A044",
+        "TL55-L3-A045",
+        "TL55-L3-A046",
+        "TL55-L3-A047",
+        "TL55-L3-A048",
+        "TL55-L3-A049",
+        "TL55-L3-A050",
+        "TL55-L3-A051",
+        "TL55-L3-A052",
+        "TL55-L3-A053"
+      ],
+      "source_anchor_position_ids": [
+        "S2005-G0357",
+        "S2005-G0358",
+        "S2005-G0359",
+        "S2005-G0360",
+        "S2005-G0361",
+        "S2005-G0362",
+        "S2005-G0363",
+        "S2005-G0364"
+      ],
+      "reference_anchor_position_ids": [
+        "EDIANA-MILYAN-0-ROW-3-U033",
+        "EDIANA-MILYAN-0-ROW-3-U034",
+        "EDIANA-MILYAN-0-ROW-3-U035",
+        "EDIANA-MILYAN-0-ROW-3-U036",
+        "EDIANA-MILYAN-0-ROW-3-U037",
+        "EDIANA-MILYAN-0-ROW-3-U038",
+        "EDIANA-MILYAN-0-ROW-3-U039",
+        "EDIANA-MILYAN-0-ROW-3-U040",
+        "EDIANA-MILYAN-0-ROW-3-U041",
+        "EDIANA-MILYAN-0-ROW-3-U042",
+        "EDIANA-MILYAN-0-ROW-3-U043"
+      ]
+    },
+    {
+      "id": "TL55-REVIEW-16",
+      "source_label": 3,
+      "alignment_ids": [
+        "TL55-L3-A072",
+        "TL55-L3-A073",
+        "TL55-L3-A075"
+      ],
+      "context_alignment_ids": [
+        "TL55-L3-A072",
+        "TL55-L3-A073",
+        "TL55-L3-A074",
+        "TL55-L3-A075"
+      ],
+      "algorithm_ambiguous_records": [],
+      "documentary_assessment": "After the doubtful p: both layers have punctuation, but the reference curly marks and printed underlined colon express different editorial qualifications. Keep underlined punctuation separate from the doubt of the preceding letter.",
+      "status": "DOCUMENTARY_REVIEW_COMPLETE_NOT_EPIGRAPHIC_ACCEPTANCE",
+      "ambiguity_disposition": "NO_ALGORITHM_AMBIGUITY_IN_THIS_CASE",
+      "preferred_documentary_correspondences": [],
+      "unique_point_mapping_claimed": false,
+      "canonical_change_applied": false,
+      "independent_review_added": false,
+      "specific_apparatus_entry_ids": [
+        "S2005-A3-07"
+      ],
+      "specific_apparatus_printed_pages": [
+        125
+      ],
+      "transcription_printed_page": 121,
+      "transcription_pdf_ordinal": 27,
+      "source_position_ids": [
+        "S2005-G0381",
+        "S2005-G0382"
+      ],
+      "reference_position_ids": [
+        "EDIANA-MILYAN-0-ROW-3-U062",
+        "EDIANA-MILYAN-0-ROW-3-U063",
+        "EDIANA-MILYAN-0-ROW-3-U064"
+      ],
+      "anchor_alignment_ids": [
+        "TL55-L3-A067",
+        "TL55-L3-A068",
+        "TL55-L3-A069",
+        "TL55-L3-A070",
+        "TL55-L3-A071",
+        "TL55-L3-A072",
+        "TL55-L3-A073",
+        "TL55-L3-A074",
+        "TL55-L3-A075",
+        "TL55-L3-A076",
+        "TL55-L3-A077",
+        "TL55-L3-A078",
+        "TL55-L3-A079",
+        "TL55-L3-A080"
+      ],
+      "source_anchor_position_ids": [
+        "S2005-G0376",
+        "S2005-G0377",
+        "S2005-G0378",
+        "S2005-G0379",
+        "S2005-G0380",
+        "S2005-G0381",
+        "S2005-G0382",
+        "S2005-G0383",
+        "S2005-G0384",
+        "S2005-G0385",
+        "S2005-G0386"
+      ],
+      "reference_anchor_position_ids": [
+        "EDIANA-MILYAN-0-ROW-3-U057",
+        "EDIANA-MILYAN-0-ROW-3-U058",
+        "EDIANA-MILYAN-0-ROW-3-U059",
+        "EDIANA-MILYAN-0-ROW-3-U060",
+        "EDIANA-MILYAN-0-ROW-3-U061",
+        "EDIANA-MILYAN-0-ROW-3-U062",
+        "EDIANA-MILYAN-0-ROW-3-U063",
+        "EDIANA-MILYAN-0-ROW-3-U064",
+        "EDIANA-MILYAN-0-ROW-3-U065",
+        "EDIANA-MILYAN-0-ROW-3-U066",
+        "EDIANA-MILYAN-0-ROW-3-U067",
+        "EDIANA-MILYAN-0-ROW-3-U068",
+        "EDIANA-MILYAN-0-ROW-3-U069"
+      ]
+    },
+    {
+      "id": "TL55-REVIEW-17",
+      "source_label": 3,
+      "alignment_ids": [
+        "TL55-L3-A092",
+        "TL55-L3-A095"
+      ],
+      "context_alignment_ids": [
+        "TL55-L3-A092",
+        "TL55-L3-A093",
+        "TL55-L3-A094",
+        "TL55-L3-A095"
+      ],
+      "algorithm_ambiguous_records": [],
+      "documentary_assessment": "At the qir/ze transition: curly intervention markers and different print spacing accompany a punctuation correspondence. The reference entities are kept opaque; this is not evidence for a lexical split.",
+      "status": "DOCUMENTARY_REVIEW_COMPLETE_NOT_EPIGRAPHIC_ACCEPTANCE",
+      "ambiguity_disposition": "NO_ALGORITHM_AMBIGUITY_IN_THIS_CASE",
+      "preferred_documentary_correspondences": [],
+      "unique_point_mapping_claimed": false,
+      "canonical_change_applied": false,
+      "independent_review_added": false,
+      "specific_apparatus_entry_ids": [
+        "S2005-A3-07",
+        "S2005-A3-08"
+      ],
+      "specific_apparatus_printed_pages": [
+        125
+      ],
+      "transcription_printed_page": 121,
+      "transcription_pdf_ordinal": 27,
+      "source_position_ids": [
+        "S2005-G0396",
+        "S2005-G0397"
+      ],
+      "reference_position_ids": [
+        "EDIANA-MILYAN-0-ROW-3-U081",
+        "EDIANA-MILYAN-0-ROW-3-U082",
+        "EDIANA-MILYAN-0-ROW-3-U083"
+      ],
+      "anchor_alignment_ids": [
+        "TL55-L3-A087",
+        "TL55-L3-A088",
+        "TL55-L3-A089",
+        "TL55-L3-A090",
+        "TL55-L3-A091",
+        "TL55-L3-A092",
+        "TL55-L3-A093",
+        "TL55-L3-A094",
+        "TL55-L3-A095",
+        "TL55-L3-A096",
+        "TL55-L3-A097",
+        "TL55-L3-A098",
+        "TL55-L3-A099",
+        "TL55-L3-A100"
+      ],
+      "source_anchor_position_ids": [
+        "S2005-G0392",
+        "S2005-G0393",
+        "S2005-G0394",
+        "S2005-G0395",
+        "S2005-G0396",
+        "S2005-G0397",
+        "S2005-G0398",
+        "S2005-G0399",
+        "S2005-G0400",
+        "S2005-G0401"
+      ],
+      "reference_anchor_position_ids": [
+        "EDIANA-MILYAN-0-ROW-3-U076",
+        "EDIANA-MILYAN-0-ROW-3-U077",
+        "EDIANA-MILYAN-0-ROW-3-U078",
+        "EDIANA-MILYAN-0-ROW-3-U079",
+        "EDIANA-MILYAN-0-ROW-3-U080",
+        "EDIANA-MILYAN-0-ROW-3-U081",
+        "EDIANA-MILYAN-0-ROW-3-U082",
+        "EDIANA-MILYAN-0-ROW-3-U083",
+        "EDIANA-MILYAN-0-ROW-3-U084",
+        "EDIANA-MILYAN-0-ROW-3-U085",
+        "EDIANA-MILYAN-0-ROW-3-U086",
+        "EDIANA-MILYAN-0-ROW-3-U087",
+        "EDIANA-MILYAN-0-ROW-3-U088"
+      ]
+    },
+    {
+      "id": "TL55-REVIEW-18",
+      "source_label": 3,
+      "alignment_ids": [
+        "TL55-L3-A114",
+        "TL55-L3-A115"
+      ],
+      "context_alignment_ids": [
+        "TL55-L3-A114",
+        "TL55-L3-A115"
+      ],
+      "algorithm_ambiguous_records": [],
+      "documentary_assessment": "In the slitami range: the printed letter differs from the reference letter/exclamation sequence. Retain the spelling intervention as an editorial-layer issue and the following doubtful consonant separately.",
+      "status": "DOCUMENTARY_REVIEW_COMPLETE_NOT_EPIGRAPHIC_ACCEPTANCE",
+      "ambiguity_disposition": "NO_ALGORITHM_AMBIGUITY_IN_THIS_CASE",
+      "preferred_documentary_correspondences": [],
+      "unique_point_mapping_claimed": false,
+      "canonical_change_applied": false,
+      "independent_review_added": false,
+      "specific_apparatus_entry_ids": [
+        "S2005-A3-09"
+      ],
+      "specific_apparatus_printed_pages": [
+        125
+      ],
+      "transcription_printed_page": 121,
+      "transcription_pdf_ordinal": 27,
+      "source_position_ids": [
+        "S2005-G0414"
+      ],
+      "reference_position_ids": [
+        "EDIANA-MILYAN-0-ROW-3-U102",
+        "EDIANA-MILYAN-0-ROW-3-U103"
+      ],
+      "anchor_alignment_ids": [
+        "TL55-L3-A109",
+        "TL55-L3-A110",
+        "TL55-L3-A111",
+        "TL55-L3-A112",
+        "TL55-L3-A113",
+        "TL55-L3-A114",
+        "TL55-L3-A115",
+        "TL55-L3-A116",
+        "TL55-L3-A117",
+        "TL55-L3-A118",
+        "TL55-L3-A119",
+        "TL55-L3-A120"
+      ],
+      "source_anchor_position_ids": [
+        "S2005-G0410",
+        "S2005-G0411",
+        "S2005-G0412",
+        "S2005-G0413",
+        "S2005-G0414",
+        "S2005-G0415",
+        "S2005-G0416",
+        "S2005-G0417",
+        "S2005-G0418"
+      ],
+      "reference_anchor_position_ids": [
+        "EDIANA-MILYAN-0-ROW-3-U097",
+        "EDIANA-MILYAN-0-ROW-3-U098",
+        "EDIANA-MILYAN-0-ROW-3-U099",
+        "EDIANA-MILYAN-0-ROW-3-U100",
+        "EDIANA-MILYAN-0-ROW-3-U101",
+        "EDIANA-MILYAN-0-ROW-3-U102",
+        "EDIANA-MILYAN-0-ROW-3-U103",
+        "EDIANA-MILYAN-0-ROW-3-U104",
+        "EDIANA-MILYAN-0-ROW-3-U105",
+        "EDIANA-MILYAN-0-ROW-3-U106",
+        "EDIANA-MILYAN-0-ROW-3-U107",
+        "EDIANA-MILYAN-0-ROW-3-U108"
+      ]
+    },
+    {
+      "id": "TL55-REVIEW-19",
+      "source_label": 3,
+      "alignment_ids": [
+        "TL55-L3-A146",
+        "TL55-L3-A147",
+        "TL55-L3-A150",
+        "TL55-L3-A151",
+        "TL55-L3-A152"
+      ],
+      "context_alignment_ids": [
+        "TL55-L3-A146",
+        "TL55-L3-A147",
+        "TL55-L3-A148",
+        "TL55-L3-A149",
+        "TL55-L3-A150",
+        "TL55-L3-A151",
+        "TL55-L3-A152"
+      ],
+      "algorithm_ambiguous_records": [],
+      "documentary_assessment": "In the final kuprimesi continuation: the printed consonant differs from the reference nasal form, and the reference exclamation/angle intervention has no printed counterpart. This comparison of printed forms does not select a corrected ancient spelling.",
+      "status": "DOCUMENTARY_REVIEW_COMPLETE_NOT_EPIGRAPHIC_ACCEPTANCE",
+      "ambiguity_disposition": "NO_ALGORITHM_AMBIGUITY_IN_THIS_CASE",
+      "preferred_documentary_correspondences": [],
+      "unique_point_mapping_claimed": false,
+      "canonical_change_applied": false,
+      "independent_review_added": false,
+      "specific_apparatus_entry_ids": [],
+      "specific_apparatus_printed_pages": [],
+      "transcription_printed_page": 121,
+      "transcription_pdf_ordinal": 27,
+      "source_position_ids": [
+        "S2005-G0441",
+        "S2005-G0442",
+        "S2005-G0443"
+      ],
+      "reference_position_ids": [
+        "EDIANA-MILYAN-0-ROW-3-U134",
+        "EDIANA-MILYAN-0-ROW-3-U135",
+        "EDIANA-MILYAN-0-ROW-3-U136",
+        "EDIANA-MILYAN-0-ROW-3-U137",
+        "EDIANA-MILYAN-0-ROW-3-U138",
+        "EDIANA-MILYAN-0-ROW-3-U139",
+        "EDIANA-MILYAN-0-ROW-3-U140"
+      ],
+      "anchor_alignment_ids": [
+        "TL55-L3-A141",
+        "TL55-L3-A142",
+        "TL55-L3-A143",
+        "TL55-L3-A144",
+        "TL55-L3-A145",
+        "TL55-L3-A146",
+        "TL55-L3-A147",
+        "TL55-L3-A148",
+        "TL55-L3-A149",
+        "TL55-L3-A150",
+        "TL55-L3-A151",
+        "TL55-L3-A152",
+        "TL55-L3-A153",
+        "TL55-L3-A154",
+        "TL55-L3-A155",
+        "TL55-L3-A156",
+        "TL55-L3-A157"
+      ],
+      "source_anchor_position_ids": [
+        "S2005-G0437",
+        "S2005-G0438",
+        "S2005-G0439",
+        "S2005-G0440",
+        "S2005-G0441",
+        "S2005-G0442",
+        "S2005-G0443",
+        "S2005-G0444",
+        "S2005-G0445",
+        "S2005-G0446",
+        "S2005-G0447"
+      ],
+      "reference_anchor_position_ids": [
+        "EDIANA-MILYAN-0-ROW-3-U129",
+        "EDIANA-MILYAN-0-ROW-3-U130",
+        "EDIANA-MILYAN-0-ROW-3-U131",
+        "EDIANA-MILYAN-0-ROW-3-U132",
+        "EDIANA-MILYAN-0-ROW-3-U133",
+        "EDIANA-MILYAN-0-ROW-3-U134",
+        "EDIANA-MILYAN-0-ROW-3-U135",
+        "EDIANA-MILYAN-0-ROW-3-U136",
+        "EDIANA-MILYAN-0-ROW-3-U137",
+        "EDIANA-MILYAN-0-ROW-3-U138",
+        "EDIANA-MILYAN-0-ROW-3-U139",
+        "EDIANA-MILYAN-0-ROW-3-U140",
+        "EDIANA-MILYAN-0-ROW-3-U141",
+        "EDIANA-MILYAN-0-ROW-3-U142",
+        "EDIANA-MILYAN-0-ROW-3-U143",
+        "EDIANA-MILYAN-0-ROW-3-U144",
+        "EDIANA-MILYAN-0-ROW-3-U145"
+      ]
+    },
+    {
+      "id": "TL55-REVIEW-20",
+      "source_label": 3,
+      "alignment_ids": [
+        "TL55-L3-A160",
+        "TL55-L3-A162",
+        "TL55-L3-A163"
+      ],
+      "context_alignment_ids": [
+        "TL55-L3-A160",
+        "TL55-L3-A161",
+        "TL55-L3-A162",
+        "TL55-L3-A163"
+      ],
+      "algorithm_ambiguous_records": [
+        "TL55-L3-A160",
+        "TL55-L3-A162",
+        "TL55-L3-A163"
+      ],
+      "documentary_assessment": "In the final damaged group: two restored reference letters correspond in order to the two printed lacuna dots. The intervening print space is layout, not another sign. The shared outer letters anchor this range without validating either restoration.",
+      "status": "DOCUMENTARY_REVIEW_COMPLETE_NOT_EPIGRAPHIC_ACCEPTANCE",
+      "ambiguity_disposition": "POSITIONAL_CORRESPONDENCE_DOCUMENTED",
+      "preferred_documentary_correspondences": [
+        {
+          "reference_unit": "EDIANA-MILYAN-0-ROW-3-U148",
+          "source_unit": "S2005-G0450",
+          "relation": "RESTORED_TO_UNKNOWN_POSITION",
+          "accepts_reading": false
+        },
+        {
+          "reference_unit": "EDIANA-MILYAN-0-ROW-3-U149",
+          "source_unit": "S2005-G0452",
+          "relation": "RESTORED_TO_UNKNOWN_POSITION",
+          "accepts_reading": false
+        }
+      ],
+      "unique_point_mapping_claimed": false,
+      "canonical_change_applied": false,
+      "independent_review_added": false,
+      "specific_apparatus_entry_ids": [
+        "S2005-A3-11"
+      ],
+      "specific_apparatus_printed_pages": [
+        125
+      ],
+      "transcription_printed_page": 121,
+      "transcription_pdf_ordinal": 27,
+      "source_position_ids": [
+        "S2005-G0450",
+        "S2005-G0451",
+        "S2005-G0452"
+      ],
+      "reference_position_ids": [
+        "EDIANA-MILYAN-0-ROW-3-U148",
+        "EDIANA-MILYAN-0-ROW-3-U149"
+      ],
+      "anchor_alignment_ids": [
+        "TL55-L3-A155",
+        "TL55-L3-A156",
+        "TL55-L3-A157",
+        "TL55-L3-A158",
+        "TL55-L3-A159",
+        "TL55-L3-A160",
+        "TL55-L3-A161",
+        "TL55-L3-A162",
+        "TL55-L3-A163",
+        "TL55-L3-A164",
+        "TL55-L3-A165",
+        "TL55-L3-A166",
+        "TL55-L3-A167",
+        "TL55-L3-A168"
+      ],
+      "source_anchor_position_ids": [
+        "S2005-G0445",
+        "S2005-G0446",
+        "S2005-G0447",
+        "S2005-G0448",
+        "S2005-G0449",
+        "S2005-G0450",
+        "S2005-G0451",
+        "S2005-G0452",
+        "S2005-G0453",
+        "S2005-G0454",
+        "S2005-G0455",
+        "S2005-G0456",
+        "S2005-G0457"
+      ],
+      "reference_anchor_position_ids": [
+        "EDIANA-MILYAN-0-ROW-3-U143",
+        "EDIANA-MILYAN-0-ROW-3-U144",
+        "EDIANA-MILYAN-0-ROW-3-U145",
+        "EDIANA-MILYAN-0-ROW-3-U146",
+        "EDIANA-MILYAN-0-ROW-3-U147",
+        "EDIANA-MILYAN-0-ROW-3-U148",
+        "EDIANA-MILYAN-0-ROW-3-U149",
+        "EDIANA-MILYAN-0-ROW-3-U150",
+        "EDIANA-MILYAN-0-ROW-3-U151",
+        "EDIANA-MILYAN-0-ROW-3-U152",
+        "EDIANA-MILYAN-0-ROW-3-U153",
+        "EDIANA-MILYAN-0-ROW-3-U154"
+      ]
+    },
+    {
+      "id": "TL55-REVIEW-21",
+      "source_label": 4,
+      "alignment_ids": [
+        "TL55-L4-A002"
+      ],
+      "context_alignment_ids": [
+        "TL55-L4-A002"
+      ],
+      "algorithm_ambiguous_records": [],
+      "documentary_assessment": "At source label4 opening: the reference places a letter plus question mark inside its bracket, whereas the print brackets only the occupancy question. Record the extra proposed reference letter without accepting it.",
+      "status": "DOCUMENTARY_REVIEW_COMPLETE_NOT_EPIGRAPHIC_ACCEPTANCE",
+      "ambiguity_disposition": "NO_ALGORITHM_AMBIGUITY_IN_THIS_CASE",
+      "preferred_documentary_correspondences": [],
+      "unique_point_mapping_claimed": false,
+      "canonical_change_applied": false,
+      "independent_review_added": false,
+      "specific_apparatus_entry_ids": [
+        "S2005-A4-01"
+      ],
+      "specific_apparatus_printed_pages": [
+        125,
+        126
+      ],
+      "transcription_printed_page": 122,
+      "transcription_pdf_ordinal": 28,
+      "source_position_ids": [],
+      "reference_position_ids": [
+        "EDIANA-MILYAN-0-ROW-4-U002"
+      ],
+      "anchor_alignment_ids": [
+        "TL55-L4-A001",
+        "TL55-L4-A002",
+        "TL55-L4-A003",
+        "TL55-L4-A004",
+        "TL55-L4-A005",
+        "TL55-L4-A006",
+        "TL55-L4-A007"
+      ],
+      "source_anchor_position_ids": [
+        "S2005-G0467",
+        "S2005-G0468",
+        "S2005-G0469",
+        "S2005-G0470",
+        "S2005-G0471",
+        "S2005-G0472"
+      ],
+      "reference_anchor_position_ids": [
+        "EDIANA-MILYAN-0-ROW-4-U001",
+        "EDIANA-MILYAN-0-ROW-4-U002",
+        "EDIANA-MILYAN-0-ROW-4-U003",
+        "EDIANA-MILYAN-0-ROW-4-U004",
+        "EDIANA-MILYAN-0-ROW-4-U005",
+        "EDIANA-MILYAN-0-ROW-4-U006",
+        "EDIANA-MILYAN-0-ROW-4-U007"
+      ]
+    },
+    {
+      "id": "TL55-REVIEW-22",
+      "source_label": 4,
+      "alignment_ids": [
+        "TL55-L4-A006"
+      ],
+      "context_alignment_ids": [
+        "TL55-L4-A006"
+      ],
+      "algorithm_ambiguous_records": [],
+      "documentary_assessment": "At the following consonant: the source print does not carry the reference underdot. Preserve the difference; the apparatus’s expressed doubt remains separate prose evidence, so absence of a printed dot does not establish a certain ancient reading.",
+      "status": "DOCUMENTARY_REVIEW_COMPLETE_NOT_EPIGRAPHIC_ACCEPTANCE",
+      "ambiguity_disposition": "NO_ALGORITHM_AMBIGUITY_IN_THIS_CASE",
+      "preferred_documentary_correspondences": [],
+      "unique_point_mapping_claimed": false,
+      "canonical_change_applied": false,
+      "independent_review_added": false,
+      "specific_apparatus_entry_ids": [
+        "S2005-A4-01"
+      ],
+      "specific_apparatus_printed_pages": [
+        125,
+        126
+      ],
+      "transcription_printed_page": 122,
+      "transcription_pdf_ordinal": 28,
+      "source_position_ids": [
+        "S2005-G0471"
+      ],
+      "reference_position_ids": [
+        "EDIANA-MILYAN-0-ROW-4-U006"
+      ],
+      "anchor_alignment_ids": [
+        "TL55-L4-A001",
+        "TL55-L4-A002",
+        "TL55-L4-A003",
+        "TL55-L4-A004",
+        "TL55-L4-A005",
+        "TL55-L4-A006",
+        "TL55-L4-A007",
+        "TL55-L4-A008",
+        "TL55-L4-A009",
+        "TL55-L4-A010",
+        "TL55-L4-A011"
+      ],
+      "source_anchor_position_ids": [
+        "S2005-G0467",
+        "S2005-G0468",
+        "S2005-G0469",
+        "S2005-G0470",
+        "S2005-G0471",
+        "S2005-G0472",
+        "S2005-G0473",
+        "S2005-G0474",
+        "S2005-G0475"
+      ],
+      "reference_anchor_position_ids": [
+        "EDIANA-MILYAN-0-ROW-4-U001",
+        "EDIANA-MILYAN-0-ROW-4-U002",
+        "EDIANA-MILYAN-0-ROW-4-U003",
+        "EDIANA-MILYAN-0-ROW-4-U004",
+        "EDIANA-MILYAN-0-ROW-4-U005",
+        "EDIANA-MILYAN-0-ROW-4-U006",
+        "EDIANA-MILYAN-0-ROW-4-U007",
+        "EDIANA-MILYAN-0-ROW-4-U008",
+        "EDIANA-MILYAN-0-ROW-4-U009",
+        "EDIANA-MILYAN-0-ROW-4-U010",
+        "EDIANA-MILYAN-0-ROW-4-U011"
+      ]
+    },
+    {
+      "id": "TL55-REVIEW-23",
+      "source_label": 4,
+      "alignment_ids": [
+        "TL55-L4-A017",
+        "TL55-L4-A018",
+        "TL55-L4-A019",
+        "TL55-L4-A020",
+        "TL55-L4-A021"
+      ],
+      "context_alignment_ids": [
+        "TL55-L4-A017",
+        "TL55-L4-A018",
+        "TL55-L4-A019",
+        "TL55-L4-A020",
+        "TL55-L4-A021"
+      ],
+      "algorithm_ambiguous_records": [
+        "TL55-L4-A018",
+        "TL55-L4-A019",
+        "TL55-L4-A020",
+        "TL55-L4-A021"
+      ],
+      "documentary_assessment": "After apiti: the reference bracketed space/letter and the printed three-dot lacuna are comparable as ranges. The evidence does not identify which printed unknown position the restored letter occupies. Keep the range correspondence and prohibit a unique per-letter pairing.",
+      "status": "DOCUMENTARY_REVIEW_COMPLETE_NOT_EPIGRAPHIC_ACCEPTANCE",
+      "ambiguity_disposition": "RANGE_ONLY_NO_UNIQUE_POINT_MAPPING",
+      "preferred_documentary_correspondences": [],
+      "unique_point_mapping_claimed": false,
+      "canonical_change_applied": false,
+      "independent_review_added": false,
+      "specific_apparatus_entry_ids": [
+        "S2005-A4-03"
+      ],
+      "specific_apparatus_printed_pages": [
+        126
+      ],
+      "transcription_printed_page": 122,
+      "transcription_pdf_ordinal": 28,
+      "source_position_ids": [
+        "S2005-G0481",
+        "S2005-G0482",
+        "S2005-G0483",
+        "S2005-G0484",
+        "S2005-G0485"
+      ],
+      "reference_position_ids": [
+        "EDIANA-MILYAN-0-ROW-4-U017",
+        "EDIANA-MILYAN-0-ROW-4-U018"
+      ],
+      "anchor_alignment_ids": [
+        "TL55-L4-A012",
+        "TL55-L4-A013",
+        "TL55-L4-A014",
+        "TL55-L4-A015",
+        "TL55-L4-A016",
+        "TL55-L4-A017",
+        "TL55-L4-A018",
+        "TL55-L4-A019",
+        "TL55-L4-A020",
+        "TL55-L4-A021",
+        "TL55-L4-A022",
+        "TL55-L4-A023",
+        "TL55-L4-A024",
+        "TL55-L4-A025",
+        "TL55-L4-A026"
+      ],
+      "source_anchor_position_ids": [
+        "S2005-G0476",
+        "S2005-G0477",
+        "S2005-G0478",
+        "S2005-G0479",
+        "S2005-G0480",
+        "S2005-G0481",
+        "S2005-G0482",
+        "S2005-G0483",
+        "S2005-G0484",
+        "S2005-G0485",
+        "S2005-G0486",
+        "S2005-G0487",
+        "S2005-G0488",
+        "S2005-G0489"
+      ],
+      "reference_anchor_position_ids": [
+        "EDIANA-MILYAN-0-ROW-4-U012",
+        "EDIANA-MILYAN-0-ROW-4-U013",
+        "EDIANA-MILYAN-0-ROW-4-U014",
+        "EDIANA-MILYAN-0-ROW-4-U015",
+        "EDIANA-MILYAN-0-ROW-4-U016",
+        "EDIANA-MILYAN-0-ROW-4-U017",
+        "EDIANA-MILYAN-0-ROW-4-U018",
+        "EDIANA-MILYAN-0-ROW-4-U019",
+        "EDIANA-MILYAN-0-ROW-4-U020",
+        "EDIANA-MILYAN-0-ROW-4-U021",
+        "EDIANA-MILYAN-0-ROW-4-U022",
+        "EDIANA-MILYAN-0-ROW-4-U023"
+      ]
+    },
+    {
+      "id": "TL55-REVIEW-24",
+      "source_label": 4,
+      "alignment_ids": [
+        "TL55-L4-A029"
+      ],
+      "context_alignment_ids": [
+        "TL55-L4-A029"
+      ],
+      "algorithm_ambiguous_records": [],
+      "documentary_assessment": "At the lijanuwa opening: the print explicitly preserves the p/l alternative at one comparative position, while the reference has one doubtful form. Neither alternative is eliminated and the later reconstruction is not substituted.",
+      "status": "DOCUMENTARY_REVIEW_COMPLETE_NOT_EPIGRAPHIC_ACCEPTANCE",
+      "ambiguity_disposition": "NO_ALGORITHM_AMBIGUITY_IN_THIS_CASE",
+      "preferred_documentary_correspondences": [],
+      "unique_point_mapping_claimed": false,
+      "canonical_change_applied": false,
+      "independent_review_added": false,
+      "specific_apparatus_entry_ids": [
+        "S2005-A4-04"
+      ],
+      "specific_apparatus_printed_pages": [
+        126
+      ],
+      "transcription_printed_page": 122,
+      "transcription_pdf_ordinal": 28,
+      "source_position_ids": [
+        "S2005-G0492"
+      ],
+      "reference_position_ids": [
+        "EDIANA-MILYAN-0-ROW-4-U026"
+      ],
+      "anchor_alignment_ids": [
+        "TL55-L4-A024",
+        "TL55-L4-A025",
+        "TL55-L4-A026",
+        "TL55-L4-A027",
+        "TL55-L4-A028",
+        "TL55-L4-A029",
+        "TL55-L4-A030",
+        "TL55-L4-A031",
+        "TL55-L4-A032",
+        "TL55-L4-A033",
+        "TL55-L4-A034"
+      ],
+      "source_anchor_position_ids": [
+        "S2005-G0488",
+        "S2005-G0489",
+        "S2005-G0490",
+        "S2005-G0491",
+        "S2005-G0492",
+        "S2005-G0493",
+        "S2005-G0494",
+        "S2005-G0495",
+        "S2005-G0496",
+        "S2005-G0497"
+      ],
+      "reference_anchor_position_ids": [
+        "EDIANA-MILYAN-0-ROW-4-U021",
+        "EDIANA-MILYAN-0-ROW-4-U022",
+        "EDIANA-MILYAN-0-ROW-4-U023",
+        "EDIANA-MILYAN-0-ROW-4-U024",
+        "EDIANA-MILYAN-0-ROW-4-U025",
+        "EDIANA-MILYAN-0-ROW-4-U026",
+        "EDIANA-MILYAN-0-ROW-4-U027",
+        "EDIANA-MILYAN-0-ROW-4-U028",
+        "EDIANA-MILYAN-0-ROW-4-U029",
+        "EDIANA-MILYAN-0-ROW-4-U030",
+        "EDIANA-MILYAN-0-ROW-4-U031"
+      ]
+    },
+    {
+      "id": "TL55-REVIEW-25",
+      "source_label": 4,
+      "alignment_ids": [
+        "TL55-L4-A050",
+        "TL55-L4-A051",
+        "TL55-L4-A052"
+      ],
+      "context_alignment_ids": [
+        "TL55-L4-A050",
+        "TL55-L4-A051",
+        "TL55-L4-A052"
+      ],
+      "algorithm_ambiguous_records": [
+        "TL55-L4-A050",
+        "TL55-L4-A051",
+        "TL55-L4-A052"
+      ],
+      "documentary_assessment": "Inside mruwasi: the doubtful reference consonant corresponds to the single printed lacuna dot, not the bracket closing it. Shared flanking letters identify the position; the lost sign’s identity remains open.",
+      "status": "DOCUMENTARY_REVIEW_COMPLETE_NOT_EPIGRAPHIC_ACCEPTANCE",
+      "ambiguity_disposition": "POSITIONAL_CORRESPONDENCE_DOCUMENTED",
+      "preferred_documentary_correspondences": [
+        {
+          "reference_unit": "EDIANA-MILYAN-0-ROW-4-U047",
+          "source_unit": "S2005-G0512",
+          "relation": "DOUBTFUL_READING_TO_UNKNOWN_POSITION",
+          "accepts_reading": false
+        }
+      ],
+      "unique_point_mapping_claimed": false,
+      "canonical_change_applied": false,
+      "independent_review_added": false,
+      "specific_apparatus_entry_ids": [
+        "S2005-A4-06"
+      ],
+      "specific_apparatus_printed_pages": [
+        126
+      ],
+      "transcription_printed_page": 122,
+      "transcription_pdf_ordinal": 28,
+      "source_position_ids": [
+        "S2005-G0511",
+        "S2005-G0512",
+        "S2005-G0513"
+      ],
+      "reference_position_ids": [
+        "EDIANA-MILYAN-0-ROW-4-U047"
+      ],
+      "anchor_alignment_ids": [
+        "TL55-L4-A045",
+        "TL55-L4-A046",
+        "TL55-L4-A047",
+        "TL55-L4-A048",
+        "TL55-L4-A049",
+        "TL55-L4-A050",
+        "TL55-L4-A051",
+        "TL55-L4-A052",
+        "TL55-L4-A053",
+        "TL55-L4-A054",
+        "TL55-L4-A055",
+        "TL55-L4-A056",
+        "TL55-L4-A057"
+      ],
+      "source_anchor_position_ids": [
+        "S2005-G0506",
+        "S2005-G0507",
+        "S2005-G0508",
+        "S2005-G0509",
+        "S2005-G0510",
+        "S2005-G0511",
+        "S2005-G0512",
+        "S2005-G0513",
+        "S2005-G0514",
+        "S2005-G0515",
+        "S2005-G0516",
+        "S2005-G0517"
+      ],
+      "reference_anchor_position_ids": [
+        "EDIANA-MILYAN-0-ROW-4-U042",
+        "EDIANA-MILYAN-0-ROW-4-U043",
+        "EDIANA-MILYAN-0-ROW-4-U044",
+        "EDIANA-MILYAN-0-ROW-4-U045",
+        "EDIANA-MILYAN-0-ROW-4-U046",
+        "EDIANA-MILYAN-0-ROW-4-U047",
+        "EDIANA-MILYAN-0-ROW-4-U048",
+        "EDIANA-MILYAN-0-ROW-4-U049",
+        "EDIANA-MILYAN-0-ROW-4-U050",
+        "EDIANA-MILYAN-0-ROW-4-U051",
+        "EDIANA-MILYAN-0-ROW-4-U052"
+      ]
+    },
+    {
+      "id": "TL55-REVIEW-26",
+      "source_label": 4,
+      "alignment_ids": [
+        "TL55-L4-A077",
+        "TL55-L4-A078",
+        "TL55-L4-A079"
+      ],
+      "context_alignment_ids": [
+        "TL55-L4-A077",
+        "TL55-L4-A078",
+        "TL55-L4-A079"
+      ],
+      "algorithm_ambiguous_records": [],
+      "documentary_assessment": "At sebe: the reference intervention and printed graphic consonant belong to different editorial layers. The apparatus identifies an emendation in the older edition; no copying error or accepted replacement is inferred.",
+      "status": "DOCUMENTARY_REVIEW_COMPLETE_NOT_EPIGRAPHIC_ACCEPTANCE",
+      "ambiguity_disposition": "NO_ALGORITHM_AMBIGUITY_IN_THIS_CASE",
+      "preferred_documentary_correspondences": [],
+      "unique_point_mapping_claimed": false,
+      "canonical_change_applied": false,
+      "independent_review_added": false,
+      "specific_apparatus_entry_ids": [
+        "S2005-A4-07"
+      ],
+      "specific_apparatus_printed_pages": [
+        126
+      ],
+      "transcription_printed_page": 122,
+      "transcription_pdf_ordinal": 28,
+      "source_position_ids": [
+        "S2005-G0535"
+      ],
+      "reference_position_ids": [
+        "EDIANA-MILYAN-0-ROW-4-U072",
+        "EDIANA-MILYAN-0-ROW-4-U073",
+        "EDIANA-MILYAN-0-ROW-4-U074"
+      ],
+      "anchor_alignment_ids": [
+        "TL55-L4-A072",
+        "TL55-L4-A073",
+        "TL55-L4-A074",
+        "TL55-L4-A075",
+        "TL55-L4-A076",
+        "TL55-L4-A077",
+        "TL55-L4-A078",
+        "TL55-L4-A079",
+        "TL55-L4-A080",
+        "TL55-L4-A081",
+        "TL55-L4-A082",
+        "TL55-L4-A083",
+        "TL55-L4-A084"
+      ],
+      "source_anchor_position_ids": [
+        "S2005-G0531",
+        "S2005-G0532",
+        "S2005-G0533",
+        "S2005-G0534",
+        "S2005-G0535",
+        "S2005-G0536",
+        "S2005-G0537",
+        "S2005-G0538",
+        "S2005-G0539"
+      ],
+      "reference_anchor_position_ids": [
+        "EDIANA-MILYAN-0-ROW-4-U067",
+        "EDIANA-MILYAN-0-ROW-4-U068",
+        "EDIANA-MILYAN-0-ROW-4-U069",
+        "EDIANA-MILYAN-0-ROW-4-U070",
+        "EDIANA-MILYAN-0-ROW-4-U071",
+        "EDIANA-MILYAN-0-ROW-4-U072",
+        "EDIANA-MILYAN-0-ROW-4-U073",
+        "EDIANA-MILYAN-0-ROW-4-U074",
+        "EDIANA-MILYAN-0-ROW-4-U075",
+        "EDIANA-MILYAN-0-ROW-4-U076",
+        "EDIANA-MILYAN-0-ROW-4-U077",
+        "EDIANA-MILYAN-0-ROW-4-U078",
+        "EDIANA-MILYAN-0-ROW-4-U079"
+      ]
+    },
+    {
+      "id": "TL55-REVIEW-27",
+      "source_label": 4,
+      "alignment_ids": [
+        "TL55-L4-A112"
+      ],
+      "context_alignment_ids": [
+        "TL55-L4-A112"
+      ],
+      "algorithm_ambiguous_records": [],
+      "documentary_assessment": "After lajata: the printed separator has an underdot not present in the reference separator. Record the visible typographic mark; its exact editorial interpretation remains qualified.",
+      "status": "DOCUMENTARY_REVIEW_COMPLETE_NOT_EPIGRAPHIC_ACCEPTANCE",
+      "ambiguity_disposition": "NO_ALGORITHM_AMBIGUITY_IN_THIS_CASE",
+      "preferred_documentary_correspondences": [],
+      "unique_point_mapping_claimed": false,
+      "canonical_change_applied": false,
+      "independent_review_added": false,
+      "specific_apparatus_entry_ids": [],
+      "specific_apparatus_printed_pages": [],
+      "transcription_printed_page": 122,
+      "transcription_pdf_ordinal": 28,
+      "source_position_ids": [
+        "S2005-G0564"
+      ],
+      "reference_position_ids": [
+        "EDIANA-MILYAN-0-ROW-4-U107"
+      ],
+      "anchor_alignment_ids": [
+        "TL55-L4-A107",
+        "TL55-L4-A108",
+        "TL55-L4-A109",
+        "TL55-L4-A110",
+        "TL55-L4-A111",
+        "TL55-L4-A112",
+        "TL55-L4-A113",
+        "TL55-L4-A114",
+        "TL55-L4-A115",
+        "TL55-L4-A116",
+        "TL55-L4-A117"
+      ],
+      "source_anchor_position_ids": [
+        "S2005-G0560",
+        "S2005-G0561",
+        "S2005-G0562",
+        "S2005-G0563",
+        "S2005-G0564",
+        "S2005-G0565",
+        "S2005-G0566",
+        "S2005-G0567",
+        "S2005-G0568",
+        "S2005-G0569"
+      ],
+      "reference_anchor_position_ids": [
+        "EDIANA-MILYAN-0-ROW-4-U102",
+        "EDIANA-MILYAN-0-ROW-4-U103",
+        "EDIANA-MILYAN-0-ROW-4-U104",
+        "EDIANA-MILYAN-0-ROW-4-U105",
+        "EDIANA-MILYAN-0-ROW-4-U106",
+        "EDIANA-MILYAN-0-ROW-4-U107",
+        "EDIANA-MILYAN-0-ROW-4-U108",
+        "EDIANA-MILYAN-0-ROW-4-U109",
+        "EDIANA-MILYAN-0-ROW-4-U110",
+        "EDIANA-MILYAN-0-ROW-4-U111",
+        "EDIANA-MILYAN-0-ROW-4-U112"
+      ]
+    },
+    {
+      "id": "TL55-REVIEW-28",
+      "source_label": 4,
+      "alignment_ids": [
+        "TL55-L4-A119",
+        "TL55-L4-A120",
+        "TL55-L4-A121"
+      ],
+      "context_alignment_ids": [
+        "TL55-L4-A119",
+        "TL55-L4-A120",
+        "TL55-L4-A121"
+      ],
+      "algorithm_ambiguous_records": [],
+      "documentary_assessment": "At epedes: the same base letter is carried by different editorial context because the reference braces it. Preserve this context difference without assigning an undocumented meaning to the braces or treating the letter as newly attested.",
+      "status": "DOCUMENTARY_REVIEW_COMPLETE_NOT_EPIGRAPHIC_ACCEPTANCE",
+      "ambiguity_disposition": "NO_ALGORITHM_AMBIGUITY_IN_THIS_CASE",
+      "preferred_documentary_correspondences": [],
+      "unique_point_mapping_claimed": false,
+      "canonical_change_applied": false,
+      "independent_review_added": false,
+      "specific_apparatus_entry_ids": [],
+      "specific_apparatus_printed_pages": [],
+      "transcription_printed_page": 122,
+      "transcription_pdf_ordinal": 28,
+      "source_position_ids": [
+        "S2005-G0571"
+      ],
+      "reference_position_ids": [
+        "EDIANA-MILYAN-0-ROW-4-U114",
+        "EDIANA-MILYAN-0-ROW-4-U115",
+        "EDIANA-MILYAN-0-ROW-4-U116"
+      ],
+      "anchor_alignment_ids": [
+        "TL55-L4-A114",
+        "TL55-L4-A115",
+        "TL55-L4-A116",
+        "TL55-L4-A117",
+        "TL55-L4-A118",
+        "TL55-L4-A119",
+        "TL55-L4-A120",
+        "TL55-L4-A121",
+        "TL55-L4-A122",
+        "TL55-L4-A123",
+        "TL55-L4-A124",
+        "TL55-L4-A125",
+        "TL55-L4-A126"
+      ],
+      "source_anchor_position_ids": [
+        "S2005-G0566",
+        "S2005-G0567",
+        "S2005-G0568",
+        "S2005-G0569",
+        "S2005-G0570",
+        "S2005-G0571",
+        "S2005-G0572",
+        "S2005-G0573",
+        "S2005-G0574",
+        "S2005-G0575"
+      ],
+      "reference_anchor_position_ids": [
+        "EDIANA-MILYAN-0-ROW-4-U109",
+        "EDIANA-MILYAN-0-ROW-4-U110",
+        "EDIANA-MILYAN-0-ROW-4-U111",
+        "EDIANA-MILYAN-0-ROW-4-U112",
+        "EDIANA-MILYAN-0-ROW-4-U113",
+        "EDIANA-MILYAN-0-ROW-4-U114",
+        "EDIANA-MILYAN-0-ROW-4-U115",
+        "EDIANA-MILYAN-0-ROW-4-U116",
+        "EDIANA-MILYAN-0-ROW-4-U117",
+        "EDIANA-MILYAN-0-ROW-4-U118",
+        "EDIANA-MILYAN-0-ROW-4-U119",
+        "EDIANA-MILYAN-0-ROW-4-U120",
+        "EDIANA-MILYAN-0-ROW-4-U121"
+      ]
+    },
+    {
+      "id": "TL55-REVIEW-29",
+      "source_label": 4,
+      "alignment_ids": [
+        "TL55-L4-A135",
+        "TL55-L4-A138"
+      ],
+      "context_alignment_ids": [
+        "TL55-L4-A135",
+        "TL55-L4-A136",
+        "TL55-L4-A137",
+        "TL55-L4-A138"
+      ],
+      "algorithm_ambiguous_records": [],
+      "documentary_assessment": "At wes/nteli: a printed colon corresponds to reference punctuation enclosed by opaque curly marks. Print spacing is not an ancient lexical boundary.",
+      "status": "DOCUMENTARY_REVIEW_COMPLETE_NOT_EPIGRAPHIC_ACCEPTANCE",
+      "ambiguity_disposition": "NO_ALGORITHM_AMBIGUITY_IN_THIS_CASE",
+      "preferred_documentary_correspondences": [],
+      "unique_point_mapping_claimed": false,
+      "canonical_change_applied": false,
+      "independent_review_added": false,
+      "specific_apparatus_entry_ids": [],
+      "specific_apparatus_printed_pages": [],
+      "transcription_printed_page": 122,
+      "transcription_pdf_ordinal": 28,
+      "source_position_ids": [
+        "S2005-G0583",
+        "S2005-G0584"
+      ],
+      "reference_position_ids": [
+        "EDIANA-MILYAN-0-ROW-4-U130",
+        "EDIANA-MILYAN-0-ROW-4-U131",
+        "EDIANA-MILYAN-0-ROW-4-U132"
+      ],
+      "anchor_alignment_ids": [
+        "TL55-L4-A130",
+        "TL55-L4-A131",
+        "TL55-L4-A132",
+        "TL55-L4-A133",
+        "TL55-L4-A134",
+        "TL55-L4-A135",
+        "TL55-L4-A136",
+        "TL55-L4-A137",
+        "TL55-L4-A138",
+        "TL55-L4-A139",
+        "TL55-L4-A140",
+        "TL55-L4-A141",
+        "TL55-L4-A142",
+        "TL55-L4-A143"
+      ],
+      "source_anchor_position_ids": [
+        "S2005-G0578",
+        "S2005-G0579",
+        "S2005-G0580",
+        "S2005-G0581",
+        "S2005-G0582",
+        "S2005-G0583",
+        "S2005-G0584",
+        "S2005-G0585",
+        "S2005-G0586",
+        "S2005-G0587",
+        "S2005-G0588",
+        "S2005-G0589"
+      ],
+      "reference_anchor_position_ids": [
+        "EDIANA-MILYAN-0-ROW-4-U125",
+        "EDIANA-MILYAN-0-ROW-4-U126",
+        "EDIANA-MILYAN-0-ROW-4-U127",
+        "EDIANA-MILYAN-0-ROW-4-U128",
+        "EDIANA-MILYAN-0-ROW-4-U129",
+        "EDIANA-MILYAN-0-ROW-4-U130",
+        "EDIANA-MILYAN-0-ROW-4-U131",
+        "EDIANA-MILYAN-0-ROW-4-U132",
+        "EDIANA-MILYAN-0-ROW-4-U133",
+        "EDIANA-MILYAN-0-ROW-4-U134",
+        "EDIANA-MILYAN-0-ROW-4-U135",
+        "EDIANA-MILYAN-0-ROW-4-U136",
+        "EDIANA-MILYAN-0-ROW-4-U137"
+      ]
+    },
+    {
+      "id": "TL55-REVIEW-30",
+      "source_label": 4,
+      "alignment_ids": [
+        "TL55-L4-A190"
+      ],
+      "context_alignment_ids": [
+        "TL55-L4-A190"
+      ],
+      "algorithm_ambiguous_records": [],
+      "documentary_assessment": "Before the final t[u] group: the print has a colon without a reference punctuation partner. Retain this source punctuation difference; do not add it to the frozen row.",
+      "status": "DOCUMENTARY_REVIEW_COMPLETE_NOT_EPIGRAPHIC_ACCEPTANCE",
+      "ambiguity_disposition": "NO_ALGORITHM_AMBIGUITY_IN_THIS_CASE",
+      "preferred_documentary_correspondences": [],
+      "unique_point_mapping_claimed": false,
+      "canonical_change_applied": false,
+      "independent_review_added": false,
+      "specific_apparatus_entry_ids": [],
+      "specific_apparatus_printed_pages": [],
+      "transcription_printed_page": 122,
+      "transcription_pdf_ordinal": 28,
+      "source_position_ids": [
+        "S2005-G0630"
+      ],
+      "reference_position_ids": [],
+      "anchor_alignment_ids": [
+        "TL55-L4-A185",
+        "TL55-L4-A186",
+        "TL55-L4-A187",
+        "TL55-L4-A188",
+        "TL55-L4-A189",
+        "TL55-L4-A190",
+        "TL55-L4-A191",
+        "TL55-L4-A192",
+        "TL55-L4-A193",
+        "TL55-L4-A194",
+        "TL55-L4-A195"
+      ],
+      "source_anchor_position_ids": [
+        "S2005-G0625",
+        "S2005-G0626",
+        "S2005-G0627",
+        "S2005-G0628",
+        "S2005-G0629",
+        "S2005-G0630",
+        "S2005-G0631",
+        "S2005-G0632",
+        "S2005-G0633",
+        "S2005-G0634",
+        "S2005-G0635"
+      ],
+      "reference_anchor_position_ids": [
+        "EDIANA-MILYAN-0-ROW-4-U177",
+        "EDIANA-MILYAN-0-ROW-4-U178",
+        "EDIANA-MILYAN-0-ROW-4-U179",
+        "EDIANA-MILYAN-0-ROW-4-U180",
+        "EDIANA-MILYAN-0-ROW-4-U181",
+        "EDIANA-MILYAN-0-ROW-4-U182",
+        "EDIANA-MILYAN-0-ROW-4-U183",
+        "EDIANA-MILYAN-0-ROW-4-U184",
+        "EDIANA-MILYAN-0-ROW-4-U185",
+        "EDIANA-MILYAN-0-ROW-4-U186"
+      ]
+    },
+    {
+      "id": "TL55-REVIEW-31",
+      "source_label": 4,
+      "alignment_ids": [
+        "TL55-L4-A199",
+        "TL55-L4-A200",
+        "TL55-L4-A201"
+      ],
+      "context_alignment_ids": [
+        "TL55-L4-A199",
+        "TL55-L4-A200",
+        "TL55-L4-A201"
+      ],
+      "algorithm_ambiguous_records": [],
+      "documentary_assessment": "At the end of source label4: the print retains a bracketed unknown position. Keep this end-range uncertainty and the following digital carryover allocation distinct; it does not establish the exact physical end of the inscription line.",
+      "status": "DOCUMENTARY_REVIEW_COMPLETE_NOT_EPIGRAPHIC_ACCEPTANCE",
+      "ambiguity_disposition": "NO_ALGORITHM_AMBIGUITY_IN_THIS_CASE",
+      "preferred_documentary_correspondences": [],
+      "unique_point_mapping_claimed": false,
+      "canonical_change_applied": false,
+      "independent_review_added": false,
+      "specific_apparatus_entry_ids": [
+        "S2005-A4-10"
+      ],
+      "specific_apparatus_printed_pages": [
+        126
+      ],
+      "transcription_printed_page": 122,
+      "transcription_pdf_ordinal": 28,
+      "source_position_ids": [
+        "S2005-G0639",
+        "S2005-G0640",
+        "S2005-G0641"
+      ],
+      "reference_position_ids": [],
+      "anchor_alignment_ids": [
+        "TL55-L4-A194",
+        "TL55-L4-A195",
+        "TL55-L4-A196",
+        "TL55-L4-A197",
+        "TL55-L4-A198",
+        "TL55-L4-A199",
+        "TL55-L4-A200",
+        "TL55-L4-A201",
+        "TL55-L4-A202"
+      ],
+      "source_anchor_position_ids": [
+        "S2005-G0634",
+        "S2005-G0635",
+        "S2005-G0636",
+        "S2005-G0637",
+        "S2005-G0638",
+        "S2005-G0639",
+        "S2005-G0640",
+        "S2005-G0641",
+        "S2005-G0642"
+      ],
+      "reference_anchor_position_ids": [
+        "EDIANA-MILYAN-0-ROW-4-U185",
+        "EDIANA-MILYAN-0-ROW-4-U186",
+        "EDIANA-MILYAN-0-ROW-4-U187",
+        "EDIANA-MILYAN-0-ROW-4-U188",
+        "EDIANA-MILYAN-0-ROW-4-U189"
+      ]
+    },
+    {
+      "id": "TL55-REVIEW-32",
+      "source_label": 5,
+      "alignment_ids": [
+        "TL55-L5-A001",
+        "TL55-L5-A002"
+      ],
+      "context_alignment_ids": [
+        "TL55-L5-A001",
+        "TL55-L5-A002"
+      ],
+      "algorithm_ambiguous_records": [
+        "TL55-L5-A001",
+        "TL55-L5-A002"
+      ],
+      "documentary_assessment": "Opening of source label5: the two three-letter ranges differ under the provisional cross-row allocation, and the cost model admits shifted pairings. The printed text does not prove a unique correspondence for the first two digital letters. Record a range comparison, not an adopted character-by-character correction.",
+      "status": "DOCUMENTARY_REVIEW_COMPLETE_NOT_EPIGRAPHIC_ACCEPTANCE",
+      "ambiguity_disposition": "RANGE_ONLY_NO_UNIQUE_POINT_MAPPING",
+      "preferred_documentary_correspondences": [],
+      "unique_point_mapping_claimed": false,
+      "canonical_change_applied": false,
+      "independent_review_added": false,
+      "specific_apparatus_entry_ids": [
+        "S2005-A5-01"
+      ],
+      "specific_apparatus_printed_pages": [
+        126
+      ],
+      "transcription_printed_page": 122,
+      "transcription_pdf_ordinal": 28,
+      "source_position_ids": [
+        "S2005-G0643",
+        "S2005-G0644"
+      ],
+      "reference_position_ids": [
+        "EDIANA-MILYAN-0-ROW-4-U191",
+        "EDIANA-MILYAN-0-ROW-4-U192"
+      ],
+      "anchor_alignment_ids": [
+        "TL55-L5-A001",
+        "TL55-L5-A002",
+        "TL55-L5-A003",
+        "TL55-L5-A004",
+        "TL55-L5-A005",
+        "TL55-L5-A006",
+        "TL55-L5-A007"
+      ],
+      "source_anchor_position_ids": [
+        "S2005-G0643",
+        "S2005-G0644",
+        "S2005-G0645",
+        "S2005-G0646",
+        "S2005-G0647",
+        "S2005-G0648"
+      ],
+      "reference_anchor_position_ids": [
+        "EDIANA-MILYAN-0-ROW-4-U191",
+        "EDIANA-MILYAN-0-ROW-4-U192",
+        "EDIANA-MILYAN-0-ROW-4-U193",
+        "EDIANA-MILYAN-0-ROW-4-U194",
+        "EDIANA-MILYAN-0-ROW-4-U195",
+        "EDIANA-MILYAN-0-ROW-5-U001",
+        "EDIANA-MILYAN-0-ROW-5-U002"
+      ]
+    },
+    {
+      "id": "TL55-REVIEW-33",
+      "source_label": 5,
+      "alignment_ids": [
+        "TL55-L5-A016"
+      ],
+      "context_alignment_ids": [
+        "TL55-L5-A016"
+      ],
+      "algorithm_ambiguous_records": [],
+      "documentary_assessment": "Within the opening damaged range: the printed bracket closes before punctuation whereas the reference bracket extent differs. A bracket delimiter is not an ancient lost sign.",
+      "status": "DOCUMENTARY_REVIEW_COMPLETE_NOT_EPIGRAPHIC_ACCEPTANCE",
+      "ambiguity_disposition": "NO_ALGORITHM_AMBIGUITY_IN_THIS_CASE",
+      "preferred_documentary_correspondences": [],
+      "unique_point_mapping_claimed": false,
+      "canonical_change_applied": false,
+      "independent_review_added": false,
+      "specific_apparatus_entry_ids": [],
+      "specific_apparatus_printed_pages": [],
+      "transcription_printed_page": 122,
+      "transcription_pdf_ordinal": 28,
+      "source_position_ids": [
+        "S2005-G0657"
+      ],
+      "reference_position_ids": [],
+      "anchor_alignment_ids": [
+        "TL55-L5-A011",
+        "TL55-L5-A012",
+        "TL55-L5-A013",
+        "TL55-L5-A014",
+        "TL55-L5-A015",
+        "TL55-L5-A016",
+        "TL55-L5-A017",
+        "TL55-L5-A018",
+        "TL55-L5-A019",
+        "TL55-L5-A020",
+        "TL55-L5-A021"
+      ],
+      "source_anchor_position_ids": [
+        "S2005-G0652",
+        "S2005-G0653",
+        "S2005-G0654",
+        "S2005-G0655",
+        "S2005-G0656",
+        "S2005-G0657",
+        "S2005-G0658",
+        "S2005-G0659"
+      ],
+      "reference_anchor_position_ids": [
+        "EDIANA-MILYAN-0-ROW-5-U005",
+        "EDIANA-MILYAN-0-ROW-5-U006",
+        "EDIANA-MILYAN-0-ROW-5-U007",
+        "EDIANA-MILYAN-0-ROW-5-U008",
+        "EDIANA-MILYAN-0-ROW-5-U009",
+        "EDIANA-MILYAN-0-ROW-5-U010",
+        "EDIANA-MILYAN-0-ROW-5-U011",
+        "EDIANA-MILYAN-0-ROW-5-U012",
+        "EDIANA-MILYAN-0-ROW-5-U013"
+      ]
+    },
+    {
+      "id": "TL55-REVIEW-34",
+      "source_label": 5,
+      "alignment_ids": [
+        "TL55-L5-A020",
+        "TL55-L5-A021"
+      ],
+      "context_alignment_ids": [
+        "TL55-L5-A020",
+        "TL55-L5-A021"
+      ],
+      "algorithm_ambiguous_records": [],
+      "documentary_assessment": "Before erei: reference restoration and bracket extent differ from the revised print. Preserve the entire damaged range; do not convert the proposed reference consonant into an observed source sign.",
+      "status": "DOCUMENTARY_REVIEW_COMPLETE_NOT_EPIGRAPHIC_ACCEPTANCE",
+      "ambiguity_disposition": "NO_ALGORITHM_AMBIGUITY_IN_THIS_CASE",
+      "preferred_documentary_correspondences": [],
+      "unique_point_mapping_claimed": false,
+      "canonical_change_applied": false,
+      "independent_review_added": false,
+      "specific_apparatus_entry_ids": [],
+      "specific_apparatus_printed_pages": [],
+      "transcription_printed_page": 122,
+      "transcription_pdf_ordinal": 28,
+      "source_position_ids": [],
+      "reference_position_ids": [
+        "EDIANA-MILYAN-0-ROW-5-U012",
+        "EDIANA-MILYAN-0-ROW-5-U013"
+      ],
+      "anchor_alignment_ids": [
+        "TL55-L5-A015",
+        "TL55-L5-A016",
+        "TL55-L5-A017",
+        "TL55-L5-A018",
+        "TL55-L5-A019",
+        "TL55-L5-A020",
+        "TL55-L5-A021",
+        "TL55-L5-A022",
+        "TL55-L5-A023",
+        "TL55-L5-A024",
+        "TL55-L5-A025",
+        "TL55-L5-A026"
+      ],
+      "source_anchor_position_ids": [
+        "S2005-G0656",
+        "S2005-G0657",
+        "S2005-G0658",
+        "S2005-G0659",
+        "S2005-G0660",
+        "S2005-G0661",
+        "S2005-G0662",
+        "S2005-G0663",
+        "S2005-G0664"
+      ],
+      "reference_anchor_position_ids": [
+        "EDIANA-MILYAN-0-ROW-5-U008",
+        "EDIANA-MILYAN-0-ROW-5-U009",
+        "EDIANA-MILYAN-0-ROW-5-U010",
+        "EDIANA-MILYAN-0-ROW-5-U011",
+        "EDIANA-MILYAN-0-ROW-5-U012",
+        "EDIANA-MILYAN-0-ROW-5-U013",
+        "EDIANA-MILYAN-0-ROW-5-U014",
+        "EDIANA-MILYAN-0-ROW-5-U015",
+        "EDIANA-MILYAN-0-ROW-5-U016",
+        "EDIANA-MILYAN-0-ROW-5-U017",
+        "EDIANA-MILYAN-0-ROW-5-U018"
+      ]
+    },
+    {
+      "id": "TL55-REVIEW-35",
+      "source_label": 5,
+      "alignment_ids": [
+        "TL55-L5-A027"
+      ],
+      "context_alignment_ids": [
+        "TL55-L5-A027"
+      ],
+      "algorithm_ambiguous_records": [
+        "TL55-L5-A027"
+      ],
+      "documentary_assessment": "Inside ereimedi: the restored reference consonant corresponds to a single printed lacuna dot between shared flanks. The restoration is compared positionally, not validated.",
+      "status": "DOCUMENTARY_REVIEW_COMPLETE_NOT_EPIGRAPHIC_ACCEPTANCE",
+      "ambiguity_disposition": "POSITIONAL_CORRESPONDENCE_DOCUMENTED",
+      "preferred_documentary_correspondences": [
+        {
+          "reference_unit": "EDIANA-MILYAN-0-ROW-5-U019",
+          "source_unit": "S2005-G0665",
+          "relation": "RESTORED_TO_UNKNOWN_POSITION",
+          "accepts_reading": false
+        }
+      ],
+      "unique_point_mapping_claimed": false,
+      "canonical_change_applied": false,
+      "independent_review_added": false,
+      "specific_apparatus_entry_ids": [],
+      "specific_apparatus_printed_pages": [],
+      "transcription_printed_page": 122,
+      "transcription_pdf_ordinal": 28,
+      "source_position_ids": [
+        "S2005-G0665"
+      ],
+      "reference_position_ids": [
+        "EDIANA-MILYAN-0-ROW-5-U019"
+      ],
+      "anchor_alignment_ids": [
+        "TL55-L5-A022",
+        "TL55-L5-A023",
+        "TL55-L5-A024",
+        "TL55-L5-A025",
+        "TL55-L5-A026",
+        "TL55-L5-A027",
+        "TL55-L5-A028",
+        "TL55-L5-A029",
+        "TL55-L5-A030",
+        "TL55-L5-A031",
+        "TL55-L5-A032"
+      ],
+      "source_anchor_position_ids": [
+        "S2005-G0660",
+        "S2005-G0661",
+        "S2005-G0662",
+        "S2005-G0663",
+        "S2005-G0664",
+        "S2005-G0665",
+        "S2005-G0666",
+        "S2005-G0667",
+        "S2005-G0668",
+        "S2005-G0669"
+      ],
+      "reference_anchor_position_ids": [
+        "EDIANA-MILYAN-0-ROW-5-U014",
+        "EDIANA-MILYAN-0-ROW-5-U015",
+        "EDIANA-MILYAN-0-ROW-5-U016",
+        "EDIANA-MILYAN-0-ROW-5-U017",
+        "EDIANA-MILYAN-0-ROW-5-U018",
+        "EDIANA-MILYAN-0-ROW-5-U019",
+        "EDIANA-MILYAN-0-ROW-5-U020",
+        "EDIANA-MILYAN-0-ROW-5-U021",
+        "EDIANA-MILYAN-0-ROW-5-U022",
+        "EDIANA-MILYAN-0-ROW-5-U023",
+        "EDIANA-MILYAN-0-ROW-5-U024"
+      ]
+    },
+    {
+      "id": "TL55-REVIEW-36",
+      "source_label": 5,
+      "alignment_ids": [
+        "TL55-L5-A051",
+        "TL55-L5-A052",
+        "TL55-L5-A053"
+      ],
+      "context_alignment_ids": [
+        "TL55-L5-A051",
+        "TL55-L5-A052",
+        "TL55-L5-A053"
+      ],
+      "algorithm_ambiguous_records": [],
+      "documentary_assessment": "Before ijesi: the revised print brackets a colon absent from the reference string at this point. This is qualified editorial punctuation, not an additional independently verified sign.",
+      "status": "DOCUMENTARY_REVIEW_COMPLETE_NOT_EPIGRAPHIC_ACCEPTANCE",
+      "ambiguity_disposition": "NO_ALGORITHM_AMBIGUITY_IN_THIS_CASE",
+      "preferred_documentary_correspondences": [],
+      "unique_point_mapping_claimed": false,
+      "canonical_change_applied": false,
+      "independent_review_added": false,
+      "specific_apparatus_entry_ids": [],
+      "specific_apparatus_printed_pages": [],
+      "transcription_printed_page": 122,
+      "transcription_pdf_ordinal": 28,
+      "source_position_ids": [
+        "S2005-G0687",
+        "S2005-G0688",
+        "S2005-G0689"
+      ],
+      "reference_position_ids": [],
+      "anchor_alignment_ids": [
+        "TL55-L5-A046",
+        "TL55-L5-A047",
+        "TL55-L5-A048",
+        "TL55-L5-A049",
+        "TL55-L5-A050",
+        "TL55-L5-A051",
+        "TL55-L5-A052",
+        "TL55-L5-A053",
+        "TL55-L5-A054",
+        "TL55-L5-A055",
+        "TL55-L5-A056",
+        "TL55-L5-A057",
+        "TL55-L5-A058"
+      ],
+      "source_anchor_position_ids": [
+        "S2005-G0682",
+        "S2005-G0683",
+        "S2005-G0684",
+        "S2005-G0685",
+        "S2005-G0686",
+        "S2005-G0687",
+        "S2005-G0688",
+        "S2005-G0689",
+        "S2005-G0690",
+        "S2005-G0691",
+        "S2005-G0692",
+        "S2005-G0693",
+        "S2005-G0694"
+      ],
+      "reference_anchor_position_ids": [
+        "EDIANA-MILYAN-0-ROW-5-U038",
+        "EDIANA-MILYAN-0-ROW-5-U039",
+        "EDIANA-MILYAN-0-ROW-5-U040",
+        "EDIANA-MILYAN-0-ROW-5-U041",
+        "EDIANA-MILYAN-0-ROW-5-U042",
+        "EDIANA-MILYAN-0-ROW-5-U043",
+        "EDIANA-MILYAN-0-ROW-5-U044",
+        "EDIANA-MILYAN-0-ROW-5-U045",
+        "EDIANA-MILYAN-0-ROW-5-U046"
+      ]
+    },
+    {
+      "id": "TL55-REVIEW-37",
+      "source_label": 5,
+      "alignment_ids": [
+        "TL55-L5-A063",
+        "TL55-L5-A064",
+        "TL55-L5-A066",
+        "TL55-L5-A068"
+      ],
+      "context_alignment_ids": [
+        "TL55-L5-A063",
+        "TL55-L5-A064",
+        "TL55-L5-A065",
+        "TL55-L5-A066",
+        "TL55-L5-A067",
+        "TL55-L5-A068"
+      ],
+      "algorithm_ambiguous_records": [
+        "TL55-L5-A068"
+      ],
+      "documentary_assessment": "In the following ala range: reference extra/doubtful material differs from the shorter printed group. The trailing reference vowel and printed colon must remain unpaired because a delimiter is not a competing letter. Other forms and doubts are retained without a monument-level correction.",
+      "status": "DOCUMENTARY_REVIEW_COMPLETE_NOT_EPIGRAPHIC_ACCEPTANCE",
+      "ambiguity_disposition": "POSITIONAL_CORRESPONDENCE_DOCUMENTED",
+      "preferred_documentary_correspondences": [
+        {
+          "reference_unit": "EDIANA-MILYAN-0-ROW-5-U056",
+          "source_unit": null,
+          "relation": "REFERENCE_LETTER_WITHOUT_PRINTED_LETTER_PARTNER",
+          "accepts_reading": false
+        },
+        {
+          "reference_unit": null,
+          "source_unit": "S2005-G0701",
+          "relation": "PRINTED_PUNCTUATION_WITHOUT_REFERENCE_PARTNER",
+          "accepts_reading": false
+        }
+      ],
+      "unique_point_mapping_claimed": false,
+      "canonical_change_applied": false,
+      "independent_review_added": false,
+      "specific_apparatus_entry_ids": [
+        "S2005-A5-05"
+      ],
+      "specific_apparatus_printed_pages": [
+        127
+      ],
+      "transcription_printed_page": 122,
+      "transcription_pdf_ordinal": 28,
+      "source_position_ids": [
+        "S2005-G0698",
+        "S2005-G0699",
+        "S2005-G0700",
+        "S2005-G0701"
+      ],
+      "reference_position_ids": [
+        "EDIANA-MILYAN-0-ROW-5-U051",
+        "EDIANA-MILYAN-0-ROW-5-U052",
+        "EDIANA-MILYAN-0-ROW-5-U053",
+        "EDIANA-MILYAN-0-ROW-5-U054",
+        "EDIANA-MILYAN-0-ROW-5-U055",
+        "EDIANA-MILYAN-0-ROW-5-U056"
+      ],
+      "anchor_alignment_ids": [
+        "TL55-L5-A058",
+        "TL55-L5-A059",
+        "TL55-L5-A060",
+        "TL55-L5-A061",
+        "TL55-L5-A062",
+        "TL55-L5-A063",
+        "TL55-L5-A064",
+        "TL55-L5-A065",
+        "TL55-L5-A066",
+        "TL55-L5-A067",
+        "TL55-L5-A068",
+        "TL55-L5-A069",
+        "TL55-L5-A070",
+        "TL55-L5-A071",
+        "TL55-L5-A072",
+        "TL55-L5-A073"
+      ],
+      "source_anchor_position_ids": [
+        "S2005-G0694",
+        "S2005-G0695",
+        "S2005-G0696",
+        "S2005-G0697",
+        "S2005-G0698",
+        "S2005-G0699",
+        "S2005-G0700",
+        "S2005-G0701",
+        "S2005-G0702",
+        "S2005-G0703",
+        "S2005-G0704",
+        "S2005-G0705"
+      ],
+      "reference_anchor_position_ids": [
+        "EDIANA-MILYAN-0-ROW-5-U046",
+        "EDIANA-MILYAN-0-ROW-5-U047",
+        "EDIANA-MILYAN-0-ROW-5-U048",
+        "EDIANA-MILYAN-0-ROW-5-U049",
+        "EDIANA-MILYAN-0-ROW-5-U050",
+        "EDIANA-MILYAN-0-ROW-5-U051",
+        "EDIANA-MILYAN-0-ROW-5-U052",
+        "EDIANA-MILYAN-0-ROW-5-U053",
+        "EDIANA-MILYAN-0-ROW-5-U054",
+        "EDIANA-MILYAN-0-ROW-5-U055",
+        "EDIANA-MILYAN-0-ROW-5-U056",
+        "EDIANA-MILYAN-0-ROW-5-U057",
+        "EDIANA-MILYAN-0-ROW-5-U058",
+        "EDIANA-MILYAN-0-ROW-5-U059",
+        "EDIANA-MILYAN-0-ROW-5-U060",
+        "EDIANA-MILYAN-0-ROW-5-U061"
+      ]
+    },
+    {
+      "id": "TL55-REVIEW-38",
+      "source_label": 5,
+      "alignment_ids": [
+        "TL55-L5-A091"
+      ],
+      "context_alignment_ids": [
+        "TL55-L5-A091"
+      ],
+      "algorithm_ambiguous_records": [],
+      "documentary_assessment": "After trqqiz: the printed colon is underlined. The corresponding unmarked reference colon is not equivalent in uncertainty; retain the distinction.",
+      "status": "DOCUMENTARY_REVIEW_COMPLETE_NOT_EPIGRAPHIC_ACCEPTANCE",
+      "ambiguity_disposition": "NO_ALGORITHM_AMBIGUITY_IN_THIS_CASE",
+      "preferred_documentary_correspondences": [],
+      "unique_point_mapping_claimed": false,
+      "canonical_change_applied": false,
+      "independent_review_added": false,
+      "specific_apparatus_entry_ids": [
+        "S2005-A5-08"
+      ],
+      "specific_apparatus_printed_pages": [
+        127
+      ],
+      "transcription_printed_page": 122,
+      "transcription_pdf_ordinal": 28,
+      "source_position_ids": [
+        "S2005-G0721"
+      ],
+      "reference_position_ids": [
+        "EDIANA-MILYAN-0-ROW-5-U079"
+      ],
+      "anchor_alignment_ids": [
+        "TL55-L5-A086",
+        "TL55-L5-A087",
+        "TL55-L5-A088",
+        "TL55-L5-A089",
+        "TL55-L5-A090",
+        "TL55-L5-A091",
+        "TL55-L5-A092",
+        "TL55-L5-A093",
+        "TL55-L5-A094",
+        "TL55-L5-A095",
+        "TL55-L5-A096"
+      ],
+      "source_anchor_position_ids": [
+        "S2005-G0717",
+        "S2005-G0718",
+        "S2005-G0719",
+        "S2005-G0720",
+        "S2005-G0721",
+        "S2005-G0722",
+        "S2005-G0723",
+        "S2005-G0724",
+        "S2005-G0725",
+        "S2005-G0726"
+      ],
+      "reference_anchor_position_ids": [
+        "EDIANA-MILYAN-0-ROW-5-U074",
+        "EDIANA-MILYAN-0-ROW-5-U075",
+        "EDIANA-MILYAN-0-ROW-5-U076",
+        "EDIANA-MILYAN-0-ROW-5-U077",
+        "EDIANA-MILYAN-0-ROW-5-U078",
+        "EDIANA-MILYAN-0-ROW-5-U079",
+        "EDIANA-MILYAN-0-ROW-5-U080",
+        "EDIANA-MILYAN-0-ROW-5-U081",
+        "EDIANA-MILYAN-0-ROW-5-U082",
+        "EDIANA-MILYAN-0-ROW-5-U083",
+        "EDIANA-MILYAN-0-ROW-5-U084"
+      ]
+    },
+    {
+      "id": "TL55-REVIEW-39",
+      "source_label": 5,
+      "alignment_ids": [
+        "TL55-L5-A112",
+        "TL55-L5-A113",
+        "TL55-L5-A115"
+      ],
+      "context_alignment_ids": [
+        "TL55-L5-A112",
+        "TL55-L5-A113",
+        "TL55-L5-A114",
+        "TL55-L5-A115"
+      ],
+      "algorithm_ambiguous_records": [],
+      "documentary_assessment": "In the sebuwedriz range: the print has underlined punctuation where the reference uses curly intervention markers. Preserve both the mark and the opaque reference notation; do not silently harmonize the word division.",
+      "status": "DOCUMENTARY_REVIEW_COMPLETE_NOT_EPIGRAPHIC_ACCEPTANCE",
+      "ambiguity_disposition": "NO_ALGORITHM_AMBIGUITY_IN_THIS_CASE",
+      "preferred_documentary_correspondences": [],
+      "unique_point_mapping_claimed": false,
+      "canonical_change_applied": false,
+      "independent_review_added": false,
+      "specific_apparatus_entry_ids": [
+        "S2005-A5-09"
+      ],
+      "specific_apparatus_printed_pages": [
+        127
+      ],
+      "transcription_printed_page": 122,
+      "transcription_pdf_ordinal": 28,
+      "source_position_ids": [
+        "S2005-G0741",
+        "S2005-G0742"
+      ],
+      "reference_position_ids": [
+        "EDIANA-MILYAN-0-ROW-5-U100",
+        "EDIANA-MILYAN-0-ROW-5-U101",
+        "EDIANA-MILYAN-0-ROW-5-U102"
+      ],
+      "anchor_alignment_ids": [
+        "TL55-L5-A107",
+        "TL55-L5-A108",
+        "TL55-L5-A109",
+        "TL55-L5-A110",
+        "TL55-L5-A111",
+        "TL55-L5-A112",
+        "TL55-L5-A113",
+        "TL55-L5-A114",
+        "TL55-L5-A115",
+        "TL55-L5-A116",
+        "TL55-L5-A117",
+        "TL55-L5-A118",
+        "TL55-L5-A119",
+        "TL55-L5-A120"
+      ],
+      "source_anchor_position_ids": [
+        "S2005-G0736",
+        "S2005-G0737",
+        "S2005-G0738",
+        "S2005-G0739",
+        "S2005-G0740",
+        "S2005-G0741",
+        "S2005-G0742",
+        "S2005-G0743",
+        "S2005-G0744",
+        "S2005-G0745",
+        "S2005-G0746"
+      ],
+      "reference_anchor_position_ids": [
+        "EDIANA-MILYAN-0-ROW-5-U095",
+        "EDIANA-MILYAN-0-ROW-5-U096",
+        "EDIANA-MILYAN-0-ROW-5-U097",
+        "EDIANA-MILYAN-0-ROW-5-U098",
+        "EDIANA-MILYAN-0-ROW-5-U099",
+        "EDIANA-MILYAN-0-ROW-5-U100",
+        "EDIANA-MILYAN-0-ROW-5-U101",
+        "EDIANA-MILYAN-0-ROW-5-U102",
+        "EDIANA-MILYAN-0-ROW-5-U103",
+        "EDIANA-MILYAN-0-ROW-5-U104",
+        "EDIANA-MILYAN-0-ROW-5-U105",
+        "EDIANA-MILYAN-0-ROW-5-U106",
+        "EDIANA-MILYAN-0-ROW-5-U107"
+      ]
+    },
+    {
+      "id": "TL55-REVIEW-40",
+      "source_label": 5,
+      "alignment_ids": [
+        "TL55-L5-A134",
+        "TL55-L5-A135",
+        "TL55-L5-A138",
+        "TL55-L5-A141"
+      ],
+      "context_alignment_ids": [
+        "TL55-L5-A134",
+        "TL55-L5-A135",
+        "TL55-L5-A136",
+        "TL55-L5-A137",
+        "TL55-L5-A138",
+        "TL55-L5-A139",
+        "TL55-L5-A140",
+        "TL55-L5-A141"
+      ],
+      "algorithm_ambiguous_records": [],
+      "documentary_assessment": "In the gods-group: printed consonant/vowel values and the reference editorial context differ. Punctuation before the following stanza divider is not the same in the two layers. No reconstructed form is adopted.",
+      "status": "DOCUMENTARY_REVIEW_COMPLETE_NOT_EPIGRAPHIC_ACCEPTANCE",
+      "ambiguity_disposition": "NO_ALGORITHM_AMBIGUITY_IN_THIS_CASE",
+      "preferred_documentary_correspondences": [],
+      "unique_point_mapping_claimed": false,
+      "canonical_change_applied": false,
+      "independent_review_added": false,
+      "specific_apparatus_entry_ids": [
+        "S2005-A5-10"
+      ],
+      "specific_apparatus_printed_pages": [
+        127
+      ],
+      "transcription_printed_page": 122,
+      "transcription_pdf_ordinal": 28,
+      "source_position_ids": [
+        "S2005-G0759",
+        "S2005-G0760",
+        "S2005-G0761",
+        "S2005-G0762"
+      ],
+      "reference_position_ids": [
+        "EDIANA-MILYAN-0-ROW-5-U121",
+        "EDIANA-MILYAN-0-ROW-5-U122",
+        "EDIANA-MILYAN-0-ROW-5-U123",
+        "EDIANA-MILYAN-0-ROW-5-U124",
+        "EDIANA-MILYAN-0-ROW-5-U125",
+        "EDIANA-MILYAN-0-ROW-5-U126",
+        "EDIANA-MILYAN-0-ROW-5-U127"
+      ],
+      "anchor_alignment_ids": [
+        "TL55-L5-A129",
+        "TL55-L5-A130",
+        "TL55-L5-A131",
+        "TL55-L5-A132",
+        "TL55-L5-A133",
+        "TL55-L5-A134",
+        "TL55-L5-A135",
+        "TL55-L5-A136",
+        "TL55-L5-A137",
+        "TL55-L5-A138",
+        "TL55-L5-A139",
+        "TL55-L5-A140",
+        "TL55-L5-A141",
+        "TL55-L5-A142",
+        "TL55-L5-A143",
+        "TL55-L5-A144",
+        "TL55-L5-A145",
+        "TL55-L5-A146"
+      ],
+      "source_anchor_position_ids": [
+        "S2005-G0754",
+        "S2005-G0755",
+        "S2005-G0756",
+        "S2005-G0757",
+        "S2005-G0758",
+        "S2005-G0759",
+        "S2005-G0760",
+        "S2005-G0761",
+        "S2005-G0762",
+        "S2005-G0763",
+        "S2005-G0764",
+        "S2005-G0765",
+        "S2005-G0766"
+      ],
+      "reference_anchor_position_ids": [
+        "EDIANA-MILYAN-0-ROW-5-U116",
+        "EDIANA-MILYAN-0-ROW-5-U117",
+        "EDIANA-MILYAN-0-ROW-5-U118",
+        "EDIANA-MILYAN-0-ROW-5-U119",
+        "EDIANA-MILYAN-0-ROW-5-U120",
+        "EDIANA-MILYAN-0-ROW-5-U121",
+        "EDIANA-MILYAN-0-ROW-5-U122",
+        "EDIANA-MILYAN-0-ROW-5-U123",
+        "EDIANA-MILYAN-0-ROW-5-U124",
+        "EDIANA-MILYAN-0-ROW-5-U125",
+        "EDIANA-MILYAN-0-ROW-5-U126",
+        "EDIANA-MILYAN-0-ROW-5-U127",
+        "EDIANA-MILYAN-0-ROW-5-U128",
+        "EDIANA-MILYAN-0-ROW-5-U129",
+        "EDIANA-MILYAN-0-ROW-5-U130",
+        "EDIANA-MILYAN-0-ROW-5-U131",
+        "EDIANA-MILYAN-0-ROW-5-U132"
+      ]
+    },
+    {
+      "id": "TL55-REVIEW-41",
+      "source_label": 5,
+      "alignment_ids": [
+        "TL55-L5-A160",
+        "TL55-L5-A161",
+        "TL55-L5-A162"
+      ],
+      "context_alignment_ids": [
+        "TL55-L5-A160",
+        "TL55-L5-A161",
+        "TL55-L5-A162"
+      ],
+      "algorithm_ambiguous_records": [],
+      "documentary_assessment": "After tuwi: the reference curly punctuation has no corresponding printed colon. The print’s vacat notice is an editor’s spacing description, not an ancient letter or an automatically equivalent delimiter.",
+      "status": "DOCUMENTARY_REVIEW_COMPLETE_NOT_EPIGRAPHIC_ACCEPTANCE",
+      "ambiguity_disposition": "NO_ALGORITHM_AMBIGUITY_IN_THIS_CASE",
+      "preferred_documentary_correspondences": [],
+      "unique_point_mapping_claimed": false,
+      "canonical_change_applied": false,
+      "independent_review_added": false,
+      "specific_apparatus_entry_ids": [
+        "S2005-A5-12"
+      ],
+      "specific_apparatus_printed_pages": [
+        127
+      ],
+      "transcription_printed_page": 122,
+      "transcription_pdf_ordinal": 28,
+      "source_position_ids": [],
+      "reference_position_ids": [
+        "EDIANA-MILYAN-0-ROW-5-U146",
+        "EDIANA-MILYAN-0-ROW-5-U147",
+        "EDIANA-MILYAN-0-ROW-5-U148"
+      ],
+      "anchor_alignment_ids": [
+        "TL55-L5-A155",
+        "TL55-L5-A156",
+        "TL55-L5-A157",
+        "TL55-L5-A158",
+        "TL55-L5-A159",
+        "TL55-L5-A160",
+        "TL55-L5-A161",
+        "TL55-L5-A162",
+        "TL55-L5-A163",
+        "TL55-L5-A164",
+        "TL55-L5-A165",
+        "TL55-L5-A166",
+        "TL55-L5-A167"
+      ],
+      "source_anchor_position_ids": [
+        "S2005-G0774",
+        "S2005-G0775",
+        "S2005-G0776",
+        "S2005-G0777",
+        "S2005-G0778",
+        "S2005-G0785",
+        "S2005-G0786",
+        "S2005-G0787",
+        "S2005-G0788",
+        "S2005-G0789"
+      ],
+      "reference_anchor_position_ids": [
+        "EDIANA-MILYAN-0-ROW-5-U141",
+        "EDIANA-MILYAN-0-ROW-5-U142",
+        "EDIANA-MILYAN-0-ROW-5-U143",
+        "EDIANA-MILYAN-0-ROW-5-U144",
+        "EDIANA-MILYAN-0-ROW-5-U145",
+        "EDIANA-MILYAN-0-ROW-5-U146",
+        "EDIANA-MILYAN-0-ROW-5-U147",
+        "EDIANA-MILYAN-0-ROW-5-U148",
+        "EDIANA-MILYAN-0-ROW-5-U149",
+        "EDIANA-MILYAN-0-ROW-5-U150",
+        "EDIANA-MILYAN-0-ROW-5-U151",
+        "EDIANA-MILYAN-0-ROW-5-U152",
+        "EDIANA-MILYAN-0-ROW-5-U153"
+      ]
+    },
+    {
+      "id": "TL55-REVIEW-42",
+      "source_label": 6,
+      "alignment_ids": [
+        "TL55-L6-A044",
+        "TL55-L6-A045",
+        "TL55-L6-A046",
+        "TL55-L6-A047"
+      ],
+      "context_alignment_ids": [
+        "TL55-L6-A044",
+        "TL55-L6-A045",
+        "TL55-L6-A046",
+        "TL55-L6-A047"
+      ],
+      "algorithm_ambiguous_records": [],
+      "documentary_assessment": "In the group following seberbbi: underdot states, nasal-mark encoding and the printed additional vowel differ. The two nasal combining characters are not silently normalized to one reading.",
+      "status": "DOCUMENTARY_REVIEW_COMPLETE_NOT_EPIGRAPHIC_ACCEPTANCE",
+      "ambiguity_disposition": "NO_ALGORITHM_AMBIGUITY_IN_THIS_CASE",
+      "preferred_documentary_correspondences": [],
+      "unique_point_mapping_claimed": false,
+      "canonical_change_applied": false,
+      "independent_review_added": false,
+      "specific_apparatus_entry_ids": [
+        "S2005-A6-04"
+      ],
+      "specific_apparatus_printed_pages": [
+        127
+      ],
+      "transcription_printed_page": 122,
+      "transcription_pdf_ordinal": 28,
+      "source_position_ids": [
+        "S2005-G0859",
+        "S2005-G0860",
+        "S2005-G0861",
+        "S2005-G0862"
+      ],
+      "reference_position_ids": [
+        "EDIANA-MILYAN-0-ROW-6-U041",
+        "EDIANA-MILYAN-0-ROW-6-U042",
+        "EDIANA-MILYAN-0-ROW-6-U043"
+      ],
+      "anchor_alignment_ids": [
+        "TL55-L6-A039",
+        "TL55-L6-A040",
+        "TL55-L6-A041",
+        "TL55-L6-A042",
+        "TL55-L6-A043",
+        "TL55-L6-A044",
+        "TL55-L6-A045",
+        "TL55-L6-A046",
+        "TL55-L6-A047",
+        "TL55-L6-A048",
+        "TL55-L6-A049",
+        "TL55-L6-A050",
+        "TL55-L6-A051",
+        "TL55-L6-A052"
+      ],
+      "source_anchor_position_ids": [
+        "S2005-G0855",
+        "S2005-G0856",
+        "S2005-G0857",
+        "S2005-G0858",
+        "S2005-G0859",
+        "S2005-G0860",
+        "S2005-G0861",
+        "S2005-G0862",
+        "S2005-G0863",
+        "S2005-G0864",
+        "S2005-G0865",
+        "S2005-G0866"
+      ],
+      "reference_anchor_position_ids": [
+        "EDIANA-MILYAN-0-ROW-6-U036",
+        "EDIANA-MILYAN-0-ROW-6-U037",
+        "EDIANA-MILYAN-0-ROW-6-U038",
+        "EDIANA-MILYAN-0-ROW-6-U039",
+        "EDIANA-MILYAN-0-ROW-6-U040",
+        "EDIANA-MILYAN-0-ROW-6-U041",
+        "EDIANA-MILYAN-0-ROW-6-U042",
+        "EDIANA-MILYAN-0-ROW-6-U043",
+        "EDIANA-MILYAN-0-ROW-6-U044",
+        "EDIANA-MILYAN-0-ROW-6-U045",
+        "EDIANA-MILYAN-0-ROW-6-U046",
+        "EDIANA-MILYAN-0-ROW-6-U047",
+        "EDIANA-MILYAN-0-ROW-6-U048"
+      ]
+    },
+    {
+      "id": "TL55-REVIEW-43",
+      "source_label": 6,
+      "alignment_ids": [
+        "TL55-L6-A082",
+        "TL55-L6-A083",
+        "TL55-L6-A084"
+      ],
+      "context_alignment_ids": [
+        "TL55-L6-A082",
+        "TL55-L6-A083",
+        "TL55-L6-A084"
+      ],
+      "algorithm_ambiguous_records": [],
+      "documentary_assessment": "At the following verb opening: the same initial base occurs with reference curly intervention context absent from print. This is qualification/context difference, not newly admitted evidence.",
+      "status": "DOCUMENTARY_REVIEW_COMPLETE_NOT_EPIGRAPHIC_ACCEPTANCE",
+      "ambiguity_disposition": "NO_ALGORITHM_AMBIGUITY_IN_THIS_CASE",
+      "preferred_documentary_correspondences": [],
+      "unique_point_mapping_claimed": false,
+      "canonical_change_applied": false,
+      "independent_review_added": false,
+      "specific_apparatus_entry_ids": [],
+      "specific_apparatus_printed_pages": [],
+      "transcription_printed_page": 122,
+      "transcription_pdf_ordinal": 28,
+      "source_position_ids": [
+        "S2005-G0893"
+      ],
+      "reference_position_ids": [
+        "EDIANA-MILYAN-0-ROW-6-U078",
+        "EDIANA-MILYAN-0-ROW-6-U079",
+        "EDIANA-MILYAN-0-ROW-6-U080"
+      ],
+      "anchor_alignment_ids": [
+        "TL55-L6-A077",
+        "TL55-L6-A078",
+        "TL55-L6-A079",
+        "TL55-L6-A080",
+        "TL55-L6-A081",
+        "TL55-L6-A082",
+        "TL55-L6-A083",
+        "TL55-L6-A084",
+        "TL55-L6-A085",
+        "TL55-L6-A086",
+        "TL55-L6-A087",
+        "TL55-L6-A088",
+        "TL55-L6-A089"
+      ],
+      "source_anchor_position_ids": [
+        "S2005-G0889",
+        "S2005-G0890",
+        "S2005-G0891",
+        "S2005-G0892",
+        "S2005-G0893",
+        "S2005-G0894",
+        "S2005-G0895",
+        "S2005-G0896",
+        "S2005-G0897",
+        "S2005-G0898"
+      ],
+      "reference_anchor_position_ids": [
+        "EDIANA-MILYAN-0-ROW-6-U073",
+        "EDIANA-MILYAN-0-ROW-6-U074",
+        "EDIANA-MILYAN-0-ROW-6-U075",
+        "EDIANA-MILYAN-0-ROW-6-U076",
+        "EDIANA-MILYAN-0-ROW-6-U077",
+        "EDIANA-MILYAN-0-ROW-6-U078",
+        "EDIANA-MILYAN-0-ROW-6-U079",
+        "EDIANA-MILYAN-0-ROW-6-U080",
+        "EDIANA-MILYAN-0-ROW-6-U081",
+        "EDIANA-MILYAN-0-ROW-6-U082",
+        "EDIANA-MILYAN-0-ROW-6-U083",
+        "EDIANA-MILYAN-0-ROW-6-U084",
+        "EDIANA-MILYAN-0-ROW-6-U085"
+      ]
+    },
+    {
+      "id": "TL55-REVIEW-44",
+      "source_label": 6,
+      "alignment_ids": [
+        "TL55-L6-A103",
+        "TL55-L6-A104",
+        "TL55-L6-A105"
+      ],
+      "context_alignment_ids": [
+        "TL55-L6-A103",
+        "TL55-L6-A104",
+        "TL55-L6-A105"
+      ],
+      "algorithm_ambiguous_records": [],
+      "documentary_assessment": "At the neriu group: the reference angle intervention and enclosed letter differ from the printed vowel. Keep both source forms attributed and do not substitute the reconstruction.",
+      "status": "DOCUMENTARY_REVIEW_COMPLETE_NOT_EPIGRAPHIC_ACCEPTANCE",
+      "ambiguity_disposition": "NO_ALGORITHM_AMBIGUITY_IN_THIS_CASE",
+      "preferred_documentary_correspondences": [],
+      "unique_point_mapping_claimed": false,
+      "canonical_change_applied": false,
+      "independent_review_added": false,
+      "specific_apparatus_entry_ids": [],
+      "specific_apparatus_printed_pages": [],
+      "transcription_printed_page": 122,
+      "transcription_pdf_ordinal": 28,
+      "source_position_ids": [
+        "S2005-G0910"
+      ],
+      "reference_position_ids": [
+        "EDIANA-MILYAN-0-ROW-6-U099",
+        "EDIANA-MILYAN-0-ROW-6-U100",
+        "EDIANA-MILYAN-0-ROW-6-U101"
+      ],
+      "anchor_alignment_ids": [
+        "TL55-L6-A098",
+        "TL55-L6-A099",
+        "TL55-L6-A100",
+        "TL55-L6-A101",
+        "TL55-L6-A102",
+        "TL55-L6-A103",
+        "TL55-L6-A104",
+        "TL55-L6-A105",
+        "TL55-L6-A106",
+        "TL55-L6-A107",
+        "TL55-L6-A108",
+        "TL55-L6-A109",
+        "TL55-L6-A110"
+      ],
+      "source_anchor_position_ids": [
+        "S2005-G0906",
+        "S2005-G0907",
+        "S2005-G0908",
+        "S2005-G0909",
+        "S2005-G0910",
+        "S2005-G0911",
+        "S2005-G0912",
+        "S2005-G0913",
+        "S2005-G0914"
+      ],
+      "reference_anchor_position_ids": [
+        "EDIANA-MILYAN-0-ROW-6-U094",
+        "EDIANA-MILYAN-0-ROW-6-U095",
+        "EDIANA-MILYAN-0-ROW-6-U096",
+        "EDIANA-MILYAN-0-ROW-6-U097",
+        "EDIANA-MILYAN-0-ROW-6-U098",
+        "EDIANA-MILYAN-0-ROW-6-U099",
+        "EDIANA-MILYAN-0-ROW-6-U100",
+        "EDIANA-MILYAN-0-ROW-6-U101",
+        "EDIANA-MILYAN-0-ROW-6-U102",
+        "EDIANA-MILYAN-0-ROW-6-U103",
+        "EDIANA-MILYAN-0-ROW-6-U104",
+        "EDIANA-MILYAN-0-ROW-6-U105",
+        "EDIANA-MILYAN-0-ROW-6-U106"
+      ]
+    },
+    {
+      "id": "TL55-REVIEW-45",
+      "source_label": 6,
+      "alignment_ids": [
+        "TL55-L6-A114",
+        "TL55-L6-A115",
+        "TL55-L6-A116",
+        "TL55-L6-A118",
+        "TL55-L6-A119",
+        "TL55-L6-A120",
+        "TL55-L6-A121"
+      ],
+      "context_alignment_ids": [
+        "TL55-L6-A114",
+        "TL55-L6-A115",
+        "TL55-L6-A116",
+        "TL55-L6-A117",
+        "TL55-L6-A118",
+        "TL55-L6-A119",
+        "TL55-L6-A120",
+        "TL55-L6-A121"
+      ],
+      "algorithm_ambiguous_records": [],
+      "documentary_assessment": "Across muwaxa/tuwemedi: print and reference differ in bracket extent, punctuation and doubt state. Printed apparent preservation and older restoration are separate source assertions, not project autopsy.",
+      "status": "DOCUMENTARY_REVIEW_COMPLETE_NOT_EPIGRAPHIC_ACCEPTANCE",
+      "ambiguity_disposition": "NO_ALGORITHM_AMBIGUITY_IN_THIS_CASE",
+      "preferred_documentary_correspondences": [],
+      "unique_point_mapping_claimed": false,
+      "canonical_change_applied": false,
+      "independent_review_added": false,
+      "specific_apparatus_entry_ids": [
+        "S2005-A6-07",
+        "S2005-A6-08"
+      ],
+      "specific_apparatus_printed_pages": [
+        128
+      ],
+      "transcription_printed_page": 122,
+      "transcription_pdf_ordinal": 28,
+      "source_position_ids": [
+        "S2005-G0918",
+        "S2005-G0919",
+        "S2005-G0920",
+        "S2005-G0921",
+        "S2005-G0922",
+        "S2005-G0923"
+      ],
+      "reference_position_ids": [
+        "EDIANA-MILYAN-0-ROW-6-U110",
+        "EDIANA-MILYAN-0-ROW-6-U111",
+        "EDIANA-MILYAN-0-ROW-6-U112",
+        "EDIANA-MILYAN-0-ROW-6-U113",
+        "EDIANA-MILYAN-0-ROW-6-U114",
+        "EDIANA-MILYAN-0-ROW-6-U115",
+        "EDIANA-MILYAN-0-ROW-6-U116"
+      ],
+      "anchor_alignment_ids": [
+        "TL55-L6-A109",
+        "TL55-L6-A110",
+        "TL55-L6-A111",
+        "TL55-L6-A112",
+        "TL55-L6-A113",
+        "TL55-L6-A114",
+        "TL55-L6-A115",
+        "TL55-L6-A116",
+        "TL55-L6-A117",
+        "TL55-L6-A118",
+        "TL55-L6-A119",
+        "TL55-L6-A120",
+        "TL55-L6-A121",
+        "TL55-L6-A122",
+        "TL55-L6-A123",
+        "TL55-L6-A124",
+        "TL55-L6-A125",
+        "TL55-L6-A126"
+      ],
+      "source_anchor_position_ids": [
+        "S2005-G0913",
+        "S2005-G0914",
+        "S2005-G0915",
+        "S2005-G0916",
+        "S2005-G0917",
+        "S2005-G0918",
+        "S2005-G0919",
+        "S2005-G0920",
+        "S2005-G0921",
+        "S2005-G0922",
+        "S2005-G0923",
+        "S2005-G0924",
+        "S2005-G0925",
+        "S2005-G0926",
+        "S2005-G0927",
+        "S2005-G0928"
+      ],
+      "reference_anchor_position_ids": [
+        "EDIANA-MILYAN-0-ROW-6-U105",
+        "EDIANA-MILYAN-0-ROW-6-U106",
+        "EDIANA-MILYAN-0-ROW-6-U107",
+        "EDIANA-MILYAN-0-ROW-6-U108",
+        "EDIANA-MILYAN-0-ROW-6-U109",
+        "EDIANA-MILYAN-0-ROW-6-U110",
+        "EDIANA-MILYAN-0-ROW-6-U111",
+        "EDIANA-MILYAN-0-ROW-6-U112",
+        "EDIANA-MILYAN-0-ROW-6-U113",
+        "EDIANA-MILYAN-0-ROW-6-U114",
+        "EDIANA-MILYAN-0-ROW-6-U115",
+        "EDIANA-MILYAN-0-ROW-6-U116",
+        "EDIANA-MILYAN-0-ROW-6-U117",
+        "EDIANA-MILYAN-0-ROW-6-U118",
+        "EDIANA-MILYAN-0-ROW-6-U119",
+        "EDIANA-MILYAN-0-ROW-6-U120",
+        "EDIANA-MILYAN-0-ROW-6-U121"
+      ]
+    },
+    {
+      "id": "TL55-REVIEW-46",
+      "source_label": 6,
+      "alignment_ids": [
+        "TL55-L6-A135"
+      ],
+      "context_alignment_ids": [
+        "TL55-L6-A135"
+      ],
+      "algorithm_ambiguous_records": [],
+      "documentary_assessment": "After xaba: the printed colon is underlined and its apparatus describes punctuation as possible. Preserve that qualification rather than make the reference colon independently certain.",
+      "status": "DOCUMENTARY_REVIEW_COMPLETE_NOT_EPIGRAPHIC_ACCEPTANCE",
+      "ambiguity_disposition": "NO_ALGORITHM_AMBIGUITY_IN_THIS_CASE",
+      "preferred_documentary_correspondences": [],
+      "unique_point_mapping_claimed": false,
+      "canonical_change_applied": false,
+      "independent_review_added": false,
+      "specific_apparatus_entry_ids": [
+        "S2005-A6-09"
+      ],
+      "specific_apparatus_printed_pages": [
+        128
+      ],
+      "transcription_printed_page": 122,
+      "transcription_pdf_ordinal": 28,
+      "source_position_ids": [
+        "S2005-G0935"
+      ],
+      "reference_position_ids": [
+        "EDIANA-MILYAN-0-ROW-6-U130"
+      ],
+      "anchor_alignment_ids": [
+        "TL55-L6-A130",
+        "TL55-L6-A131",
+        "TL55-L6-A132",
+        "TL55-L6-A133",
+        "TL55-L6-A134",
+        "TL55-L6-A135",
+        "TL55-L6-A136",
+        "TL55-L6-A137",
+        "TL55-L6-A138",
+        "TL55-L6-A139",
+        "TL55-L6-A140"
+      ],
+      "source_anchor_position_ids": [
+        "S2005-G0931",
+        "S2005-G0932",
+        "S2005-G0933",
+        "S2005-G0934",
+        "S2005-G0935",
+        "S2005-G0936",
+        "S2005-G0937",
+        "S2005-G0938",
+        "S2005-G0939",
+        "S2005-G0940"
+      ],
+      "reference_anchor_position_ids": [
+        "EDIANA-MILYAN-0-ROW-6-U125",
+        "EDIANA-MILYAN-0-ROW-6-U126",
+        "EDIANA-MILYAN-0-ROW-6-U127",
+        "EDIANA-MILYAN-0-ROW-6-U128",
+        "EDIANA-MILYAN-0-ROW-6-U129",
+        "EDIANA-MILYAN-0-ROW-6-U130",
+        "EDIANA-MILYAN-0-ROW-6-U131",
+        "EDIANA-MILYAN-0-ROW-6-U132",
+        "EDIANA-MILYAN-0-ROW-6-U133",
+        "EDIANA-MILYAN-0-ROW-6-U134",
+        "EDIANA-MILYAN-0-ROW-6-U135"
+      ]
+    },
+    {
+      "id": "TL55-REVIEW-47",
+      "source_label": 6,
+      "alignment_ids": [
+        "TL55-L6-A155",
+        "TL55-L6-A156",
+        "TL55-L6-A157"
+      ],
+      "context_alignment_ids": [
+        "TL55-L6-A155",
+        "TL55-L6-A156",
+        "TL55-L6-A157"
+      ],
+      "algorithm_ambiguous_records": [],
+      "documentary_assessment": "At source label6 end: the print includes an edge-occupancy question after the final letter. The reference has no corresponding bracketed question. Do not count the question as a restored ancient character.",
+      "status": "DOCUMENTARY_REVIEW_COMPLETE_NOT_EPIGRAPHIC_ACCEPTANCE",
+      "ambiguity_disposition": "NO_ALGORITHM_AMBIGUITY_IN_THIS_CASE",
+      "preferred_documentary_correspondences": [],
+      "unique_point_mapping_claimed": false,
+      "canonical_change_applied": false,
+      "independent_review_added": false,
+      "specific_apparatus_entry_ids": [
+        "S2005-A6-10"
+      ],
+      "specific_apparatus_printed_pages": [
+        128
+      ],
+      "transcription_printed_page": 122,
+      "transcription_pdf_ordinal": 28,
+      "source_position_ids": [
+        "S2005-G0954",
+        "S2005-G0955",
+        "S2005-G0956"
+      ],
+      "reference_position_ids": [],
+      "anchor_alignment_ids": [
+        "TL55-L6-A150",
+        "TL55-L6-A151",
+        "TL55-L6-A152",
+        "TL55-L6-A153",
+        "TL55-L6-A154",
+        "TL55-L6-A155",
+        "TL55-L6-A156",
+        "TL55-L6-A157"
+      ],
+      "source_anchor_position_ids": [
+        "S2005-G0949",
+        "S2005-G0950",
+        "S2005-G0951",
+        "S2005-G0952",
+        "S2005-G0953",
+        "S2005-G0954",
+        "S2005-G0955",
+        "S2005-G0956"
+      ],
+      "reference_anchor_position_ids": [
+        "EDIANA-MILYAN-0-ROW-6-U145",
+        "EDIANA-MILYAN-0-ROW-6-U146",
+        "EDIANA-MILYAN-0-ROW-6-U147",
+        "EDIANA-MILYAN-0-ROW-6-U148",
+        "EDIANA-MILYAN-0-ROW-6-U149"
+      ]
+    },
+    {
+      "id": "TL55-REVIEW-48",
+      "source_label": 7,
+      "alignment_ids": [
+        "TL55-L7-A003"
+      ],
+      "context_alignment_ids": [
+        "TL55-L7-A003"
+      ],
+      "algorithm_ambiguous_records": [],
+      "documentary_assessment": "At mlu: the revised underdot is absent from the corresponding reference vowel. Keep the letter-identification doubt even though the base agrees.",
+      "status": "DOCUMENTARY_REVIEW_COMPLETE_NOT_EPIGRAPHIC_ACCEPTANCE",
+      "ambiguity_disposition": "NO_ALGORITHM_AMBIGUITY_IN_THIS_CASE",
+      "preferred_documentary_correspondences": [],
+      "unique_point_mapping_claimed": false,
+      "canonical_change_applied": false,
+      "independent_review_added": false,
+      "specific_apparatus_entry_ids": [
+        "S2005-A7-01"
+      ],
+      "specific_apparatus_printed_pages": [
+        128
+      ],
+      "transcription_printed_page": 122,
+      "transcription_pdf_ordinal": 28,
+      "source_position_ids": [
+        "S2005-G0959"
+      ],
+      "reference_position_ids": [
+        "EDIANA-MILYAN-0-ROW-7-U003"
+      ],
+      "anchor_alignment_ids": [
+        "TL55-L7-A001",
+        "TL55-L7-A002",
+        "TL55-L7-A003",
+        "TL55-L7-A004",
+        "TL55-L7-A005",
+        "TL55-L7-A006",
+        "TL55-L7-A007",
+        "TL55-L7-A008"
+      ],
+      "source_anchor_position_ids": [
+        "S2005-G0957",
+        "S2005-G0958",
+        "S2005-G0959",
+        "S2005-G0960",
+        "S2005-G0961",
+        "S2005-G0962",
+        "S2005-G0963"
+      ],
+      "reference_anchor_position_ids": [
+        "EDIANA-MILYAN-0-ROW-7-U001",
+        "EDIANA-MILYAN-0-ROW-7-U002",
+        "EDIANA-MILYAN-0-ROW-7-U003",
+        "EDIANA-MILYAN-0-ROW-7-U004",
+        "EDIANA-MILYAN-0-ROW-7-U005",
+        "EDIANA-MILYAN-0-ROW-7-U006",
+        "EDIANA-MILYAN-0-ROW-7-U007",
+        "EDIANA-MILYAN-0-ROW-7-U008"
+      ]
+    },
+    {
+      "id": "TL55-REVIEW-49",
+      "source_label": 7,
+      "alignment_ids": [
+        "TL55-L7-A025"
+      ],
+      "context_alignment_ids": [
+        "TL55-L7-A025"
+      ],
+      "algorithm_ambiguous_records": [],
+      "documentary_assessment": "At the tuta group: the printed first consonant differs from the doubtful reference first consonant. The apparatus treats the older form as an emendation; no new canonical consonant is selected.",
+      "status": "DOCUMENTARY_REVIEW_COMPLETE_NOT_EPIGRAPHIC_ACCEPTANCE",
+      "ambiguity_disposition": "NO_ALGORITHM_AMBIGUITY_IN_THIS_CASE",
+      "preferred_documentary_correspondences": [],
+      "unique_point_mapping_claimed": false,
+      "canonical_change_applied": false,
+      "independent_review_added": false,
+      "specific_apparatus_entry_ids": [
+        "S2005-A7-03"
+      ],
+      "specific_apparatus_printed_pages": [
+        128
+      ],
+      "transcription_printed_page": 122,
+      "transcription_pdf_ordinal": 28,
+      "source_position_ids": [
+        "S2005-G0978"
+      ],
+      "reference_position_ids": [
+        "EDIANA-MILYAN-0-ROW-7-U025"
+      ],
+      "anchor_alignment_ids": [
+        "TL55-L7-A020",
+        "TL55-L7-A021",
+        "TL55-L7-A022",
+        "TL55-L7-A023",
+        "TL55-L7-A024",
+        "TL55-L7-A025",
+        "TL55-L7-A026",
+        "TL55-L7-A027",
+        "TL55-L7-A028",
+        "TL55-L7-A029",
+        "TL55-L7-A030"
+      ],
+      "source_anchor_position_ids": [
+        "S2005-G0974",
+        "S2005-G0975",
+        "S2005-G0976",
+        "S2005-G0977",
+        "S2005-G0978",
+        "S2005-G0979",
+        "S2005-G0980",
+        "S2005-G0981",
+        "S2005-G0982",
+        "S2005-G0983"
+      ],
+      "reference_anchor_position_ids": [
+        "EDIANA-MILYAN-0-ROW-7-U020",
+        "EDIANA-MILYAN-0-ROW-7-U021",
+        "EDIANA-MILYAN-0-ROW-7-U022",
+        "EDIANA-MILYAN-0-ROW-7-U023",
+        "EDIANA-MILYAN-0-ROW-7-U024",
+        "EDIANA-MILYAN-0-ROW-7-U025",
+        "EDIANA-MILYAN-0-ROW-7-U026",
+        "EDIANA-MILYAN-0-ROW-7-U027",
+        "EDIANA-MILYAN-0-ROW-7-U028",
+        "EDIANA-MILYAN-0-ROW-7-U029"
+      ]
+    },
+    {
+      "id": "TL55-REVIEW-50",
+      "source_label": 7,
+      "alignment_ids": [
+        "TL55-L7-A029"
+      ],
+      "context_alignment_ids": [
+        "TL55-L7-A029"
+      ],
+      "algorithm_ambiguous_records": [],
+      "documentary_assessment": "Following that group: the print contains punctuation absent from the frozen reference at the corresponding position. Record the punctuation scheme without imposing a lexical boundary.",
+      "status": "DOCUMENTARY_REVIEW_COMPLETE_NOT_EPIGRAPHIC_ACCEPTANCE",
+      "ambiguity_disposition": "NO_ALGORITHM_AMBIGUITY_IN_THIS_CASE",
+      "preferred_documentary_correspondences": [],
+      "unique_point_mapping_claimed": false,
+      "canonical_change_applied": false,
+      "independent_review_added": false,
+      "specific_apparatus_entry_ids": [],
+      "specific_apparatus_printed_pages": [],
+      "transcription_printed_page": 122,
+      "transcription_pdf_ordinal": 28,
+      "source_position_ids": [
+        "S2005-G0982"
+      ],
+      "reference_position_ids": [],
+      "anchor_alignment_ids": [
+        "TL55-L7-A024",
+        "TL55-L7-A025",
+        "TL55-L7-A026",
+        "TL55-L7-A027",
+        "TL55-L7-A028",
+        "TL55-L7-A029",
+        "TL55-L7-A030",
+        "TL55-L7-A031",
+        "TL55-L7-A032",
+        "TL55-L7-A033",
+        "TL55-L7-A034"
+      ],
+      "source_anchor_position_ids": [
+        "S2005-G0977",
+        "S2005-G0978",
+        "S2005-G0979",
+        "S2005-G0980",
+        "S2005-G0981",
+        "S2005-G0982",
+        "S2005-G0983",
+        "S2005-G0984",
+        "S2005-G0985",
+        "S2005-G0986",
+        "S2005-G0987"
+      ],
+      "reference_anchor_position_ids": [
+        "EDIANA-MILYAN-0-ROW-7-U024",
+        "EDIANA-MILYAN-0-ROW-7-U025",
+        "EDIANA-MILYAN-0-ROW-7-U026",
+        "EDIANA-MILYAN-0-ROW-7-U027",
+        "EDIANA-MILYAN-0-ROW-7-U028",
+        "EDIANA-MILYAN-0-ROW-7-U029",
+        "EDIANA-MILYAN-0-ROW-7-U030",
+        "EDIANA-MILYAN-0-ROW-7-U031",
+        "EDIANA-MILYAN-0-ROW-7-U032",
+        "EDIANA-MILYAN-0-ROW-7-U033"
+      ]
+    },
+    {
+      "id": "TL55-REVIEW-51",
+      "source_label": 7,
+      "alignment_ids": [
+        "TL55-L7-A073",
+        "TL55-L7-A074",
+        "TL55-L7-A075"
+      ],
+      "context_alignment_ids": [
+        "TL55-L7-A073",
+        "TL55-L7-A074",
+        "TL55-L7-A075"
+      ],
+      "algorithm_ambiguous_records": [],
+      "documentary_assessment": "At the luwadladi transition: reference angle intervention has no counterpart in the revised graphic string. The source wrap hyphen is print layout and cannot substitute for the reference proposed letter.",
+      "status": "DOCUMENTARY_REVIEW_COMPLETE_NOT_EPIGRAPHIC_ACCEPTANCE",
+      "ambiguity_disposition": "NO_ALGORITHM_AMBIGUITY_IN_THIS_CASE",
+      "preferred_documentary_correspondences": [],
+      "unique_point_mapping_claimed": false,
+      "canonical_change_applied": false,
+      "independent_review_added": false,
+      "specific_apparatus_entry_ids": [],
+      "specific_apparatus_printed_pages": [],
+      "transcription_printed_page": 122,
+      "transcription_pdf_ordinal": 28,
+      "source_position_ids": [],
+      "reference_position_ids": [
+        "EDIANA-MILYAN-0-ROW-7-U072",
+        "EDIANA-MILYAN-0-ROW-7-U073",
+        "EDIANA-MILYAN-0-ROW-7-U074"
+      ],
+      "anchor_alignment_ids": [
+        "TL55-L7-A068",
+        "TL55-L7-A069",
+        "TL55-L7-A070",
+        "TL55-L7-A071",
+        "TL55-L7-A072",
+        "TL55-L7-A073",
+        "TL55-L7-A074",
+        "TL55-L7-A075",
+        "TL55-L7-A076",
+        "TL55-L7-A077",
+        "TL55-L7-A078",
+        "TL55-L7-A079",
+        "TL55-L7-A080"
+      ],
+      "source_anchor_position_ids": [
+        "S2005-G1017",
+        "S2005-G1018",
+        "S2005-G1019",
+        "S2005-G1020",
+        "S2005-G1021",
+        "S2005-G1023",
+        "S2005-G1024",
+        "S2005-G1025",
+        "S2005-G1026"
+      ],
+      "reference_anchor_position_ids": [
+        "EDIANA-MILYAN-0-ROW-7-U067",
+        "EDIANA-MILYAN-0-ROW-7-U068",
+        "EDIANA-MILYAN-0-ROW-7-U069",
+        "EDIANA-MILYAN-0-ROW-7-U070",
+        "EDIANA-MILYAN-0-ROW-7-U071",
+        "EDIANA-MILYAN-0-ROW-7-U072",
+        "EDIANA-MILYAN-0-ROW-7-U073",
+        "EDIANA-MILYAN-0-ROW-7-U074",
+        "EDIANA-MILYAN-0-ROW-7-U075",
+        "EDIANA-MILYAN-0-ROW-7-U076",
+        "EDIANA-MILYAN-0-ROW-7-U077",
+        "EDIANA-MILYAN-0-ROW-7-U078",
+        "EDIANA-MILYAN-0-ROW-7-U079"
+      ]
+    },
+    {
+      "id": "TL55-REVIEW-52",
+      "source_label": 7,
+      "alignment_ids": [
+        "TL55-L7-A113",
+        "TL55-L7-A115",
+        "TL55-L7-A116",
+        "TL55-L7-A117",
+        "TL55-L7-A118",
+        "TL55-L7-A119"
+      ],
+      "context_alignment_ids": [
+        "TL55-L7-A113",
+        "TL55-L7-A114",
+        "TL55-L7-A115",
+        "TL55-L7-A116",
+        "TL55-L7-A117",
+        "TL55-L7-A118",
+        "TL55-L7-A119"
+      ],
+      "algorithm_ambiguous_records": [
+        "TL55-L7-A115",
+        "TL55-L7-A116",
+        "TL55-L7-A117",
+        "TL55-L7-A118",
+        "TL55-L7-A119"
+      ],
+      "documentary_assessment": "At the ubre/abrala junction: nasal-vowel state, uncertain reference letters and the printed delimiter/consonant pattern differ. The apparatus reports competing older observations. The anchors establish a range comparison, but the evidence does not establish unique pairings of the intervening digital letters to printed signs.",
+      "status": "DOCUMENTARY_REVIEW_COMPLETE_NOT_EPIGRAPHIC_ACCEPTANCE",
+      "ambiguity_disposition": "RANGE_ONLY_NO_UNIQUE_POINT_MAPPING",
+      "preferred_documentary_correspondences": [],
+      "unique_point_mapping_claimed": false,
+      "canonical_change_applied": false,
+      "independent_review_added": false,
+      "specific_apparatus_entry_ids": [
+        "S2005-A7-04"
+      ],
+      "specific_apparatus_printed_pages": [
+        128
+      ],
+      "transcription_printed_page": 122,
+      "transcription_pdf_ordinal": 28,
+      "source_position_ids": [
+        "S2005-G1056",
+        "S2005-G1057",
+        "S2005-G1058",
+        "S2005-G1059",
+        "S2005-G1060"
+      ],
+      "reference_position_ids": [
+        "EDIANA-MILYAN-0-ROW-7-U112",
+        "EDIANA-MILYAN-0-ROW-7-U113",
+        "EDIANA-MILYAN-0-ROW-7-U114",
+        "EDIANA-MILYAN-0-ROW-7-U115",
+        "EDIANA-MILYAN-0-ROW-7-U116"
+      ],
+      "anchor_alignment_ids": [
+        "TL55-L7-A108",
+        "TL55-L7-A109",
+        "TL55-L7-A110",
+        "TL55-L7-A111",
+        "TL55-L7-A112",
+        "TL55-L7-A113",
+        "TL55-L7-A114",
+        "TL55-L7-A115",
+        "TL55-L7-A116",
+        "TL55-L7-A117",
+        "TL55-L7-A118",
+        "TL55-L7-A119",
+        "TL55-L7-A120",
+        "TL55-L7-A121",
+        "TL55-L7-A122",
+        "TL55-L7-A123",
+        "TL55-L7-A124"
+      ],
+      "source_anchor_position_ids": [
+        "S2005-G1051",
+        "S2005-G1052",
+        "S2005-G1053",
+        "S2005-G1054",
+        "S2005-G1055",
+        "S2005-G1056",
+        "S2005-G1057",
+        "S2005-G1058",
+        "S2005-G1059",
+        "S2005-G1060",
+        "S2005-G1061",
+        "S2005-G1062",
+        "S2005-G1063",
+        "S2005-G1064",
+        "S2005-G1065"
+      ],
+      "reference_anchor_position_ids": [
+        "EDIANA-MILYAN-0-ROW-7-U107",
+        "EDIANA-MILYAN-0-ROW-7-U108",
+        "EDIANA-MILYAN-0-ROW-7-U109",
+        "EDIANA-MILYAN-0-ROW-7-U110",
+        "EDIANA-MILYAN-0-ROW-7-U111",
+        "EDIANA-MILYAN-0-ROW-7-U112",
+        "EDIANA-MILYAN-0-ROW-7-U113",
+        "EDIANA-MILYAN-0-ROW-7-U114",
+        "EDIANA-MILYAN-0-ROW-7-U115",
+        "EDIANA-MILYAN-0-ROW-7-U116",
+        "EDIANA-MILYAN-0-ROW-7-U117",
+        "EDIANA-MILYAN-0-ROW-7-U118",
+        "EDIANA-MILYAN-0-ROW-7-U119",
+        "EDIANA-MILYAN-0-ROW-7-U120",
+        "EDIANA-MILYAN-0-ROW-7-U121"
+      ]
+    },
+    {
+      "id": "TL55-REVIEW-53",
+      "source_label": 7,
+      "alignment_ids": [
+        "TL55-L7-A154",
+        "TL55-L7-A155",
+        "TL55-L7-A156"
+      ],
+      "context_alignment_ids": [
+        "TL55-L7-A154",
+        "TL55-L7-A155",
+        "TL55-L7-A156"
+      ],
+      "algorithm_ambiguous_records": [],
+      "documentary_assessment": "At source label7 end: print edge-occupancy notation is separate from the reference carryover ti. Retain the uncertain edge and do not turn the question into a new sign or a certified physical boundary.",
+      "status": "DOCUMENTARY_REVIEW_COMPLETE_NOT_EPIGRAPHIC_ACCEPTANCE",
+      "ambiguity_disposition": "NO_ALGORITHM_AMBIGUITY_IN_THIS_CASE",
+      "preferred_documentary_correspondences": [],
+      "unique_point_mapping_claimed": false,
+      "canonical_change_applied": false,
+      "independent_review_added": false,
+      "specific_apparatus_entry_ids": [
+        "S2005-A7-05"
+      ],
+      "specific_apparatus_printed_pages": [
+        128
+      ],
+      "transcription_printed_page": 122,
+      "transcription_pdf_ordinal": 28,
+      "source_position_ids": [
+        "S2005-G1092",
+        "S2005-G1093",
+        "S2005-G1094"
+      ],
+      "reference_position_ids": [],
+      "anchor_alignment_ids": [
+        "TL55-L7-A149",
+        "TL55-L7-A150",
+        "TL55-L7-A151",
+        "TL55-L7-A152",
+        "TL55-L7-A153",
+        "TL55-L7-A154",
+        "TL55-L7-A155",
+        "TL55-L7-A156"
+      ],
+      "source_anchor_position_ids": [
+        "S2005-G1087",
+        "S2005-G1088",
+        "S2005-G1089",
+        "S2005-G1090",
+        "S2005-G1091",
+        "S2005-G1092",
+        "S2005-G1093",
+        "S2005-G1094"
+      ],
+      "reference_anchor_position_ids": [
+        "EDIANA-MILYAN-0-ROW-7-U146",
+        "EDIANA-MILYAN-0-ROW-7-U147",
+        "EDIANA-MILYAN-0-ROW-7-U148",
+        "EDIANA-MILYAN-0-ROW-7-U149",
+        "EDIANA-MILYAN-0-ROW-7-U150"
+      ]
+    },
+    {
+      "id": "TL55-REVIEW-54",
+      "source_label": 8,
+      "alignment_ids": [
+        "TL55-L8-A037",
+        "TL55-L8-A038",
+        "TL55-L8-A040",
+        "TL55-L8-A041"
+      ],
+      "context_alignment_ids": [
+        "TL55-L8-A037",
+        "TL55-L8-A038",
+        "TL55-L8-A039",
+        "TL55-L8-A040",
+        "TL55-L8-A041"
+      ],
+      "algorithm_ambiguous_records": [],
+      "documentary_assessment": "At the aala group: the source nasal vowel differs from the reference first sign and its opaque exclamation/question/dot states. Retain both ranges and all uncertainties without a corrected project form.",
+      "status": "DOCUMENTARY_REVIEW_COMPLETE_NOT_EPIGRAPHIC_ACCEPTANCE",
+      "ambiguity_disposition": "NO_ALGORITHM_AMBIGUITY_IN_THIS_CASE",
+      "preferred_documentary_correspondences": [],
+      "unique_point_mapping_claimed": false,
+      "canonical_change_applied": false,
+      "independent_review_added": false,
+      "specific_apparatus_entry_ids": [
+        "S2005-A8-03"
+      ],
+      "specific_apparatus_printed_pages": [
+        129
+      ],
+      "transcription_printed_page": 122,
+      "transcription_pdf_ordinal": 28,
+      "source_position_ids": [
+        "S2005-G1127",
+        "S2005-G1128",
+        "S2005-G1129"
+      ],
+      "reference_position_ids": [
+        "EDIANA-MILYAN-0-ROW-8-U032",
+        "EDIANA-MILYAN-0-ROW-8-U033",
+        "EDIANA-MILYAN-0-ROW-8-U034",
+        "EDIANA-MILYAN-0-ROW-8-U035",
+        "EDIANA-MILYAN-0-ROW-8-U036"
+      ],
+      "anchor_alignment_ids": [
+        "TL55-L8-A032",
+        "TL55-L8-A033",
+        "TL55-L8-A034",
+        "TL55-L8-A035",
+        "TL55-L8-A036",
+        "TL55-L8-A037",
+        "TL55-L8-A038",
+        "TL55-L8-A039",
+        "TL55-L8-A040",
+        "TL55-L8-A041",
+        "TL55-L8-A042",
+        "TL55-L8-A043",
+        "TL55-L8-A044",
+        "TL55-L8-A045",
+        "TL55-L8-A046"
+      ],
+      "source_anchor_position_ids": [
+        "S2005-G1123",
+        "S2005-G1124",
+        "S2005-G1125",
+        "S2005-G1126",
+        "S2005-G1127",
+        "S2005-G1128",
+        "S2005-G1129",
+        "S2005-G1130",
+        "S2005-G1131",
+        "S2005-G1132",
+        "S2005-G1133"
+      ],
+      "reference_anchor_position_ids": [
+        "EDIANA-MILYAN-0-ROW-8-U027",
+        "EDIANA-MILYAN-0-ROW-8-U028",
+        "EDIANA-MILYAN-0-ROW-8-U029",
+        "EDIANA-MILYAN-0-ROW-8-U030",
+        "EDIANA-MILYAN-0-ROW-8-U031",
+        "EDIANA-MILYAN-0-ROW-8-U032",
+        "EDIANA-MILYAN-0-ROW-8-U033",
+        "EDIANA-MILYAN-0-ROW-8-U034",
+        "EDIANA-MILYAN-0-ROW-8-U035",
+        "EDIANA-MILYAN-0-ROW-8-U036",
+        "EDIANA-MILYAN-0-ROW-8-U037",
+        "EDIANA-MILYAN-0-ROW-8-U038",
+        "EDIANA-MILYAN-0-ROW-8-U039",
+        "EDIANA-MILYAN-0-ROW-8-U040",
+        "EDIANA-MILYAN-0-ROW-8-U041"
+      ]
+    },
+    {
+      "id": "TL55-REVIEW-55",
+      "source_label": 8,
+      "alignment_ids": [
+        "TL55-L8-A061",
+        "TL55-L8-A062"
+      ],
+      "context_alignment_ids": [
+        "TL55-L8-A061",
+        "TL55-L8-A062"
+      ],
+      "algorithm_ambiguous_records": [
+        "TL55-L8-A061",
+        "TL55-L8-A062"
+      ],
+      "documentary_assessment": "Before the nasal final vowel in the sseps range: the print has a two-letter repeated run where the reference has one. The range-length difference is documentary; nothing establishes which of the identical printed letters would be the one-to-one partner. Keep a one-to-two run correspondence, not a uniquely identified omitted ancient sign.",
+      "status": "DOCUMENTARY_REVIEW_COMPLETE_NOT_EPIGRAPHIC_ACCEPTANCE",
+      "ambiguity_disposition": "REPEATED_RUN_NO_UNIQUE_POINT_MAPPING",
+      "preferred_documentary_correspondences": [],
+      "unique_point_mapping_claimed": false,
+      "canonical_change_applied": false,
+      "independent_review_added": false,
+      "specific_apparatus_entry_ids": [
+        "S2005-A8-04"
+      ],
+      "specific_apparatus_printed_pages": [
+        129
+      ],
+      "transcription_printed_page": 122,
+      "transcription_pdf_ordinal": 28,
+      "source_position_ids": [
+        "S2005-G1147",
+        "S2005-G1148"
+      ],
+      "reference_position_ids": [
+        "EDIANA-MILYAN-0-ROW-8-U056"
+      ],
+      "repeated_run": {
+        "reference_units": [
+          "EDIANA-MILYAN-0-ROW-8-U056"
+        ],
+        "source_units": [
+          "S2005-G1147",
+          "S2005-G1148"
+        ],
+        "reference_printed_letter_units": 1,
+        "source_printed_letter_units": 2,
+        "identity_of_extra_ancient_sign_established": false
+      },
+      "anchor_alignment_ids": [
+        "TL55-L8-A056",
+        "TL55-L8-A057",
+        "TL55-L8-A058",
+        "TL55-L8-A059",
+        "TL55-L8-A060",
+        "TL55-L8-A061",
+        "TL55-L8-A062",
+        "TL55-L8-A063",
+        "TL55-L8-A064",
+        "TL55-L8-A065",
+        "TL55-L8-A066",
+        "TL55-L8-A067"
+      ],
+      "source_anchor_position_ids": [
+        "S2005-G1142",
+        "S2005-G1143",
+        "S2005-G1144",
+        "S2005-G1145",
+        "S2005-G1146",
+        "S2005-G1147",
+        "S2005-G1148",
+        "S2005-G1149",
+        "S2005-G1150",
+        "S2005-G1151",
+        "S2005-G1152"
+      ],
+      "reference_anchor_position_ids": [
+        "EDIANA-MILYAN-0-ROW-8-U051",
+        "EDIANA-MILYAN-0-ROW-8-U052",
+        "EDIANA-MILYAN-0-ROW-8-U053",
+        "EDIANA-MILYAN-0-ROW-8-U054",
+        "EDIANA-MILYAN-0-ROW-8-U055",
+        "EDIANA-MILYAN-0-ROW-8-U056",
+        "EDIANA-MILYAN-0-ROW-8-U057",
+        "EDIANA-MILYAN-0-ROW-8-U058",
+        "EDIANA-MILYAN-0-ROW-8-U059",
+        "EDIANA-MILYAN-0-ROW-8-U060",
+        "EDIANA-MILYAN-0-ROW-8-U061"
+      ]
+    },
+    {
+      "id": "TL55-REVIEW-56",
+      "source_label": 8,
+      "alignment_ids": [
+        "TL55-L8-A124",
+        "TL55-L8-A125",
+        "TL55-L8-A126"
+      ],
+      "context_alignment_ids": [
+        "TL55-L8-A124",
+        "TL55-L8-A125",
+        "TL55-L8-A126"
+      ],
+      "algorithm_ambiguous_records": [],
+      "documentary_assessment": "At source label8 end: the reference angle-intervention letter is absent from the revised graphic text. The following print vacat is an editorial description, not that letter.",
+      "status": "DOCUMENTARY_REVIEW_COMPLETE_NOT_EPIGRAPHIC_ACCEPTANCE",
+      "ambiguity_disposition": "NO_ALGORITHM_AMBIGUITY_IN_THIS_CASE",
+      "preferred_documentary_correspondences": [],
+      "unique_point_mapping_claimed": false,
+      "canonical_change_applied": false,
+      "independent_review_added": false,
+      "specific_apparatus_entry_ids": [],
+      "specific_apparatus_printed_pages": [],
+      "transcription_printed_page": 122,
+      "transcription_pdf_ordinal": 28,
+      "source_position_ids": [],
+      "reference_position_ids": [
+        "EDIANA-MILYAN-0-ROW-8-U118",
+        "EDIANA-MILYAN-0-ROW-8-U119",
+        "EDIANA-MILYAN-0-ROW-8-U120"
+      ],
+      "anchor_alignment_ids": [
+        "TL55-L8-A119",
+        "TL55-L8-A120",
+        "TL55-L8-A121",
+        "TL55-L8-A122",
+        "TL55-L8-A123",
+        "TL55-L8-A124",
+        "TL55-L8-A125",
+        "TL55-L8-A126"
+      ],
+      "source_anchor_position_ids": [
+        "S2005-G1198",
+        "S2005-G1199",
+        "S2005-G1200",
+        "S2005-G1201",
+        "S2005-G1202"
+      ],
+      "reference_anchor_position_ids": [
+        "EDIANA-MILYAN-0-ROW-8-U113",
+        "EDIANA-MILYAN-0-ROW-8-U114",
+        "EDIANA-MILYAN-0-ROW-8-U115",
+        "EDIANA-MILYAN-0-ROW-8-U116",
+        "EDIANA-MILYAN-0-ROW-8-U117",
+        "EDIANA-MILYAN-0-ROW-8-U118",
+        "EDIANA-MILYAN-0-ROW-8-U119",
+        "EDIANA-MILYAN-0-ROW-8-U120"
+      ]
+    },
+    {
+      "id": "TL55-REVIEW-57",
+      "source_label": 9,
+      "alignment_ids": [
+        "TL55-L9-A011",
+        "TL55-L9-A014"
+      ],
+      "context_alignment_ids": [
+        "TL55-L9-A011",
+        "TL55-L9-A012",
+        "TL55-L9-A013",
+        "TL55-L9-A014"
+      ],
+      "algorithm_ambiguous_records": [],
+      "documentary_assessment": "In source label9: curly reference punctuation and spacing differ from print. Keep the source-specific uncertainty on the following letter; the same printed separator is not implicitly present in the reference.",
+      "status": "DOCUMENTARY_REVIEW_COMPLETE_NOT_EPIGRAPHIC_ACCEPTANCE",
+      "ambiguity_disposition": "NO_ALGORITHM_AMBIGUITY_IN_THIS_CASE",
+      "preferred_documentary_correspondences": [],
+      "unique_point_mapping_claimed": false,
+      "canonical_change_applied": false,
+      "independent_review_added": false,
+      "specific_apparatus_entry_ids": [
+        "S2005-A9-01"
+      ],
+      "specific_apparatus_printed_pages": [
+        129
+      ],
+      "transcription_printed_page": 122,
+      "transcription_pdf_ordinal": 28,
+      "source_position_ids": [
+        "S2005-G1218",
+        "S2005-G1219"
+      ],
+      "reference_position_ids": [
+        "EDIANA-MILYAN-0-ROW-9-U007",
+        "EDIANA-MILYAN-0-ROW-9-U008",
+        "EDIANA-MILYAN-0-ROW-9-U009"
+      ],
+      "anchor_alignment_ids": [
+        "TL55-L9-A006",
+        "TL55-L9-A007",
+        "TL55-L9-A008",
+        "TL55-L9-A009",
+        "TL55-L9-A010",
+        "TL55-L9-A011",
+        "TL55-L9-A012",
+        "TL55-L9-A013",
+        "TL55-L9-A014",
+        "TL55-L9-A015",
+        "TL55-L9-A016",
+        "TL55-L9-A017",
+        "TL55-L9-A018",
+        "TL55-L9-A019"
+      ],
+      "source_anchor_position_ids": [
+        "S2005-G1213",
+        "S2005-G1214",
+        "S2005-G1215",
+        "S2005-G1216",
+        "S2005-G1217",
+        "S2005-G1218",
+        "S2005-G1219",
+        "S2005-G1220",
+        "S2005-G1221",
+        "S2005-G1222",
+        "S2005-G1223"
+      ],
+      "reference_anchor_position_ids": [
+        "EDIANA-MILYAN-0-ROW-9-U002",
+        "EDIANA-MILYAN-0-ROW-9-U003",
+        "EDIANA-MILYAN-0-ROW-9-U004",
+        "EDIANA-MILYAN-0-ROW-9-U005",
+        "EDIANA-MILYAN-0-ROW-9-U006",
+        "EDIANA-MILYAN-0-ROW-9-U007",
+        "EDIANA-MILYAN-0-ROW-9-U008",
+        "EDIANA-MILYAN-0-ROW-9-U009",
+        "EDIANA-MILYAN-0-ROW-9-U010",
+        "EDIANA-MILYAN-0-ROW-9-U011",
+        "EDIANA-MILYAN-0-ROW-9-U012",
+        "EDIANA-MILYAN-0-ROW-9-U013"
+      ]
+    },
+    {
+      "id": "TL55-REVIEW-58",
+      "source_label": 9,
+      "alignment_ids": [
+        "TL55-L9-A019",
+        "TL55-L9-A020",
+        "TL55-L9-A022",
+        "TL55-L9-A023",
+        "TL55-L9-A025",
+        "TL55-L9-A026",
+        "TL55-L9-A027"
+      ],
+      "context_alignment_ids": [
+        "TL55-L9-A019",
+        "TL55-L9-A020",
+        "TL55-L9-A021",
+        "TL55-L9-A022",
+        "TL55-L9-A023",
+        "TL55-L9-A024",
+        "TL55-L9-A025",
+        "TL55-L9-A026",
+        "TL55-L9-A027"
+      ],
+      "algorithm_ambiguous_records": [
+        "TL55-L9-A019",
+        "TL55-L9-A020",
+        "TL55-L9-A022",
+        "TL55-L9-A023"
+      ],
+      "documentary_assessment": "At the final damaged range: reference dots, source doubtful-letter typography and the printed stanza divider do not supply unique point pairings. The apparatus discusses a heavily damaged sign and a clear divider; the font-decoded terminal letter identity remains a printed-typography observation, not a new accepted reading. Keep the whole range and its qualification, including the final reference dots.",
+      "status": "DOCUMENTARY_REVIEW_COMPLETE_NOT_EPIGRAPHIC_ACCEPTANCE",
+      "ambiguity_disposition": "RANGE_ONLY_NO_UNIQUE_POINT_MAPPING",
+      "preferred_documentary_correspondences": [],
+      "unique_point_mapping_claimed": false,
+      "canonical_change_applied": false,
+      "independent_review_added": false,
+      "specific_apparatus_entry_ids": [
+        "S2005-A9-02"
+      ],
+      "specific_apparatus_printed_pages": [
+        129
+      ],
+      "transcription_printed_page": 122,
+      "transcription_pdf_ordinal": 28,
+      "source_position_ids": [
+        "S2005-G1223",
+        "S2005-G1224",
+        "S2005-G1225",
+        "S2005-G1226",
+        "S2005-G1227"
+      ],
+      "reference_position_ids": [
+        "EDIANA-MILYAN-0-ROW-9-U014",
+        "EDIANA-MILYAN-0-ROW-9-U015",
+        "EDIANA-MILYAN-0-ROW-9-U016",
+        "EDIANA-MILYAN-0-ROW-9-U017",
+        "EDIANA-MILYAN-0-ROW-9-U018",
+        "EDIANA-MILYAN-0-ROW-9-U019"
+      ],
+      "anchor_alignment_ids": [
+        "TL55-L9-A014",
+        "TL55-L9-A015",
+        "TL55-L9-A016",
+        "TL55-L9-A017",
+        "TL55-L9-A018",
+        "TL55-L9-A019",
+        "TL55-L9-A020",
+        "TL55-L9-A021",
+        "TL55-L9-A022",
+        "TL55-L9-A023",
+        "TL55-L9-A024",
+        "TL55-L9-A025",
+        "TL55-L9-A026",
+        "TL55-L9-A027"
+      ],
+      "source_anchor_position_ids": [
+        "S2005-G1220",
+        "S2005-G1221",
+        "S2005-G1222",
+        "S2005-G1223",
+        "S2005-G1224",
+        "S2005-G1225",
+        "S2005-G1226",
+        "S2005-G1227"
+      ],
+      "reference_anchor_position_ids": [
+        "EDIANA-MILYAN-0-ROW-9-U009",
+        "EDIANA-MILYAN-0-ROW-9-U010",
+        "EDIANA-MILYAN-0-ROW-9-U011",
+        "EDIANA-MILYAN-0-ROW-9-U012",
+        "EDIANA-MILYAN-0-ROW-9-U013",
+        "EDIANA-MILYAN-0-ROW-9-U014",
+        "EDIANA-MILYAN-0-ROW-9-U015",
+        "EDIANA-MILYAN-0-ROW-9-U016",
+        "EDIANA-MILYAN-0-ROW-9-U017",
+        "EDIANA-MILYAN-0-ROW-9-U018",
+        "EDIANA-MILYAN-0-ROW-9-U019"
+      ]
+    }
+  ],
+  "limits": [
+    "Positional correspondences compare edition slots; they do not validate restored letters or accept either reading.",
+    "Original36 ambiguity flags remain unchanged in the algorithm register; this review explains them without rewriting the candidate evidence.",
+    "Repeated-run and damaged-range correspondences do not select unique individual sign pairings.",
+    "Specific apparatus IDs are exact contextual paragraph locators; an empty list means the claim relies on the printed transcription, not an invented apparatus discussion.",
+    "Every external expert disposition remains pending in the immutable152-item packet. Documentary completion is not a completed independent review."
+  ],
+  "rights": {
+    "license": "CC-BY-SA-4.0",
+    "scope": "Project-original comparison notes and licensed frozen reference context; source PDF, full transcription and apparatus are not distributed.",
+    "source_rights_retained": true
+  }
+}

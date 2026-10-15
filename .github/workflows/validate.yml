@@ -11,6 +11,8 @@ jobs:
         with:
           python-version: '3.12'
       - run: python -m unittest discover -s tests -p test_handoff_non_discovery.py
+      - run: python scripts/tl55_documentary_review.py
+      - run: python -m unittest discover -s tests -p test_tl55_documentary_review.py
       - run: python scripts/tl55_sign_alignment.py
       - run: python -m unittest discover -s tests -p test_tl55_sign_alignment.py
       - run: python scripts/tl55_review.py

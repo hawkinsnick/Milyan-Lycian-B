@@ -17,7 +17,7 @@
       "record": "MIL-TL-055",
       "preferred_edition": "Schürr, Diether (2005), Das Pixre-Poem in Antiphellos, Kadmos 44(1–2), DOI 10.1515/kadm.2005.014",
       "secondary": "Melchert/TITUS Lycian Corpus",
-      "task": "Exhaustive encoded-sign comparison complete for all nine revised lines. Independent adjudication of candidate alignments, original sign uncertainties and complete epigraphic certification remain open; use sign adjudication supplement.",
+      "task": "Documentary sign comparison complete, including all152 flagged records in58 source-located cases. Independent expert adjudication and epigraphic certification remain open; no accepted correction.",
       "bibliographic_identity": {
         "title": "Das Pixre-Poem in Antiphellos",
         "author": "Diether Schürr",
@@ -40,7 +40,8 @@
         "first_pass_review": "research/tl55-first-pass-review.json",
         "independent_review_packet": "review/tl55-independent-review.json",
         "sign_comparison": "research/tl55-sign-alignment.json",
-        "full_epigraphic_collation_certified": false
+        "full_epigraphic_collation_certified": false,
+        "documentary_sign_review": "research/tl55-documentary-sign-review.json"
       }
     }
   ],

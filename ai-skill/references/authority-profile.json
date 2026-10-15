@@ -144,6 +144,21 @@
       "path": "docs/TL55-SIGN-COMPARISON.md",
       "required": true,
       "role": "exhaustive_candidate_sign_comparison_not_epigraphic_acceptance"
+    },
+    {
+      "path": "research/tl55-documentary-sign-review.json",
+      "required": true,
+      "role": "completed_documentary_sign_review_not_expert_acceptance"
+    },
+    {
+      "path": "scripts/tl55_documentary_review.py",
+      "required": true,
+      "role": "completed_documentary_sign_review_not_expert_acceptance"
+    },
+    {
+      "path": "docs/TL55-DOCUMENTARY-COMPLETION.md",
+      "required": true,
+      "role": "completed_documentary_sign_review_not_expert_acceptance"
     }
   ]
 }
