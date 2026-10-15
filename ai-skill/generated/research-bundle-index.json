@@ -42,20 +42,20 @@
     {
       "path": "README.md",
       "role": "native_authority",
-      "sha256": "1ba2ca88b8bc10022e26021e511f83bf6b9f5fd11ca0caba5a9405e9622a3499",
-      "bytes": 8843
+      "sha256": "449006a2305d9a577c785314fad953989957fae6b6c4dd0f9184895fb7644e60",
+      "bytes": 9266
     },
     {
       "path": "ai-skill/SKILL.md",
       "role": "native_authority",
-      "sha256": "caca5ea7ee3ed3201922a5fea8aa23754e4eab43a88261d85aad55eb79cf462d",
-      "bytes": 13130
+      "sha256": "a6c27ead7b8e004394adbfca298c209c5b78b4502afd73a9e467090ebd98beaa",
+      "bytes": 14868
     },
     {
       "path": "ai-skill/references/authority-profile.json",
       "role": "native_authority",
-      "sha256": "34359813983c1f603d3c3d6b31e841375e42f6a5390f194722ae419bae112390",
-      "bytes": 4235
+      "sha256": "f5a490fa6e5c7c086d36326369f08359470ae10b6e78c5127814f0c100013ef1",
+      "bytes": 4727
     },
     {
       "path": "ai-skill/scripts/build_bundle.py",
@@ -84,8 +84,8 @@
     {
       "path": "analysis/evidence-query-coverage.json",
       "role": "native_authority",
-      "sha256": "1f036f69a34f2baa4e4968ba155629b163ac3923484c84ad8dca73fe3e584511",
-      "bytes": 11169
+      "sha256": "96507467a6f9689fcd2107eb83a16e61bb3ce938571ec528d1924b0d63045541",
+      "bytes": 12627
     },
     {
       "path": "analysis/upstream-epidoc-validation.json",
@@ -178,10 +178,16 @@
       "bytes": 2453
     },
     {
+      "path": "docs/TL55-DOCUMENTARY-COMPLETION.md",
+      "role": "native_authority",
+      "sha256": "6ae71692843c53ca7fc8e823d51c6a31380971bc81c9bb9d441aca14df1adfc5",
+      "bytes": 4240
+    },
+    {
       "path": "docs/TL55-SIGN-COMPARISON.md",
       "role": "native_authority",
-      "sha256": "d9f285f5d52dd0bd1224f5c2008fdd8745201893655b9a001f551f9cd4354d97",
-      "bytes": 7126
+      "sha256": "fc347a5b0757cf927e8fbf3d800ab744b312f00c5c912eac0e630def67abda79",
+      "bytes": 7634
     },
     {
       "path": "interchange/epidoc/milyan-reference.xml",
@@ -204,8 +210,8 @@
     {
       "path": "research/collection-work-ledger.json",
       "role": "native_authority",
-      "sha256": "a46c6bb7fc07bc5d5e61ddf6f991b3457625459e1b7c1cf7ec9218e7aab2f740",
-      "bytes": 155483
+      "sha256": "f57dad1b99bcdb49b29723ea79853feb4631805348371e521245798ad127e0fb",
+      "bytes": 156001
     },
     {
       "path": "research/cross-corpus-dependencies.json",
@@ -222,14 +228,14 @@
     {
       "path": "research/edition-priority.json",
       "role": "native_authority",
-      "sha256": "8b4a3f3f20ec39ac04628898847ba9f982dfe5de27ce191acf670bd283110ee6",
-      "bytes": 2584
+      "sha256": "4588441c17ca9fdc69f388bd6fbf2638b58de0fe35c00650349169944f842404",
+      "bytes": 2626
     },
     {
       "path": "research/evidence-query-profile.json",
       "role": "native_authority",
-      "sha256": "5c0409ca794456dbee6e8788938f24d849310ba78a618bbb27792e40b5b60e34",
-      "bytes": 8933
+      "sha256": "2ddcac668b0783eacba81337232319bc5448af29133f626672b07ebf4f3e2ada",
+      "bytes": 9963
     },
     {
       "path": "research/primary-edition-locator-control.json",
@@ -262,6 +268,12 @@
       "bytes": 2539
     },
     {
+      "path": "research/tl55-documentary-sign-review.json",
+      "role": "native_authority",
+      "sha256": "1f3bbebfa39481ef52d8ae09f25c107fde18d1be5dfaad5b203f846b0df823d9",
+      "bytes": 146982
+    },
+    {
       "path": "research/tl55-first-pass-review.json",
       "role": "native_authority",
       "sha256": "569ce81ab36a50a09f108c758255bec00bcd460a64cdf548a0cf0b0f1b7ac0e0",
@@ -282,8 +294,8 @@
     {
       "path": "review/collection-packet.json",
       "role": "native_authority",
-      "sha256": "f2062782a4e485d22d91e535c932c5c7823186c4aacb220094d89ef3808e82e8",
-      "bytes": 1902
+      "sha256": "6bca3ca9b34ec5a965e13f9bca34b677fea53f98334eb42dccdb4bf054e9659c",
+      "bytes": 1995
     },
     {
       "path": "review/tl55-independent-review.json",
@@ -306,8 +318,8 @@
     {
       "path": "scripts/build_current_summary.py",
       "role": "native_authority",
-      "sha256": "e4a9fb8014ffa2a92e64a11b6128846ad9fc3a7fe49c25d85dfba671c1368dde",
-      "bytes": 4517
+      "sha256": "e1bf1b266b1d33aeb260a181e3b2531abe33957a9925fa39c505fa4acaea752d",
+      "bytes": 4672
     },
     {
       "path": "scripts/build_reference.py",
@@ -324,8 +336,8 @@
     {
       "path": "scripts/research_api.py",
       "role": "native_authority",
-      "sha256": "41275a7327bd46959d3771f316725c90cd391d2bf9f7c76a84897f5ac40e50e7",
-      "bytes": 4663
+      "sha256": "1ff865b69f9af01a8c2269a8fb1a4017ff12ef379375ee874696f02bbc03ae7e",
+      "bytes": 5720
     },
     {
       "path": "scripts/test_attribution_review.py",
@@ -344,6 +356,12 @@
       "role": "native_authority",
       "sha256": "b3afdd4271f2cb6e2cdcaed663f1d381f7a18d1c5dfb3a3e4eb2071b8763481f",
       "bytes": 4292
+    },
+    {
+      "path": "scripts/tl55_documentary_review.py",
+      "role": "native_authority",
+      "sha256": "bc360acbe53640d327c27270d38955cdccfdfc389be98bf635a5f1f60722fbe9",
+      "bytes": 6821
     },
     {
       "path": "scripts/tl55_review.py",
@@ -376,5 +394,5 @@
       "bytes": 3546
     }
   ],
-  "source_commit": "ebeb1c1012ee664c1111440ec8f061db7fe63dbe"
+  "source_commit": "d7d6f2d17ed774a20299395dd18fa6d337c15431"
 }
