@@ -27,3 +27,7 @@ Require checked native dependency projections, preserve corpus-native bundle sch
 Read `research/tl55-count-reconciliation-2026-10-14.json` and `docs/TL55-COUNT-RECONCILIATION.md`. Attribute eight to Texier quoted by Kalinka p.53; p.54 has nine transliteration entry groups, including the short final group, matching the nine frozen reference rows in count. Preserve differing boundary allocation, unchanged source strings and the historical quotation. This accounts for source count voices; it does not certify nine physical lines, exact full-reading equivalence, independent witness or accepted readings.
 
 Validation now rebuilds the native AI bundle before checking its authority hashes, so newly declared source authorities are checked in the source commit CI. Publication still uses the exact checked source parent.
+
+## 2026-10-15 — Native evidence and alternative-reading queries
+
+Added pinned native evidence profiles, exact-ID/JSON-pointer queries, coverage replay, loss/corruption/identity/path tests and CI. Updated researcher documentation, AI instructions and evidence bundle indexing. Existing source data and scientific acceptance states are unchanged.

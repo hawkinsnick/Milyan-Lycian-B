@@ -1,0 +1,117 @@
+{
+  "format": "corpus-native-evidence-query-coverage-v1",
+  "repository": "hawkinsnick/Milyan-Lycian-B",
+  "profile_sha256": "419ac9d51dfda5f5caf6e63a88bc5a1c4241fcd26bf42210734711453c1b4876",
+  "implementation_sha256": "70aa6686802122667b369811fa569c45c407847ed8965b917f58130c5a685550",
+  "collections": [
+    {
+      "name": "digital-entries",
+      "native_unit": "digital catalogue entry",
+      "record_count": 2,
+      "scope": "Two source records; not two independently verified objects.",
+      "example_ids": [
+        "EDIANA-MILYAN-0",
+        "EDIANA-MILYAN-1"
+      ],
+      "provenance": {
+        "path": "data/reference/records.json",
+        "sha256": "315d64c998b380d84616e217c79636979f5576f8814dabeb815cbd07758c1565",
+        "pointer": "",
+        "native_artifacts_snapshot_commit": "6450b871c234335d5c628341b08c7dbb46ee80b4",
+        "role": "digital-entries",
+        "encoding": "json"
+      }
+    },
+    {
+      "name": "source-text-rows",
+      "native_unit": "digital source text row",
+      "record_count": 114,
+      "scope": "Source rows and physical inscribed lines are different units.",
+      "example_ids": [
+        "EDIANA-MILYAN-0-ROW-1",
+        "EDIANA-MILYAN-0-ROW-2",
+        "EDIANA-MILYAN-0-ROW-3"
+      ],
+      "provenance": {
+        "path": "data/reference/lines.json",
+        "sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+        "pointer": "",
+        "native_artifacts_snapshot_commit": "6450b871c234335d5c628341b08c7dbb46ee80b4",
+        "role": "source-text-rows",
+        "encoding": "json"
+      }
+    }
+  ],
+  "context_resources": [
+    {
+      "path": "data/reference/records.json",
+      "sha256": "315d64c998b380d84616e217c79636979f5576f8814dabeb815cbd07758c1565",
+      "pointer": "",
+      "native_artifacts_snapshot_commit": "6450b871c234335d5c628341b08c7dbb46ee80b4",
+      "role": "digital-entries",
+      "encoding": "json"
+    },
+    {
+      "path": "data/reference/lines.json",
+      "sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "pointer": "",
+      "native_artifacts_snapshot_commit": "6450b871c234335d5c628341b08c7dbb46ee80b4",
+      "role": "source-text-rows",
+      "encoding": "json"
+    },
+    {
+      "path": "research/reference-manifest.json",
+      "sha256": "8b97f89970c4518b6f4c421b1eeffb25ffe0dce29c2067c84633646d2a0a3a30",
+      "pointer": "",
+      "native_artifacts_snapshot_commit": "6450b871c234335d5c628341b08c7dbb46ee80b4",
+      "role": "corpus-level source/rights/context register",
+      "encoding": "json"
+    },
+    {
+      "path": "research/primary-edition-locator-control.json",
+      "sha256": "88363904eb79da33f1832cc50755299e1d5ae8aab3c404f7c2a8f7395193ef2f",
+      "pointer": "",
+      "native_artifacts_snapshot_commit": "6450b871c234335d5c628341b08c7dbb46ee80b4",
+      "role": "corpus-level source/rights/context register",
+      "encoding": "json"
+    },
+    {
+      "path": "research/tl55-count-reconciliation-2026-10-14.json",
+      "sha256": "483110da5000eed90881a54c2a7028a8800b2ef81ffc45e7cc6794e104c40af1",
+      "pointer": "",
+      "native_artifacts_snapshot_commit": "6450b871c234335d5c628341b08c7dbb46ee80b4",
+      "role": "corpus-level source/rights/context register",
+      "encoding": "json"
+    },
+    {
+      "path": "research/source-reconciliation.json",
+      "sha256": "d2516c9974f022020e740301169f66244a7d48ee3d1d6a570b8643f0d228a734",
+      "pointer": "",
+      "native_artifacts_snapshot_commit": "6450b871c234335d5c628341b08c7dbb46ee80b4",
+      "role": "corpus-level source/rights/context register",
+      "encoding": "json"
+    },
+    {
+      "path": "LICENSE-CONTENT.md",
+      "sha256": "08625edd17ac64b3d837499b654d3178240bae5db9c165ae4ec04bb7782ec2a1",
+      "pointer": "",
+      "native_artifacts_snapshot_commit": "6450b871c234335d5c628341b08c7dbb46ee80b4",
+      "role": "corpus-level source/rights/context register",
+      "encoding": "text"
+    },
+    {
+      "path": "NOTICE",
+      "sha256": "e6a95d9900cacac45c4f8e75a1ab8939370655dc2c74996f6d9161364f2be143",
+      "pointer": "",
+      "native_artifacts_snapshot_commit": "6450b871c234335d5c628341b08c7dbb46ee80b4",
+      "role": "corpus-level source/rights/context register",
+      "encoding": "text"
+    }
+  ],
+  "scholarly_limits": [
+    "Texier quoted by Kalinka reports eight TL55 lines; nine printed entry groups and nine frozen rows do not erase that historical statement. Full text/boundary collation, canonical reading acceptance and physical-line certification remain open."
+  ],
+  "alternative_pair_count": null,
+  "independent_witness_count": null,
+  "boundary": "These are views of existing source records, not new witnesses or adjudications. Counts retain their declared native units and must not be summed as unique objects. Registers may contain project hypotheses or untraced alternatives. Only explicitly attributed, aligned readings can support an editorial comparison; no alternative-pair or independent-witness count is inferred by this tool."
+}
