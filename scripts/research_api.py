@@ -7,11 +7,17 @@ ROOT=Path(__file__).resolve().parents[1]
 def load(name): return json.loads((ROOT/'data'/name).read_text(encoding='utf-8'))
 def main():
     p=argparse.ArgumentParser(description="Milyan corpus read-only researcher interface")
-    p.add_argument('command',choices=['inscriptions','lines','kwic','coverage','export','collation'])
+    p.add_argument('command',choices=['inscriptions','lines','kwic','coverage','export','collation','signs'])
     p.add_argument('--text',default='',help='Case-insensitive query; KWIC searches only attested line readings')
     p.add_argument('--format',choices=['json','csv'],default='json')
     p.add_argument('--layer',choices=['canonical','reference'],default='canonical',help='Source-attributed digital reference is separate from canonical verified readings')
     a=p.parse_args()
+    if a.command=='signs':
+        from tl55_sign_alignment import validate,REGISTER
+        validate();data=json.loads((ROOT/REGISTER).read_text());refs={r['id']:r for r in data['reference_units']};sources={s['id']:s for s in data['source_positions']}
+        result=[dict(r,reference_position=refs.get(r['reference_unit']),source_position=sources.get(r['source_unit']),comparison_method=data['method'],rights=data['rights'],source_pdf_sha256=data['source_pdf_sha256'],expert_adjudication='PENDING') for r in data['alignments']]
+        if a.text:result=[r for r in result if a.text in json.dumps(r,ensure_ascii=False)]
+        emit(result,a,p);return
     if a.command=='collation':
         from tl55_collation import validate,build
         validate();result=build()['rows']

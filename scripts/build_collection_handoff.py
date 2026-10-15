@@ -36,6 +36,8 @@ def build(root=ROOT):
  root=Path(root);cfg=json.loads(safe(root,CONFIG).read_bytes());inputs={};data={}
  paths=sorted(set(cfg['source_files']+[x['path'] for x in cfg['record_sets'] if not x.get('local_only')]))
  if set(paths)&set(OUTPUTS):raise ValueError('recursive generated input')
+ non_discovery=set(cfg.get('non_discovery_inputs',[]))
+ if not non_discovery<=set(paths):raise ValueError('non-discovery input must remain fully declared and byte-pinned')
  for p in paths:
   b=safe(root,p).read_bytes();inputs[p]=digest(b)
   if p.endswith('.json'):data[p]=json.loads(b)
@@ -65,6 +67,7 @@ def build(root=ROOT):
   views.append(v)
  tasks=[];leads=[]
  for path,d in data.items():
+  if path in non_discovery:continue
   for key,value,p in walk(d):
    if key in LEAD_KEYS and value not in (None,[],{},''):
     for lead_pointer in [p+'/'+str(i) for i in range(len(value))] if isinstance(value,list) else [p]:

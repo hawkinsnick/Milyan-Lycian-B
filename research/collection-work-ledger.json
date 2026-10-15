@@ -1,8 +1,8 @@
 {
-  "builder_sha256": "4b61ca559d0817b09e869f6c3ca38ae7478071a0466f89861e71954d1bb499d6",
+  "builder_sha256": "d1148362b2babd59f1900ed15d8195d84d674976fb6649de57de139b00dad04b",
   "completion_rule": "Enumeration is a completed work map, not completed collation. Resolve every open task using exact inspected evidence or a documented access/rights dependency; leave scientific adjudication to independent review.",
-  "config_sha256": "2d97fc91e3030c8562354d40b733567628ebaa8d49e52c611669e8b28303e9c1",
-  "evidence_fingerprint": "a16bb8e11cc68150e363e224c94f70f15d4d7d750b4ca751a13a663ffe90dd16",
+  "config_sha256": "b45ffb108f82bc61749b445508ca294a996700caaa05159d16d1094fca1fd764",
+  "evidence_fingerprint": "0bdeb6ce31346cd7f7c78cefca39971dd31aa3df68a2730a94b503b05f28741b",
   "input_sha256": {
     "analysis/upstream-epidoc-validation.json": "af3266900705a5e7fe0a7b44cc568f875f66e9e004dea1cb21ed5ae70053432f",
     "data/inscriptions.json": "7fa678885ee42fa7124fe15f55479f6de7db59fb1fc038d7b2edd0523457f78f",
@@ -11,14 +11,15 @@
     "data/reference/records.json": "315d64c998b380d84616e217c79636979f5576f8814dabeb815cbd07758c1565",
     "docs/AI-INTEGRITY.md": "8619d2ac88ca104eb10570b6c5c83021da5e5cdb57a7af1de076131d185207b0",
     "docs/EDIANA-REFERENCE.md": "9682947ceefedd072e62c2d9ec256af8b7f4f847ec024edf4dca486eebfd1034",
-    "docs/SCHUERR2005-TL55-COLLATION.md": "ca9370ad46c8d251ddf89246bb3aeba9a1ddb93c8c90fad32104d50bc7e0d601",
+    "docs/SCHUERR2005-TL55-COLLATION.md": "1ccbff8d687b46ae65942feb910b99a01acb9998622ce612dfb6ba6e6dd307c4",
     "docs/TL55-COUNT-RECONCILIATION.md": "e4657729c66486c27e71b23c93cc58da837534d88f3944aa6cb98af1d6c7a979",
+    "docs/TL55-SIGN-COMPARISON.md": "d9f285f5d52dd0bd1224f5c2008fdd8745201893655b9a001f551f9cd4354d97",
     "interchange/epidoc/milyan-reference.xml": "1386ebed41b325e073ec6ab656bc0a32821cd809eb72ba2798288b07ab58fee7",
     "interchange/epidoc/upstream-pins.json": "240d9f8b31142c9146b6c5f63ce29019af9101cefa276a590cbe78ff637ab01a",
     "research/cross-corpus-dependencies.json": "dd10675875646324a036e14d1b9edeb3466b9b75bc0bd94f9564bee88db0de67",
     "research/ediana-reference-crosswalk.json": "dbf6f6465b1db6e1804e3acb5d891bac48157d2d78b4a6c601b76726d184949c",
-    "research/edition-priority.json": "e10950fc1e5f5759dd7825f970ccf43bfda20b160f9e61d9c7644e4bd2995ac8",
-    "research/pre-expert-maximum.json": "ef005a29c07083ed558934bbb442edd5dfe184e5189ed19ff55ae3f6ba2b41a3",
+    "research/edition-priority.json": "8b4a3f3f20ec39ac04628898847ba9f982dfe5de27ce191acf670bd283110ee6",
+    "research/pre-expert-maximum.json": "2ba7147c456b9f49e19d7e17ed463714a1b1f48c4f74b5fde85bb4e38eff697a",
     "research/primary-edition-locator-control.json": "88363904eb79da33f1832cc50755299e1d5ae8aab3c404f7c2a8f7395193ef2f",
     "research/reference-manifest.json": "8b97f89970c4518b6f4c421b1eeffb25ffe0dce29c2067c84633646d2a0a3a30",
     "research/schuerr2005-tl55-collation.json": "e4e7e7c81fe3efff1168af784c80e391b6af9b35dc94d1add74c7d5cd65d710a",
@@ -26,14 +27,20 @@
     "research/tl55-count-reconciliation-2026-10-14.json": "483110da5000eed90881a54c2a7028a8800b2ef81ffc45e7cc6794e104c40af1",
     "research/tl55-first-pass-review.json": "569ce81ab36a50a09f108c758255bec00bcd460a64cdf548a0cf0b0f1b7ac0e0",
     "research/tl55-qualified-collation.json": "d9bc1e5377e0690519c6757bf30695f159477b0b20398afcd7d4fc002f96db1e",
+    "research/tl55-sign-alignment.json": "d1a8f561442c2475f9ac293b35cd5710d9825301dc7f43ad256aede7875d294d",
     "review/tl55-independent-review.json": "ce9ef32ba783f9dfa6fdc71ad06b972dabd0b51258643a466e72c5ba71ec3bc5",
+    "review/tl55-sign-adjudication.json": "b6ea1af6ddf5fa2e6f973c5293860936b41c5e2ae0244431e3e03f1d26717b6f",
     "scripts/build_reference.py": "40c58078b92ab0b9f1394f21bd70b5fcfc36894e322a52da49ba1bc66d0a8487",
     "scripts/tl55_collation.py": "b3afdd4271f2cb6e2cdcaed663f1d381f7a18d1c5dfb3a3e4eb2071b8763481f",
     "scripts/tl55_review.py": "4b85b547e6a191eb62471738eaa47e4d6996335a390e0934ab245709edc2f992",
+    "scripts/tl55_sign_alignment.py": "9b8703d09716e0eca08bfacd9f21f7891509be2fba5bf0d3333c0bd1c72b7cd4",
+    "scripts/tl55_source_glyphs.py": "511a4f7380275282457df56738eeafcc75b4614aaa1f34b9ec2abd716044b006",
     "scripts/validate_tl55_reconciliation.py": "d0af5f3851559142141b6c6d1580059f81b8d5bfbe4e627f9889a619e4e8709f"
   },
   "native_review_links": [
-    "docs/METHODOLOGY.md"
+    "docs/METHODOLOGY.md",
+    "docs/TL55-SIGN-COMPARISON.md",
+    "review/tl55-sign-adjudication.json"
   ],
   "question_definitions": {
     "language_or_script_classification": "Attribute membership and classification to named authorities; preserve disagreement.",
@@ -4044,7 +4051,7 @@
       "native_status": null,
       "native_task_id": null,
       "source_path": "research/pre-expert-maximum.json",
-      "task": "TL55 complete sign-by-sign epigraphic collation and independent adjudication; first documentary pass and all four digital boundary markers now accounted"
+      "task": "TL55 independent adjudication of exhaustive encoded-sign comparison, including36 ambiguous alignment records; full epigraphic certification remains open"
     }
   ],
   "terminal_pre_expert_maximum_established": false

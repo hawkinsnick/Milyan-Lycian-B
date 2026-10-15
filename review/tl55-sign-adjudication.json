@@ -1,0 +1,1231 @@
+{
+  "format": "tl55-sign-adjudication-packet-v1",
+  "status": "PREPARED_NOT_REVIEWED",
+  "input_alignment_sha256": "d1a8f561442c2475f9ac293b35cd5710d9825301dc7f43ad256aede7875d294d",
+  "original_review_packet": "review/tl55-independent-review.json",
+  "original_review_packet_sha256": "ce9ef32ba783f9dfa6fdc71ad06b972dabd0b51258643a466e72c5ba71ec3bc5",
+  "reviewer": null,
+  "assessment": null,
+  "accepted_readings": [],
+  "review_evidence": null,
+  "item_count": 152,
+  "items": [
+    {
+      "alignment_id": "TL55-L1-A002",
+      "relation": "SOURCE_POSITION_WITHOUT_REFERENCE_PARTNER",
+      "alignment_ambiguous": true,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L1-A004",
+      "relation": "REFERENCE_POSITION_WITHOUT_SOURCE_PARTNER",
+      "alignment_ambiguous": true,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L1-A005",
+      "relation": "DIFFERENT_BASE_OR_NOTATION",
+      "alignment_ambiguous": true,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L1-A007",
+      "relation": "BASE_AGREEMENT_QUALIFICATION_DIFFERS",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L1-A008",
+      "relation": "BASE_AGREEMENT_QUALIFICATION_DIFFERS",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L1-A009",
+      "relation": "BASE_AGREEMENT_QUALIFICATION_DIFFERS",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L1-A010",
+      "relation": "SOURCE_POSITION_WITHOUT_REFERENCE_PARTNER",
+      "alignment_ambiguous": true,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L1-A011",
+      "relation": "SOURCE_POSITION_WITHOUT_REFERENCE_PARTNER",
+      "alignment_ambiguous": true,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L1-A012",
+      "relation": "DIFFERENT_BASE_OR_NOTATION",
+      "alignment_ambiguous": true,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L1-A170",
+      "relation": "REFERENCE_POSITION_WITHOUT_SOURCE_PARTNER",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L2-A004",
+      "relation": "DIFFERENT_BASE_OR_NOTATION",
+      "alignment_ambiguous": true,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L2-A006",
+      "relation": "BASE_AGREEMENT_QUALIFICATION_DIFFERS",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L2-A009",
+      "relation": "DIFFERENT_BASE_OR_NOTATION",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L2-A049",
+      "relation": "REFERENCE_POSITION_WITHOUT_SOURCE_PARTNER",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L2-A050",
+      "relation": "REFERENCE_POSITION_WITHOUT_SOURCE_PARTNER",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L2-A051",
+      "relation": "REFERENCE_POSITION_WITHOUT_SOURCE_PARTNER",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L2-A071",
+      "relation": "REFERENCE_POSITION_WITHOUT_SOURCE_PARTNER",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L2-A072",
+      "relation": "REFERENCE_POSITION_WITHOUT_SOURCE_PARTNER",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L2-A073",
+      "relation": "REFERENCE_POSITION_WITHOUT_SOURCE_PARTNER",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L2-A087",
+      "relation": "DIFFERENT_BASE_OR_NOTATION",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L2-A163",
+      "relation": "BASE_AGREEMENT_QUALIFICATION_DIFFERS",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L2-A173",
+      "relation": "BASE_AGREEMENT_QUALIFICATION_DIFFERS",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L2-A184",
+      "relation": "DIFFERENT_BASE_OR_NOTATION",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L2-A185",
+      "relation": "REFERENCE_POSITION_WITHOUT_SOURCE_PARTNER",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L2-A192",
+      "relation": "BASE_AGREEMENT_QUALIFICATION_DIFFERS",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L3-A002",
+      "relation": "DIFFERENT_BASE_OR_NOTATION",
+      "alignment_ambiguous": true,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L3-A004",
+      "relation": "SOURCE_POSITION_WITHOUT_REFERENCE_PARTNER",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L3-A015",
+      "relation": "REFERENCE_POSITION_WITHOUT_SOURCE_PARTNER",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L3-A023",
+      "relation": "BASE_AGREEMENT_QUALIFICATION_DIFFERS",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L3-A026",
+      "relation": "SOURCE_POSITION_WITHOUT_REFERENCE_PARTNER",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L3-A028",
+      "relation": "SOURCE_POSITION_WITHOUT_REFERENCE_PARTNER",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L3-A033",
+      "relation": "SOURCE_POSITION_WITHOUT_REFERENCE_PARTNER",
+      "alignment_ambiguous": true,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L3-A034",
+      "relation": "SOURCE_POSITION_WITHOUT_REFERENCE_PARTNER",
+      "alignment_ambiguous": true,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L3-A035",
+      "relation": "DIFFERENT_BASE_OR_NOTATION",
+      "alignment_ambiguous": true,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L3-A048",
+      "relation": "REFERENCE_POSITION_WITHOUT_SOURCE_PARTNER",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L3-A072",
+      "relation": "REFERENCE_POSITION_WITHOUT_SOURCE_PARTNER",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L3-A073",
+      "relation": "NOTATION_MARKS_DIFFER",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L3-A075",
+      "relation": "REFERENCE_POSITION_WITHOUT_SOURCE_PARTNER",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L3-A092",
+      "relation": "REFERENCE_POSITION_WITHOUT_SOURCE_PARTNER",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L3-A095",
+      "relation": "REFERENCE_POSITION_WITHOUT_SOURCE_PARTNER",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L3-A114",
+      "relation": "DIFFERENT_BASE_OR_NOTATION",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L3-A115",
+      "relation": "REFERENCE_POSITION_WITHOUT_SOURCE_PARTNER",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L3-A146",
+      "relation": "DIFFERENT_BASE_OR_NOTATION",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L3-A147",
+      "relation": "REFERENCE_POSITION_WITHOUT_SOURCE_PARTNER",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L3-A150",
+      "relation": "REFERENCE_POSITION_WITHOUT_SOURCE_PARTNER",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L3-A151",
+      "relation": "REFERENCE_POSITION_WITHOUT_SOURCE_PARTNER",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L3-A152",
+      "relation": "REFERENCE_POSITION_WITHOUT_SOURCE_PARTNER",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L3-A160",
+      "relation": "SOURCE_POSITION_WITHOUT_REFERENCE_PARTNER",
+      "alignment_ambiguous": true,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L3-A162",
+      "relation": "REFERENCE_POSITION_WITHOUT_SOURCE_PARTNER",
+      "alignment_ambiguous": true,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L3-A163",
+      "relation": "DIFFERENT_BASE_OR_NOTATION",
+      "alignment_ambiguous": true,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L4-A002",
+      "relation": "REFERENCE_POSITION_WITHOUT_SOURCE_PARTNER",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L4-A006",
+      "relation": "BASE_AGREEMENT_QUALIFICATION_DIFFERS",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L4-A017",
+      "relation": "SOURCE_POSITION_WITHOUT_REFERENCE_PARTNER",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L4-A018",
+      "relation": "SOURCE_POSITION_WITHOUT_REFERENCE_PARTNER",
+      "alignment_ambiguous": true,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L4-A019",
+      "relation": "SOURCE_POSITION_WITHOUT_REFERENCE_PARTNER",
+      "alignment_ambiguous": true,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L4-A020",
+      "relation": "EDITORIAL_SPACING_ONLY",
+      "alignment_ambiguous": true,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L4-A021",
+      "relation": "DIFFERENT_BASE_OR_NOTATION",
+      "alignment_ambiguous": true,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L4-A029",
+      "relation": "ALTERNATIVE_OVERLAP",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L4-A050",
+      "relation": "SOURCE_POSITION_WITHOUT_REFERENCE_PARTNER",
+      "alignment_ambiguous": true,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L4-A051",
+      "relation": "SOURCE_POSITION_WITHOUT_REFERENCE_PARTNER",
+      "alignment_ambiguous": true,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L4-A052",
+      "relation": "DIFFERENT_BASE_OR_NOTATION",
+      "alignment_ambiguous": true,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L4-A077",
+      "relation": "REFERENCE_POSITION_WITHOUT_SOURCE_PARTNER",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L4-A078",
+      "relation": "DIFFERENT_BASE_OR_NOTATION",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L4-A079",
+      "relation": "REFERENCE_POSITION_WITHOUT_SOURCE_PARTNER",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L4-A112",
+      "relation": "NOTATION_MARKS_DIFFER",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L4-A119",
+      "relation": "REFERENCE_POSITION_WITHOUT_SOURCE_PARTNER",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L4-A120",
+      "relation": "BASE_AGREEMENT_QUALIFICATION_DIFFERS",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L4-A121",
+      "relation": "REFERENCE_POSITION_WITHOUT_SOURCE_PARTNER",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L4-A135",
+      "relation": "REFERENCE_POSITION_WITHOUT_SOURCE_PARTNER",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L4-A138",
+      "relation": "REFERENCE_POSITION_WITHOUT_SOURCE_PARTNER",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L4-A190",
+      "relation": "SOURCE_POSITION_WITHOUT_REFERENCE_PARTNER",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L4-A199",
+      "relation": "SOURCE_POSITION_WITHOUT_REFERENCE_PARTNER",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L4-A200",
+      "relation": "SOURCE_POSITION_WITHOUT_REFERENCE_PARTNER",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L4-A201",
+      "relation": "SOURCE_POSITION_WITHOUT_REFERENCE_PARTNER",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L5-A001",
+      "relation": "DIFFERENT_BASE_OR_NOTATION",
+      "alignment_ambiguous": true,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L5-A002",
+      "relation": "DIFFERENT_BASE_OR_NOTATION",
+      "alignment_ambiguous": true,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L5-A016",
+      "relation": "SOURCE_POSITION_WITHOUT_REFERENCE_PARTNER",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L5-A020",
+      "relation": "REFERENCE_POSITION_WITHOUT_SOURCE_PARTNER",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L5-A021",
+      "relation": "REFERENCE_POSITION_WITHOUT_SOURCE_PARTNER",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L5-A027",
+      "relation": "DIFFERENT_BASE_OR_NOTATION",
+      "alignment_ambiguous": true,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L5-A051",
+      "relation": "SOURCE_POSITION_WITHOUT_REFERENCE_PARTNER",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L5-A052",
+      "relation": "SOURCE_POSITION_WITHOUT_REFERENCE_PARTNER",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L5-A053",
+      "relation": "SOURCE_POSITION_WITHOUT_REFERENCE_PARTNER",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L5-A063",
+      "relation": "REFERENCE_POSITION_WITHOUT_SOURCE_PARTNER",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L5-A064",
+      "relation": "REFERENCE_POSITION_WITHOUT_SOURCE_PARTNER",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L5-A066",
+      "relation": "DIFFERENT_BASE_OR_NOTATION",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L5-A068",
+      "relation": "DIFFERENT_BASE_OR_NOTATION",
+      "alignment_ambiguous": true,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L5-A091",
+      "relation": "NOTATION_MARKS_DIFFER",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L5-A112",
+      "relation": "REFERENCE_POSITION_WITHOUT_SOURCE_PARTNER",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L5-A113",
+      "relation": "NOTATION_MARKS_DIFFER",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L5-A115",
+      "relation": "REFERENCE_POSITION_WITHOUT_SOURCE_PARTNER",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L5-A134",
+      "relation": "DIFFERENT_BASE_OR_NOTATION",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L5-A135",
+      "relation": "REFERENCE_POSITION_WITHOUT_SOURCE_PARTNER",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L5-A138",
+      "relation": "REFERENCE_POSITION_WITHOUT_SOURCE_PARTNER",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L5-A141",
+      "relation": "REFERENCE_POSITION_WITHOUT_SOURCE_PARTNER",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L5-A160",
+      "relation": "REFERENCE_POSITION_WITHOUT_SOURCE_PARTNER",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L5-A161",
+      "relation": "REFERENCE_POSITION_WITHOUT_SOURCE_PARTNER",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L5-A162",
+      "relation": "REFERENCE_POSITION_WITHOUT_SOURCE_PARTNER",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L6-A044",
+      "relation": "BASE_AGREEMENT_QUALIFICATION_DIFFERS",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L6-A045",
+      "relation": "DIFFERENT_BASE_OR_NOTATION",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L6-A046",
+      "relation": "BASE_AGREEMENT_QUALIFICATION_DIFFERS",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L6-A047",
+      "relation": "SOURCE_POSITION_WITHOUT_REFERENCE_PARTNER",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L6-A082",
+      "relation": "REFERENCE_POSITION_WITHOUT_SOURCE_PARTNER",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L6-A083",
+      "relation": "BASE_AGREEMENT_QUALIFICATION_DIFFERS",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L6-A084",
+      "relation": "REFERENCE_POSITION_WITHOUT_SOURCE_PARTNER",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L6-A103",
+      "relation": "REFERENCE_POSITION_WITHOUT_SOURCE_PARTNER",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L6-A104",
+      "relation": "DIFFERENT_BASE_OR_NOTATION",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L6-A105",
+      "relation": "REFERENCE_POSITION_WITHOUT_SOURCE_PARTNER",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L6-A114",
+      "relation": "REFERENCE_POSITION_WITHOUT_SOURCE_PARTNER",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L6-A115",
+      "relation": "BASE_AGREEMENT_QUALIFICATION_DIFFERS",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L6-A116",
+      "relation": "SOURCE_POSITION_WITHOUT_REFERENCE_PARTNER",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L6-A118",
+      "relation": "BASE_AGREEMENT_QUALIFICATION_DIFFERS",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L6-A119",
+      "relation": "BASE_AGREEMENT_QUALIFICATION_DIFFERS",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L6-A120",
+      "relation": "REFERENCE_POSITION_WITHOUT_SOURCE_PARTNER",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L6-A121",
+      "relation": "BASE_AGREEMENT_QUALIFICATION_DIFFERS",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L6-A135",
+      "relation": "NOTATION_MARKS_DIFFER",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L6-A155",
+      "relation": "SOURCE_POSITION_WITHOUT_REFERENCE_PARTNER",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L6-A156",
+      "relation": "SOURCE_POSITION_WITHOUT_REFERENCE_PARTNER",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L6-A157",
+      "relation": "SOURCE_POSITION_WITHOUT_REFERENCE_PARTNER",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L7-A003",
+      "relation": "BASE_AGREEMENT_QUALIFICATION_DIFFERS",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L7-A025",
+      "relation": "DIFFERENT_BASE_OR_NOTATION",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L7-A029",
+      "relation": "SOURCE_POSITION_WITHOUT_REFERENCE_PARTNER",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L7-A073",
+      "relation": "REFERENCE_POSITION_WITHOUT_SOURCE_PARTNER",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L7-A074",
+      "relation": "REFERENCE_POSITION_WITHOUT_SOURCE_PARTNER",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L7-A075",
+      "relation": "REFERENCE_POSITION_WITHOUT_SOURCE_PARTNER",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L7-A113",
+      "relation": "DIFFERENT_BASE_OR_NOTATION",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L7-A115",
+      "relation": "SOURCE_POSITION_WITHOUT_REFERENCE_PARTNER",
+      "alignment_ambiguous": true,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L7-A116",
+      "relation": "SOURCE_POSITION_WITHOUT_REFERENCE_PARTNER",
+      "alignment_ambiguous": true,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L7-A117",
+      "relation": "REFERENCE_POSITION_WITHOUT_SOURCE_PARTNER",
+      "alignment_ambiguous": true,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L7-A118",
+      "relation": "DIFFERENT_BASE_OR_NOTATION",
+      "alignment_ambiguous": true,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L7-A119",
+      "relation": "REFERENCE_POSITION_WITHOUT_SOURCE_PARTNER",
+      "alignment_ambiguous": true,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L7-A154",
+      "relation": "SOURCE_POSITION_WITHOUT_REFERENCE_PARTNER",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L7-A155",
+      "relation": "SOURCE_POSITION_WITHOUT_REFERENCE_PARTNER",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L7-A156",
+      "relation": "SOURCE_POSITION_WITHOUT_REFERENCE_PARTNER",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L8-A037",
+      "relation": "DIFFERENT_BASE_OR_NOTATION",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L8-A038",
+      "relation": "REFERENCE_POSITION_WITHOUT_SOURCE_PARTNER",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L8-A040",
+      "relation": "BASE_AGREEMENT_QUALIFICATION_DIFFERS",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L8-A041",
+      "relation": "REFERENCE_POSITION_WITHOUT_SOURCE_PARTNER",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L8-A061",
+      "relation": "SOURCE_POSITION_WITHOUT_REFERENCE_PARTNER",
+      "alignment_ambiguous": true,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L8-A062",
+      "relation": "BASE_AND_RECORDED_MARKS_AGREE",
+      "alignment_ambiguous": true,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L8-A124",
+      "relation": "REFERENCE_POSITION_WITHOUT_SOURCE_PARTNER",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L8-A125",
+      "relation": "REFERENCE_POSITION_WITHOUT_SOURCE_PARTNER",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L8-A126",
+      "relation": "REFERENCE_POSITION_WITHOUT_SOURCE_PARTNER",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L9-A011",
+      "relation": "REFERENCE_POSITION_WITHOUT_SOURCE_PARTNER",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L9-A014",
+      "relation": "REFERENCE_POSITION_WITHOUT_SOURCE_PARTNER",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L9-A019",
+      "relation": "SOURCE_POSITION_WITHOUT_REFERENCE_PARTNER",
+      "alignment_ambiguous": true,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L9-A020",
+      "relation": "SOURCE_POSITION_WITHOUT_REFERENCE_PARTNER",
+      "alignment_ambiguous": true,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L9-A022",
+      "relation": "REFERENCE_POSITION_WITHOUT_SOURCE_PARTNER",
+      "alignment_ambiguous": true,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L9-A023",
+      "relation": "REFERENCE_POSITION_WITHOUT_SOURCE_PARTNER",
+      "alignment_ambiguous": true,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L9-A025",
+      "relation": "BASE_AGREEMENT_QUALIFICATION_DIFFERS",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L9-A026",
+      "relation": "REFERENCE_POSITION_WITHOUT_SOURCE_PARTNER",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    },
+    {
+      "alignment_id": "TL55-L9-A027",
+      "relation": "REFERENCE_POSITION_WITHOUT_SOURCE_PARTNER",
+      "alignment_ambiguous": false,
+      "disposition": "PENDING",
+      "reviewer": null,
+      "rationale": null
+    }
+  ],
+  "rule": "Each item is a candidate comparison requiring attributable assessment, not an independently verified discrepancy. Review all source positions, not only this triage list; systematic algorithm or font errors can affect apparent agreements. Original source must be checked. No automated result closes expert adjudication."
+}

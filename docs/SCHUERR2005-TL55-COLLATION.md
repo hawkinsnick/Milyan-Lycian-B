@@ -30,3 +30,8 @@ All nine literal reference strings are covered by17 nonoverlapping spans, includ
 `python scripts/tl55_review.py` verifies exhaustive span accounting, entry identities, immutable review input hashes and the unperformed-expert-review state. The collation query includes line review, source-ordinal apparatus review notes and reference spans. CSV keeps these as JSON fields. No missing selected issue is interpreted as full agreement.
 
 The [independent-review packet](../review/tl55-independent-review.json) fixes input hashes, source access information, expertise requirements and eleven review questions, including the six selected issue IDs. Reviewer, affiliation, date, assessment and review evidence remain null; dispositions and accepted readings remain empty. A qualified independent reviewer must assess every line, sign uncertainty and competing editorial layer, supply attributable per-issue decisions and identify unresolved objections. The packet is ready for review, not already reviewed. No external outreach has been made.
+
+
+## Subsequent sign-level comparison
+
+The [encoded-sign comparison](TL55-SIGN-COMPARISON.md) now accounts for every reference unit and every source print-unit position across all9 revised lines. It supplements the completed first documentary pass with exact glyph locators, qualified candidate alignments and an expanded expert triage packet. Full epigraphic certification, accepted corrections and independent adjudication remain open.

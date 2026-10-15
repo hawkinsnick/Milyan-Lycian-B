@@ -3,7 +3,7 @@
 <!-- CURRENT-STATUS:START -->
 ## Current evidence status
 
-Populated, frozen eDiAna reference layer; structural fleet admission is distinct from scholarly acceptance. 2 digital catalogue records provide 114 source text rows across 3 provisional segments on 2 reported monuments. Canonical verified readings: 0; independent reviews: 0. TL 55 count voices are accounted: a quoted historical eight-line description and nine printed edition entry groups. Schürr2005 first documentary comparison pass covers all nine revised lines and74 apparatus entries, with all four literal digital break markers accounted for. Six selected issues retain focused dossiers. The independent-review packet is prepared; complete sign-level critical collation and external adjudication remain open.
+Populated, frozen eDiAna reference layer; structural fleet admission is distinct from scholarly acceptance. 2 digital catalogue records provide 114 source text rows across 3 provisional segments on 2 reported monuments. Canonical verified readings: 0; independent reviews: 0. TL 55 count voices are accounted: a quoted historical eight-line description and nine printed edition entry groups. Schürr2005 first documentary comparison pass covers all nine revised lines and74 apparatus entries, with all four literal digital break markers accounted for. Six selected issues retain focused dossiers. The encoded-sign comparison now exhaustively accounts for1348 reference units and1233 source print positions in1441 candidate alignment records, including36 ambiguous records. The expert packet is prepared; full epigraphic certification and external adjudication remain open.
 
 Authorities: [reference manifest](research/reference-manifest.json) and [remaining gates](research/pre-expert-maximum.json). Reference rows are not independently certified physical lines.
 <!-- CURRENT-STATUS:END -->
@@ -69,3 +69,6 @@ Read `research/schuerr2005-tl55-collation.json`, `research/tl55-qualified-collat
 TL55 review coverage now extends to all9 revised lines and74 apparatus entries; all4 digital break markers are accounted for. The [review packet](review/tl55-independent-review.json) is prepared, with expert adjudication and full sign-level collation still open. [Current comparison guide](docs/SCHUERR2005-TL55-COLLATION.md).
 
 Bounded attribution and comparison review: [source qualifications and remaining gaps](docs/ATTRIBUTION-REVIEW.md).
+
+
+[TL55 exhaustive encoded-sign comparison](docs/TL55-SIGN-COMPARISON.md): all reference and source print positions accounted for;36 ambiguous candidate alignment records retained. Query `research_api.py signs`; expert adjudication and epigraphic certification remain open.

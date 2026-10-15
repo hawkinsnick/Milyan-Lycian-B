@@ -49,6 +49,14 @@
       "id_pointer": "/review_id",
       "unit": "bounded documentary attribution review task",
       "scope": "All74 attributed Schürr apparatus notes, the Texier-through-Kalinka count distinction and two unacquired TL44 edition targets. First documentary review is not independent acceptance."
+    },
+    {
+      "name": "tl55-sign-alignments",
+      "path": "research/tl55-sign-alignment.json",
+      "pointer": "/alignments",
+      "id_pointer": "/id",
+      "unit": "candidate encoded-glyph comparison record",
+      "scope": "Exhaustive1348-reference/1233-source-unit accounting;36 ambiguous records. Mixed notation/print units, not ancient signs, independent witnesses, accepted readings or alternative-pair counts."
     }
   ],
   "relations": [
@@ -165,12 +173,27 @@
       "encoding": "json",
       "role": "bounded attribution review",
       "source_snapshot_commit": null
+    },
+    {
+      "path": "research/tl55-sign-alignment.json",
+      "sha256": "d1a8f561442c2475f9ac293b35cd5710d9825301dc7f43ad256aede7875d294d",
+      "encoding": "json",
+      "role": "qualified glyph comparison and exact source-position metadata",
+      "source_snapshot_commit": null
+    },
+    {
+      "path": "review/tl55-sign-adjudication.json",
+      "sha256": "b6ea1af6ddf5fa2e6f973c5293860936b41c5e2ae0244431e3e03f1d26717b6f",
+      "encoding": "json",
+      "role": "pending sign-adjudication triage; not independent review evidence",
+      "source_snapshot_commit": null
     }
   ],
   "scholarly_limits": [
     "Texier quoted by Kalinka reports eight TL55 lines; nine printed entry groups and nine frozen rows do not erase that historical statement. Full text/boundary collation, canonical reading acceptance and physical-line certification remain open.",
     "The first documentary pass covers nine revised lines and 74 apparatus entries. Source label correspondence is not full row equivalence. The independent packet remains PREPARED_NOT_REVIEWED, with no reviewer or accepted readings.",
-    "Attribution review inspects pinned native packets, not underlying sources afresh. Its cases and apparatus notes are not independent witnesses or an alternative-pair total."
+    "Attribution review inspects pinned native packets, not underlying sources afresh. Its cases and apparatus notes are not independent witnesses or an alternative-pair total.",
+    "The encoded-sign comparison is exhaustive position accounting with candidate alignments;36 ambiguous records and152 pending triage items are not independently verified disagreements. Source PDF replay reproduces the encoding/alignment method, not epigraphic acceptance. No unit counts may be pooled into physical objects, ancient signs or independent witnesses."
   ],
   "native_artifacts_snapshot_commit": null,
   "snapshot_commit_scope": "Mixed inputs retain their per-artifact anchors. New original review artifacts are byte-pinned and identified by published repository history, not assigned to an earlier commit."

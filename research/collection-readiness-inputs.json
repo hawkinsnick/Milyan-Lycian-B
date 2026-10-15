@@ -45,12 +45,24 @@
     "scripts/tl55_collation.py",
     "research/tl55-first-pass-review.json",
     "review/tl55-independent-review.json",
-    "scripts/tl55_review.py"
+    "scripts/tl55_review.py",
+    "research/tl55-sign-alignment.json",
+    "review/tl55-sign-adjudication.json",
+    "scripts/tl55_sign_alignment.py",
+    "scripts/tl55_source_glyphs.py",
+    "docs/TL55-SIGN-COMPARISON.md"
   ],
   "native_review_links": [
-    "docs/METHODOLOGY.md"
+    "docs/METHODOLOGY.md",
+    "docs/TL55-SIGN-COMPARISON.md",
+    "review/tl55-sign-adjudication.json"
   ],
   "scope_rule": "Every row in declared views is indexed; overlapping views are never summed as unique physical objects. Discovery outside these views remains open.",
   "public_payload_rule": "Identifiers, hashes and pointers only; no new source transcriptions or images. Restricted derivatives remain local.",
-  "source_discovery_rule": "Declare new source/task registers here for offline replay."
+  "source_discovery_rule": "Declare new source/task registers here for offline replay.",
+  "non_discovery_inputs": [
+    "research/tl55-sign-alignment.json",
+    "review/tl55-sign-adjudication.json"
+  ],
+  "non_discovery_input_scope": "Byte-pin complete sign comparison and its native adjudication triage, but do not recast thousands of glyph source_label fields or pending comparison items as bibliographic acquisition leads. Their records and questions remain queryable in the native register/packet."
 }

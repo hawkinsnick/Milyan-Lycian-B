@@ -9,10 +9,12 @@
     "uncertainty": "Retain damage, restorations, unreadable signs and competing segmentations; do not silently normalize them."
   },
   "enumerated_record_keys": 119,
-  "evidence_fingerprint": "a16bb8e11cc68150e363e224c94f70f15d4d7d750b4ca751a13a663ffe90dd16",
+  "evidence_fingerprint": "0bdeb6ce31346cd7f7c78cefca39971dd31aa3df68a2730a94b503b05f28741b",
   "ledger_path": "research/collection-work-ledger.json",
   "native_review_links": [
-    "docs/METHODOLOGY.md"
+    "docs/METHODOLOGY.md",
+    "docs/TL55-SIGN-COMPARISON.md",
+    "review/tl55-sign-adjudication.json"
   ],
   "repository": "hawkinsnick/Milyan-Lycian-B",
   "requests": [

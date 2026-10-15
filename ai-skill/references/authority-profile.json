@@ -119,6 +119,31 @@
       "path": "scripts/tl55_review.py",
       "role": "complete_first_pass_not_expert_adjudication",
       "required": true
+    },
+    {
+      "path": "research/tl55-sign-alignment.json",
+      "required": true,
+      "role": "exhaustive_candidate_sign_comparison_not_epigraphic_acceptance"
+    },
+    {
+      "path": "review/tl55-sign-adjudication.json",
+      "required": true,
+      "role": "exhaustive_candidate_sign_comparison_not_epigraphic_acceptance"
+    },
+    {
+      "path": "scripts/tl55_sign_alignment.py",
+      "required": true,
+      "role": "exhaustive_candidate_sign_comparison_not_epigraphic_acceptance"
+    },
+    {
+      "path": "scripts/tl55_source_glyphs.py",
+      "required": true,
+      "role": "exhaustive_candidate_sign_comparison_not_epigraphic_acceptance"
+    },
+    {
+      "path": "docs/TL55-SIGN-COMPARISON.md",
+      "required": true,
+      "role": "exhaustive_candidate_sign_comparison_not_epigraphic_acceptance"
     }
   ]
 }

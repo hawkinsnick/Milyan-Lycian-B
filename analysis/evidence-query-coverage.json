@@ -1,7 +1,7 @@
 {
   "format": "corpus-native-evidence-query-coverage-v1",
   "repository": "hawkinsnick/Milyan-Lycian-B",
-  "profile_sha256": "e2f14ec01f2caa413a9c5f788270395be90b61551e3c4a1cc9bf87bd398d4454",
+  "profile_sha256": "5c0409ca794456dbee6e8788938f24d849310ba78a618bbb27792e40b5b60e34",
   "implementation_sha256": "70aa6686802122667b369811fa569c45c407847ed8965b917f58130c5a685550",
   "collections": [
     {
@@ -116,6 +116,25 @@
         "role": "bounded attribution review",
         "encoding": "json"
       }
+    },
+    {
+      "name": "tl55-sign-alignments",
+      "native_unit": "candidate encoded-glyph comparison record",
+      "record_count": 1441,
+      "scope": "Exhaustive1348-reference/1233-source-unit accounting;36 ambiguous records. Mixed notation/print units, not ancient signs, independent witnesses, accepted readings or alternative-pair counts.",
+      "example_ids": [
+        "TL55-L1-A001",
+        "TL55-L1-A002",
+        "TL55-L1-A003"
+      ],
+      "provenance": {
+        "path": "research/tl55-sign-alignment.json",
+        "sha256": "d1a8f561442c2475f9ac293b35cd5710d9825301dc7f43ad256aede7875d294d",
+        "pointer": "/alignments",
+        "native_artifacts_snapshot_commit": null,
+        "role": "qualified glyph comparison and exact source-position metadata",
+        "encoding": "json"
+      }
     }
   ],
   "context_resources": [
@@ -222,12 +241,29 @@
       "native_artifacts_snapshot_commit": null,
       "role": "bounded attribution review",
       "encoding": "json"
+    },
+    {
+      "path": "research/tl55-sign-alignment.json",
+      "sha256": "d1a8f561442c2475f9ac293b35cd5710d9825301dc7f43ad256aede7875d294d",
+      "pointer": "",
+      "native_artifacts_snapshot_commit": null,
+      "role": "qualified glyph comparison and exact source-position metadata",
+      "encoding": "json"
+    },
+    {
+      "path": "review/tl55-sign-adjudication.json",
+      "sha256": "b6ea1af6ddf5fa2e6f973c5293860936b41c5e2ae0244431e3e03f1d26717b6f",
+      "pointer": "",
+      "native_artifacts_snapshot_commit": null,
+      "role": "pending sign-adjudication triage; not independent review evidence",
+      "encoding": "json"
     }
   ],
   "scholarly_limits": [
     "Texier quoted by Kalinka reports eight TL55 lines; nine printed entry groups and nine frozen rows do not erase that historical statement. Full text/boundary collation, canonical reading acceptance and physical-line certification remain open.",
     "The first documentary pass covers nine revised lines and 74 apparatus entries. Source label correspondence is not full row equivalence. The independent packet remains PREPARED_NOT_REVIEWED, with no reviewer or accepted readings.",
-    "Attribution review inspects pinned native packets, not underlying sources afresh. Its cases and apparatus notes are not independent witnesses or an alternative-pair total."
+    "Attribution review inspects pinned native packets, not underlying sources afresh. Its cases and apparatus notes are not independent witnesses or an alternative-pair total.",
+    "The encoded-sign comparison is exhaustive position accounting with candidate alignments;36 ambiguous records and152 pending triage items are not independently verified disagreements. Source PDF replay reproduces the encoding/alignment method, not epigraphic acceptance. No unit counts may be pooled into physical objects, ancient signs or independent witnesses."
   ],
   "alternative_pair_count": null,
   "independent_witness_count": null,

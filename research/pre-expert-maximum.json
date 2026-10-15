@@ -8,7 +8,7 @@
     "critical edition line-by-line collation and competing reading apparatus",
     "source-specific rights for additional primary components",
     "independent reading adjudication",
-    "TL55 complete sign-by-sign epigraphic collation and independent adjudication; first documentary pass and all four digital boundary markers now accounted"
+    "TL55 independent adjudication of exhaustive encoded-sign comparison, including36 ambiguous alignment records; full epigraphic certification remains open"
   ],
   "do_not_claim": [
     "complete scholarly 1.0",
@@ -26,10 +26,13 @@
     "Visual primary scan inspection; precise page/face locators and segmentation discrepancies",
     "TL55 count voices separated: Texier quoted eight; Kalinka printed transliteration has nine entry groups matching the nine frozen reference rows. No physical-line certification.",
     "Schürr2005 author-posted article acquired; lines1–9 and apparatus routes located; six source differences qualified without rewriting the frozen reference.",
-    "TL55 first documentary comparison pass: all9 revised lines and74 apparatus paragraphs reviewed; exhaustive literal span accounting for4 digital break markers; independent review packet prepared, not performed."
+    "TL55 first documentary comparison pass: all9 revised lines and74 apparatus paragraphs reviewed; exhaustive literal span accounting for4 digital break markers; independent review packet prepared, not performed.",
+    "TL55 exhaustive encoded-sign comparison:1348 literal reference grapheme/notation units,1233 source print-unit positions and1441 candidate alignment records;36 ambiguous records retained. All source/reference positions covered and exact source PDF replayed. Not an accepted edition or independent review."
   ],
   "tl55_count_checkpoint": "research/tl55-count-reconciliation-2026-10-14.json",
   "schuerr2005_checkpoint": "research/schuerr2005-tl55-collation.json",
   "tl55_first_pass_review": "research/tl55-first-pass-review.json",
-  "tl55_independent_review_packet": "review/tl55-independent-review.json"
+  "tl55_independent_review_packet": "review/tl55-independent-review.json",
+  "tl55_sign_comparison": "research/tl55-sign-alignment.json",
+  "tl55_sign_adjudication_packet": "review/tl55-sign-adjudication.json"
 }
