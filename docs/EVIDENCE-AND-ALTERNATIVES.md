@@ -54,3 +54,9 @@ The profile and report are `research/evidence-query-profile.json` and `analysis/
 ## Current TL55 documentary comparison
 
 The existing first-pass review now covers nine revised lines and 74 apparatus entries. Query `qualified-tl55-rows` by exact reference-row ID, or `tl55-apparatus-review` by apparatus-entry ID. Explicit source-label links connect those notes; they do not certify full row equivalence, physical-line identity or source independence. `review/tl55-independent-review.json` is PREPARED_NOT_REVIEWED, with a null reviewer and zero accepted readings. The 114 frozen source rows remain unchanged. Read the native Schürr comparison and first-pass guides for complete scope and rights.
+
+## Bounded attribution review (2026-10-15)
+
+Read `docs/ATTRIBUTION-REVIEW.md` and `research/attribution-review.json` before describing a dispute or source comparison. Run `python scripts/attribution_review.py --case ID` with the referenced evidence available. Preserve complete native evidence and distinguish reading, interpretation, classification, count, identity and representation questions. This checkpoint reviews pinned repository packets; it does not repeat their primary consultation or grant independent review. Inherit the exact author/publication, locator, consultation limits and dependence from each pointer; missing fields remain unknown. Use the case-specific remaining work. Do not count register entries or apparatus notes as fully attributed pairs, physical objects or independent witnesses.
+
+All74 attributed Schürr apparatus notes, the Texier-through-Kalinka count distinction and two unacquired TL44 edition targets. First documentary review is not independent acceptance.

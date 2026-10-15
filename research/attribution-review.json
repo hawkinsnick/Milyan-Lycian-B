@@ -1,0 +1,1789 @@
+{
+  "format": "corpus-attribution-review-v1",
+  "repository": "hawkinsnick/Milyan-Lycian-B",
+  "checked": "2026-10-15",
+  "scope": "All74 attributed Schürr apparatus notes, the Texier-through-Kalinka count distinction and two unacquired TL44 edition targets. First documentary review is not independent acceptance.",
+  "consultation_this_pass": "PINNED_REPOSITORY_EVIDENCE_ONLY",
+  "consultation_boundary": "Existing source consultation receipts and limits are inherited exactly from the referenced native packets. This pass inspects those packets, not the underlying publications afresh. No exhaustive literature search, new autopsy or independent review is claimed.",
+  "rights": "Original project review and bibliographic/source pointers only. Native attribution and rights remain attached to evidence; no new source files, figures or full protected editions are redistributed. Linear A GORILA refusal is not relaxed.",
+  "inputs": [
+    {
+      "path": "research/schuerr2005-tl55-collation.json",
+      "sha256": "e4e7e7c81fe3efff1168af784c80e391b6af9b35dc94d1add74c7d5cd65d710a",
+      "source_snapshot_commit": "0fe7b7d156f0566b4dd26701659855f61ef21455"
+    },
+    {
+      "path": "research/source-reconciliation.json",
+      "sha256": "1ba8ce32cd6741a0d315902f0500da8bb7fe46b6926bc1364c8981ac285791db",
+      "source_snapshot_commit": "0fe7b7d156f0566b4dd26701659855f61ef21455"
+    },
+    {
+      "path": "research/tl55-count-reconciliation-2026-10-14.json",
+      "sha256": "483110da5000eed90881a54c2a7028a8800b2ef81ffc45e7cc6794e104c40af1",
+      "source_snapshot_commit": "0fe7b7d156f0566b4dd26701659855f61ef21455"
+    },
+    {
+      "path": "research/tl55-first-pass-review.json",
+      "sha256": "569ce81ab36a50a09f108c758255bec00bcd460a64cdf548a0cf0b0f1b7ac0e0",
+      "source_snapshot_commit": "0fe7b7d156f0566b4dd26701659855f61ef21455"
+    }
+  ],
+  "complete_selections": [
+    {
+      "path": "research/tl55-first-pass-review.json",
+      "pointer": "/apparatus_entries",
+      "expected_rows": 74
+    }
+  ],
+  "cases": [
+    {
+      "review_id": "MIL-TL55-COUNT-VOICE",
+      "case_class": "COUNT_OR_IDENTITY",
+      "finding": "Eight is Texier’s description quoted by Kalinka p.53; nine is the observed number of printed entry groups p.54 and frozen reference rows. Different voices/units explain the apparent conflict without correcting the quotation.",
+      "remaining_gap": "Physical line count and exact text/segmentation equivalence remain uncertified.",
+      "evidence": [
+        {
+          "path": "research/tl55-count-reconciliation-2026-10-14.json",
+          "pointer": ""
+        }
+      ],
+      "pair_attribution": "NOT_APPLICABLE",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "S2005-A1-01",
+      "case_class": "READING_COMPARISON",
+      "finding": "Opening group: final u is rejected; restoration and sign occupancy remain unresolved.",
+      "remaining_gap": "This is Schürr’s attributed editorial assessment. Full locus/sign alignment and qualified independent review remain open; no automatic adoption.",
+      "evidence": [
+        {
+          "path": "research/tl55-first-pass-review.json",
+          "pointer": "/apparatus_entries/0"
+        },
+        {
+          "path": "research/source-reconciliation.json",
+          "pointer": "/witnesses/0"
+        },
+        {
+          "path": "research/schuerr2005-tl55-collation.json",
+          "pointer": "/source"
+        }
+      ],
+      "pair_attribution": "SOURCE_APPARATUS_NOT_FULL_PAIR",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "S2005-A1-02",
+      "case_class": "READING_COMPARISON",
+      "finding": "First mlu group: the apparatus treats the vowel in Kalinka as editorial intervention, not the visible consonant.",
+      "remaining_gap": "This is Schürr’s attributed editorial assessment. Full locus/sign alignment and qualified independent review remain open; no automatic adoption.",
+      "evidence": [
+        {
+          "path": "research/tl55-first-pass-review.json",
+          "pointer": "/apparatus_entries/1"
+        },
+        {
+          "path": "research/source-reconciliation.json",
+          "pointer": "/witnesses/0"
+        },
+        {
+          "path": "research/schuerr2005-tl55-collation.json",
+          "pointer": "/source"
+        }
+      ],
+      "pair_attribution": "SOURCE_APPARATUS_NOT_FULL_PAIR",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "S2005-A1-03",
+      "case_class": "READING_COMPARISON",
+      "finding": "Following group: the editor identifies q from its lower curve; a correction from k is posed as a possibility.",
+      "remaining_gap": "This is Schürr’s attributed editorial assessment. Full locus/sign alignment and qualified independent review remain open; no automatic adoption.",
+      "evidence": [
+        {
+          "path": "research/tl55-first-pass-review.json",
+          "pointer": "/apparatus_entries/2"
+        },
+        {
+          "path": "research/source-reconciliation.json",
+          "pointer": "/witnesses/0"
+        },
+        {
+          "path": "research/schuerr2005-tl55-collation.json",
+          "pointer": "/source"
+        }
+      ],
+      "pair_attribution": "SOURCE_APPARATUS_NOT_FULL_PAIR",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "S2005-A1-04",
+      "case_class": "READING_COMPARISON",
+      "finding": "End of lijaiz group: letter and stanza-separator evidence are distinguished from a simple colon.",
+      "remaining_gap": "This is Schürr’s attributed editorial assessment. Full locus/sign alignment and qualified independent review remain open; no automatic adoption.",
+      "evidence": [
+        {
+          "path": "research/tl55-first-pass-review.json",
+          "pointer": "/apparatus_entries/3"
+        },
+        {
+          "path": "research/source-reconciliation.json",
+          "pointer": "/witnesses/0"
+        },
+        {
+          "path": "research/schuerr2005-tl55-collation.json",
+          "pointer": "/source"
+        }
+      ],
+      "pair_attribution": "SOURCE_APPARATUS_NOT_FULL_PAIR",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "S2005-A1-05",
+      "case_class": "READING_COMPARISON",
+      "finding": "mebudike group: k is the editor’s admissible reading despite incomplete surviving strokes.",
+      "remaining_gap": "This is Schürr’s attributed editorial assessment. Full locus/sign alignment and qualified independent review remain open; no automatic adoption.",
+      "evidence": [
+        {
+          "path": "research/tl55-first-pass-review.json",
+          "pointer": "/apparatus_entries/4"
+        },
+        {
+          "path": "research/source-reconciliation.json",
+          "pointer": "/witnesses/0"
+        },
+        {
+          "path": "research/schuerr2005-tl55-collation.json",
+          "pointer": "/source"
+        }
+      ],
+      "pair_attribution": "SOURCE_APPARATUS_NOT_FULL_PAIR",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "S2005-A1-06",
+      "case_class": "READING_COMPARISON",
+      "finding": "After kudi: lost-sign capacity and the surviving angle constrain restoration; earlier supplements are not endorsed.",
+      "remaining_gap": "This is Schürr’s attributed editorial assessment. Full locus/sign alignment and qualified independent review remain open; no automatic adoption.",
+      "evidence": [
+        {
+          "path": "research/tl55-first-pass-review.json",
+          "pointer": "/apparatus_entries/5"
+        },
+        {
+          "path": "research/source-reconciliation.json",
+          "pointer": "/witnesses/0"
+        },
+        {
+          "path": "research/schuerr2005-tl55-collation.json",
+          "pointer": "/source"
+        }
+      ],
+      "pair_attribution": "SOURCE_APPARATUS_NOT_FULL_PAIR",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "S2005-A1-07",
+      "case_class": "READING_COMPARISON",
+      "finding": "Final damaged group: a diagonal and room for two following signs limit the proposed supplement.",
+      "remaining_gap": "This is Schürr’s attributed editorial assessment. Full locus/sign alignment and qualified independent review remain open; no automatic adoption.",
+      "evidence": [
+        {
+          "path": "research/tl55-first-pass-review.json",
+          "pointer": "/apparatus_entries/6"
+        },
+        {
+          "path": "research/source-reconciliation.json",
+          "pointer": "/witnesses/0"
+        },
+        {
+          "path": "research/schuerr2005-tl55-collation.json",
+          "pointer": "/source"
+        }
+      ],
+      "pair_attribution": "SOURCE_APPARATUS_NOT_FULL_PAIR",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "S2005-A2-01",
+      "case_class": "READING_COMPARISON",
+      "finding": "Opening damaged group: initial angle may be incomplete; one consonant is plausible, another unclear, and penultimate sign difficult.",
+      "remaining_gap": "This is Schürr’s attributed editorial assessment. Full locus/sign alignment and qualified independent review remain open; no automatic adoption.",
+      "evidence": [
+        {
+          "path": "research/tl55-first-pass-review.json",
+          "pointer": "/apparatus_entries/7"
+        },
+        {
+          "path": "research/source-reconciliation.json",
+          "pointer": "/witnesses/0"
+        },
+        {
+          "path": "research/schuerr2005-tl55-collation.json",
+          "pointer": "/source"
+        }
+      ],
+      "pair_attribution": "SOURCE_APPARATUS_NOT_FULL_PAIR",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "S2005-A2-02",
+      "case_class": "READING_COMPARISON",
+      "finding": "pnnasi group: surviving contours favor s, with explicit residual uncertainty.",
+      "remaining_gap": "This is Schürr’s attributed editorial assessment. Full locus/sign alignment and qualified independent review remain open; no automatic adoption.",
+      "evidence": [
+        {
+          "path": "research/tl55-first-pass-review.json",
+          "pointer": "/apparatus_entries/8"
+        },
+        {
+          "path": "research/source-reconciliation.json",
+          "pointer": "/witnesses/0"
+        },
+        {
+          "path": "research/schuerr2005-tl55-collation.json",
+          "pointer": "/source"
+        }
+      ],
+      "pair_attribution": "SOURCE_APPARATUS_NOT_FULL_PAIR",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "S2005-A2-03",
+      "case_class": "READING_COMPARISON",
+      "finding": "sttr group: s is sufficiently distinct; the next sign remains probable rather than certain.",
+      "remaining_gap": "This is Schürr’s attributed editorial assessment. Full locus/sign alignment and qualified independent review remain open; no automatic adoption.",
+      "evidence": [
+        {
+          "path": "research/tl55-first-pass-review.json",
+          "pointer": "/apparatus_entries/9"
+        },
+        {
+          "path": "research/source-reconciliation.json",
+          "pointer": "/witnesses/0"
+        },
+        {
+          "path": "research/schuerr2005-tl55-collation.json",
+          "pointer": "/source"
+        }
+      ],
+      "pair_attribution": "SOURCE_APPARATUS_NOT_FULL_PAIR",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "S2005-A2-04",
+      "case_class": "READING_COMPARISON",
+      "finding": "eke group: apparent punctuation beside k may be correction marks; the final vowel is assessed separately.",
+      "remaining_gap": "This is Schürr’s attributed editorial assessment. Full locus/sign alignment and qualified independent review remain open; no automatic adoption.",
+      "evidence": [
+        {
+          "path": "research/tl55-first-pass-review.json",
+          "pointer": "/apparatus_entries/10"
+        },
+        {
+          "path": "research/source-reconciliation.json",
+          "pointer": "/witnesses/0"
+        },
+        {
+          "path": "research/schuerr2005-tl55-collation.json",
+          "pointer": "/source"
+        }
+      ],
+      "pair_attribution": "SOURCE_APPARATUS_NOT_FULL_PAIR",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "S2005-A2-05",
+      "case_class": "READING_COMPARISON",
+      "finding": "titbeti group: r is tentatively preferred over t; preserve the qualification.",
+      "remaining_gap": "This is Schürr’s attributed editorial assessment. Full locus/sign alignment and qualified independent review remain open; no automatic adoption.",
+      "evidence": [
+        {
+          "path": "research/tl55-first-pass-review.json",
+          "pointer": "/apparatus_entries/11"
+        },
+        {
+          "path": "research/source-reconciliation.json",
+          "pointer": "/witnesses/0"
+        },
+        {
+          "path": "research/schuerr2005-tl55-collation.json",
+          "pointer": "/source"
+        }
+      ],
+      "pair_attribution": "SOURCE_APPARATUS_NOT_FULL_PAIR",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "S2005-A2-06",
+      "case_class": "READING_COMPARISON",
+      "finding": "lelixa group: the editor rules out the competing vowel reading at the initial consonant.",
+      "remaining_gap": "This is Schürr’s attributed editorial assessment. Full locus/sign alignment and qualified independent review remain open; no automatic adoption.",
+      "evidence": [
+        {
+          "path": "research/tl55-first-pass-review.json",
+          "pointer": "/apparatus_entries/12"
+        },
+        {
+          "path": "research/source-reconciliation.json",
+          "pointer": "/witnesses/0"
+        },
+        {
+          "path": "research/schuerr2005-tl55-collation.json",
+          "pointer": "/source"
+        }
+      ],
+      "pair_attribution": "SOURCE_APPARATUS_NOT_FULL_PAIR",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "S2005-A2-07",
+      "case_class": "READING_COMPARISON",
+      "finding": "Stanza divider and following nasal vowel may reflect a correction squeezed into one sign space; this is a hypothesis.",
+      "remaining_gap": "This is Schürr’s attributed editorial assessment. Full locus/sign alignment and qualified independent review remain open; no automatic adoption.",
+      "evidence": [
+        {
+          "path": "research/tl55-first-pass-review.json",
+          "pointer": "/apparatus_entries/13"
+        },
+        {
+          "path": "research/source-reconciliation.json",
+          "pointer": "/witnesses/0"
+        },
+        {
+          "path": "research/schuerr2005-tl55-collation.json",
+          "pointer": "/source"
+        }
+      ],
+      "pair_attribution": "SOURCE_APPARATUS_NOT_FULL_PAIR",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "S2005-A2-08",
+      "case_class": "READING_COMPARISON",
+      "finding": "qlaxa group: q is preferred to k, not adopted as independent project autopsy.",
+      "remaining_gap": "This is Schürr’s attributed editorial assessment. Full locus/sign alignment and qualified independent review remain open; no automatic adoption.",
+      "evidence": [
+        {
+          "path": "research/tl55-first-pass-review.json",
+          "pointer": "/apparatus_entries/14"
+        },
+        {
+          "path": "research/source-reconciliation.json",
+          "pointer": "/witnesses/0"
+        },
+        {
+          "path": "research/schuerr2005-tl55-collation.json",
+          "pointer": "/source"
+        }
+      ],
+      "pair_attribution": "SOURCE_APPARATUS_NOT_FULL_PAIR",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "S2005-A2-09",
+      "case_class": "READING_COMPARISON",
+      "finding": "zpplide group: surviving cross-stroke and following punctuation receive separate assessments.",
+      "remaining_gap": "This is Schürr’s attributed editorial assessment. Full locus/sign alignment and qualified independent review remain open; no automatic adoption.",
+      "evidence": [
+        {
+          "path": "research/tl55-first-pass-review.json",
+          "pointer": "/apparatus_entries/15"
+        },
+        {
+          "path": "research/source-reconciliation.json",
+          "pointer": "/witnesses/0"
+        },
+        {
+          "path": "research/schuerr2005-tl55-collation.json",
+          "pointer": "/source"
+        }
+      ],
+      "pair_attribution": "SOURCE_APPARATUS_NOT_FULL_PAIR",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "S2005-A2-10",
+      "case_class": "READING_COMPARISON",
+      "finding": "Final trqqnta group: damage may explain a misleading shape; the ending is judged probably a, not a certain project reading.",
+      "remaining_gap": "This is Schürr’s attributed editorial assessment. Full locus/sign alignment and qualified independent review remain open; no automatic adoption.",
+      "evidence": [
+        {
+          "path": "research/tl55-first-pass-review.json",
+          "pointer": "/apparatus_entries/16"
+        },
+        {
+          "path": "research/source-reconciliation.json",
+          "pointer": "/witnesses/0"
+        },
+        {
+          "path": "research/schuerr2005-tl55-collation.json",
+          "pointer": "/source"
+        }
+      ],
+      "pair_attribution": "SOURCE_APPARATUS_NOT_FULL_PAIR",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "S2005-A3-01",
+      "case_class": "READING_COMPARISON",
+      "finding": "Opening group corresponds partly to the preceding digital row suffix: n-like evidence is conditional on the diagonal being genuine.",
+      "remaining_gap": "This is Schürr’s attributed editorial assessment. Full locus/sign alignment and qualified independent review remain open; no automatic adoption.",
+      "evidence": [
+        {
+          "path": "research/tl55-first-pass-review.json",
+          "pointer": "/apparatus_entries/17"
+        },
+        {
+          "path": "research/source-reconciliation.json",
+          "pointer": "/witnesses/0"
+        },
+        {
+          "path": "research/schuerr2005-tl55-collation.json",
+          "pointer": "/source"
+        }
+      ],
+      "pair_attribution": "SOURCE_APPARATUS_NOT_FULL_PAIR",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "S2005-A3-02",
+      "case_class": "READING_COMPARISON",
+      "finding": "Following damaged group: some consonants are distinct, l less so, intervening vowel questioned, and space limited.",
+      "remaining_gap": "This is Schürr’s attributed editorial assessment. Full locus/sign alignment and qualified independent review remain open; no automatic adoption.",
+      "evidence": [
+        {
+          "path": "research/tl55-first-pass-review.json",
+          "pointer": "/apparatus_entries/18"
+        },
+        {
+          "path": "research/source-reconciliation.json",
+          "pointer": "/witnesses/0"
+        },
+        {
+          "path": "research/schuerr2005-tl55-collation.json",
+          "pointer": "/source"
+        }
+      ],
+      "pair_attribution": "SOURCE_APPARATUS_NOT_FULL_PAIR",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "S2005-A3-03",
+      "case_class": "READING_COMPARISON",
+      "finding": "Following kibeda group: two signs may be preferable to a broad single sign; vowel and final consonant remain qualified.",
+      "remaining_gap": "This is Schürr’s attributed editorial assessment. Full locus/sign alignment and qualified independent review remain open; no automatic adoption.",
+      "evidence": [
+        {
+          "path": "research/tl55-first-pass-review.json",
+          "pointer": "/apparatus_entries/19"
+        },
+        {
+          "path": "research/source-reconciliation.json",
+          "pointer": "/witnesses/0"
+        },
+        {
+          "path": "research/schuerr2005-tl55-collation.json",
+          "pointer": "/source"
+        }
+      ],
+      "pair_attribution": "SOURCE_APPARATUS_NOT_FULL_PAIR",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "S2005-A3-04",
+      "case_class": "READING_COMPARISON",
+      "finding": "pabana group: damaged capacity and competing middle signs remain undecidable.",
+      "remaining_gap": "This is Schürr’s attributed editorial assessment. Full locus/sign alignment and qualified independent review remain open; no automatic adoption.",
+      "evidence": [
+        {
+          "path": "research/tl55-first-pass-review.json",
+          "pointer": "/apparatus_entries/20"
+        },
+        {
+          "path": "research/source-reconciliation.json",
+          "pointer": "/witnesses/0"
+        },
+        {
+          "path": "research/schuerr2005-tl55-collation.json",
+          "pointer": "/source"
+        }
+      ],
+      "pair_attribution": "SOURCE_APPARATUS_NOT_FULL_PAIR",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "S2005-A3-05",
+      "case_class": "READING_COMPARISON",
+      "finding": "kuprime group: r is the editor’s reading; the crowded marks before the stanza divider are unlikely to be punctuation.",
+      "remaining_gap": "This is Schürr’s attributed editorial assessment. Full locus/sign alignment and qualified independent review remain open; no automatic adoption.",
+      "evidence": [
+        {
+          "path": "research/tl55-first-pass-review.json",
+          "pointer": "/apparatus_entries/21"
+        },
+        {
+          "path": "research/source-reconciliation.json",
+          "pointer": "/witnesses/0"
+        },
+        {
+          "path": "research/schuerr2005-tl55-collation.json",
+          "pointer": "/source"
+        }
+      ],
+      "pair_attribution": "SOURCE_APPARATUS_NOT_FULL_PAIR",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "S2005-A3-06",
+      "case_class": "READING_COMPARISON",
+      "finding": "memleje group: tiny pores are distinguished from punctuation; j is judged sufficiently clear.",
+      "remaining_gap": "This is Schürr’s attributed editorial assessment. Full locus/sign alignment and qualified independent review remain open; no automatic adoption.",
+      "evidence": [
+        {
+          "path": "research/tl55-first-pass-review.json",
+          "pointer": "/apparatus_entries/22"
+        },
+        {
+          "path": "research/source-reconciliation.json",
+          "pointer": "/witnesses/0"
+        },
+        {
+          "path": "research/schuerr2005-tl55-collation.json",
+          "pointer": "/source"
+        }
+      ],
+      "pair_attribution": "SOURCE_APPARATUS_NOT_FULL_PAIR",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "S2005-A3-07",
+      "case_class": "READING_COMPARISON",
+      "finding": "pripetrijadate group: letter alternatives, corrected marks and doubtful punctuation prevent literal unqualified equivalence.",
+      "remaining_gap": "This is Schürr’s attributed editorial assessment. Full locus/sign alignment and qualified independent review remain open; no automatic adoption.",
+      "evidence": [
+        {
+          "path": "research/tl55-first-pass-review.json",
+          "pointer": "/apparatus_entries/23"
+        },
+        {
+          "path": "research/source-reconciliation.json",
+          "pointer": "/witnesses/0"
+        },
+        {
+          "path": "research/schuerr2005-tl55-collation.json",
+          "pointer": "/source"
+        }
+      ],
+      "pair_attribution": "SOURCE_APPARATUS_NOT_FULL_PAIR",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "S2005-A3-08",
+      "case_class": "READING_COMPARISON",
+      "finding": "qabali group: q probable and following a sufficiently distinct; preceding groove need not be a sign.",
+      "remaining_gap": "This is Schürr’s attributed editorial assessment. Full locus/sign alignment and qualified independent review remain open; no automatic adoption.",
+      "evidence": [
+        {
+          "path": "research/tl55-first-pass-review.json",
+          "pointer": "/apparatus_entries/24"
+        },
+        {
+          "path": "research/source-reconciliation.json",
+          "pointer": "/witnesses/0"
+        },
+        {
+          "path": "research/schuerr2005-tl55-collation.json",
+          "pointer": "/source"
+        }
+      ],
+      "pair_attribution": "SOURCE_APPARATUS_NOT_FULL_PAIR",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "S2005-A3-09",
+      "case_class": "READING_COMPARISON",
+      "finding": "slitami/udrnte group: a rounded hole and competing forms underpin qualified readings; spelling intervention stays distinct.",
+      "remaining_gap": "This is Schürr’s attributed editorial assessment. Full locus/sign alignment and qualified independent review remain open; no automatic adoption.",
+      "evidence": [
+        {
+          "path": "research/tl55-first-pass-review.json",
+          "pointer": "/apparatus_entries/25"
+        },
+        {
+          "path": "research/source-reconciliation.json",
+          "pointer": "/witnesses/0"
+        },
+        {
+          "path": "research/schuerr2005-tl55-collation.json",
+          "pointer": "/source"
+        }
+      ],
+      "pair_attribution": "SOURCE_APPARATUS_NOT_FULL_PAIR",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "S2005-A3-10",
+      "case_class": "READING_COMPARISON",
+      "finding": "Before kuprimesi: points and a partly preserved angle complicate letter/punctuation allocation.",
+      "remaining_gap": "This is Schürr’s attributed editorial assessment. Full locus/sign alignment and qualified independent review remain open; no automatic adoption.",
+      "evidence": [
+        {
+          "path": "research/tl55-first-pass-review.json",
+          "pointer": "/apparatus_entries/26"
+        },
+        {
+          "path": "research/source-reconciliation.json",
+          "pointer": "/witnesses/0"
+        },
+        {
+          "path": "research/schuerr2005-tl55-collation.json",
+          "pointer": "/source"
+        }
+      ],
+      "pair_attribution": "SOURCE_APPARATUS_NOT_FULL_PAIR",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "S2005-A3-11",
+      "case_class": "READING_COMPARISON",
+      "finding": "Final damaged group: capacity for two initial signs, a vague upper angle and final p receive separate treatment.",
+      "remaining_gap": "This is Schürr’s attributed editorial assessment. Full locus/sign alignment and qualified independent review remain open; no automatic adoption.",
+      "evidence": [
+        {
+          "path": "research/tl55-first-pass-review.json",
+          "pointer": "/apparatus_entries/27"
+        },
+        {
+          "path": "research/source-reconciliation.json",
+          "pointer": "/witnesses/0"
+        },
+        {
+          "path": "research/schuerr2005-tl55-collation.json",
+          "pointer": "/source"
+        }
+      ],
+      "pair_attribution": "SOURCE_APPARATUS_NOT_FULL_PAIR",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "S2005-A4-01",
+      "case_class": "READING_COMPARISON",
+      "finding": "Opening group, continued on126: initial sign occupancy uncertain; vertical stroke does not secure t and j remains possible.",
+      "remaining_gap": "This is Schürr’s attributed editorial assessment. Full locus/sign alignment and qualified independent review remain open; no automatic adoption.",
+      "evidence": [
+        {
+          "path": "research/tl55-first-pass-review.json",
+          "pointer": "/apparatus_entries/28"
+        },
+        {
+          "path": "research/source-reconciliation.json",
+          "pointer": "/witnesses/0"
+        },
+        {
+          "path": "research/schuerr2005-tl55-collation.json",
+          "pointer": "/source"
+        }
+      ],
+      "pair_attribution": "SOURCE_APPARATUS_NOT_FULL_PAIR",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "S2005-A4-02",
+      "case_class": "READING_COMPARISON",
+      "finding": "apiti group: nasal vowel recognized; following p remains possible.",
+      "remaining_gap": "This is Schürr’s attributed editorial assessment. Full locus/sign alignment and qualified independent review remain open; no automatic adoption.",
+      "evidence": [
+        {
+          "path": "research/tl55-first-pass-review.json",
+          "pointer": "/apparatus_entries/29"
+        },
+        {
+          "path": "research/source-reconciliation.json",
+          "pointer": "/witnesses/0"
+        },
+        {
+          "path": "research/schuerr2005-tl55-collation.json",
+          "pointer": "/source"
+        }
+      ],
+      "pair_attribution": "SOURCE_APPARATUS_NOT_FULL_PAIR",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "S2005-A4-03",
+      "case_class": "READING_COMPARISON",
+      "finding": "Following damaged group: roughly three destroyed positions precede distinguishable final signs.",
+      "remaining_gap": "This is Schürr’s attributed editorial assessment. Full locus/sign alignment and qualified independent review remain open; no automatic adoption.",
+      "evidence": [
+        {
+          "path": "research/tl55-first-pass-review.json",
+          "pointer": "/apparatus_entries/30"
+        },
+        {
+          "path": "research/source-reconciliation.json",
+          "pointer": "/witnesses/0"
+        },
+        {
+          "path": "research/schuerr2005-tl55-collation.json",
+          "pointer": "/source"
+        }
+      ],
+      "pair_attribution": "SOURCE_APPARATUS_NOT_FULL_PAIR",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "S2005-A4-04",
+      "case_class": "READING_COMPARISON",
+      "finding": "lijanuwa group: overlapping forms explain p/l alternatives; later reconstruction must not suppress them.",
+      "remaining_gap": "This is Schürr’s attributed editorial assessment. Full locus/sign alignment and qualified independent review remain open; no automatic adoption.",
+      "evidence": [
+        {
+          "path": "research/tl55-first-pass-review.json",
+          "pointer": "/apparatus_entries/31"
+        },
+        {
+          "path": "research/source-reconciliation.json",
+          "pointer": "/witnesses/0"
+        },
+        {
+          "path": "research/schuerr2005-tl55-collation.json",
+          "pointer": "/source"
+        }
+      ],
+      "pair_attribution": "SOURCE_APPARATUS_NOT_FULL_PAIR",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "S2005-A4-05",
+      "case_class": "READING_COMPARISON",
+      "finding": "kulike group: round depression and differing punctuation/letter reports leave qualification necessary.",
+      "remaining_gap": "This is Schürr’s attributed editorial assessment. Full locus/sign alignment and qualified independent review remain open; no automatic adoption.",
+      "evidence": [
+        {
+          "path": "research/tl55-first-pass-review.json",
+          "pointer": "/apparatus_entries/32"
+        },
+        {
+          "path": "research/source-reconciliation.json",
+          "pointer": "/witnesses/0"
+        },
+        {
+          "path": "research/schuerr2005-tl55-collation.json",
+          "pointer": "/source"
+        }
+      ],
+      "pair_attribution": "SOURCE_APPARATUS_NOT_FULL_PAIR",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "S2005-A4-06",
+      "case_class": "READING_COMPARISON",
+      "finding": "mruwasi group: partly recognizable curves and holes do not supply an unqualified modern string.",
+      "remaining_gap": "This is Schürr’s attributed editorial assessment. Full locus/sign alignment and qualified independent review remain open; no automatic adoption.",
+      "evidence": [
+        {
+          "path": "research/tl55-first-pass-review.json",
+          "pointer": "/apparatus_entries/33"
+        },
+        {
+          "path": "research/source-reconciliation.json",
+          "pointer": "/witnesses/0"
+        },
+        {
+          "path": "research/schuerr2005-tl55-collation.json",
+          "pointer": "/source"
+        }
+      ],
+      "pair_attribution": "SOURCE_APPARATUS_NOT_FULL_PAIR",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "S2005-A4-07",
+      "case_class": "READING_COMPARISON",
+      "finding": "sebe group: revised graphic layer differs from Kalinka’s emendation, retained as an editorial-layer distinction.",
+      "remaining_gap": "This is Schürr’s attributed editorial assessment. Full locus/sign alignment and qualified independent review remain open; no automatic adoption.",
+      "evidence": [
+        {
+          "path": "research/tl55-first-pass-review.json",
+          "pointer": "/apparatus_entries/34"
+        },
+        {
+          "path": "research/source-reconciliation.json",
+          "pointer": "/witnesses/0"
+        },
+        {
+          "path": "research/schuerr2005-tl55-collation.json",
+          "pointer": "/source"
+        }
+      ],
+      "pair_attribution": "SOURCE_APPARATUS_NOT_FULL_PAIR",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "S2005-A4-08",
+      "case_class": "READING_COMPARISON",
+      "finding": "Following separator: the editor treats the form as a displaced/corrected stanza divider rather than s.",
+      "remaining_gap": "This is Schürr’s attributed editorial assessment. Full locus/sign alignment and qualified independent review remain open; no automatic adoption.",
+      "evidence": [
+        {
+          "path": "research/tl55-first-pass-review.json",
+          "pointer": "/apparatus_entries/35"
+        },
+        {
+          "path": "research/source-reconciliation.json",
+          "pointer": "/witnesses/0"
+        },
+        {
+          "path": "research/schuerr2005-tl55-collation.json",
+          "pointer": "/source"
+        }
+      ],
+      "pair_attribution": "SOURCE_APPARATUS_NOT_FULL_PAIR",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "S2005-A4-09",
+      "case_class": "READING_COMPARISON",
+      "finding": "Later damaged group: only the end of a vertical is reported recognizable; restoration remains bounded.",
+      "remaining_gap": "This is Schürr’s attributed editorial assessment. Full locus/sign alignment and qualified independent review remain open; no automatic adoption.",
+      "evidence": [
+        {
+          "path": "research/tl55-first-pass-review.json",
+          "pointer": "/apparatus_entries/36"
+        },
+        {
+          "path": "research/source-reconciliation.json",
+          "pointer": "/witnesses/0"
+        },
+        {
+          "path": "research/schuerr2005-tl55-collation.json",
+          "pointer": "/source"
+        }
+      ],
+      "pair_attribution": "SOURCE_APPARATUS_NOT_FULL_PAIR",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "S2005-A4-10",
+      "case_class": "READING_COMPARISON",
+      "finding": "Line ending: damage may derive from u; final capacity allows one sign. Digital carryover belongs in boundary review.",
+      "remaining_gap": "This is Schürr’s attributed editorial assessment. Full locus/sign alignment and qualified independent review remain open; no automatic adoption.",
+      "evidence": [
+        {
+          "path": "research/tl55-first-pass-review.json",
+          "pointer": "/apparatus_entries/37"
+        },
+        {
+          "path": "research/source-reconciliation.json",
+          "pointer": "/witnesses/0"
+        },
+        {
+          "path": "research/schuerr2005-tl55-collation.json",
+          "pointer": "/source"
+        }
+      ],
+      "pair_attribution": "SOURCE_APPARATUS_NOT_FULL_PAIR",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "S2005-A5-01",
+      "case_class": "READING_COMPARISON",
+      "finding": "Opening damaged group: l, not d, is judged secure in its second position; initial ld is possible.",
+      "remaining_gap": "This is Schürr’s attributed editorial assessment. Full locus/sign alignment and qualified independent review remain open; no automatic adoption.",
+      "evidence": [
+        {
+          "path": "research/tl55-first-pass-review.json",
+          "pointer": "/apparatus_entries/38"
+        },
+        {
+          "path": "research/source-reconciliation.json",
+          "pointer": "/witnesses/0"
+        },
+        {
+          "path": "research/schuerr2005-tl55-collation.json",
+          "pointer": "/source"
+        }
+      ],
+      "pair_attribution": "SOURCE_APPARATUS_NOT_FULL_PAIR",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "S2005-A5-02",
+      "case_class": "READING_COMPARISON",
+      "finding": "Following damaged qereimedi group: alternatives remain for an early sign; only selected strokes are secure.",
+      "remaining_gap": "This is Schürr’s attributed editorial assessment. Full locus/sign alignment and qualified independent review remain open; no automatic adoption.",
+      "evidence": [
+        {
+          "path": "research/tl55-first-pass-review.json",
+          "pointer": "/apparatus_entries/39"
+        },
+        {
+          "path": "research/source-reconciliation.json",
+          "pointer": "/witnesses/0"
+        },
+        {
+          "path": "research/schuerr2005-tl55-collation.json",
+          "pointer": "/source"
+        }
+      ],
+      "pair_attribution": "SOURCE_APPARATUS_NOT_FULL_PAIR",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "S2005-A5-03",
+      "case_class": "READING_COMPARISON",
+      "finding": "Before ijesi: the editor identifies d and describes Kalinka’s l as an emendation.",
+      "remaining_gap": "This is Schürr’s attributed editorial assessment. Full locus/sign alignment and qualified independent review remain open; no automatic adoption.",
+      "evidence": [
+        {
+          "path": "research/tl55-first-pass-review.json",
+          "pointer": "/apparatus_entries/40"
+        },
+        {
+          "path": "research/source-reconciliation.json",
+          "pointer": "/witnesses/0"
+        },
+        {
+          "path": "research/schuerr2005-tl55-collation.json",
+          "pointer": "/source"
+        }
+      ],
+      "pair_attribution": "SOURCE_APPARATUS_NOT_FULL_PAIR",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "S2005-A5-04",
+      "case_class": "READING_COMPARISON",
+      "finding": "ijesi punctuation, continued on127: space and connecting contours qualify punctuation before and after the word.",
+      "remaining_gap": "This is Schürr’s attributed editorial assessment. Full locus/sign alignment and qualified independent review remain open; no automatic adoption.",
+      "evidence": [
+        {
+          "path": "research/tl55-first-pass-review.json",
+          "pointer": "/apparatus_entries/41"
+        },
+        {
+          "path": "research/source-reconciliation.json",
+          "pointer": "/witnesses/0"
+        },
+        {
+          "path": "research/schuerr2005-tl55-collation.json",
+          "pointer": "/source"
+        }
+      ],
+      "pair_attribution": "SOURCE_APPARATUS_NOT_FULL_PAIR",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "S2005-A5-05",
+      "case_class": "READING_COMPARISON",
+      "finding": "ala group: an earlier proposed longer alternative is rejected; keep source attribution.",
+      "remaining_gap": "This is Schürr’s attributed editorial assessment. Full locus/sign alignment and qualified independent review remain open; no automatic adoption.",
+      "evidence": [
+        {
+          "path": "research/tl55-first-pass-review.json",
+          "pointer": "/apparatus_entries/42"
+        },
+        {
+          "path": "research/source-reconciliation.json",
+          "pointer": "/witnesses/0"
+        },
+        {
+          "path": "research/schuerr2005-tl55-collation.json",
+          "pointer": "/source"
+        }
+      ],
+      "pair_attribution": "SOURCE_APPARATUS_NOT_FULL_PAIR",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "S2005-A5-06",
+      "case_class": "READING_COMPARISON",
+      "finding": "Before xi: the small damage is insufficient for the supplied u; this affects supplement status.",
+      "remaining_gap": "This is Schürr’s attributed editorial assessment. Full locus/sign alignment and qualified independent review remain open; no automatic adoption.",
+      "evidence": [
+        {
+          "path": "research/tl55-first-pass-review.json",
+          "pointer": "/apparatus_entries/43"
+        },
+        {
+          "path": "research/source-reconciliation.json",
+          "pointer": "/witnesses/0"
+        },
+        {
+          "path": "research/schuerr2005-tl55-collation.json",
+          "pointer": "/source"
+        }
+      ],
+      "pair_attribution": "SOURCE_APPARATUS_NOT_FULL_PAIR",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "S2005-A5-07",
+      "case_class": "READING_COMPARISON",
+      "finding": "zinase group: z is preferred to r among recorded alternatives.",
+      "remaining_gap": "This is Schürr’s attributed editorial assessment. Full locus/sign alignment and qualified independent review remain open; no automatic adoption.",
+      "evidence": [
+        {
+          "path": "research/tl55-first-pass-review.json",
+          "pointer": "/apparatus_entries/44"
+        },
+        {
+          "path": "research/source-reconciliation.json",
+          "pointer": "/witnesses/0"
+        },
+        {
+          "path": "research/schuerr2005-tl55-collation.json",
+          "pointer": "/source"
+        }
+      ],
+      "pair_attribution": "SOURCE_APPARATUS_NOT_FULL_PAIR",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "S2005-A5-08",
+      "case_class": "READING_COMPARISON",
+      "finding": "trqqiz group: the doubled consonant is judged distinct; punctuation after the ending remains possible.",
+      "remaining_gap": "This is Schürr’s attributed editorial assessment. Full locus/sign alignment and qualified independent review remain open; no automatic adoption.",
+      "evidence": [
+        {
+          "path": "research/tl55-first-pass-review.json",
+          "pointer": "/apparatus_entries/45"
+        },
+        {
+          "path": "research/source-reconciliation.json",
+          "pointer": "/witnesses/0"
+        },
+        {
+          "path": "research/schuerr2005-tl55-collation.json",
+          "pointer": "/source"
+        }
+      ],
+      "pair_attribution": "SOURCE_APPARATUS_NOT_FULL_PAIR",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "S2005-A5-09",
+      "case_class": "READING_COMPARISON",
+      "finding": "sebuwedriz group: a deep fissure permits a supplement; genuine punctuation remains questioned and r possible.",
+      "remaining_gap": "This is Schürr’s attributed editorial assessment. Full locus/sign alignment and qualified independent review remain open; no automatic adoption.",
+      "evidence": [
+        {
+          "path": "research/tl55-first-pass-review.json",
+          "pointer": "/apparatus_entries/46"
+        },
+        {
+          "path": "research/source-reconciliation.json",
+          "pointer": "/witnesses/0"
+        },
+        {
+          "path": "research/schuerr2005-tl55-collation.json",
+          "pointer": "/source"
+        }
+      ],
+      "pair_attribution": "SOURCE_APPARATUS_NOT_FULL_PAIR",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "S2005-A5-10",
+      "case_class": "READING_COMPARISON",
+      "finding": "masawz group: the revised graphic letter differs from the vowel in the digital form; punctuation separately qualified.",
+      "remaining_gap": "This is Schürr’s attributed editorial assessment. Full locus/sign alignment and qualified independent review remain open; no automatic adoption.",
+      "evidence": [
+        {
+          "path": "research/tl55-first-pass-review.json",
+          "pointer": "/apparatus_entries/47"
+        },
+        {
+          "path": "research/source-reconciliation.json",
+          "pointer": "/witnesses/0"
+        },
+        {
+          "path": "research/schuerr2005-tl55-collation.json",
+          "pointer": "/source"
+        }
+      ],
+      "pair_attribution": "SOURCE_APPARATUS_NOT_FULL_PAIR",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "S2005-A5-11",
+      "case_class": "READING_COMPARISON",
+      "finding": "meibeipe group: overwritten/corrected initial sign may have had a different original shape.",
+      "remaining_gap": "This is Schürr’s attributed editorial assessment. Full locus/sign alignment and qualified independent review remain open; no automatic adoption.",
+      "evidence": [
+        {
+          "path": "research/tl55-first-pass-review.json",
+          "pointer": "/apparatus_entries/48"
+        },
+        {
+          "path": "research/source-reconciliation.json",
+          "pointer": "/witnesses/0"
+        },
+        {
+          "path": "research/schuerr2005-tl55-collation.json",
+          "pointer": "/source"
+        }
+      ],
+      "pair_attribution": "SOURCE_APPARATUS_NOT_FULL_PAIR",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "S2005-A5-12",
+      "case_class": "READING_COMPARISON",
+      "finding": "tuwi group: surface after the word is described as smooth/oxidized through the next consonant; do not infer a lost delimiter.",
+      "remaining_gap": "This is Schürr’s attributed editorial assessment. Full locus/sign alignment and qualified independent review remain open; no automatic adoption.",
+      "evidence": [
+        {
+          "path": "research/tl55-first-pass-review.json",
+          "pointer": "/apparatus_entries/49"
+        },
+        {
+          "path": "research/source-reconciliation.json",
+          "pointer": "/witnesses/0"
+        },
+        {
+          "path": "research/schuerr2005-tl55-collation.json",
+          "pointer": "/source"
+        }
+      ],
+      "pair_attribution": "SOURCE_APPARATUS_NOT_FULL_PAIR",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "S2005-A5-13",
+      "case_class": "READING_COMPARISON",
+      "finding": "prijama group: final a is assessed as secure, with room for further positions; no automatic text expansion.",
+      "remaining_gap": "This is Schürr’s attributed editorial assessment. Full locus/sign alignment and qualified independent review remain open; no automatic adoption.",
+      "evidence": [
+        {
+          "path": "research/tl55-first-pass-review.json",
+          "pointer": "/apparatus_entries/50"
+        },
+        {
+          "path": "research/source-reconciliation.json",
+          "pointer": "/witnesses/0"
+        },
+        {
+          "path": "research/schuerr2005-tl55-collation.json",
+          "pointer": "/source"
+        }
+      ],
+      "pair_attribution": "SOURCE_APPARATUS_NOT_FULL_PAIR",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "S2005-A6-01",
+      "case_class": "READING_COMPARISON",
+      "finding": "pasnte group: all signs reported recognizable, with the s least distinct.",
+      "remaining_gap": "This is Schürr’s attributed editorial assessment. Full locus/sign alignment and qualified independent review remain open; no automatic adoption.",
+      "evidence": [
+        {
+          "path": "research/tl55-first-pass-review.json",
+          "pointer": "/apparatus_entries/51"
+        },
+        {
+          "path": "research/source-reconciliation.json",
+          "pointer": "/witnesses/0"
+        },
+        {
+          "path": "research/schuerr2005-tl55-collation.json",
+          "pointer": "/source"
+        }
+      ],
+      "pair_attribution": "SOURCE_APPARATUS_NOT_FULL_PAIR",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "S2005-A6-02",
+      "case_class": "READING_COMPARISON",
+      "finding": "Following damaged group: an angle allows an alternative letter, then a surviving curve and clear vowel.",
+      "remaining_gap": "This is Schürr’s attributed editorial assessment. Full locus/sign alignment and qualified independent review remain open; no automatic adoption.",
+      "evidence": [
+        {
+          "path": "research/tl55-first-pass-review.json",
+          "pointer": "/apparatus_entries/52"
+        },
+        {
+          "path": "research/source-reconciliation.json",
+          "pointer": "/witnesses/0"
+        },
+        {
+          "path": "research/schuerr2005-tl55-collation.json",
+          "pointer": "/source"
+        }
+      ],
+      "pair_attribution": "SOURCE_APPARATUS_NOT_FULL_PAIR",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "S2005-A6-03",
+      "case_class": "READING_COMPARISON",
+      "finding": "seberbbi group: only the curve survives at the disputed consonant; preserve competing possibilities.",
+      "remaining_gap": "This is Schürr’s attributed editorial assessment. Full locus/sign alignment and qualified independent review remain open; no automatic adoption.",
+      "evidence": [
+        {
+          "path": "research/tl55-first-pass-review.json",
+          "pointer": "/apparatus_entries/53"
+        },
+        {
+          "path": "research/source-reconciliation.json",
+          "pointer": "/witnesses/0"
+        },
+        {
+          "path": "research/schuerr2005-tl55-collation.json",
+          "pointer": "/source"
+        }
+      ],
+      "pair_attribution": "SOURCE_APPARATUS_NOT_FULL_PAIR",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "S2005-A6-04",
+      "case_class": "READING_COMPARISON",
+      "finding": "Following group: k identified from the shape and holes; nasal/consonant conventions need source-specific handling.",
+      "remaining_gap": "This is Schürr’s attributed editorial assessment. Full locus/sign alignment and qualified independent review remain open; no automatic adoption.",
+      "evidence": [
+        {
+          "path": "research/tl55-first-pass-review.json",
+          "pointer": "/apparatus_entries/54"
+        },
+        {
+          "path": "research/source-reconciliation.json",
+          "pointer": "/witnesses/0"
+        },
+        {
+          "path": "research/schuerr2005-tl55-collation.json",
+          "pointer": "/source"
+        }
+      ],
+      "pair_attribution": "SOURCE_APPARATUS_NOT_FULL_PAIR",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "S2005-A6-05",
+      "case_class": "READING_COMPARISON",
+      "finding": "lbbeweli group: absence of a lower cross-stroke favors w in the editor’s assessment.",
+      "remaining_gap": "This is Schürr’s attributed editorial assessment. Full locus/sign alignment and qualified independent review remain open; no automatic adoption.",
+      "evidence": [
+        {
+          "path": "research/tl55-first-pass-review.json",
+          "pointer": "/apparatus_entries/55"
+        },
+        {
+          "path": "research/source-reconciliation.json",
+          "pointer": "/witnesses/0"
+        },
+        {
+          "path": "research/schuerr2005-tl55-collation.json",
+          "pointer": "/source"
+        }
+      ],
+      "pair_attribution": "SOURCE_APPARATUS_NOT_FULL_PAIR",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "S2005-A6-06",
+      "case_class": "READING_COMPARISON",
+      "finding": "kapsaqe group: apparent punctuation before the final vowel is judged unlikely to be genuine.",
+      "remaining_gap": "This is Schürr’s attributed editorial assessment. Full locus/sign alignment and qualified independent review remain open; no automatic adoption.",
+      "evidence": [
+        {
+          "path": "research/tl55-first-pass-review.json",
+          "pointer": "/apparatus_entries/56"
+        },
+        {
+          "path": "research/source-reconciliation.json",
+          "pointer": "/witnesses/0"
+        },
+        {
+          "path": "research/schuerr2005-tl55-collation.json",
+          "pointer": "/source"
+        }
+      ],
+      "pair_attribution": "SOURCE_APPARATUS_NOT_FULL_PAIR",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "S2005-A6-07",
+      "case_class": "READING_COMPARISON",
+      "finding": "muwaxa group: consonant assessed as secure but following vowel not preserved; restoration status differs from certainty.",
+      "remaining_gap": "This is Schürr’s attributed editorial assessment. Full locus/sign alignment and qualified independent review remain open; no automatic adoption.",
+      "evidence": [
+        {
+          "path": "research/tl55-first-pass-review.json",
+          "pointer": "/apparatus_entries/57"
+        },
+        {
+          "path": "research/source-reconciliation.json",
+          "pointer": "/witnesses/0"
+        },
+        {
+          "path": "research/schuerr2005-tl55-collation.json",
+          "pointer": "/source"
+        }
+      ],
+      "pair_attribution": "SOURCE_APPARATUS_NOT_FULL_PAIR",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "S2005-A6-08",
+      "case_class": "READING_COMPARISON",
+      "finding": "tuwemedi group: surviving cross-strokes and probable following points are separately qualified.",
+      "remaining_gap": "This is Schürr’s attributed editorial assessment. Full locus/sign alignment and qualified independent review remain open; no automatic adoption.",
+      "evidence": [
+        {
+          "path": "research/tl55-first-pass-review.json",
+          "pointer": "/apparatus_entries/58"
+        },
+        {
+          "path": "research/source-reconciliation.json",
+          "pointer": "/witnesses/0"
+        },
+        {
+          "path": "research/schuerr2005-tl55-collation.json",
+          "pointer": "/source"
+        }
+      ],
+      "pair_attribution": "SOURCE_APPARATUS_NOT_FULL_PAIR",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "S2005-A6-09",
+      "case_class": "READING_COMPARISON",
+      "finding": "xaba group: following punctuation remains merely possible.",
+      "remaining_gap": "This is Schürr’s attributed editorial assessment. Full locus/sign alignment and qualified independent review remain open; no automatic adoption.",
+      "evidence": [
+        {
+          "path": "research/tl55-first-pass-review.json",
+          "pointer": "/apparatus_entries/59"
+        },
+        {
+          "path": "research/source-reconciliation.json",
+          "pointer": "/witnesses/0"
+        },
+        {
+          "path": "research/schuerr2005-tl55-collation.json",
+          "pointer": "/source"
+        }
+      ],
+      "pair_attribution": "SOURCE_APPARATUS_NOT_FULL_PAIR",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "S2005-A6-10",
+      "case_class": "READING_COMPARISON",
+      "finding": "Line ending: reported room for a possible lost letter is interpreted by the editor as space for a stanza divider.",
+      "remaining_gap": "This is Schürr’s attributed editorial assessment. Full locus/sign alignment and qualified independent review remain open; no automatic adoption.",
+      "evidence": [
+        {
+          "path": "research/tl55-first-pass-review.json",
+          "pointer": "/apparatus_entries/60"
+        },
+        {
+          "path": "research/source-reconciliation.json",
+          "pointer": "/witnesses/0"
+        },
+        {
+          "path": "research/schuerr2005-tl55-collation.json",
+          "pointer": "/source"
+        }
+      ],
+      "pair_attribution": "SOURCE_APPARATUS_NOT_FULL_PAIR",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "S2005-A7-01",
+      "case_class": "READING_COMPARISON",
+      "finding": "Opening mlu/xrau sequence: round depression and possible points are separated from the secure final vowel.",
+      "remaining_gap": "This is Schürr’s attributed editorial assessment. Full locus/sign alignment and qualified independent review remain open; no automatic adoption.",
+      "evidence": [
+        {
+          "path": "research/tl55-first-pass-review.json",
+          "pointer": "/apparatus_entries/61"
+        },
+        {
+          "path": "research/source-reconciliation.json",
+          "pointer": "/witnesses/0"
+        },
+        {
+          "path": "research/schuerr2005-tl55-collation.json",
+          "pointer": "/source"
+        }
+      ],
+      "pair_attribution": "SOURCE_APPARATUS_NOT_FULL_PAIR",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "S2005-A7-02",
+      "case_class": "READING_COMPARISON",
+      "finding": "plluwi group: vowel is judged distinct; spacing suggests word division although physical punctuation is not secured.",
+      "remaining_gap": "This is Schürr’s attributed editorial assessment. Full locus/sign alignment and qualified independent review remain open; no automatic adoption.",
+      "evidence": [
+        {
+          "path": "research/tl55-first-pass-review.json",
+          "pointer": "/apparatus_entries/62"
+        },
+        {
+          "path": "research/source-reconciliation.json",
+          "pointer": "/witnesses/0"
+        },
+        {
+          "path": "research/schuerr2005-tl55-collation.json",
+          "pointer": "/source"
+        }
+      ],
+      "pair_attribution": "SOURCE_APPARATUS_NOT_FULL_PAIR",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "S2005-A7-03",
+      "case_class": "READING_COMPARISON",
+      "finding": "tuta group: Kalinka’s first consonant is considered an emendation; revised graphic reading differs.",
+      "remaining_gap": "This is Schürr’s attributed editorial assessment. Full locus/sign alignment and qualified independent review remain open; no automatic adoption.",
+      "evidence": [
+        {
+          "path": "research/tl55-first-pass-review.json",
+          "pointer": "/apparatus_entries/63"
+        },
+        {
+          "path": "research/source-reconciliation.json",
+          "pointer": "/witnesses/0"
+        },
+        {
+          "path": "research/schuerr2005-tl55-collation.json",
+          "pointer": "/source"
+        }
+      ],
+      "pair_attribution": "SOURCE_APPARATUS_NOT_FULL_PAIR",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "S2005-A7-04",
+      "case_class": "READING_COMPARISON",
+      "finding": "ubrenni/abrala junction: earlier witnesses and surviving horizontal/point evidence disagree; do not silently harmonize.",
+      "remaining_gap": "This is Schürr’s attributed editorial assessment. Full locus/sign alignment and qualified independent review remain open; no automatic adoption.",
+      "evidence": [
+        {
+          "path": "research/tl55-first-pass-review.json",
+          "pointer": "/apparatus_entries/64"
+        },
+        {
+          "path": "research/source-reconciliation.json",
+          "pointer": "/witnesses/0"
+        },
+        {
+          "path": "research/schuerr2005-tl55-collation.json",
+          "pointer": "/source"
+        }
+      ],
+      "pair_attribution": "SOURCE_APPARATUS_NOT_FULL_PAIR",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "S2005-A7-05",
+      "case_class": "READING_COMPARISON",
+      "finding": "Line end: possible lost-sign room and writing to the margin remain hypotheses; following ti is allocated to source line8.",
+      "remaining_gap": "This is Schürr’s attributed editorial assessment. Full locus/sign alignment and qualified independent review remain open; no automatic adoption.",
+      "evidence": [
+        {
+          "path": "research/tl55-first-pass-review.json",
+          "pointer": "/apparatus_entries/65"
+        },
+        {
+          "path": "research/source-reconciliation.json",
+          "pointer": "/witnesses/0"
+        },
+        {
+          "path": "research/schuerr2005-tl55-collation.json",
+          "pointer": "/source"
+        }
+      ],
+      "pair_attribution": "SOURCE_APPARATUS_NOT_FULL_PAIR",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "S2005-A8-01",
+      "case_class": "READING_COMPARISON",
+      "finding": "zmpra group: damaged r favored and a judged clear; the damaged sign remains qualified.",
+      "remaining_gap": "This is Schürr’s attributed editorial assessment. Full locus/sign alignment and qualified independent review remain open; no automatic adoption.",
+      "evidence": [
+        {
+          "path": "research/tl55-first-pass-review.json",
+          "pointer": "/apparatus_entries/66"
+        },
+        {
+          "path": "research/source-reconciliation.json",
+          "pointer": "/witnesses/0"
+        },
+        {
+          "path": "research/schuerr2005-tl55-collation.json",
+          "pointer": "/source"
+        }
+      ],
+      "pair_attribution": "SOURCE_APPARATUS_NOT_FULL_PAIR",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "S2005-A8-02",
+      "case_class": "READING_COMPARISON",
+      "finding": "qelei group: damage traces are attributed by the editor to punctuation.",
+      "remaining_gap": "This is Schürr’s attributed editorial assessment. Full locus/sign alignment and qualified independent review remain open; no automatic adoption.",
+      "evidence": [
+        {
+          "path": "research/tl55-first-pass-review.json",
+          "pointer": "/apparatus_entries/67"
+        },
+        {
+          "path": "research/source-reconciliation.json",
+          "pointer": "/witnesses/0"
+        },
+        {
+          "path": "research/schuerr2005-tl55-collation.json",
+          "pointer": "/source"
+        }
+      ],
+      "pair_attribution": "SOURCE_APPARATUS_NOT_FULL_PAIR",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "S2005-A8-03",
+      "case_class": "READING_COMPARISON",
+      "finding": "aala group: broken interior excludes one alternative and makes another unlikely; preserve the doubtful sign in comparison.",
+      "remaining_gap": "This is Schürr’s attributed editorial assessment. Full locus/sign alignment and qualified independent review remain open; no automatic adoption.",
+      "evidence": [
+        {
+          "path": "research/tl55-first-pass-review.json",
+          "pointer": "/apparatus_entries/68"
+        },
+        {
+          "path": "research/source-reconciliation.json",
+          "pointer": "/witnesses/0"
+        },
+        {
+          "path": "research/schuerr2005-tl55-collation.json",
+          "pointer": "/source"
+        }
+      ],
+      "pair_attribution": "SOURCE_APPARATUS_NOT_FULL_PAIR",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "S2005-A8-04",
+      "case_class": "READING_COMPARISON",
+      "finding": "ssepse group: apparent internal punctuation is judged unlikely to be genuine.",
+      "remaining_gap": "This is Schürr’s attributed editorial assessment. Full locus/sign alignment and qualified independent review remain open; no automatic adoption.",
+      "evidence": [
+        {
+          "path": "research/tl55-first-pass-review.json",
+          "pointer": "/apparatus_entries/69"
+        },
+        {
+          "path": "research/source-reconciliation.json",
+          "pointer": "/witnesses/0"
+        },
+        {
+          "path": "research/schuerr2005-tl55-collation.json",
+          "pointer": "/source"
+        }
+      ],
+      "pair_attribution": "SOURCE_APPARATUS_NOT_FULL_PAIR",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "S2005-A8-05",
+      "case_class": "READING_COMPARISON",
+      "finding": "trqqntasati group: t is preferred; a crossing fissure may mimic a horizontal stroke.",
+      "remaining_gap": "This is Schürr’s attributed editorial assessment. Full locus/sign alignment and qualified independent review remain open; no automatic adoption.",
+      "evidence": [
+        {
+          "path": "research/tl55-first-pass-review.json",
+          "pointer": "/apparatus_entries/70"
+        },
+        {
+          "path": "research/source-reconciliation.json",
+          "pointer": "/witnesses/0"
+        },
+        {
+          "path": "research/schuerr2005-tl55-collation.json",
+          "pointer": "/source"
+        }
+      ],
+      "pair_attribution": "SOURCE_APPARATUS_NOT_FULL_PAIR",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "S2005-A8-06",
+      "case_class": "READING_COMPARISON",
+      "finding": "kdi/a group: i and a lower square point are described separately; source punctuation and digital spacing need distinct handling.",
+      "remaining_gap": "This is Schürr’s attributed editorial assessment. Full locus/sign alignment and qualified independent review remain open; no automatic adoption.",
+      "evidence": [
+        {
+          "path": "research/tl55-first-pass-review.json",
+          "pointer": "/apparatus_entries/71"
+        },
+        {
+          "path": "research/source-reconciliation.json",
+          "pointer": "/witnesses/0"
+        },
+        {
+          "path": "research/schuerr2005-tl55-collation.json",
+          "pointer": "/source"
+        }
+      ],
+      "pair_attribution": "SOURCE_APPARATUS_NOT_FULL_PAIR",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "S2005-A9-01",
+      "case_class": "READING_COMPARISON",
+      "finding": "Beginning, continued from digital row8 suffix: clear early vowel, probable punctuation and a severely damaged following sign; n is only possible.",
+      "remaining_gap": "This is Schürr’s attributed editorial assessment. Full locus/sign alignment and qualified independent review remain open; no automatic adoption.",
+      "evidence": [
+        {
+          "path": "research/tl55-first-pass-review.json",
+          "pointer": "/apparatus_entries/72"
+        },
+        {
+          "path": "research/source-reconciliation.json",
+          "pointer": "/witnesses/0"
+        },
+        {
+          "path": "research/schuerr2005-tl55-collation.json",
+          "pointer": "/source"
+        }
+      ],
+      "pair_attribution": "SOURCE_APPARATUS_NOT_FULL_PAIR",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "S2005-A9-02",
+      "case_class": "READING_COMPARISON",
+      "finding": "Final damaged group: surviving vertical favors i and the stanza divider is judged clear; no restoration of the lost whole follows.",
+      "remaining_gap": "This is Schürr’s attributed editorial assessment. Full locus/sign alignment and qualified independent review remain open; no automatic adoption.",
+      "evidence": [
+        {
+          "path": "research/tl55-first-pass-review.json",
+          "pointer": "/apparatus_entries/73"
+        },
+        {
+          "path": "research/source-reconciliation.json",
+          "pointer": "/witnesses/0"
+        },
+        {
+          "path": "research/schuerr2005-tl55-collation.json",
+          "pointer": "/source"
+        }
+      ],
+      "pair_attribution": "SOURCE_APPARATUS_NOT_FULL_PAIR",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "MIL-TL-044-C",
+      "case_class": "COVERAGE_GAP",
+      "finding": "The proposed later critical-edition identity/access and variant apparatus are not verified.",
+      "remaining_gap": "Verify bibliographic identity and acquire lawful exact-locus evidence before any TL44 comparison.",
+      "evidence": [
+        {
+          "path": "research/source-reconciliation.json",
+          "pointer": "/witnesses/1"
+        }
+      ],
+      "pair_attribution": "NOT_APPLICABLE",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    },
+    {
+      "review_id": "MIL-TL-044-D",
+      "case_class": "COVERAGE_GAP",
+      "finding": "The proposed later critical-edition identity/access and variant apparatus are not verified.",
+      "remaining_gap": "Verify bibliographic identity and acquire lawful exact-locus evidence before any TL44 comparison.",
+      "evidence": [
+        {
+          "path": "research/source-reconciliation.json",
+          "pointer": "/witnesses/2"
+        }
+      ],
+      "pair_attribution": "NOT_APPLICABLE",
+      "new_reading_admitted": false,
+      "independent_review_added": false
+    }
+  ],
+  "new_readings_admitted": 0,
+  "independent_reviews_added": 0
+}
