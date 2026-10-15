@@ -8,7 +8,7 @@
     "critical edition line-by-line collation and competing reading apparatus",
     "source-specific rights for additional primary components",
     "independent reading adjudication",
-    "TL 55 exact reading and boundary-convention collation; historical count voice now accounted"
+    "TL55 complete sign-by-sign epigraphic collation and independent adjudication; first documentary pass and all four digital boundary markers now accounted"
   ],
   "do_not_claim": [
     "complete scholarly 1.0",
@@ -25,8 +25,11 @@
     "native/fleet bundle authority integrity",
     "Visual primary scan inspection; precise page/face locators and segmentation discrepancies",
     "TL55 count voices separated: Texier quoted eight; Kalinka printed transliteration has nine entry groups matching the nine frozen reference rows. No physical-line certification.",
-    "Schürr2005 author-posted article acquired; lines1–9 and apparatus routes located; six source differences qualified without rewriting the frozen reference."
+    "Schürr2005 author-posted article acquired; lines1–9 and apparatus routes located; six source differences qualified without rewriting the frozen reference.",
+    "TL55 first documentary comparison pass: all9 revised lines and74 apparatus paragraphs reviewed; exhaustive literal span accounting for4 digital break markers; independent review packet prepared, not performed."
   ],
   "tl55_count_checkpoint": "research/tl55-count-reconciliation-2026-10-14.json",
-  "schuerr2005_checkpoint": "research/schuerr2005-tl55-collation.json"
+  "schuerr2005_checkpoint": "research/schuerr2005-tl55-collation.json",
+  "tl55_first_pass_review": "research/tl55-first-pass-review.json",
+  "tl55_independent_review_packet": "review/tl55-independent-review.json"
 }

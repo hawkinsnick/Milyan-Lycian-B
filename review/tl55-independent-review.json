@@ -1,0 +1,75 @@
+{
+  "format": "milyan-tl55-independent-review-packet-v1",
+  "status": "PREPARED_NOT_REVIEWED",
+  "scope": "TL55 Schuerr2005 revised transcription121–122 and apparatus123–129 against frozen eDiAna reference; source checkpoint and first-pass inventory are immutable inputs.",
+  "inputs": {
+    "research/schuerr2005-tl55-collation.json": "e4e7e7c81fe3efff1168af784c80e391b6af9b35dc94d1add74c7d5cd65d710a",
+    "research/tl55-first-pass-review.json": "569ce81ab36a50a09f108c758255bec00bcd460a64cdf548a0cf0b0f1b7ac0e0",
+    "data/reference/lines.json": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+    "data/reference/ediana-milyan-source.json": "e53dca3df71f06af95c0091646ee0d1b20fe6c78c1a24ac0f9b9e49cadd425a0"
+  },
+  "source_access": {
+    "citation": "Schürr, Diether (2005), Das Pixre-Poem in Antiphellos, Kadmos44(1–2),95–164",
+    "doi": "10.1515/kadm.2005.014",
+    "url": "https://www.researchgate.net/publication/249942004_Das_Pixre-Poem_in_Antiphellos",
+    "pdf_sha256": "1ef1d894e82f6ab5ea651d75f51ee69ab3517613c1a4463fe1b028d629a9e64f",
+    "source_not_bundled": true
+  },
+  "required_expertise": "Independent scholar qualified in Lycian/Milyan epigraphy; automated or same-agent checks do not qualify.",
+  "reviewer": null,
+  "affiliation": null,
+  "conflicts_and_source_dependence": null,
+  "review_date": null,
+  "assessment": null,
+  "signed_or_attributed_review_evidence": null,
+  "accepted_readings": [],
+  "questions": [
+    {
+      "id": "Q-LINE-COVERAGE",
+      "task": "Check all nine revised lines and all74 apparatus entries; record exact counterexamples, not a blanket approval."
+    },
+    {
+      "id": "Q-ALLOCATION",
+      "task": "Audit all four // markers, cross-row carryover, and source-label versus physical-line distinction."
+    },
+    {
+      "id": "Q-EDITORIAL-LAYERS",
+      "task": "Assess doubtful signs, alternatives, supplements, deletions, emendations, punctuation and poetic reconstruction separately."
+    },
+    {
+      "id": "Q-SOURCE-DEPENDENCE",
+      "task": "Distinguish Schuerr’s report of historical witnesses from new independently inspected evidence."
+    },
+    {
+      "id": "Q-DECISIONS",
+      "task": "For each proposed correction supply source locus, rationale, confidence, competing alternatives and unresolved objections."
+    },
+    {
+      "id": "MIL-TL055-S2005-OPENING",
+      "task": "Adjudicate or explicitly defer this selected issue without silently adopting the modern reconstruction."
+    },
+    {
+      "id": "MIL-TL055-S2005-LINE2-R",
+      "task": "Adjudicate or explicitly defer this selected issue without silently adopting the modern reconstruction."
+    },
+    {
+      "id": "MIL-TL055-S2005-LINE4-PL",
+      "task": "Adjudicate or explicitly defer this selected issue without silently adopting the modern reconstruction."
+    },
+    {
+      "id": "MIL-TL055-S2005-LINE4-EMENDATION",
+      "task": "Adjudicate or explicitly defer this selected issue without silently adopting the modern reconstruction."
+    },
+    {
+      "id": "MIL-TL055-S2005-BOUNDARY78",
+      "task": "Adjudicate or explicitly defer this selected issue without silently adopting the modern reconstruction."
+    },
+    {
+      "id": "MIL-TL055-S2005-BOUNDARY89",
+      "task": "Adjudicate or explicitly defer this selected issue without silently adopting the modern reconstruction."
+    }
+  ],
+  "dispositions": [],
+  "completion_rule": "No review is counted until a named qualified independent reviewer supplies an attributable assessment with input identities, per-issue dispositions and unresolved objections. This prepared packet is not review evidence.",
+  "automatically_closes_expert_gate": false
+}

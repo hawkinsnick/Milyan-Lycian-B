@@ -4,6 +4,10 @@
   "source_checkpoint_sha256": "e4e7e7c81fe3efff1168af784c80e391b6af9b35dc94d1add74c7d5cd65d710a",
   "row_count": 9,
   "selected_issue_count": 6,
+  "first_pass_source_review_complete": true,
+  "apparatus_entries_reviewed": 74,
+  "digital_break_markers_accounted_for": 4,
+  "independent_review_packet": "review/tl55-independent-review.json",
   "license": "CC-BY-SA-4.0",
   "license_scope": "Qualified reference view and project comparison annotations; underlying Schürr article, images and editorial edition retain their source rights and are not relicensed.",
   "attribution": "eDiAna editors and individual/source authors as specified by research/reference-manifest.json; Schürr2005 and Kalinka1901; project-added source comparisons and wrappers.",
@@ -77,9 +81,144 @@
           "full_row_equivalence_established": false
         }
       ],
+      "first_pass_line_review": {
+        "source_label": 1,
+        "transcription_printed_pages": [
+          121
+        ],
+        "apparatus_entry_ids": [
+          "S2005-A1-01",
+          "S2005-A1-02",
+          "S2005-A1-03",
+          "S2005-A1-04",
+          "S2005-A1-05",
+          "S2005-A1-06",
+          "S2005-A1-07"
+        ],
+        "comparison_summary": "Compared opening through final damaged group: retain uncertain opening, graphic versus emended first word, q convention, stanza division and limited supplements.",
+        "status": "FIRST_PASS_REVIEW_COMPLETE_UNADJUDICATED",
+        "full_row_equivalence_established": false
+      },
+      "reference_spans": [
+        {
+          "row_id": "EDIANA-MILYAN-0-ROW-1",
+          "start": 0,
+          "end": 169,
+          "source_label": 1,
+          "kind": "REFERENCE_TEXT",
+          "literal_sha256": "ae059928e0a40a94ee7f5b33fd51fb35648d1db354d69d1c3d8550b60cf7b960"
+        }
+      ],
+      "apparatus_review_entries": [
+        {
+          "id": "S2005-A1-01",
+          "source_line": 1,
+          "entry_ordinal_within_line": 1,
+          "printed_pages": [
+            123
+          ],
+          "pdf_ordinals": [
+            29
+          ],
+          "review_note": "Opening group: final u is rejected; restoration and sign occupancy remain unresolved.",
+          "voice": "SCHUERR_EDITORIAL_ASSESSMENT_NOT_PROJECT_AUTOPSY",
+          "disposition": "REVIEWED_NOT_ADJUDICATED",
+          "new_reading_admitted": false
+        },
+        {
+          "id": "S2005-A1-02",
+          "source_line": 1,
+          "entry_ordinal_within_line": 2,
+          "printed_pages": [
+            123
+          ],
+          "pdf_ordinals": [
+            29
+          ],
+          "review_note": "First mlu group: the apparatus treats the vowel in Kalinka as editorial intervention, not the visible consonant.",
+          "voice": "SCHUERR_EDITORIAL_ASSESSMENT_NOT_PROJECT_AUTOPSY",
+          "disposition": "REVIEWED_NOT_ADJUDICATED",
+          "new_reading_admitted": false
+        },
+        {
+          "id": "S2005-A1-03",
+          "source_line": 1,
+          "entry_ordinal_within_line": 3,
+          "printed_pages": [
+            123
+          ],
+          "pdf_ordinals": [
+            29
+          ],
+          "review_note": "Following group: the editor identifies q from its lower curve; a correction from k is posed as a possibility.",
+          "voice": "SCHUERR_EDITORIAL_ASSESSMENT_NOT_PROJECT_AUTOPSY",
+          "disposition": "REVIEWED_NOT_ADJUDICATED",
+          "new_reading_admitted": false
+        },
+        {
+          "id": "S2005-A1-04",
+          "source_line": 1,
+          "entry_ordinal_within_line": 4,
+          "printed_pages": [
+            123
+          ],
+          "pdf_ordinals": [
+            29
+          ],
+          "review_note": "End of lijaiz group: letter and stanza-separator evidence are distinguished from a simple colon.",
+          "voice": "SCHUERR_EDITORIAL_ASSESSMENT_NOT_PROJECT_AUTOPSY",
+          "disposition": "REVIEWED_NOT_ADJUDICATED",
+          "new_reading_admitted": false
+        },
+        {
+          "id": "S2005-A1-05",
+          "source_line": 1,
+          "entry_ordinal_within_line": 5,
+          "printed_pages": [
+            123
+          ],
+          "pdf_ordinals": [
+            29
+          ],
+          "review_note": "mebudike group: k is the editor’s admissible reading despite incomplete surviving strokes.",
+          "voice": "SCHUERR_EDITORIAL_ASSESSMENT_NOT_PROJECT_AUTOPSY",
+          "disposition": "REVIEWED_NOT_ADJUDICATED",
+          "new_reading_admitted": false
+        },
+        {
+          "id": "S2005-A1-06",
+          "source_line": 1,
+          "entry_ordinal_within_line": 6,
+          "printed_pages": [
+            123
+          ],
+          "pdf_ordinals": [
+            29
+          ],
+          "review_note": "After kudi: lost-sign capacity and the surviving angle constrain restoration; earlier supplements are not endorsed.",
+          "voice": "SCHUERR_EDITORIAL_ASSESSMENT_NOT_PROJECT_AUTOPSY",
+          "disposition": "REVIEWED_NOT_ADJUDICATED",
+          "new_reading_admitted": false
+        },
+        {
+          "id": "S2005-A1-07",
+          "source_line": 1,
+          "entry_ordinal_within_line": 7,
+          "printed_pages": [
+            123
+          ],
+          "pdf_ordinals": [
+            29
+          ],
+          "review_note": "Final damaged group: a diagonal and room for two following signs limit the proposed supplement.",
+          "voice": "SCHUERR_EDITORIAL_ASSESSMENT_NOT_PROJECT_AUTOPSY",
+          "disposition": "REVIEWED_NOT_ADJUDICATED",
+          "new_reading_admitted": false
+        }
+      ],
       "canonical_reading_admitted": false,
       "independent_review": false,
-      "boundary": "A row without a selected issue has not passed complete critical collation. Source labels, text strings, physical lines, emendations and reconstructions remain different layers."
+      "boundary": "All nine revised lines and74 apparatus entries have a completed first comparison pass. Complete sign-level equivalence and expert adjudication remain open. A digital row may contain following-line carryover; use reference_spans."
     },
     {
       "reference_row_id": "EDIANA-MILYAN-0-ROW-2",
@@ -148,9 +287,208 @@
           "full_row_equivalence_established": false
         }
       ],
+      "first_pass_line_review": {
+        "source_label": 2,
+        "transcription_printed_pages": [
+          121
+        ],
+        "apparatus_entry_ids": [
+          "S2005-A2-01",
+          "S2005-A2-02",
+          "S2005-A2-03",
+          "S2005-A2-04",
+          "S2005-A2-05",
+          "S2005-A2-06",
+          "S2005-A2-07",
+          "S2005-A2-08",
+          "S2005-A2-09",
+          "S2005-A2-10"
+        ],
+        "comparison_summary": "Compared all groups: damaged opening, uncertain letters and punctuation, qualified r, and editorial conventions differ. The suffix after // supplies the next source line’s opening.",
+        "status": "FIRST_PASS_REVIEW_COMPLETE_UNADJUDICATED",
+        "full_row_equivalence_established": false
+      },
+      "reference_spans": [
+        {
+          "row_id": "EDIANA-MILYAN-0-ROW-2",
+          "start": 0,
+          "end": 220,
+          "source_label": 2,
+          "kind": "REFERENCE_TEXT",
+          "literal_sha256": "8f077e89bfae3f78aa5badb53d3c285750665908846132830fd47d6a5c407527"
+        },
+        {
+          "row_id": "EDIANA-MILYAN-0-ROW-2",
+          "start": 220,
+          "end": 222,
+          "source_label": null,
+          "kind": "LITERAL_DIGITAL_BREAK_MARKER",
+          "literal_sha256": "a2c2339691fc48fbd14fb307292dff3e21222712d9240810742d7df0c6d74dfb"
+        },
+        {
+          "row_id": "EDIANA-MILYAN-0-ROW-2",
+          "start": 222,
+          "end": 227,
+          "source_label": 3,
+          "kind": "REFERENCE_CARRYOVER_TEXT",
+          "literal_sha256": "105603ea34da82929432939a583b7ee16ec38c80fc7fa229a6dd2e5cda063dec"
+        }
+      ],
+      "apparatus_review_entries": [
+        {
+          "id": "S2005-A2-01",
+          "source_line": 2,
+          "entry_ordinal_within_line": 1,
+          "printed_pages": [
+            123
+          ],
+          "pdf_ordinals": [
+            29
+          ],
+          "review_note": "Opening damaged group: initial angle may be incomplete; one consonant is plausible, another unclear, and penultimate sign difficult.",
+          "voice": "SCHUERR_EDITORIAL_ASSESSMENT_NOT_PROJECT_AUTOPSY",
+          "disposition": "REVIEWED_NOT_ADJUDICATED",
+          "new_reading_admitted": false
+        },
+        {
+          "id": "S2005-A2-02",
+          "source_line": 2,
+          "entry_ordinal_within_line": 2,
+          "printed_pages": [
+            123
+          ],
+          "pdf_ordinals": [
+            29
+          ],
+          "review_note": "pnnasi group: surviving contours favor s, with explicit residual uncertainty.",
+          "voice": "SCHUERR_EDITORIAL_ASSESSMENT_NOT_PROJECT_AUTOPSY",
+          "disposition": "REVIEWED_NOT_ADJUDICATED",
+          "new_reading_admitted": false
+        },
+        {
+          "id": "S2005-A2-03",
+          "source_line": 2,
+          "entry_ordinal_within_line": 3,
+          "printed_pages": [
+            124
+          ],
+          "pdf_ordinals": [
+            30
+          ],
+          "review_note": "sttr group: s is sufficiently distinct; the next sign remains probable rather than certain.",
+          "voice": "SCHUERR_EDITORIAL_ASSESSMENT_NOT_PROJECT_AUTOPSY",
+          "disposition": "REVIEWED_NOT_ADJUDICATED",
+          "new_reading_admitted": false
+        },
+        {
+          "id": "S2005-A2-04",
+          "source_line": 2,
+          "entry_ordinal_within_line": 4,
+          "printed_pages": [
+            124
+          ],
+          "pdf_ordinals": [
+            30
+          ],
+          "review_note": "eke group: apparent punctuation beside k may be correction marks; the final vowel is assessed separately.",
+          "voice": "SCHUERR_EDITORIAL_ASSESSMENT_NOT_PROJECT_AUTOPSY",
+          "disposition": "REVIEWED_NOT_ADJUDICATED",
+          "new_reading_admitted": false
+        },
+        {
+          "id": "S2005-A2-05",
+          "source_line": 2,
+          "entry_ordinal_within_line": 5,
+          "printed_pages": [
+            124
+          ],
+          "pdf_ordinals": [
+            30
+          ],
+          "review_note": "titbeti group: r is tentatively preferred over t; preserve the qualification.",
+          "voice": "SCHUERR_EDITORIAL_ASSESSMENT_NOT_PROJECT_AUTOPSY",
+          "disposition": "REVIEWED_NOT_ADJUDICATED",
+          "new_reading_admitted": false
+        },
+        {
+          "id": "S2005-A2-06",
+          "source_line": 2,
+          "entry_ordinal_within_line": 6,
+          "printed_pages": [
+            124
+          ],
+          "pdf_ordinals": [
+            30
+          ],
+          "review_note": "lelixa group: the editor rules out the competing vowel reading at the initial consonant.",
+          "voice": "SCHUERR_EDITORIAL_ASSESSMENT_NOT_PROJECT_AUTOPSY",
+          "disposition": "REVIEWED_NOT_ADJUDICATED",
+          "new_reading_admitted": false
+        },
+        {
+          "id": "S2005-A2-07",
+          "source_line": 2,
+          "entry_ordinal_within_line": 7,
+          "printed_pages": [
+            124
+          ],
+          "pdf_ordinals": [
+            30
+          ],
+          "review_note": "Stanza divider and following nasal vowel may reflect a correction squeezed into one sign space; this is a hypothesis.",
+          "voice": "SCHUERR_EDITORIAL_ASSESSMENT_NOT_PROJECT_AUTOPSY",
+          "disposition": "REVIEWED_NOT_ADJUDICATED",
+          "new_reading_admitted": false
+        },
+        {
+          "id": "S2005-A2-08",
+          "source_line": 2,
+          "entry_ordinal_within_line": 8,
+          "printed_pages": [
+            124
+          ],
+          "pdf_ordinals": [
+            30
+          ],
+          "review_note": "qlaxa group: q is preferred to k, not adopted as independent project autopsy.",
+          "voice": "SCHUERR_EDITORIAL_ASSESSMENT_NOT_PROJECT_AUTOPSY",
+          "disposition": "REVIEWED_NOT_ADJUDICATED",
+          "new_reading_admitted": false
+        },
+        {
+          "id": "S2005-A2-09",
+          "source_line": 2,
+          "entry_ordinal_within_line": 9,
+          "printed_pages": [
+            124
+          ],
+          "pdf_ordinals": [
+            30
+          ],
+          "review_note": "zpplide group: surviving cross-stroke and following punctuation receive separate assessments.",
+          "voice": "SCHUERR_EDITORIAL_ASSESSMENT_NOT_PROJECT_AUTOPSY",
+          "disposition": "REVIEWED_NOT_ADJUDICATED",
+          "new_reading_admitted": false
+        },
+        {
+          "id": "S2005-A2-10",
+          "source_line": 2,
+          "entry_ordinal_within_line": 10,
+          "printed_pages": [
+            124
+          ],
+          "pdf_ordinals": [
+            30
+          ],
+          "review_note": "Final trqqnta group: damage may explain a misleading shape; the ending is judged probably a, not a certain project reading.",
+          "voice": "SCHUERR_EDITORIAL_ASSESSMENT_NOT_PROJECT_AUTOPSY",
+          "disposition": "REVIEWED_NOT_ADJUDICATED",
+          "new_reading_admitted": false
+        }
+      ],
       "canonical_reading_admitted": false,
       "independent_review": false,
-      "boundary": "A row without a selected issue has not passed complete critical collation. Source labels, text strings, physical lines, emendations and reconstructions remain different layers."
+      "boundary": "All nine revised lines and74 apparatus entries have a completed first comparison pass. Complete sign-level equivalence and expert adjudication remain open. A digital row may contain following-line carryover; use reference_spans."
     },
     {
       "reference_row_id": "EDIANA-MILYAN-0-ROW-3",
@@ -188,9 +526,208 @@
       "label_alignment_status": "SOURCE_LABEL_CORRESPONDENCE_ONLY",
       "full_row_text_equivalence_established": false,
       "issues": [],
+      "first_pass_line_review": {
+        "source_label": 3,
+        "transcription_printed_pages": [
+          121
+        ],
+        "apparatus_entry_ids": [
+          "S2005-A3-01",
+          "S2005-A3-02",
+          "S2005-A3-03",
+          "S2005-A3-04",
+          "S2005-A3-05",
+          "S2005-A3-06",
+          "S2005-A3-07",
+          "S2005-A3-08",
+          "S2005-A3-09",
+          "S2005-A3-10",
+          "S2005-A3-11"
+        ],
+        "comparison_summary": "Compared across preceding-row suffix and this digital row: unresolved opening, possible extra vowel/consonant, supplements, punctuation and spelling interventions remain distinct.",
+        "status": "FIRST_PASS_REVIEW_COMPLETE_UNADJUDICATED",
+        "full_row_equivalence_established": false
+      },
+      "reference_spans": [
+        {
+          "row_id": "EDIANA-MILYAN-0-ROW-3",
+          "start": 0,
+          "end": 186,
+          "source_label": 3,
+          "kind": "REFERENCE_TEXT",
+          "literal_sha256": "c23ce23531a0a12d22e079dd71ff45928b8d9629dc23454df3595d3669393230"
+        }
+      ],
+      "apparatus_review_entries": [
+        {
+          "id": "S2005-A3-01",
+          "source_line": 3,
+          "entry_ordinal_within_line": 1,
+          "printed_pages": [
+            124
+          ],
+          "pdf_ordinals": [
+            30
+          ],
+          "review_note": "Opening group corresponds partly to the preceding digital row suffix: n-like evidence is conditional on the diagonal being genuine.",
+          "voice": "SCHUERR_EDITORIAL_ASSESSMENT_NOT_PROJECT_AUTOPSY",
+          "disposition": "REVIEWED_NOT_ADJUDICATED",
+          "new_reading_admitted": false
+        },
+        {
+          "id": "S2005-A3-02",
+          "source_line": 3,
+          "entry_ordinal_within_line": 2,
+          "printed_pages": [
+            124
+          ],
+          "pdf_ordinals": [
+            30
+          ],
+          "review_note": "Following damaged group: some consonants are distinct, l less so, intervening vowel questioned, and space limited.",
+          "voice": "SCHUERR_EDITORIAL_ASSESSMENT_NOT_PROJECT_AUTOPSY",
+          "disposition": "REVIEWED_NOT_ADJUDICATED",
+          "new_reading_admitted": false
+        },
+        {
+          "id": "S2005-A3-03",
+          "source_line": 3,
+          "entry_ordinal_within_line": 3,
+          "printed_pages": [
+            124
+          ],
+          "pdf_ordinals": [
+            30
+          ],
+          "review_note": "Following kibeda group: two signs may be preferable to a broad single sign; vowel and final consonant remain qualified.",
+          "voice": "SCHUERR_EDITORIAL_ASSESSMENT_NOT_PROJECT_AUTOPSY",
+          "disposition": "REVIEWED_NOT_ADJUDICATED",
+          "new_reading_admitted": false
+        },
+        {
+          "id": "S2005-A3-04",
+          "source_line": 3,
+          "entry_ordinal_within_line": 4,
+          "printed_pages": [
+            125
+          ],
+          "pdf_ordinals": [
+            31
+          ],
+          "review_note": "pabana group: damaged capacity and competing middle signs remain undecidable.",
+          "voice": "SCHUERR_EDITORIAL_ASSESSMENT_NOT_PROJECT_AUTOPSY",
+          "disposition": "REVIEWED_NOT_ADJUDICATED",
+          "new_reading_admitted": false
+        },
+        {
+          "id": "S2005-A3-05",
+          "source_line": 3,
+          "entry_ordinal_within_line": 5,
+          "printed_pages": [
+            125
+          ],
+          "pdf_ordinals": [
+            31
+          ],
+          "review_note": "kuprime group: r is the editor’s reading; the crowded marks before the stanza divider are unlikely to be punctuation.",
+          "voice": "SCHUERR_EDITORIAL_ASSESSMENT_NOT_PROJECT_AUTOPSY",
+          "disposition": "REVIEWED_NOT_ADJUDICATED",
+          "new_reading_admitted": false
+        },
+        {
+          "id": "S2005-A3-06",
+          "source_line": 3,
+          "entry_ordinal_within_line": 6,
+          "printed_pages": [
+            125
+          ],
+          "pdf_ordinals": [
+            31
+          ],
+          "review_note": "memleje group: tiny pores are distinguished from punctuation; j is judged sufficiently clear.",
+          "voice": "SCHUERR_EDITORIAL_ASSESSMENT_NOT_PROJECT_AUTOPSY",
+          "disposition": "REVIEWED_NOT_ADJUDICATED",
+          "new_reading_admitted": false
+        },
+        {
+          "id": "S2005-A3-07",
+          "source_line": 3,
+          "entry_ordinal_within_line": 7,
+          "printed_pages": [
+            125
+          ],
+          "pdf_ordinals": [
+            31
+          ],
+          "review_note": "pripetrijadate group: letter alternatives, corrected marks and doubtful punctuation prevent literal unqualified equivalence.",
+          "voice": "SCHUERR_EDITORIAL_ASSESSMENT_NOT_PROJECT_AUTOPSY",
+          "disposition": "REVIEWED_NOT_ADJUDICATED",
+          "new_reading_admitted": false
+        },
+        {
+          "id": "S2005-A3-08",
+          "source_line": 3,
+          "entry_ordinal_within_line": 8,
+          "printed_pages": [
+            125
+          ],
+          "pdf_ordinals": [
+            31
+          ],
+          "review_note": "qabali group: q probable and following a sufficiently distinct; preceding groove need not be a sign.",
+          "voice": "SCHUERR_EDITORIAL_ASSESSMENT_NOT_PROJECT_AUTOPSY",
+          "disposition": "REVIEWED_NOT_ADJUDICATED",
+          "new_reading_admitted": false
+        },
+        {
+          "id": "S2005-A3-09",
+          "source_line": 3,
+          "entry_ordinal_within_line": 9,
+          "printed_pages": [
+            125
+          ],
+          "pdf_ordinals": [
+            31
+          ],
+          "review_note": "slitami/udrnte group: a rounded hole and competing forms underpin qualified readings; spelling intervention stays distinct.",
+          "voice": "SCHUERR_EDITORIAL_ASSESSMENT_NOT_PROJECT_AUTOPSY",
+          "disposition": "REVIEWED_NOT_ADJUDICATED",
+          "new_reading_admitted": false
+        },
+        {
+          "id": "S2005-A3-10",
+          "source_line": 3,
+          "entry_ordinal_within_line": 10,
+          "printed_pages": [
+            125
+          ],
+          "pdf_ordinals": [
+            31
+          ],
+          "review_note": "Before kuprimesi: points and a partly preserved angle complicate letter/punctuation allocation.",
+          "voice": "SCHUERR_EDITORIAL_ASSESSMENT_NOT_PROJECT_AUTOPSY",
+          "disposition": "REVIEWED_NOT_ADJUDICATED",
+          "new_reading_admitted": false
+        },
+        {
+          "id": "S2005-A3-11",
+          "source_line": 3,
+          "entry_ordinal_within_line": 11,
+          "printed_pages": [
+            125
+          ],
+          "pdf_ordinals": [
+            31
+          ],
+          "review_note": "Final damaged group: capacity for two initial signs, a vague upper angle and final p receive separate treatment.",
+          "voice": "SCHUERR_EDITORIAL_ASSESSMENT_NOT_PROJECT_AUTOPSY",
+          "disposition": "REVIEWED_NOT_ADJUDICATED",
+          "new_reading_admitted": false
+        }
+      ],
       "canonical_reading_admitted": false,
       "independent_review": false,
-      "boundary": "A row without a selected issue has not passed complete critical collation. Source labels, text strings, physical lines, emendations and reconstructions remain different layers."
+      "boundary": "All nine revised lines and74 apparatus entries have a completed first comparison pass. Complete sign-level equivalence and expert adjudication remain open. A digital row may contain following-line carryover; use reference_spans."
     },
     {
       "reference_row_id": "EDIANA-MILYAN-0-ROW-4",
@@ -299,9 +836,210 @@
           "full_row_equivalence_established": false
         }
       ],
+      "first_pass_line_review": {
+        "source_label": 4,
+        "transcription_printed_pages": [
+          122
+        ],
+        "apparatus_entry_ids": [
+          "S2005-A4-01",
+          "S2005-A4-02",
+          "S2005-A4-03",
+          "S2005-A4-04",
+          "S2005-A4-05",
+          "S2005-A4-06",
+          "S2005-A4-07",
+          "S2005-A4-08",
+          "S2005-A4-09",
+          "S2005-A4-10"
+        ],
+        "comparison_summary": "Compared all groups: uncertain opening, p/l, emendation, damaged mruwasi and separator classifications. Material after // is carryover to the following source line.",
+        "status": "FIRST_PASS_REVIEW_COMPLETE_UNADJUDICATED",
+        "full_row_equivalence_established": false
+      },
+      "reference_spans": [
+        {
+          "row_id": "EDIANA-MILYAN-0-ROW-4",
+          "start": 0,
+          "end": 210,
+          "source_label": 4,
+          "kind": "REFERENCE_TEXT",
+          "literal_sha256": "d240e26eaae62efe3da6fa398bdc2f72af6c5797ddcdca58c995012dd7b8dbdd"
+        },
+        {
+          "row_id": "EDIANA-MILYAN-0-ROW-4",
+          "start": 210,
+          "end": 212,
+          "source_label": null,
+          "kind": "LITERAL_DIGITAL_BREAK_MARKER",
+          "literal_sha256": "a2c2339691fc48fbd14fb307292dff3e21222712d9240810742d7df0c6d74dfb"
+        },
+        {
+          "row_id": "EDIANA-MILYAN-0-ROW-4",
+          "start": 212,
+          "end": 220,
+          "source_label": 5,
+          "kind": "REFERENCE_CARRYOVER_TEXT",
+          "literal_sha256": "76df084db94ea574e56297e0575de371078ed5695ad33c9747169c89118b2f78"
+        }
+      ],
+      "apparatus_review_entries": [
+        {
+          "id": "S2005-A4-01",
+          "source_line": 4,
+          "entry_ordinal_within_line": 1,
+          "printed_pages": [
+            125,
+            126
+          ],
+          "pdf_ordinals": [
+            31,
+            32
+          ],
+          "review_note": "Opening group, continued on126: initial sign occupancy uncertain; vertical stroke does not secure t and j remains possible.",
+          "voice": "SCHUERR_EDITORIAL_ASSESSMENT_NOT_PROJECT_AUTOPSY",
+          "disposition": "REVIEWED_NOT_ADJUDICATED",
+          "new_reading_admitted": false
+        },
+        {
+          "id": "S2005-A4-02",
+          "source_line": 4,
+          "entry_ordinal_within_line": 2,
+          "printed_pages": [
+            126
+          ],
+          "pdf_ordinals": [
+            32
+          ],
+          "review_note": "apiti group: nasal vowel recognized; following p remains possible.",
+          "voice": "SCHUERR_EDITORIAL_ASSESSMENT_NOT_PROJECT_AUTOPSY",
+          "disposition": "REVIEWED_NOT_ADJUDICATED",
+          "new_reading_admitted": false
+        },
+        {
+          "id": "S2005-A4-03",
+          "source_line": 4,
+          "entry_ordinal_within_line": 3,
+          "printed_pages": [
+            126
+          ],
+          "pdf_ordinals": [
+            32
+          ],
+          "review_note": "Following damaged group: roughly three destroyed positions precede distinguishable final signs.",
+          "voice": "SCHUERR_EDITORIAL_ASSESSMENT_NOT_PROJECT_AUTOPSY",
+          "disposition": "REVIEWED_NOT_ADJUDICATED",
+          "new_reading_admitted": false
+        },
+        {
+          "id": "S2005-A4-04",
+          "source_line": 4,
+          "entry_ordinal_within_line": 4,
+          "printed_pages": [
+            126
+          ],
+          "pdf_ordinals": [
+            32
+          ],
+          "review_note": "lijanuwa group: overlapping forms explain p/l alternatives; later reconstruction must not suppress them.",
+          "voice": "SCHUERR_EDITORIAL_ASSESSMENT_NOT_PROJECT_AUTOPSY",
+          "disposition": "REVIEWED_NOT_ADJUDICATED",
+          "new_reading_admitted": false
+        },
+        {
+          "id": "S2005-A4-05",
+          "source_line": 4,
+          "entry_ordinal_within_line": 5,
+          "printed_pages": [
+            126
+          ],
+          "pdf_ordinals": [
+            32
+          ],
+          "review_note": "kulike group: round depression and differing punctuation/letter reports leave qualification necessary.",
+          "voice": "SCHUERR_EDITORIAL_ASSESSMENT_NOT_PROJECT_AUTOPSY",
+          "disposition": "REVIEWED_NOT_ADJUDICATED",
+          "new_reading_admitted": false
+        },
+        {
+          "id": "S2005-A4-06",
+          "source_line": 4,
+          "entry_ordinal_within_line": 6,
+          "printed_pages": [
+            126
+          ],
+          "pdf_ordinals": [
+            32
+          ],
+          "review_note": "mruwasi group: partly recognizable curves and holes do not supply an unqualified modern string.",
+          "voice": "SCHUERR_EDITORIAL_ASSESSMENT_NOT_PROJECT_AUTOPSY",
+          "disposition": "REVIEWED_NOT_ADJUDICATED",
+          "new_reading_admitted": false
+        },
+        {
+          "id": "S2005-A4-07",
+          "source_line": 4,
+          "entry_ordinal_within_line": 7,
+          "printed_pages": [
+            126
+          ],
+          "pdf_ordinals": [
+            32
+          ],
+          "review_note": "sebe group: revised graphic layer differs from Kalinka’s emendation, retained as an editorial-layer distinction.",
+          "voice": "SCHUERR_EDITORIAL_ASSESSMENT_NOT_PROJECT_AUTOPSY",
+          "disposition": "REVIEWED_NOT_ADJUDICATED",
+          "new_reading_admitted": false
+        },
+        {
+          "id": "S2005-A4-08",
+          "source_line": 4,
+          "entry_ordinal_within_line": 8,
+          "printed_pages": [
+            126
+          ],
+          "pdf_ordinals": [
+            32
+          ],
+          "review_note": "Following separator: the editor treats the form as a displaced/corrected stanza divider rather than s.",
+          "voice": "SCHUERR_EDITORIAL_ASSESSMENT_NOT_PROJECT_AUTOPSY",
+          "disposition": "REVIEWED_NOT_ADJUDICATED",
+          "new_reading_admitted": false
+        },
+        {
+          "id": "S2005-A4-09",
+          "source_line": 4,
+          "entry_ordinal_within_line": 9,
+          "printed_pages": [
+            126
+          ],
+          "pdf_ordinals": [
+            32
+          ],
+          "review_note": "Later damaged group: only the end of a vertical is reported recognizable; restoration remains bounded.",
+          "voice": "SCHUERR_EDITORIAL_ASSESSMENT_NOT_PROJECT_AUTOPSY",
+          "disposition": "REVIEWED_NOT_ADJUDICATED",
+          "new_reading_admitted": false
+        },
+        {
+          "id": "S2005-A4-10",
+          "source_line": 4,
+          "entry_ordinal_within_line": 10,
+          "printed_pages": [
+            126
+          ],
+          "pdf_ordinals": [
+            32
+          ],
+          "review_note": "Line ending: damage may derive from u; final capacity allows one sign. Digital carryover belongs in boundary review.",
+          "voice": "SCHUERR_EDITORIAL_ASSESSMENT_NOT_PROJECT_AUTOPSY",
+          "disposition": "REVIEWED_NOT_ADJUDICATED",
+          "new_reading_admitted": false
+        }
+      ],
       "canonical_reading_admitted": false,
       "independent_review": false,
-      "boundary": "A row without a selected issue has not passed complete critical collation. Source labels, text strings, physical lines, emendations and reconstructions remain different layers."
+      "boundary": "All nine revised lines and74 apparatus entries have a completed first comparison pass. Complete sign-level equivalence and expert adjudication remain open. A digital row may contain following-line carryover; use reference_spans."
     },
     {
       "reference_row_id": "EDIANA-MILYAN-0-ROW-5",
@@ -339,9 +1077,242 @@
       "label_alignment_status": "SOURCE_LABEL_CORRESPONDENCE_ONLY",
       "full_row_text_equivalence_established": false,
       "issues": [],
+      "first_pass_line_review": {
+        "source_label": 5,
+        "transcription_printed_pages": [
+          122
+        ],
+        "apparatus_entry_ids": [
+          "S2005-A5-01",
+          "S2005-A5-02",
+          "S2005-A5-03",
+          "S2005-A5-04",
+          "S2005-A5-05",
+          "S2005-A5-06",
+          "S2005-A5-07",
+          "S2005-A5-08",
+          "S2005-A5-09",
+          "S2005-A5-10",
+          "S2005-A5-11",
+          "S2005-A5-12",
+          "S2005-A5-13"
+        ],
+        "comparison_summary": "Compared carryover and row: opening differs; modern graphic readings versus supplements/emendations remain distinct, including the sign in the gods-group. Internal delimiters are not normalized.",
+        "status": "FIRST_PASS_REVIEW_COMPLETE_UNADJUDICATED",
+        "full_row_equivalence_established": false
+      },
+      "reference_spans": [
+        {
+          "row_id": "EDIANA-MILYAN-0-ROW-5",
+          "start": 0,
+          "end": 192,
+          "source_label": 5,
+          "kind": "REFERENCE_TEXT",
+          "literal_sha256": "b13939e8886a3e95e2c05bfde7603ce8450dc60e952044d3f1afc79a61344ef9"
+        }
+      ],
+      "apparatus_review_entries": [
+        {
+          "id": "S2005-A5-01",
+          "source_line": 5,
+          "entry_ordinal_within_line": 1,
+          "printed_pages": [
+            126
+          ],
+          "pdf_ordinals": [
+            32
+          ],
+          "review_note": "Opening damaged group: l, not d, is judged secure in its second position; initial ld is possible.",
+          "voice": "SCHUERR_EDITORIAL_ASSESSMENT_NOT_PROJECT_AUTOPSY",
+          "disposition": "REVIEWED_NOT_ADJUDICATED",
+          "new_reading_admitted": false
+        },
+        {
+          "id": "S2005-A5-02",
+          "source_line": 5,
+          "entry_ordinal_within_line": 2,
+          "printed_pages": [
+            126
+          ],
+          "pdf_ordinals": [
+            32
+          ],
+          "review_note": "Following damaged qereimedi group: alternatives remain for an early sign; only selected strokes are secure.",
+          "voice": "SCHUERR_EDITORIAL_ASSESSMENT_NOT_PROJECT_AUTOPSY",
+          "disposition": "REVIEWED_NOT_ADJUDICATED",
+          "new_reading_admitted": false
+        },
+        {
+          "id": "S2005-A5-03",
+          "source_line": 5,
+          "entry_ordinal_within_line": 3,
+          "printed_pages": [
+            126
+          ],
+          "pdf_ordinals": [
+            32
+          ],
+          "review_note": "Before ijesi: the editor identifies d and describes Kalinka’s l as an emendation.",
+          "voice": "SCHUERR_EDITORIAL_ASSESSMENT_NOT_PROJECT_AUTOPSY",
+          "disposition": "REVIEWED_NOT_ADJUDICATED",
+          "new_reading_admitted": false
+        },
+        {
+          "id": "S2005-A5-04",
+          "source_line": 5,
+          "entry_ordinal_within_line": 4,
+          "printed_pages": [
+            126,
+            127
+          ],
+          "pdf_ordinals": [
+            32,
+            33
+          ],
+          "review_note": "ijesi punctuation, continued on127: space and connecting contours qualify punctuation before and after the word.",
+          "voice": "SCHUERR_EDITORIAL_ASSESSMENT_NOT_PROJECT_AUTOPSY",
+          "disposition": "REVIEWED_NOT_ADJUDICATED",
+          "new_reading_admitted": false
+        },
+        {
+          "id": "S2005-A5-05",
+          "source_line": 5,
+          "entry_ordinal_within_line": 5,
+          "printed_pages": [
+            127
+          ],
+          "pdf_ordinals": [
+            33
+          ],
+          "review_note": "ala group: an earlier proposed longer alternative is rejected; keep source attribution.",
+          "voice": "SCHUERR_EDITORIAL_ASSESSMENT_NOT_PROJECT_AUTOPSY",
+          "disposition": "REVIEWED_NOT_ADJUDICATED",
+          "new_reading_admitted": false
+        },
+        {
+          "id": "S2005-A5-06",
+          "source_line": 5,
+          "entry_ordinal_within_line": 6,
+          "printed_pages": [
+            127
+          ],
+          "pdf_ordinals": [
+            33
+          ],
+          "review_note": "Before xi: the small damage is insufficient for the supplied u; this affects supplement status.",
+          "voice": "SCHUERR_EDITORIAL_ASSESSMENT_NOT_PROJECT_AUTOPSY",
+          "disposition": "REVIEWED_NOT_ADJUDICATED",
+          "new_reading_admitted": false
+        },
+        {
+          "id": "S2005-A5-07",
+          "source_line": 5,
+          "entry_ordinal_within_line": 7,
+          "printed_pages": [
+            127
+          ],
+          "pdf_ordinals": [
+            33
+          ],
+          "review_note": "zinase group: z is preferred to r among recorded alternatives.",
+          "voice": "SCHUERR_EDITORIAL_ASSESSMENT_NOT_PROJECT_AUTOPSY",
+          "disposition": "REVIEWED_NOT_ADJUDICATED",
+          "new_reading_admitted": false
+        },
+        {
+          "id": "S2005-A5-08",
+          "source_line": 5,
+          "entry_ordinal_within_line": 8,
+          "printed_pages": [
+            127
+          ],
+          "pdf_ordinals": [
+            33
+          ],
+          "review_note": "trqqiz group: the doubled consonant is judged distinct; punctuation after the ending remains possible.",
+          "voice": "SCHUERR_EDITORIAL_ASSESSMENT_NOT_PROJECT_AUTOPSY",
+          "disposition": "REVIEWED_NOT_ADJUDICATED",
+          "new_reading_admitted": false
+        },
+        {
+          "id": "S2005-A5-09",
+          "source_line": 5,
+          "entry_ordinal_within_line": 9,
+          "printed_pages": [
+            127
+          ],
+          "pdf_ordinals": [
+            33
+          ],
+          "review_note": "sebuwedriz group: a deep fissure permits a supplement; genuine punctuation remains questioned and r possible.",
+          "voice": "SCHUERR_EDITORIAL_ASSESSMENT_NOT_PROJECT_AUTOPSY",
+          "disposition": "REVIEWED_NOT_ADJUDICATED",
+          "new_reading_admitted": false
+        },
+        {
+          "id": "S2005-A5-10",
+          "source_line": 5,
+          "entry_ordinal_within_line": 10,
+          "printed_pages": [
+            127
+          ],
+          "pdf_ordinals": [
+            33
+          ],
+          "review_note": "masawz group: the revised graphic letter differs from the vowel in the digital form; punctuation separately qualified.",
+          "voice": "SCHUERR_EDITORIAL_ASSESSMENT_NOT_PROJECT_AUTOPSY",
+          "disposition": "REVIEWED_NOT_ADJUDICATED",
+          "new_reading_admitted": false
+        },
+        {
+          "id": "S2005-A5-11",
+          "source_line": 5,
+          "entry_ordinal_within_line": 11,
+          "printed_pages": [
+            127
+          ],
+          "pdf_ordinals": [
+            33
+          ],
+          "review_note": "meibeipe group: overwritten/corrected initial sign may have had a different original shape.",
+          "voice": "SCHUERR_EDITORIAL_ASSESSMENT_NOT_PROJECT_AUTOPSY",
+          "disposition": "REVIEWED_NOT_ADJUDICATED",
+          "new_reading_admitted": false
+        },
+        {
+          "id": "S2005-A5-12",
+          "source_line": 5,
+          "entry_ordinal_within_line": 12,
+          "printed_pages": [
+            127
+          ],
+          "pdf_ordinals": [
+            33
+          ],
+          "review_note": "tuwi group: surface after the word is described as smooth/oxidized through the next consonant; do not infer a lost delimiter.",
+          "voice": "SCHUERR_EDITORIAL_ASSESSMENT_NOT_PROJECT_AUTOPSY",
+          "disposition": "REVIEWED_NOT_ADJUDICATED",
+          "new_reading_admitted": false
+        },
+        {
+          "id": "S2005-A5-13",
+          "source_line": 5,
+          "entry_ordinal_within_line": 13,
+          "printed_pages": [
+            127
+          ],
+          "pdf_ordinals": [
+            33
+          ],
+          "review_note": "prijama group: final a is assessed as secure, with room for further positions; no automatic text expansion.",
+          "voice": "SCHUERR_EDITORIAL_ASSESSMENT_NOT_PROJECT_AUTOPSY",
+          "disposition": "REVIEWED_NOT_ADJUDICATED",
+          "new_reading_admitted": false
+        }
+      ],
       "canonical_reading_admitted": false,
       "independent_review": false,
-      "boundary": "A row without a selected issue has not passed complete critical collation. Source labels, text strings, physical lines, emendations and reconstructions remain different layers."
+      "boundary": "All nine revised lines and74 apparatus entries have a completed first comparison pass. Complete sign-level equivalence and expert adjudication remain open. A digital row may contain following-line carryover; use reference_spans."
     },
     {
       "reference_row_id": "EDIANA-MILYAN-0-ROW-6",
@@ -379,9 +1350,192 @@
       "label_alignment_status": "SOURCE_LABEL_CORRESPONDENCE_ONLY",
       "full_row_text_equivalence_established": false,
       "issues": [],
+      "first_pass_line_review": {
+        "source_label": 6,
+        "transcription_printed_pages": [
+          122
+        ],
+        "apparatus_entry_ids": [
+          "S2005-A6-01",
+          "S2005-A6-02",
+          "S2005-A6-03",
+          "S2005-A6-04",
+          "S2005-A6-05",
+          "S2005-A6-06",
+          "S2005-A6-07",
+          "S2005-A6-08",
+          "S2005-A6-09",
+          "S2005-A6-10"
+        ],
+        "comparison_summary": "Compared all groups: damaged consonants, k/convention, extra initial material in the digital verb, word endings, reconstructed versus preserved vowels and final divider need explicit attribution.",
+        "status": "FIRST_PASS_REVIEW_COMPLETE_UNADJUDICATED",
+        "full_row_equivalence_established": false
+      },
+      "reference_spans": [
+        {
+          "row_id": "EDIANA-MILYAN-0-ROW-6",
+          "start": 0,
+          "end": 169,
+          "source_label": 6,
+          "kind": "REFERENCE_TEXT",
+          "literal_sha256": "d0c00e217f38f17ee5b3baec8ce57ea58bd5f8e56ed1515ef48f191bc2748b13"
+        }
+      ],
+      "apparatus_review_entries": [
+        {
+          "id": "S2005-A6-01",
+          "source_line": 6,
+          "entry_ordinal_within_line": 1,
+          "printed_pages": [
+            127
+          ],
+          "pdf_ordinals": [
+            33
+          ],
+          "review_note": "pasnte group: all signs reported recognizable, with the s least distinct.",
+          "voice": "SCHUERR_EDITORIAL_ASSESSMENT_NOT_PROJECT_AUTOPSY",
+          "disposition": "REVIEWED_NOT_ADJUDICATED",
+          "new_reading_admitted": false
+        },
+        {
+          "id": "S2005-A6-02",
+          "source_line": 6,
+          "entry_ordinal_within_line": 2,
+          "printed_pages": [
+            127
+          ],
+          "pdf_ordinals": [
+            33
+          ],
+          "review_note": "Following damaged group: an angle allows an alternative letter, then a surviving curve and clear vowel.",
+          "voice": "SCHUERR_EDITORIAL_ASSESSMENT_NOT_PROJECT_AUTOPSY",
+          "disposition": "REVIEWED_NOT_ADJUDICATED",
+          "new_reading_admitted": false
+        },
+        {
+          "id": "S2005-A6-03",
+          "source_line": 6,
+          "entry_ordinal_within_line": 3,
+          "printed_pages": [
+            127
+          ],
+          "pdf_ordinals": [
+            33
+          ],
+          "review_note": "seberbbi group: only the curve survives at the disputed consonant; preserve competing possibilities.",
+          "voice": "SCHUERR_EDITORIAL_ASSESSMENT_NOT_PROJECT_AUTOPSY",
+          "disposition": "REVIEWED_NOT_ADJUDICATED",
+          "new_reading_admitted": false
+        },
+        {
+          "id": "S2005-A6-04",
+          "source_line": 6,
+          "entry_ordinal_within_line": 4,
+          "printed_pages": [
+            127
+          ],
+          "pdf_ordinals": [
+            33
+          ],
+          "review_note": "Following group: k identified from the shape and holes; nasal/consonant conventions need source-specific handling.",
+          "voice": "SCHUERR_EDITORIAL_ASSESSMENT_NOT_PROJECT_AUTOPSY",
+          "disposition": "REVIEWED_NOT_ADJUDICATED",
+          "new_reading_admitted": false
+        },
+        {
+          "id": "S2005-A6-05",
+          "source_line": 6,
+          "entry_ordinal_within_line": 5,
+          "printed_pages": [
+            127
+          ],
+          "pdf_ordinals": [
+            33
+          ],
+          "review_note": "lbbeweli group: absence of a lower cross-stroke favors w in the editor’s assessment.",
+          "voice": "SCHUERR_EDITORIAL_ASSESSMENT_NOT_PROJECT_AUTOPSY",
+          "disposition": "REVIEWED_NOT_ADJUDICATED",
+          "new_reading_admitted": false
+        },
+        {
+          "id": "S2005-A6-06",
+          "source_line": 6,
+          "entry_ordinal_within_line": 6,
+          "printed_pages": [
+            128
+          ],
+          "pdf_ordinals": [
+            34
+          ],
+          "review_note": "kapsaqe group: apparent punctuation before the final vowel is judged unlikely to be genuine.",
+          "voice": "SCHUERR_EDITORIAL_ASSESSMENT_NOT_PROJECT_AUTOPSY",
+          "disposition": "REVIEWED_NOT_ADJUDICATED",
+          "new_reading_admitted": false
+        },
+        {
+          "id": "S2005-A6-07",
+          "source_line": 6,
+          "entry_ordinal_within_line": 7,
+          "printed_pages": [
+            128
+          ],
+          "pdf_ordinals": [
+            34
+          ],
+          "review_note": "muwaxa group: consonant assessed as secure but following vowel not preserved; restoration status differs from certainty.",
+          "voice": "SCHUERR_EDITORIAL_ASSESSMENT_NOT_PROJECT_AUTOPSY",
+          "disposition": "REVIEWED_NOT_ADJUDICATED",
+          "new_reading_admitted": false
+        },
+        {
+          "id": "S2005-A6-08",
+          "source_line": 6,
+          "entry_ordinal_within_line": 8,
+          "printed_pages": [
+            128
+          ],
+          "pdf_ordinals": [
+            34
+          ],
+          "review_note": "tuwemedi group: surviving cross-strokes and probable following points are separately qualified.",
+          "voice": "SCHUERR_EDITORIAL_ASSESSMENT_NOT_PROJECT_AUTOPSY",
+          "disposition": "REVIEWED_NOT_ADJUDICATED",
+          "new_reading_admitted": false
+        },
+        {
+          "id": "S2005-A6-09",
+          "source_line": 6,
+          "entry_ordinal_within_line": 9,
+          "printed_pages": [
+            128
+          ],
+          "pdf_ordinals": [
+            34
+          ],
+          "review_note": "xaba group: following punctuation remains merely possible.",
+          "voice": "SCHUERR_EDITORIAL_ASSESSMENT_NOT_PROJECT_AUTOPSY",
+          "disposition": "REVIEWED_NOT_ADJUDICATED",
+          "new_reading_admitted": false
+        },
+        {
+          "id": "S2005-A6-10",
+          "source_line": 6,
+          "entry_ordinal_within_line": 10,
+          "printed_pages": [
+            128
+          ],
+          "pdf_ordinals": [
+            34
+          ],
+          "review_note": "Line ending: reported room for a possible lost letter is interpreted by the editor as space for a stanza divider.",
+          "voice": "SCHUERR_EDITORIAL_ASSESSMENT_NOT_PROJECT_AUTOPSY",
+          "disposition": "REVIEWED_NOT_ADJUDICATED",
+          "new_reading_admitted": false
+        }
+      ],
       "canonical_reading_admitted": false,
       "independent_review": false,
-      "boundary": "A row without a selected issue has not passed complete critical collation. Source labels, text strings, physical lines, emendations and reconstructions remain different layers."
+      "boundary": "All nine revised lines and74 apparatus entries have a completed first comparison pass. Complete sign-level equivalence and expert adjudication remain open. A digital row may contain following-line carryover; use reference_spans."
     },
     {
       "reference_row_id": "EDIANA-MILYAN-0-ROW-7",
@@ -450,9 +1604,128 @@
           "full_row_equivalence_established": false
         }
       ],
+      "first_pass_line_review": {
+        "source_label": 7,
+        "transcription_printed_pages": [
+          122
+        ],
+        "apparatus_entry_ids": [
+          "S2005-A7-01",
+          "S2005-A7-02",
+          "S2005-A7-03",
+          "S2005-A7-04",
+          "S2005-A7-05"
+        ],
+        "comparison_summary": "Compared opening through damaged ending: t/z intervention, lexical division in luwad sequence, junction alternatives, punctuation and following-line ti allocation remain unresolved.",
+        "status": "FIRST_PASS_REVIEW_COMPLETE_UNADJUDICATED",
+        "full_row_equivalence_established": false
+      },
+      "reference_spans": [
+        {
+          "row_id": "EDIANA-MILYAN-0-ROW-7",
+          "start": 0,
+          "end": 170,
+          "source_label": 7,
+          "kind": "REFERENCE_TEXT",
+          "literal_sha256": "28a99904d8d131aea42e9683ccff18b5df14da4da0aee4ae1cf226dd13f23a23"
+        },
+        {
+          "row_id": "EDIANA-MILYAN-0-ROW-7",
+          "start": 170,
+          "end": 172,
+          "source_label": null,
+          "kind": "LITERAL_DIGITAL_BREAK_MARKER",
+          "literal_sha256": "a2c2339691fc48fbd14fb307292dff3e21222712d9240810742d7df0c6d74dfb"
+        },
+        {
+          "row_id": "EDIANA-MILYAN-0-ROW-7",
+          "start": 172,
+          "end": 176,
+          "source_label": 8,
+          "kind": "REFERENCE_CARRYOVER_TEXT",
+          "literal_sha256": "bcf8b0f2d6b7bfe643261b621703a40793727c1789256cc68c551a4c13204a8d"
+        }
+      ],
+      "apparatus_review_entries": [
+        {
+          "id": "S2005-A7-01",
+          "source_line": 7,
+          "entry_ordinal_within_line": 1,
+          "printed_pages": [
+            128
+          ],
+          "pdf_ordinals": [
+            34
+          ],
+          "review_note": "Opening mlu/xrau sequence: round depression and possible points are separated from the secure final vowel.",
+          "voice": "SCHUERR_EDITORIAL_ASSESSMENT_NOT_PROJECT_AUTOPSY",
+          "disposition": "REVIEWED_NOT_ADJUDICATED",
+          "new_reading_admitted": false
+        },
+        {
+          "id": "S2005-A7-02",
+          "source_line": 7,
+          "entry_ordinal_within_line": 2,
+          "printed_pages": [
+            128
+          ],
+          "pdf_ordinals": [
+            34
+          ],
+          "review_note": "plluwi group: vowel is judged distinct; spacing suggests word division although physical punctuation is not secured.",
+          "voice": "SCHUERR_EDITORIAL_ASSESSMENT_NOT_PROJECT_AUTOPSY",
+          "disposition": "REVIEWED_NOT_ADJUDICATED",
+          "new_reading_admitted": false
+        },
+        {
+          "id": "S2005-A7-03",
+          "source_line": 7,
+          "entry_ordinal_within_line": 3,
+          "printed_pages": [
+            128
+          ],
+          "pdf_ordinals": [
+            34
+          ],
+          "review_note": "tuta group: Kalinka’s first consonant is considered an emendation; revised graphic reading differs.",
+          "voice": "SCHUERR_EDITORIAL_ASSESSMENT_NOT_PROJECT_AUTOPSY",
+          "disposition": "REVIEWED_NOT_ADJUDICATED",
+          "new_reading_admitted": false
+        },
+        {
+          "id": "S2005-A7-04",
+          "source_line": 7,
+          "entry_ordinal_within_line": 4,
+          "printed_pages": [
+            128
+          ],
+          "pdf_ordinals": [
+            34
+          ],
+          "review_note": "ubrenni/abrala junction: earlier witnesses and surviving horizontal/point evidence disagree; do not silently harmonize.",
+          "voice": "SCHUERR_EDITORIAL_ASSESSMENT_NOT_PROJECT_AUTOPSY",
+          "disposition": "REVIEWED_NOT_ADJUDICATED",
+          "new_reading_admitted": false
+        },
+        {
+          "id": "S2005-A7-05",
+          "source_line": 7,
+          "entry_ordinal_within_line": 5,
+          "printed_pages": [
+            128
+          ],
+          "pdf_ordinals": [
+            34
+          ],
+          "review_note": "Line end: possible lost-sign room and writing to the margin remain hypotheses; following ti is allocated to source line8.",
+          "voice": "SCHUERR_EDITORIAL_ASSESSMENT_NOT_PROJECT_AUTOPSY",
+          "disposition": "REVIEWED_NOT_ADJUDICATED",
+          "new_reading_admitted": false
+        }
+      ],
       "canonical_reading_admitted": false,
       "independent_review": false,
-      "boundary": "A row without a selected issue has not passed complete critical collation. Source labels, text strings, physical lines, emendations and reconstructions remain different layers."
+      "boundary": "All nine revised lines and74 apparatus entries have a completed first comparison pass. Complete sign-level equivalence and expert adjudication remain open. A digital row may contain following-line carryover; use reference_spans."
     },
     {
       "reference_row_id": "EDIANA-MILYAN-0-ROW-8",
@@ -522,9 +1795,144 @@
           "full_row_equivalence_established": false
         }
       ],
+      "first_pass_line_review": {
+        "source_label": 8,
+        "transcription_printed_pages": [
+          122
+        ],
+        "apparatus_entry_ids": [
+          "S2005-A8-01",
+          "S2005-A8-02",
+          "S2005-A8-03",
+          "S2005-A8-04",
+          "S2005-A8-05",
+          "S2005-A8-06"
+        ],
+        "comparison_summary": "Compared ti carryover and digital row up to //: damaged signs, consonant readings, internal punctuation, and final editorial insertion differ; following i belongs to source label9.",
+        "status": "FIRST_PASS_REVIEW_COMPLETE_UNADJUDICATED",
+        "full_row_equivalence_established": false
+      },
+      "reference_spans": [
+        {
+          "row_id": "EDIANA-MILYAN-0-ROW-8",
+          "start": 0,
+          "end": 136,
+          "source_label": 8,
+          "kind": "REFERENCE_TEXT",
+          "literal_sha256": "6c222ba401df6ed0d365e7d04a10852f4b777310c1bdf81344960d4bbe06649a"
+        },
+        {
+          "row_id": "EDIANA-MILYAN-0-ROW-8",
+          "start": 136,
+          "end": 138,
+          "source_label": null,
+          "kind": "LITERAL_DIGITAL_BREAK_MARKER",
+          "literal_sha256": "a2c2339691fc48fbd14fb307292dff3e21222712d9240810742d7df0c6d74dfb"
+        },
+        {
+          "row_id": "EDIANA-MILYAN-0-ROW-8",
+          "start": 138,
+          "end": 141,
+          "source_label": 9,
+          "kind": "REFERENCE_CARRYOVER_TEXT",
+          "literal_sha256": "4d4051e6a6ddfe00b6fceb36dfb33bff47fe1790325bf05fb24faf5f3f25b5aa"
+        }
+      ],
+      "apparatus_review_entries": [
+        {
+          "id": "S2005-A8-01",
+          "source_line": 8,
+          "entry_ordinal_within_line": 1,
+          "printed_pages": [
+            128
+          ],
+          "pdf_ordinals": [
+            34
+          ],
+          "review_note": "zmpra group: damaged r favored and a judged clear; the damaged sign remains qualified.",
+          "voice": "SCHUERR_EDITORIAL_ASSESSMENT_NOT_PROJECT_AUTOPSY",
+          "disposition": "REVIEWED_NOT_ADJUDICATED",
+          "new_reading_admitted": false
+        },
+        {
+          "id": "S2005-A8-02",
+          "source_line": 8,
+          "entry_ordinal_within_line": 2,
+          "printed_pages": [
+            128
+          ],
+          "pdf_ordinals": [
+            34
+          ],
+          "review_note": "qelei group: damage traces are attributed by the editor to punctuation.",
+          "voice": "SCHUERR_EDITORIAL_ASSESSMENT_NOT_PROJECT_AUTOPSY",
+          "disposition": "REVIEWED_NOT_ADJUDICATED",
+          "new_reading_admitted": false
+        },
+        {
+          "id": "S2005-A8-03",
+          "source_line": 8,
+          "entry_ordinal_within_line": 3,
+          "printed_pages": [
+            129
+          ],
+          "pdf_ordinals": [
+            35
+          ],
+          "review_note": "aala group: broken interior excludes one alternative and makes another unlikely; preserve the doubtful sign in comparison.",
+          "voice": "SCHUERR_EDITORIAL_ASSESSMENT_NOT_PROJECT_AUTOPSY",
+          "disposition": "REVIEWED_NOT_ADJUDICATED",
+          "new_reading_admitted": false
+        },
+        {
+          "id": "S2005-A8-04",
+          "source_line": 8,
+          "entry_ordinal_within_line": 4,
+          "printed_pages": [
+            129
+          ],
+          "pdf_ordinals": [
+            35
+          ],
+          "review_note": "ssepse group: apparent internal punctuation is judged unlikely to be genuine.",
+          "voice": "SCHUERR_EDITORIAL_ASSESSMENT_NOT_PROJECT_AUTOPSY",
+          "disposition": "REVIEWED_NOT_ADJUDICATED",
+          "new_reading_admitted": false
+        },
+        {
+          "id": "S2005-A8-05",
+          "source_line": 8,
+          "entry_ordinal_within_line": 5,
+          "printed_pages": [
+            129
+          ],
+          "pdf_ordinals": [
+            35
+          ],
+          "review_note": "trqqntasati group: t is preferred; a crossing fissure may mimic a horizontal stroke.",
+          "voice": "SCHUERR_EDITORIAL_ASSESSMENT_NOT_PROJECT_AUTOPSY",
+          "disposition": "REVIEWED_NOT_ADJUDICATED",
+          "new_reading_admitted": false
+        },
+        {
+          "id": "S2005-A8-06",
+          "source_line": 8,
+          "entry_ordinal_within_line": 6,
+          "printed_pages": [
+            129
+          ],
+          "pdf_ordinals": [
+            35
+          ],
+          "review_note": "kdi/a group: i and a lower square point are described separately; source punctuation and digital spacing need distinct handling.",
+          "voice": "SCHUERR_EDITORIAL_ASSESSMENT_NOT_PROJECT_AUTOPSY",
+          "disposition": "REVIEWED_NOT_ADJUDICATED",
+          "new_reading_admitted": false
+        }
+      ],
       "canonical_reading_admitted": false,
       "independent_review": false,
-      "boundary": "A row without a selected issue has not passed complete critical collation. Source labels, text strings, physical lines, emendations and reconstructions remain different layers."
+      "boundary": "All nine revised lines and74 apparatus entries have a completed first comparison pass. Complete sign-level equivalence and expert adjudication remain open. A digital row may contain following-line carryover; use reference_spans."
     },
     {
       "reference_row_id": "EDIANA-MILYAN-0-ROW-9",
@@ -561,9 +1969,64 @@
       "label_alignment_status": "SOURCE_LABEL_CORRESPONDENCE_ONLY",
       "full_row_text_equivalence_established": false,
       "issues": [],
+      "first_pass_line_review": {
+        "source_label": 9,
+        "transcription_printed_pages": [
+          122
+        ],
+        "apparatus_entry_ids": [
+          "S2005-A9-01",
+          "S2005-A9-02"
+        ],
+        "comparison_summary": "Compared i carryover and final digital row: early vowel and punctuation, severely damaged letters, possible n and final stanza division remain unadjudicated.",
+        "status": "FIRST_PASS_REVIEW_COMPLETE_UNADJUDICATED",
+        "full_row_equivalence_established": false
+      },
+      "reference_spans": [
+        {
+          "row_id": "EDIANA-MILYAN-0-ROW-9",
+          "start": 0,
+          "end": 22,
+          "source_label": 9,
+          "kind": "REFERENCE_TEXT",
+          "literal_sha256": "4436b0b15d4908dcb5091d723f99ea40b25464ee7267e56ef80033d7f595303f"
+        }
+      ],
+      "apparatus_review_entries": [
+        {
+          "id": "S2005-A9-01",
+          "source_line": 9,
+          "entry_ordinal_within_line": 1,
+          "printed_pages": [
+            129
+          ],
+          "pdf_ordinals": [
+            35
+          ],
+          "review_note": "Beginning, continued from digital row8 suffix: clear early vowel, probable punctuation and a severely damaged following sign; n is only possible.",
+          "voice": "SCHUERR_EDITORIAL_ASSESSMENT_NOT_PROJECT_AUTOPSY",
+          "disposition": "REVIEWED_NOT_ADJUDICATED",
+          "new_reading_admitted": false
+        },
+        {
+          "id": "S2005-A9-02",
+          "source_line": 9,
+          "entry_ordinal_within_line": 2,
+          "printed_pages": [
+            129
+          ],
+          "pdf_ordinals": [
+            35
+          ],
+          "review_note": "Final damaged group: surviving vertical favors i and the stanza divider is judged clear; no restoration of the lost whole follows.",
+          "voice": "SCHUERR_EDITORIAL_ASSESSMENT_NOT_PROJECT_AUTOPSY",
+          "disposition": "REVIEWED_NOT_ADJUDICATED",
+          "new_reading_admitted": false
+        }
+      ],
       "canonical_reading_admitted": false,
       "independent_review": false,
-      "boundary": "A row without a selected issue has not passed complete critical collation. Source labels, text strings, physical lines, emendations and reconstructions remain different layers."
+      "boundary": "All nine revised lines and74 apparatus entries have a completed first comparison pass. Complete sign-level equivalence and expert adjudication remain open. A digital row may contain following-line carryover; use reference_spans."
     }
   ]
 }

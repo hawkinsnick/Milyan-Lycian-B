@@ -6,7 +6,7 @@ class CollationBoundary(unittest.TestCase):
  def reject(self,path,mutate):
   with tempfile.TemporaryDirectory() as d:
    root=Path(d)
-   for p in [REGISTER,OUTPUT,'data/reference/lines.json','data/reference/ediana-milyan-source.json']:
+   for p in [REGISTER,OUTPUT,'data/reference/lines.json','data/reference/ediana-milyan-source.json','research/tl55-first-pass-review.json','review/tl55-independent-review.json']:
     q=root/p;q.parent.mkdir(parents=True,exist_ok=True);q.write_bytes((ROOT/p).read_bytes())
    q=root/path;x=json.loads(q.read_text());mutate(x);q.write_text(json.dumps(x))
    with self.assertRaises(ValueError):validate(root)
@@ -29,6 +29,7 @@ class CollationBoundary(unittest.TestCase):
   csvrows=list(csv.DictReader(io.StringIO(api('collation','--format','csv'))))
   for r,c in zip(rows,csvrows):
    self.assertEqual(r['source_reference_row'],json.loads(c['source_reference_row']));self.assertEqual(r['issues'],json.loads(c['issues']))
+   for key in ['first_pass_line_review','reference_spans','apparatus_review_entries']:self.assertEqual(r[key],json.loads(c[key]))
   self.assertEqual(json.loads(api('lines')),[])
   self.assertEqual(json.loads(api('coverage'))['verified_lines'],0)
   self.assertEqual(len(json.loads(api('lines','--layer','reference'))),114)
