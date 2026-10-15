@@ -42,20 +42,20 @@
     {
       "path": "README.md",
       "role": "native_authority",
-      "sha256": "3c8bd70f03b4a975bf94fc57a78e0f1e419c0f28498bae924900364247421d03",
-      "bytes": 6384
+      "sha256": "d7418a4c16a196edd99f49a62500cef06c03a6ab7d1adcbaf2b5b197b95fbce9",
+      "bytes": 7387
     },
     {
       "path": "ai-skill/SKILL.md",
       "role": "native_authority",
-      "sha256": "eb56634cb7251817a533866091568a512dab1e5a33232fbaf67ca868dbb98529",
-      "bytes": 6724
+      "sha256": "1a76b3eecf9ffc25ab9bac43dad9432ac9bd20e25c0719d8add4640e11c8fbe6",
+      "bytes": 7587
     },
     {
       "path": "ai-skill/references/authority-profile.json",
       "role": "native_authority",
-      "sha256": "faeda09203ff90de29b144eccf9f0f87f9aabd2b4c037721ca91689d8ac48217",
-      "bytes": 2448
+      "sha256": "559eda9d6f428963392dbe989a3668f802fa3c1bc9f0c65fa469e930525c4c21",
+      "bytes": 2973
     },
     {
       "path": "ai-skill/scripts/build_bundle.py",
@@ -142,6 +142,12 @@
       "bytes": 1063
     },
     {
+      "path": "docs/SCHUERR2005-TL55-COLLATION.md",
+      "role": "native_authority",
+      "sha256": "1cb60604996bee83be90106272bf5adef35140508ab5cd965ff524d4cddb3f75",
+      "bytes": 3509
+    },
+    {
       "path": "docs/TL55-COUNT-RECONCILIATION.md",
       "role": "native_authority",
       "sha256": "e4657729c66486c27e71b23c93cc58da837534d88f3944aa6cb98af1d6c7a979",
@@ -162,8 +168,8 @@
     {
       "path": "research/collection-work-ledger.json",
       "role": "native_authority",
-      "sha256": "e170553806b88bf3b811eb5a4ff2917c096c0b1311dffa78823e09251c247499",
-      "bytes": 130521
+      "sha256": "0c73c007ada3b2f4df80dcb6b11a5f2eb774429d3beea19b07b7fe9c7e4d1afa",
+      "bytes": 142541
     },
     {
       "path": "research/cross-corpus-dependencies.json",
@@ -180,8 +186,8 @@
     {
       "path": "research/edition-priority.json",
       "role": "native_authority",
-      "sha256": "72d9771a680fe0eba8ae86ca621e60fc67b66b8fbf89c1aa6ae6c07b9d4996ae",
-      "bytes": 1967
+      "sha256": "fdeb9034aade4f20783a11b3302a57d8aa9a7c396f78f6cf8bfa2fa4b357951f",
+      "bytes": 2138
     },
     {
       "path": "research/primary-edition-locator-control.json",
@@ -196,10 +202,16 @@
       "bytes": 2187
     },
     {
+      "path": "research/schuerr2005-tl55-collation.json",
+      "role": "native_authority",
+      "sha256": "e4e7e7c81fe3efff1168af784c80e391b6af9b35dc94d1add74c7d5cd65d710a",
+      "bytes": 11230
+    },
+    {
       "path": "research/source-reconciliation.json",
       "role": "native_authority",
-      "sha256": "d2516c9974f022020e740301169f66244a7d48ee3d1d6a570b8643f0d228a734",
-      "bytes": 2370
+      "sha256": "d04c8c3104b37c4f48017dbaf2e120e26aad8484c20ecc66530b78eea92bb1e3",
+      "bytes": 2699
     },
     {
       "path": "research/tl55-count-reconciliation-2026-10-14.json",
@@ -208,16 +220,22 @@
       "bytes": 2539
     },
     {
+      "path": "research/tl55-qualified-collation.json",
+      "role": "native_authority",
+      "sha256": "e0cedfb88eaa28e7f506357c4255ae4c745d05a10ae3305d6092b29db513dbaf",
+      "bytes": 25376
+    },
+    {
       "path": "review/collection-packet.json",
       "role": "native_authority",
-      "sha256": "ed499a1d3a03fd9bad03938b08e8de80447acdeddcca46e0be66291d6b0631a3",
+      "sha256": "090e257d34de250efc204e8ef0752a2a8543431d8ce475e9ff650488aa761a10",
       "bytes": 1824
     },
     {
       "path": "scripts/build_current_summary.py",
       "role": "native_authority",
-      "sha256": "61123da07a5e4dd1d58ddfc1617ddda82b9e8747fee8a6d2ba31fe0fb0fa9afc",
-      "bytes": 4109
+      "sha256": "9c265595eb0de5309762a9dbe8f0e3e342ca66413fd7f7b13180aa2f5167b97f",
+      "bytes": 4249
     },
     {
       "path": "scripts/build_reference.py",
@@ -228,8 +246,14 @@
     {
       "path": "scripts/research_api.py",
       "role": "native_authority",
-      "sha256": "0c4fc39f2aa63e898550e6b9dea58b40c719d3374c71fc2a005e18bcb91e05c7",
-      "bytes": 3722
+      "sha256": "10093a94f899711e5d484cb9156db50056ede952f38cd9233112b0e41b73be04",
+      "bytes": 4002
+    },
+    {
+      "path": "scripts/tl55_collation.py",
+      "role": "native_authority",
+      "sha256": "8e822d1af13e477658f25439e12c08c62293a815488d078c46d1209b28fcb17b",
+      "bytes": 3714
     },
     {
       "path": "scripts/validate_tl55_reconciliation.py",
@@ -244,5 +268,5 @@
       "bytes": 3546
     }
   ],
-  "source_commit": "17500b1067dee265eba1cc88feb9be7a6b3473d5"
+  "source_commit": "2655783b548876ad97106d01f26dc7808674a44c"
 }
