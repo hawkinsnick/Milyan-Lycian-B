@@ -39,18 +39,18 @@
     },
     {
       "path": "README.md",
-      "sha256": "7818318de76830f066188b4573271b7338b7fb2d027868d1f43b1e9d2b7f006f",
-      "bytes": 7829
+      "sha256": "7605eccf4bddcfd33fd307edacfcbc975cce2b78df7e8c436363b2da4664b099",
+      "bytes": 8298
     },
     {
       "path": "ai-skill/SKILL.md",
-      "sha256": "d92b757cdd7253d8470955fa88ecdb93d83db5db7681b20702e436381b539200",
-      "bytes": 9038
+      "sha256": "a18576d3004ff66c93b3bcf4dd27098a524b7d43a9c18bc75ba96bace70a64ed",
+      "bytes": 10184
     },
     {
       "path": "ai-skill/generated/research-bundle-index.json",
-      "sha256": "45a20c033c45adee87fb15887b0c35356cc0dafd8b5ca1d93bb9fc7a32c2fa8b",
-      "bytes": 9720
+      "sha256": "98babea512ca04258673fe8d29981623d82210ac51ce750f257e305de84b63ae",
+      "bytes": 10735
     },
     {
       "path": "ai-skill/manifest.json",
@@ -74,8 +74,8 @@
     },
     {
       "path": "ai-skill/scripts/build_bundle.py",
-      "sha256": "506258212d294ab6fda8a941abda01c3bf4e5a2fe8fb975ab49e42aee1b90320",
-      "bytes": 2222
+      "sha256": "1ed7773acf706f40b51fcb7133b90f42cfe82aff645a512eea8ae7f6091734c7",
+      "bytes": 2418
     },
     {
       "path": "ai-skill/scripts/fleet_contract.py",
@@ -91,6 +91,11 @@
       "path": "ai-skill/scripts/validate_bundle.py",
       "sha256": "1337e8dcafce7d53a8391339552b910ba0fe9bccc2001f2e5afc96237c437a77",
       "bytes": 1150
+    },
+    {
+      "path": "analysis/evidence-query-coverage.json",
+      "sha256": "5b7c549d4aa5e1a02702798338214536c8a35003b8de7481314cf5ee96cc5205",
+      "bytes": 8743
     },
     {
       "path": "analysis/upstream-epidoc-validation.json",
@@ -136,6 +141,11 @@
       "path": "docs/EDIANA-REFERENCE.md",
       "sha256": "9682947ceefedd072e62c2d9ec256af8b7f4f847ec024edf4dca486eebfd1034",
       "bytes": 4982
+    },
+    {
+      "path": "docs/EVIDENCE-AND-ALTERNATIVES.md",
+      "sha256": "b6ea22587361d749bbe56851859241d081f130971c2a4ce7b2a25932608700a6",
+      "bytes": 4833
     },
     {
       "path": "docs/METHODOLOGY.md",
@@ -186,6 +196,11 @@
       "path": "research/edition-priority.json",
       "sha256": "e10950fc1e5f5759dd7825f970ccf43bfda20b160f9e61d9c7644e4bd2995ac8",
       "bytes": 2432
+    },
+    {
+      "path": "research/evidence-query-profile.json",
+      "sha256": "c4f25b172957935b158c4bb7b5cf62d2e08a6e9f6aa1b12c76a5591bb22b15fd",
+      "bytes": 5615
     },
     {
       "path": "research/primary-edition-locator-control.json",
@@ -243,9 +258,19 @@
       "bytes": 7586
     },
     {
+      "path": "scripts/evidence_query.py",
+      "sha256": "70aa6686802122667b369811fa569c45c407847ed8965b917f58130c5a685550",
+      "bytes": 11289
+    },
+    {
       "path": "scripts/research_api.py",
       "sha256": "10093a94f899711e5d484cb9156db50056ede952f38cd9233112b0e41b73be04",
       "bytes": 4002
+    },
+    {
+      "path": "scripts/test_native_evidence_query.py",
+      "sha256": "ddd2af2ce39904014c8a58122278e524e7ae9d504c47218e26f1ba581bb581f4",
+      "bytes": 6771
     },
     {
       "path": "scripts/tl55_collation.py",
