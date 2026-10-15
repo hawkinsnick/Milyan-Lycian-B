@@ -3,7 +3,7 @@
 <!-- CURRENT-STATUS:START -->
 ## Current evidence status
 
-Populated, frozen eDiAna reference layer; structural fleet admission is distinct from scholarly acceptance. 2 digital catalogue records provide 114 source text rows across 3 provisional segments on 2 reported monuments. Canonical verified readings: 0; independent reviews: 0. TL 55 count voices are accounted: a quoted historical eight-line description and nine printed edition entry groups. Exact reading/boundary collation and independent assessment remain open.
+Populated, frozen eDiAna reference layer; structural fleet admission is distinct from scholarly acceptance. 2 digital catalogue records provide 114 source text rows across 3 provisional segments on 2 reported monuments. Canonical verified readings: 0; independent reviews: 0. TL 55 count voices are accounted: a quoted historical eight-line description and nine printed edition entry groups. Schürr2005 is now acquired; nine revised source labels and six selected critical/boundary issues are exposed through a qualified collation view. Complete reading collation and independent assessment remain open.
 
 Authorities: [reference manifest](research/reference-manifest.json) and [remaining gates](research/pre-expert-maximum.json). Reference rows are not independently certified physical lines.
 <!-- CURRENT-STATUS:END -->
@@ -56,3 +56,7 @@ The EpiDoc reference export round-trips every derived line field and exact sourc
 [AI integrity controls](docs/AI-INTEGRITY.md) document source-bound bundle publication and checked cross-corpus dependency safeguards. Reading coverage and scholarly acceptance are unchanged.
 
 [TL 55 count reconciliation and remaining reading limits](docs/TL55-COUNT-RECONCILIATION.md).
+
+## Schürr2005 TL55 comparison
+
+Read `research/schuerr2005-tl55-collation.json`, `research/tl55-qualified-collation.json` and `docs/SCHUERR2005-TL55-COLLATION.md`. The author-posted PDF is acquired and hash-pinned. Revised labels1–9 and their apparatus pages are located; six selected source differences are qualified. Keep documentation, revised transcription/apparatus and poetic reconstruction distinct. Preserve doubtful forms, alternatives, emendations, literal reference strings and row-boundary allocation. `research_api.py collation` exposes the qualified view; a row without an issue is not fully collated. Source access does not license bulk republication, unattributed PDF overlays are excluded, and raw extracted glyphs are not authoritative. All114 reference rows remain unchanged; verified canonical readings and independent reviews remain zero.

@@ -38,7 +38,11 @@
     "research/tl55-count-reconciliation-2026-10-14.json",
     "docs/TL55-COUNT-RECONCILIATION.md",
     "scripts/validate_tl55_reconciliation.py",
-    "research/edition-priority.json"
+    "research/edition-priority.json",
+    "research/schuerr2005-tl55-collation.json",
+    "research/tl55-qualified-collation.json",
+    "docs/SCHUERR2005-TL55-COLLATION.md",
+    "scripts/tl55_collation.py"
   ],
   "native_review_links": [
     "docs/METHODOLOGY.md"

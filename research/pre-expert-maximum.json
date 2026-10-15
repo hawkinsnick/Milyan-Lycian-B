@@ -24,7 +24,9 @@
     "lossless EpiDoc reference export with pinned upstream RNG/Schematron and adversarial tests",
     "native/fleet bundle authority integrity",
     "Visual primary scan inspection; precise page/face locators and segmentation discrepancies",
-    "TL55 count voices separated: Texier quoted eight; Kalinka printed transliteration has nine entry groups matching the nine frozen reference rows. No physical-line certification."
+    "TL55 count voices separated: Texier quoted eight; Kalinka printed transliteration has nine entry groups matching the nine frozen reference rows. No physical-line certification.",
+    "Schürr2005 author-posted article acquired; lines1–9 and apparatus routes located; six source differences qualified without rewriting the frozen reference."
   ],
-  "tl55_count_checkpoint": "research/tl55-count-reconciliation-2026-10-14.json"
+  "tl55_count_checkpoint": "research/tl55-count-reconciliation-2026-10-14.json",
+  "schuerr2005_checkpoint": "research/schuerr2005-tl55-collation.json"
 }

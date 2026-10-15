@@ -84,6 +84,26 @@
     {
       "path": "research/edition-priority.json",
       "required": true
+    },
+    {
+      "path": "research/schuerr2005-tl55-collation.json",
+      "role": "bounded_primary_collation",
+      "required": true
+    },
+    {
+      "path": "research/tl55-qualified-collation.json",
+      "role": "bounded_primary_collation",
+      "required": true
+    },
+    {
+      "path": "docs/SCHUERR2005-TL55-COLLATION.md",
+      "role": "bounded_primary_collation",
+      "required": true
+    },
+    {
+      "path": "scripts/tl55_collation.py",
+      "role": "bounded_primary_collation",
+      "required": true
     }
   ]
 }

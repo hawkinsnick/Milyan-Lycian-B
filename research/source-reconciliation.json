@@ -6,14 +6,15 @@
       "id": "MIL-TL-055",
       "primary_edition_candidate": "Schürr 2005, Das Pixre-Poem in Antiphellos, Kadmos 44(1–2), DOI 10.1515/kadm.2005.014; bibliographic identity confirmed, article not collated",
       "digital_reference": "Frozen eDiAna reference; TITUS remains a separate bibliographic/digital comparison lead",
-      "edition_access": "not verified",
-      "diplomatic_reading": "not acquired",
-      "line_mapping": "Nine printed entry groups and nine frozen reference rows; selected boundary allocations differ; exact reading/physical-line equivalence not certified.",
-      "variant_apparatus": "not acquired",
-      "rights": "not cleared",
+      "edition_access": "AUTHOR_POSTED_PDF_ACQUIRED_AND_HASH_PINNED",
+      "diplomatic_reading": "REVISED_TRANSCRIPTION_INSPECTED_AT_SELECTED_LOCI; COMPLETE_REPUBLICATION_NOT_AUTHORIZED",
+      "line_mapping": "Source labels1–9 located; six critical/boundary issues recorded; full exact-reading and physical-line equivalence not certified.",
+      "variant_apparatus": "Apparatus123–129 visually inspected for structure and selected issues; no complete apparatus import.",
+      "rights": "Author-posted research access; no bulk transcription/image redistribution licence established.",
       "gate": "BLOCKED",
       "count_reconciliation": "research/tl55-count-reconciliation-2026-10-14.json",
-      "bibliographic_control": "research/edition-priority.json"
+      "bibliographic_control": "research/edition-priority.json",
+      "bounded_collation": "research/schuerr2005-tl55-collation.json"
     },
     {
       "id": "MIL-TL-044-C",

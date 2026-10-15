@@ -17,7 +17,7 @@
       "record": "MIL-TL-055",
       "preferred_edition": "Schürr, Diether (2005), Das Pixre-Poem in Antiphellos, Kadmos 44(1–2), DOI 10.1515/kadm.2005.014",
       "secondary": "Melchert/TITUS Lycian Corpus",
-      "task": "Acquire lawful article body and critical apparatus; exact text/boundary collation and component rights remain open.",
+      "task": "Extend exact critical-reading collation beyond the six selected issues; broader edition reuse rights and independent review remain open.",
       "bibliographic_identity": {
         "title": "Das Pixre-Poem in Antiphellos",
         "author": "Diether Schürr",
@@ -30,11 +30,17 @@
         "source_url": "https://api.crossref.org/works/10.1515/KADM.2005.014",
         "source_sha256": "64eeb95348c3954414a4d0b2008875485ea5a5285b37cae552526d8de7860d46",
         "page_range_in_crossref": null,
-        "article_body_collated": false
+        "article_body_collated": false,
+        "page_range_confirmed_from_pdf": [
+          95,
+          164
+        ],
+        "article_body_acquired": true,
+        "bounded_collation": "research/schuerr2005-tl55-collation.json"
       }
     }
   ],
   "discovery_source": "Elena Martínez Rodríguez dissertation, index of Lycian inscriptions, section 5.2",
   "source_url": "https://diposit.ub.edu/dspace/bitstream/2445/182952/4/EMR_PhD_THESIS.pdf",
-  "caveat": "TL55 title/author/journal/volume/issue/DOI confirmed in publisher-deposited Crossref metadata; article body not collated and missing metadata fields not supplied by inference. Other edition leads retain their discovery status."
+  "caveat": "TL55 article acquired and selected source layers/loci visually collated; full critical reading and reuse permissions remain open. Other edition targets retain their discovery status."
 }
