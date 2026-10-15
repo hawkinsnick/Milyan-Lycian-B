@@ -57,6 +57,10 @@ The EpiDoc reference export round-trips every derived line field and exact sourc
 
 [TL 55 count reconciliation and remaining reading limits](docs/TL55-COUNT-RECONCILIATION.md).
 
+## Evidence and alternative-reading queries
+
+[Query source evidence and unresolved alternatives](docs/EVIDENCE-AND-ALTERNATIVES.md) using exact native IDs, full source records, pinned artifact locators and explicit corpus-specific scope. [Coverage by native view](analysis/evidence-query-coverage.json) keeps catalogue entries, reading versions, assertions and research issues distinct. This interface adds no source collation, canonical reading or expert acceptance.
+
 ## Schürr2005 TL55 comparison
 
 Read `research/schuerr2005-tl55-collation.json`, `research/tl55-qualified-collation.json` and `docs/SCHUERR2005-TL55-COLLATION.md`. The author-posted PDF is acquired and hash-pinned. Revised labels1–9 and their apparatus pages are located; six selected source differences are qualified. Keep documentation, revised transcription/apparatus and poetic reconstruction distinct. Preserve doubtful forms, alternatives, emendations, literal reference strings and row-boundary allocation. `research_api.py collation` exposes the qualified view; a row without an issue is not fully collated. Source access does not license bulk republication, unattributed PDF overlays are excluded, and raw extracted glyphs are not authoritative. All114 reference rows remain unchanged; verified canonical readings and independent reviews remain zero.

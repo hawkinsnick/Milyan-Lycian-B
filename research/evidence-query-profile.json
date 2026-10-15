@@ -1,0 +1,148 @@
+{
+  "format": "corpus-native-evidence-query-v1",
+  "repository": "hawkinsnick/Milyan-Lycian-B",
+  "collections": [
+    {
+      "name": "digital-entries",
+      "path": "data/reference/records.json",
+      "pointer": "",
+      "id_pointer": "/id",
+      "unit": "digital catalogue entry",
+      "scope": "Two source records; not two independently verified objects."
+    },
+    {
+      "name": "source-text-rows",
+      "path": "data/reference/lines.json",
+      "pointer": "",
+      "id_pointer": "/id",
+      "unit": "digital source text row",
+      "scope": "Source rows and physical inscribed lines are different units."
+    },
+    {
+      "name": "qualified-tl55-rows",
+      "path": "research/tl55-qualified-collation.json",
+      "pointer": "/rows",
+      "id_pointer": "/reference_row_id",
+      "unit": "qualified source-label comparison row",
+      "scope": "Nine source-label correspondences with first-pass documentary notes; not full text equivalence or expert acceptance."
+    },
+    {
+      "name": "selected-tl55-issues",
+      "path": "research/schuerr2005-tl55-collation.json",
+      "pointer": "/issues",
+      "id_pointer": "/id",
+      "unit": "selected source-comparison issue",
+      "scope": "Six selected issues; not an exhaustive discrepancy count."
+    },
+    {
+      "name": "tl55-apparatus-review",
+      "path": "research/tl55-first-pass-review.json",
+      "pointer": "/apparatus_entries",
+      "id_pointer": "/id",
+      "unit": "first-pass apparatus review entry",
+      "scope": "74 attributed editorial apparatus notes, reviewed but not adjudicated."
+    }
+  ],
+  "relations": [
+    {
+      "from": "digital-entries",
+      "to": "source-text-rows",
+      "from_pointer": "/id",
+      "to_pointer": "/source_record_id",
+      "label": "EXACT_DECLARED_ID_MATCH_NOT_PHYSICAL_CERTIFICATION_OR_INDEPENDENCE"
+    },
+    {
+      "from": "source-text-rows",
+      "to": "qualified-tl55-rows",
+      "from_pointer": "/id",
+      "to_pointer": "/reference_row_id",
+      "label": "EXACT_REFERENCE_ROW_ID_NOT_FULL_READING_EQUIVALENCE"
+    },
+    {
+      "from": "qualified-tl55-rows",
+      "to": "tl55-apparatus-review",
+      "from_pointer": "/source_label",
+      "to_pointer": "/source_line",
+      "label": "SAME_REPORTED_SOURCE_LINE_LABEL_NOT_PHYSICAL_LINE_CERTIFICATION"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "data/reference/records.json",
+      "sha256": "315d64c998b380d84616e217c79636979f5576f8814dabeb815cbd07758c1565",
+      "encoding": "json",
+      "role": "digital-entries"
+    },
+    {
+      "path": "data/reference/lines.json",
+      "sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "encoding": "json",
+      "role": "source-text-rows"
+    },
+    {
+      "path": "research/reference-manifest.json",
+      "sha256": "8b97f89970c4518b6f4c421b1eeffb25ffe0dce29c2067c84633646d2a0a3a30",
+      "encoding": "json",
+      "role": "corpus-level source/rights/context register"
+    },
+    {
+      "path": "research/primary-edition-locator-control.json",
+      "sha256": "88363904eb79da33f1832cc50755299e1d5ae8aab3c404f7c2a8f7395193ef2f",
+      "encoding": "json",
+      "role": "corpus-level source/rights/context register"
+    },
+    {
+      "path": "research/tl55-count-reconciliation-2026-10-14.json",
+      "sha256": "483110da5000eed90881a54c2a7028a8800b2ef81ffc45e7cc6794e104c40af1",
+      "encoding": "json",
+      "role": "corpus-level source/rights/context register"
+    },
+    {
+      "path": "research/source-reconciliation.json",
+      "sha256": "1ba8ce32cd6741a0d315902f0500da8bb7fe46b6926bc1364c8981ac285791db",
+      "encoding": "json",
+      "role": "corpus-level source/rights/context register"
+    },
+    {
+      "path": "LICENSE-CONTENT.md",
+      "sha256": "08625edd17ac64b3d837499b654d3178240bae5db9c165ae4ec04bb7782ec2a1",
+      "encoding": "text",
+      "role": "corpus-level source/rights/context register"
+    },
+    {
+      "path": "NOTICE",
+      "sha256": "e6a95d9900cacac45c4f8e75a1ab8939370655dc2c74996f6d9161364f2be143",
+      "encoding": "text",
+      "role": "corpus-level source/rights/context register"
+    },
+    {
+      "path": "research/tl55-qualified-collation.json",
+      "sha256": "d9bc1e5377e0690519c6757bf30695f159477b0b20398afcd7d4fc002f96db1e",
+      "encoding": "json",
+      "role": "qualified-tl55-rows"
+    },
+    {
+      "path": "research/schuerr2005-tl55-collation.json",
+      "sha256": "e4e7e7c81fe3efff1168af784c80e391b6af9b35dc94d1add74c7d5cd65d710a",
+      "encoding": "json",
+      "role": "selected-tl55-issues"
+    },
+    {
+      "path": "research/tl55-first-pass-review.json",
+      "sha256": "569ce81ab36a50a09f108c758255bec00bcd460a64cdf548a0cf0b0f1b7ac0e0",
+      "encoding": "json",
+      "role": "tl55-apparatus-review"
+    },
+    {
+      "path": "review/tl55-independent-review.json",
+      "sha256": "ce9ef32ba783f9dfa6fdc71ad06b972dabd0b51258643a466e72c5ba71ec3bc5",
+      "encoding": "json",
+      "role": "prepared independent review packet; not an assessment"
+    }
+  ],
+  "scholarly_limits": [
+    "Texier quoted by Kalinka reports eight TL55 lines; nine printed entry groups and nine frozen rows do not erase that historical statement. Full text/boundary collation, canonical reading acceptance and physical-line certification remain open.",
+    "The first documentary pass covers nine revised lines and 74 apparatus entries. Source label correspondence is not full row equivalence. The independent packet remains PREPARED_NOT_REVIEWED, with no reviewer or accepted readings."
+  ],
+  "native_artifacts_snapshot_commit": "d94994d37c0166ff7be0162ef8dbc89667ef543b"
+}
