@@ -39,18 +39,18 @@
     },
     {
       "path": "README.md",
-      "sha256": "7605eccf4bddcfd33fd307edacfcbc975cce2b78df7e8c436363b2da4664b099",
-      "bytes": 8298
+      "sha256": "33643edb6fa1cfc90328cae968d41893502c6b80b501376f697188ca39084458",
+      "bytes": 8414
     },
     {
       "path": "ai-skill/SKILL.md",
-      "sha256": "a18576d3004ff66c93b3bcf4dd27098a524b7d43a9c18bc75ba96bace70a64ed",
-      "bytes": 10184
+      "sha256": "7373a21169815a3273474795cf1b3a9ccc7c265f9bf448fe22c54cc468082e85",
+      "bytes": 11182
     },
     {
       "path": "ai-skill/generated/research-bundle-index.json",
-      "sha256": "98babea512ca04258673fe8d29981623d82210ac51ce750f257e305de84b63ae",
-      "bytes": 10735
+      "sha256": "c6090bd6c44b928f1373353aaf7c5fb12195a33d186963b43afe8e3ff1742d3d",
+      "bytes": 11741
     },
     {
       "path": "ai-skill/manifest.json",
@@ -74,8 +74,8 @@
     },
     {
       "path": "ai-skill/scripts/build_bundle.py",
-      "sha256": "1ed7773acf706f40b51fcb7133b90f42cfe82aff645a512eea8ae7f6091734c7",
-      "bytes": 2418
+      "sha256": "53363cd8d5cf5c012dba7c0e2fd64e297ec954c239beb87de6848e4f0d704bf8",
+      "bytes": 2605
     },
     {
       "path": "ai-skill/scripts/fleet_contract.py",
@@ -93,9 +93,14 @@
       "bytes": 1150
     },
     {
+      "path": "analysis/attribution-review-audit.json",
+      "sha256": "deeb91b1d0e7e06ce65e77a22b674de6c65c9c58423080944e5d1b463caec7b4",
+      "bytes": 1004
+    },
+    {
       "path": "analysis/evidence-query-coverage.json",
-      "sha256": "5b7c549d4aa5e1a02702798338214536c8a35003b8de7481314cf5ee96cc5205",
-      "bytes": 8743
+      "sha256": "e93033ac8ae54f4fc6cd42713b98659fc30b7bf2e6e4322cdbdec1100db2261e",
+      "bytes": 9335
     },
     {
       "path": "analysis/upstream-epidoc-validation.json",
@@ -133,6 +138,11 @@
       "bytes": 1766
     },
     {
+      "path": "docs/ATTRIBUTION-REVIEW.md",
+      "sha256": "2bca5dda6822412bf939f114fbc9a8d7991ad66b6840f4ed3c95bfd0d950f745",
+      "bytes": 24490
+    },
+    {
       "path": "docs/COLLECTION-REVIEW.md",
       "sha256": "0c9de3329b7386d15b29f288c144e9e1445537a664b5e6aac7c7c00b32700583",
       "bytes": 1226
@@ -144,8 +154,8 @@
     },
     {
       "path": "docs/EVIDENCE-AND-ALTERNATIVES.md",
-      "sha256": "b6ea22587361d749bbe56851859241d081f130971c2a4ce7b2a25932608700a6",
-      "bytes": 4833
+      "sha256": "196fef4d78a07831b9fecbf388919efa8bad3f5ded74e5c30f41dae2eb0767b4",
+      "bytes": 5831
     },
     {
       "path": "docs/METHODOLOGY.md",
@@ -178,6 +188,11 @@
       "bytes": 1025
     },
     {
+      "path": "research/attribution-review.json",
+      "sha256": "e4f190a90b5e3bf02063618c01b42afae0e26402ac590854c42695bb2115be86",
+      "bytes": 70819
+    },
+    {
       "path": "research/collection-work-ledger.json",
       "sha256": "b643bf1c5046857d6195c0f0a5b8baaae269feebbec840947c57d359272a0d0b",
       "bytes": 154871
@@ -199,8 +214,8 @@
     },
     {
       "path": "research/evidence-query-profile.json",
-      "sha256": "c4f25b172957935b158c4bb7b5cf62d2e08a6e9f6aa1b12c76a5591bb22b15fd",
-      "bytes": 5615
+      "sha256": "e2f14ec01f2caa413a9c5f788270395be90b61551e3c4a1cc9bf87bd398d4454",
+      "bytes": 7551
     },
     {
       "path": "research/primary-edition-locator-control.json",
@@ -248,6 +263,11 @@
       "bytes": 3690
     },
     {
+      "path": "scripts/attribution_review.py",
+      "sha256": "29fd40045d96e9ee0d1d8f692b856a1b8a0631b9a5fa4fc86080d951c1236dbf",
+      "bytes": 6044
+    },
+    {
       "path": "scripts/build_current_summary.py",
       "sha256": "85ebeac6545f1ea94a37d25e39ddf928935e22d00395d975029b5d3f4e51dffa",
       "bytes": 4362
@@ -266,6 +286,11 @@
       "path": "scripts/research_api.py",
       "sha256": "10093a94f899711e5d484cb9156db50056ede952f38cd9233112b0e41b73be04",
       "bytes": 4002
+    },
+    {
+      "path": "scripts/test_attribution_review.py",
+      "sha256": "d81e1c610325e822a1e079db18a619defe57654d7318a13a8be336760b37cae0",
+      "bytes": 3274
     },
     {
       "path": "scripts/test_native_evidence_query.py",
