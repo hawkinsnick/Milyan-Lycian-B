@@ -7,11 +7,16 @@ ROOT=Path(__file__).resolve().parents[1]
 def load(name): return json.loads((ROOT/'data'/name).read_text(encoding='utf-8'))
 def main():
     p=argparse.ArgumentParser(description="Milyan corpus read-only researcher interface")
-    p.add_argument('command',choices=['inscriptions','lines','kwic','coverage','export'])
+    p.add_argument('command',choices=['inscriptions','lines','kwic','coverage','export','collation'])
     p.add_argument('--text',default='',help='Case-insensitive query; KWIC searches only attested line readings')
     p.add_argument('--format',choices=['json','csv'],default='json')
     p.add_argument('--layer',choices=['canonical','reference'],default='canonical',help='Source-attributed digital reference is separate from canonical verified readings')
     a=p.parse_args()
+    if a.command=='collation':
+        from tl55_collation import validate,build
+        validate();result=build()['rows']
+        if a.text:result=[r for r in result if a.text.casefold() in json.dumps(r,ensure_ascii=False).casefold()]
+        emit(result,a,p);return
     inscriptions=load('inscriptions.json');lines=load('lines.json')
     reference_records=load('reference/records.json');reference_lines=load('reference/lines.json')
     if a.layer=='reference':

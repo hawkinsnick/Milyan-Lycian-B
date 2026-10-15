@@ -23,6 +23,10 @@ Use exact native IDs. If an ID occurs in more than one view, specify `--collecti
 | digital-entries | 2 | digital catalogue entry | Two source records; not two independently verified objects. |
 | source-text-rows | 114 | digital source text row | Source rows and physical inscribed lines are different units. |
 
+| qualified-tl55-rows | 9 | qualified source-label comparison row | First-pass documentary notes; not full reading equivalence. |
+| selected-tl55-issues | 6 | selected source-comparison issue | Not an exhaustive discrepancy count. |
+| tl55-apparatus-review | 74 | first-pass apparatus review entry | Attributed editorial notes; not adjudicated readings. |
+
 Counts overlap and must not be added as unique inscriptions, objects or independent witnesses. The coverage report deliberately leaves alternative-pair and independent-witness counts unknown; a comparison register can include reported, dependent or unaligned assertions.
 
 ## Trace a claim
@@ -46,3 +50,7 @@ Pointers use RFC 6901 escaping (`~1` for slash, `~0` for tilde). JSONL artifacts
 For each proposed alternative, identify the author or edition, precise page/plate/position, literal reading, consultation state, source lineage and reuse terms. Distinguish observed damage, supplied text, segmentation, transliteration conventions, source-reported analysis and project hypotheses. Align the same locus before comparing readings. Keep unresolved attribution and alignment explicit. Existing register entries must not be promoted to completed collation merely because they are searchable.
 
 The profile and report are `research/evidence-query-profile.json` and `analysis/evidence-query-coverage.json`. Source pins fail closed: changes to a registered source require inspecting the change, updating its profile pin, regenerating coverage and rerunning tests. Hashes establish byte identity, not historical truth. Source-specific rights prevail over project licenses; this interface grants no new extraction or redistribution permission.
+
+## Current TL55 documentary comparison
+
+The existing first-pass review now covers nine revised lines and 74 apparatus entries. Query `qualified-tl55-rows` by exact reference-row ID, or `tl55-apparatus-review` by apparatus-entry ID. Explicit source-label links connect those notes; they do not certify full row equivalence, physical-line identity or source independence. `review/tl55-independent-review.json` is PREPARED_NOT_REVIEWED, with a null reviewer and zero accepted readings. The 114 frozen source rows remain unchanged. Read the native Schürr comparison and first-pass guides for complete scope and rights.

@@ -1,7 +1,7 @@
 {
   "format": "corpus-native-evidence-query-coverage-v1",
   "repository": "hawkinsnick/Milyan-Lycian-B",
-  "profile_sha256": "419ac9d51dfda5f5caf6e63a88bc5a1c4241fcd26bf42210734711453c1b4876",
+  "profile_sha256": "c4f25b172957935b158c4bb7b5cf62d2e08a6e9f6aa1b12c76a5591bb22b15fd",
   "implementation_sha256": "70aa6686802122667b369811fa569c45c407847ed8965b917f58130c5a685550",
   "collections": [
     {
@@ -17,7 +17,7 @@
         "path": "data/reference/records.json",
         "sha256": "315d64c998b380d84616e217c79636979f5576f8814dabeb815cbd07758c1565",
         "pointer": "",
-        "native_artifacts_snapshot_commit": "6450b871c234335d5c628341b08c7dbb46ee80b4",
+        "native_artifacts_snapshot_commit": "d94994d37c0166ff7be0162ef8dbc89667ef543b",
         "role": "digital-entries",
         "encoding": "json"
       }
@@ -36,8 +36,65 @@
         "path": "data/reference/lines.json",
         "sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
         "pointer": "",
-        "native_artifacts_snapshot_commit": "6450b871c234335d5c628341b08c7dbb46ee80b4",
+        "native_artifacts_snapshot_commit": "d94994d37c0166ff7be0162ef8dbc89667ef543b",
         "role": "source-text-rows",
+        "encoding": "json"
+      }
+    },
+    {
+      "name": "qualified-tl55-rows",
+      "native_unit": "qualified source-label comparison row",
+      "record_count": 9,
+      "scope": "Nine source-label correspondences with first-pass documentary notes; not full text equivalence or expert acceptance.",
+      "example_ids": [
+        "EDIANA-MILYAN-0-ROW-1",
+        "EDIANA-MILYAN-0-ROW-2",
+        "EDIANA-MILYAN-0-ROW-3"
+      ],
+      "provenance": {
+        "path": "research/tl55-qualified-collation.json",
+        "sha256": "d9bc1e5377e0690519c6757bf30695f159477b0b20398afcd7d4fc002f96db1e",
+        "pointer": "/rows",
+        "native_artifacts_snapshot_commit": "d94994d37c0166ff7be0162ef8dbc89667ef543b",
+        "role": "qualified-tl55-rows",
+        "encoding": "json"
+      }
+    },
+    {
+      "name": "selected-tl55-issues",
+      "native_unit": "selected source-comparison issue",
+      "record_count": 6,
+      "scope": "Six selected issues; not an exhaustive discrepancy count.",
+      "example_ids": [
+        "MIL-TL055-S2005-OPENING",
+        "MIL-TL055-S2005-LINE2-R",
+        "MIL-TL055-S2005-LINE4-PL"
+      ],
+      "provenance": {
+        "path": "research/schuerr2005-tl55-collation.json",
+        "sha256": "e4e7e7c81fe3efff1168af784c80e391b6af9b35dc94d1add74c7d5cd65d710a",
+        "pointer": "/issues",
+        "native_artifacts_snapshot_commit": "d94994d37c0166ff7be0162ef8dbc89667ef543b",
+        "role": "selected-tl55-issues",
+        "encoding": "json"
+      }
+    },
+    {
+      "name": "tl55-apparatus-review",
+      "native_unit": "first-pass apparatus review entry",
+      "record_count": 74,
+      "scope": "74 attributed editorial apparatus notes, reviewed but not adjudicated.",
+      "example_ids": [
+        "S2005-A1-01",
+        "S2005-A1-02",
+        "S2005-A1-03"
+      ],
+      "provenance": {
+        "path": "research/tl55-first-pass-review.json",
+        "sha256": "569ce81ab36a50a09f108c758255bec00bcd460a64cdf548a0cf0b0f1b7ac0e0",
+        "pointer": "/apparatus_entries",
+        "native_artifacts_snapshot_commit": "d94994d37c0166ff7be0162ef8dbc89667ef543b",
+        "role": "tl55-apparatus-review",
         "encoding": "json"
       }
     }
@@ -47,7 +104,7 @@
       "path": "data/reference/records.json",
       "sha256": "315d64c998b380d84616e217c79636979f5576f8814dabeb815cbd07758c1565",
       "pointer": "",
-      "native_artifacts_snapshot_commit": "6450b871c234335d5c628341b08c7dbb46ee80b4",
+      "native_artifacts_snapshot_commit": "d94994d37c0166ff7be0162ef8dbc89667ef543b",
       "role": "digital-entries",
       "encoding": "json"
     },
@@ -55,7 +112,7 @@
       "path": "data/reference/lines.json",
       "sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
       "pointer": "",
-      "native_artifacts_snapshot_commit": "6450b871c234335d5c628341b08c7dbb46ee80b4",
+      "native_artifacts_snapshot_commit": "d94994d37c0166ff7be0162ef8dbc89667ef543b",
       "role": "source-text-rows",
       "encoding": "json"
     },
@@ -63,7 +120,7 @@
       "path": "research/reference-manifest.json",
       "sha256": "8b97f89970c4518b6f4c421b1eeffb25ffe0dce29c2067c84633646d2a0a3a30",
       "pointer": "",
-      "native_artifacts_snapshot_commit": "6450b871c234335d5c628341b08c7dbb46ee80b4",
+      "native_artifacts_snapshot_commit": "d94994d37c0166ff7be0162ef8dbc89667ef543b",
       "role": "corpus-level source/rights/context register",
       "encoding": "json"
     },
@@ -71,7 +128,7 @@
       "path": "research/primary-edition-locator-control.json",
       "sha256": "88363904eb79da33f1832cc50755299e1d5ae8aab3c404f7c2a8f7395193ef2f",
       "pointer": "",
-      "native_artifacts_snapshot_commit": "6450b871c234335d5c628341b08c7dbb46ee80b4",
+      "native_artifacts_snapshot_commit": "d94994d37c0166ff7be0162ef8dbc89667ef543b",
       "role": "corpus-level source/rights/context register",
       "encoding": "json"
     },
@@ -79,15 +136,15 @@
       "path": "research/tl55-count-reconciliation-2026-10-14.json",
       "sha256": "483110da5000eed90881a54c2a7028a8800b2ef81ffc45e7cc6794e104c40af1",
       "pointer": "",
-      "native_artifacts_snapshot_commit": "6450b871c234335d5c628341b08c7dbb46ee80b4",
+      "native_artifacts_snapshot_commit": "d94994d37c0166ff7be0162ef8dbc89667ef543b",
       "role": "corpus-level source/rights/context register",
       "encoding": "json"
     },
     {
       "path": "research/source-reconciliation.json",
-      "sha256": "d2516c9974f022020e740301169f66244a7d48ee3d1d6a570b8643f0d228a734",
+      "sha256": "1ba8ce32cd6741a0d315902f0500da8bb7fe46b6926bc1364c8981ac285791db",
       "pointer": "",
-      "native_artifacts_snapshot_commit": "6450b871c234335d5c628341b08c7dbb46ee80b4",
+      "native_artifacts_snapshot_commit": "d94994d37c0166ff7be0162ef8dbc89667ef543b",
       "role": "corpus-level source/rights/context register",
       "encoding": "json"
     },
@@ -95,7 +152,7 @@
       "path": "LICENSE-CONTENT.md",
       "sha256": "08625edd17ac64b3d837499b654d3178240bae5db9c165ae4ec04bb7782ec2a1",
       "pointer": "",
-      "native_artifacts_snapshot_commit": "6450b871c234335d5c628341b08c7dbb46ee80b4",
+      "native_artifacts_snapshot_commit": "d94994d37c0166ff7be0162ef8dbc89667ef543b",
       "role": "corpus-level source/rights/context register",
       "encoding": "text"
     },
@@ -103,13 +160,46 @@
       "path": "NOTICE",
       "sha256": "e6a95d9900cacac45c4f8e75a1ab8939370655dc2c74996f6d9161364f2be143",
       "pointer": "",
-      "native_artifacts_snapshot_commit": "6450b871c234335d5c628341b08c7dbb46ee80b4",
+      "native_artifacts_snapshot_commit": "d94994d37c0166ff7be0162ef8dbc89667ef543b",
       "role": "corpus-level source/rights/context register",
       "encoding": "text"
+    },
+    {
+      "path": "research/tl55-qualified-collation.json",
+      "sha256": "d9bc1e5377e0690519c6757bf30695f159477b0b20398afcd7d4fc002f96db1e",
+      "pointer": "",
+      "native_artifacts_snapshot_commit": "d94994d37c0166ff7be0162ef8dbc89667ef543b",
+      "role": "qualified-tl55-rows",
+      "encoding": "json"
+    },
+    {
+      "path": "research/schuerr2005-tl55-collation.json",
+      "sha256": "e4e7e7c81fe3efff1168af784c80e391b6af9b35dc94d1add74c7d5cd65d710a",
+      "pointer": "",
+      "native_artifacts_snapshot_commit": "d94994d37c0166ff7be0162ef8dbc89667ef543b",
+      "role": "selected-tl55-issues",
+      "encoding": "json"
+    },
+    {
+      "path": "research/tl55-first-pass-review.json",
+      "sha256": "569ce81ab36a50a09f108c758255bec00bcd460a64cdf548a0cf0b0f1b7ac0e0",
+      "pointer": "",
+      "native_artifacts_snapshot_commit": "d94994d37c0166ff7be0162ef8dbc89667ef543b",
+      "role": "tl55-apparatus-review",
+      "encoding": "json"
+    },
+    {
+      "path": "review/tl55-independent-review.json",
+      "sha256": "ce9ef32ba783f9dfa6fdc71ad06b972dabd0b51258643a466e72c5ba71ec3bc5",
+      "pointer": "",
+      "native_artifacts_snapshot_commit": "d94994d37c0166ff7be0162ef8dbc89667ef543b",
+      "role": "prepared independent review packet; not an assessment",
+      "encoding": "json"
     }
   ],
   "scholarly_limits": [
-    "Texier quoted by Kalinka reports eight TL55 lines; nine printed entry groups and nine frozen rows do not erase that historical statement. Full text/boundary collation, canonical reading acceptance and physical-line certification remain open."
+    "Texier quoted by Kalinka reports eight TL55 lines; nine printed entry groups and nine frozen rows do not erase that historical statement. Full text/boundary collation, canonical reading acceptance and physical-line certification remain open.",
+    "The first documentary pass covers nine revised lines and 74 apparatus entries. Source label correspondence is not full row equivalence. The independent packet remains PREPARED_NOT_REVIEWED, with no reviewer or accepted readings."
   ],
   "alternative_pair_count": null,
   "independent_witness_count": null,

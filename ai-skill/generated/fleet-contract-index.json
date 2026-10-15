@@ -29,8 +29,8 @@
     },
     {
       "path": "LICENSING.md",
-      "sha256": "3390ae7ed576a8de35790d19ad6bb615fc9ed9bc0c6ee3f430d4c5883d809956",
-      "bytes": 2785
+      "sha256": "3ffe7e9f706db3e162d6f88d7fd4b1cdc57cf43ee72249aaba1747e2ba5e097b",
+      "bytes": 3705
     },
     {
       "path": "NOTICE",
@@ -39,18 +39,18 @@
     },
     {
       "path": "README.md",
-      "sha256": "3c8bd70f03b4a975bf94fc57a78e0f1e419c0f28498bae924900364247421d03",
-      "bytes": 6384
+      "sha256": "7818318de76830f066188b4573271b7338b7fb2d027868d1f43b1e9d2b7f006f",
+      "bytes": 7829
     },
     {
       "path": "ai-skill/SKILL.md",
-      "sha256": "eb56634cb7251817a533866091568a512dab1e5a33232fbaf67ca868dbb98529",
-      "bytes": 6724
+      "sha256": "d92b757cdd7253d8470955fa88ecdb93d83db5db7681b20702e436381b539200",
+      "bytes": 9038
     },
     {
       "path": "ai-skill/generated/research-bundle-index.json",
-      "sha256": "4693c01f4e2aa373bc07fb6626d6addddc0f00fee10ce4a234980635ffd8c160",
-      "bytes": 8304
+      "sha256": "45a20c033c45adee87fb15887b0c35356cc0dafd8b5ca1d93bb9fc7a32c2fa8b",
+      "bytes": 9720
     },
     {
       "path": "ai-skill/manifest.json",
@@ -59,8 +59,8 @@
     },
     {
       "path": "ai-skill/references/authority-profile.json",
-      "sha256": "faeda09203ff90de29b144eccf9f0f87f9aabd2b4c037721ca91689d8ac48217",
-      "bytes": 2448
+      "sha256": "4605b4473a9982898a53301c9a6e5bb811fc6eff471f0ad486c2977947b6f002",
+      "bytes": 3411
     },
     {
       "path": "ai-skill/references/corpus-project-contract.md",
@@ -148,6 +148,11 @@
       "bytes": 1063
     },
     {
+      "path": "docs/SCHUERR2005-TL55-COLLATION.md",
+      "sha256": "ca9370ad46c8d251ddf89246bb3aeba9a1ddb93c8c90fad32104d50bc7e0d601",
+      "bytes": 5759
+    },
+    {
       "path": "docs/TL55-COUNT-RECONCILIATION.md",
       "sha256": "e4657729c66486c27e71b23c93cc58da837534d88f3944aa6cb98af1d6c7a979",
       "bytes": 2453
@@ -164,8 +169,8 @@
     },
     {
       "path": "research/collection-work-ledger.json",
-      "sha256": "e170553806b88bf3b811eb5a4ff2917c096c0b1311dffa78823e09251c247499",
-      "bytes": 130521
+      "sha256": "b643bf1c5046857d6195c0f0a5b8baaae269feebbec840947c57d359272a0d0b",
+      "bytes": 154871
     },
     {
       "path": "research/cross-corpus-dependencies.json",
@@ -179,8 +184,8 @@
     },
     {
       "path": "research/edition-priority.json",
-      "sha256": "72d9771a680fe0eba8ae86ca621e60fc67b66b8fbf89c1aa6ae6c07b9d4996ae",
-      "bytes": 1967
+      "sha256": "e10950fc1e5f5759dd7825f970ccf43bfda20b160f9e61d9c7644e4bd2995ac8",
+      "bytes": 2432
     },
     {
       "path": "research/primary-edition-locator-control.json",
@@ -193,9 +198,14 @@
       "bytes": 2187
     },
     {
+      "path": "research/schuerr2005-tl55-collation.json",
+      "sha256": "e4e7e7c81fe3efff1168af784c80e391b6af9b35dc94d1add74c7d5cd65d710a",
+      "bytes": 11230
+    },
+    {
       "path": "research/source-reconciliation.json",
-      "sha256": "d2516c9974f022020e740301169f66244a7d48ee3d1d6a570b8643f0d228a734",
-      "bytes": 2370
+      "sha256": "1ba8ce32cd6741a0d315902f0500da8bb7fe46b6926bc1364c8981ac285791db",
+      "bytes": 2880
     },
     {
       "path": "research/tl55-count-reconciliation-2026-10-14.json",
@@ -203,14 +213,29 @@
       "bytes": 2539
     },
     {
+      "path": "research/tl55-first-pass-review.json",
+      "sha256": "569ce81ab36a50a09f108c758255bec00bcd460a64cdf548a0cf0b0f1b7ac0e0",
+      "bytes": 47051
+    },
+    {
+      "path": "research/tl55-qualified-collation.json",
+      "sha256": "d9bc1e5377e0690519c6757bf30695f159477b0b20398afcd7d4fc002f96db1e",
+      "bytes": 77217
+    },
+    {
       "path": "review/collection-packet.json",
-      "sha256": "ed499a1d3a03fd9bad03938b08e8de80447acdeddcca46e0be66291d6b0631a3",
+      "sha256": "24a976f616ec1bb0202ee231deef2b7b031aab3dc65e6eb335174f8c590d7af2",
       "bytes": 1824
     },
     {
+      "path": "review/tl55-independent-review.json",
+      "sha256": "ce9ef32ba783f9dfa6fdc71ad06b972dabd0b51258643a466e72c5ba71ec3bc5",
+      "bytes": 3690
+    },
+    {
       "path": "scripts/build_current_summary.py",
-      "sha256": "61123da07a5e4dd1d58ddfc1617ddda82b9e8747fee8a6d2ba31fe0fb0fa9afc",
-      "bytes": 4109
+      "sha256": "85ebeac6545f1ea94a37d25e39ddf928935e22d00395d975029b5d3f4e51dffa",
+      "bytes": 4362
     },
     {
       "path": "scripts/build_reference.py",
@@ -219,8 +244,18 @@
     },
     {
       "path": "scripts/research_api.py",
-      "sha256": "0c4fc39f2aa63e898550e6b9dea58b40c719d3374c71fc2a005e18bcb91e05c7",
-      "bytes": 3722
+      "sha256": "10093a94f899711e5d484cb9156db50056ede952f38cd9233112b0e41b73be04",
+      "bytes": 4002
+    },
+    {
+      "path": "scripts/tl55_collation.py",
+      "sha256": "b3afdd4271f2cb6e2cdcaed663f1d381f7a18d1c5dfb3a3e4eb2071b8763481f",
+      "bytes": 4292
+    },
+    {
+      "path": "scripts/tl55_review.py",
+      "sha256": "4b85b547e6a191eb62471738eaa47e4d6996335a390e0934ab245709edc2f992",
+      "bytes": 3509
     },
     {
       "path": "scripts/validate_tl55_reconciliation.py",

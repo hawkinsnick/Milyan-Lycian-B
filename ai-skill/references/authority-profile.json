@@ -84,6 +84,41 @@
     {
       "path": "research/edition-priority.json",
       "required": true
+    },
+    {
+      "path": "research/schuerr2005-tl55-collation.json",
+      "role": "bounded_primary_collation",
+      "required": true
+    },
+    {
+      "path": "research/tl55-qualified-collation.json",
+      "role": "bounded_primary_collation",
+      "required": true
+    },
+    {
+      "path": "docs/SCHUERR2005-TL55-COLLATION.md",
+      "role": "bounded_primary_collation",
+      "required": true
+    },
+    {
+      "path": "scripts/tl55_collation.py",
+      "role": "bounded_primary_collation",
+      "required": true
+    },
+    {
+      "path": "research/tl55-first-pass-review.json",
+      "role": "complete_first_pass_not_expert_adjudication",
+      "required": true
+    },
+    {
+      "path": "review/tl55-independent-review.json",
+      "role": "complete_first_pass_not_expert_adjudication",
+      "required": true
+    },
+    {
+      "path": "scripts/tl55_review.py",
+      "role": "complete_first_pass_not_expert_adjudication",
+      "required": true
     }
   ]
 }
