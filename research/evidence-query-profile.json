@@ -41,6 +41,14 @@
       "id_pointer": "/id",
       "unit": "first-pass apparatus review entry",
       "scope": "74 attributed editorial apparatus notes, reviewed but not adjudicated."
+    },
+    {
+      "name": "attribution-review",
+      "path": "research/attribution-review.json",
+      "pointer": "/cases",
+      "id_pointer": "/review_id",
+      "unit": "bounded documentary attribution review task",
+      "scope": "All74 attributed Schürr apparatus notes, the Texier-through-Kalinka count distinction and two unacquired TL44 edition targets. First documentary review is not independent acceptance."
     }
   ],
   "relations": [
@@ -71,78 +79,99 @@
       "path": "data/reference/records.json",
       "sha256": "315d64c998b380d84616e217c79636979f5576f8814dabeb815cbd07758c1565",
       "encoding": "json",
-      "role": "digital-entries"
+      "role": "digital-entries",
+      "source_snapshot_commit": "d94994d37c0166ff7be0162ef8dbc89667ef543b"
     },
     {
       "path": "data/reference/lines.json",
       "sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
       "encoding": "json",
-      "role": "source-text-rows"
+      "role": "source-text-rows",
+      "source_snapshot_commit": "d94994d37c0166ff7be0162ef8dbc89667ef543b"
     },
     {
       "path": "research/reference-manifest.json",
       "sha256": "8b97f89970c4518b6f4c421b1eeffb25ffe0dce29c2067c84633646d2a0a3a30",
       "encoding": "json",
-      "role": "corpus-level source/rights/context register"
+      "role": "corpus-level source/rights/context register",
+      "source_snapshot_commit": "d94994d37c0166ff7be0162ef8dbc89667ef543b"
     },
     {
       "path": "research/primary-edition-locator-control.json",
       "sha256": "88363904eb79da33f1832cc50755299e1d5ae8aab3c404f7c2a8f7395193ef2f",
       "encoding": "json",
-      "role": "corpus-level source/rights/context register"
+      "role": "corpus-level source/rights/context register",
+      "source_snapshot_commit": "d94994d37c0166ff7be0162ef8dbc89667ef543b"
     },
     {
       "path": "research/tl55-count-reconciliation-2026-10-14.json",
       "sha256": "483110da5000eed90881a54c2a7028a8800b2ef81ffc45e7cc6794e104c40af1",
       "encoding": "json",
-      "role": "corpus-level source/rights/context register"
+      "role": "corpus-level source/rights/context register",
+      "source_snapshot_commit": "d94994d37c0166ff7be0162ef8dbc89667ef543b"
     },
     {
       "path": "research/source-reconciliation.json",
       "sha256": "1ba8ce32cd6741a0d315902f0500da8bb7fe46b6926bc1364c8981ac285791db",
       "encoding": "json",
-      "role": "corpus-level source/rights/context register"
+      "role": "corpus-level source/rights/context register",
+      "source_snapshot_commit": "d94994d37c0166ff7be0162ef8dbc89667ef543b"
     },
     {
       "path": "LICENSE-CONTENT.md",
       "sha256": "08625edd17ac64b3d837499b654d3178240bae5db9c165ae4ec04bb7782ec2a1",
       "encoding": "text",
-      "role": "corpus-level source/rights/context register"
+      "role": "corpus-level source/rights/context register",
+      "source_snapshot_commit": "d94994d37c0166ff7be0162ef8dbc89667ef543b"
     },
     {
       "path": "NOTICE",
       "sha256": "e6a95d9900cacac45c4f8e75a1ab8939370655dc2c74996f6d9161364f2be143",
       "encoding": "text",
-      "role": "corpus-level source/rights/context register"
+      "role": "corpus-level source/rights/context register",
+      "source_snapshot_commit": "d94994d37c0166ff7be0162ef8dbc89667ef543b"
     },
     {
       "path": "research/tl55-qualified-collation.json",
       "sha256": "d9bc1e5377e0690519c6757bf30695f159477b0b20398afcd7d4fc002f96db1e",
       "encoding": "json",
-      "role": "qualified-tl55-rows"
+      "role": "qualified-tl55-rows",
+      "source_snapshot_commit": "d94994d37c0166ff7be0162ef8dbc89667ef543b"
     },
     {
       "path": "research/schuerr2005-tl55-collation.json",
       "sha256": "e4e7e7c81fe3efff1168af784c80e391b6af9b35dc94d1add74c7d5cd65d710a",
       "encoding": "json",
-      "role": "selected-tl55-issues"
+      "role": "selected-tl55-issues",
+      "source_snapshot_commit": "d94994d37c0166ff7be0162ef8dbc89667ef543b"
     },
     {
       "path": "research/tl55-first-pass-review.json",
       "sha256": "569ce81ab36a50a09f108c758255bec00bcd460a64cdf548a0cf0b0f1b7ac0e0",
       "encoding": "json",
-      "role": "tl55-apparatus-review"
+      "role": "tl55-apparatus-review",
+      "source_snapshot_commit": "d94994d37c0166ff7be0162ef8dbc89667ef543b"
     },
     {
       "path": "review/tl55-independent-review.json",
       "sha256": "ce9ef32ba783f9dfa6fdc71ad06b972dabd0b51258643a466e72c5ba71ec3bc5",
       "encoding": "json",
-      "role": "prepared independent review packet; not an assessment"
+      "role": "prepared independent review packet; not an assessment",
+      "source_snapshot_commit": "d94994d37c0166ff7be0162ef8dbc89667ef543b"
+    },
+    {
+      "path": "research/attribution-review.json",
+      "sha256": "e4f190a90b5e3bf02063618c01b42afae0e26402ac590854c42695bb2115be86",
+      "encoding": "json",
+      "role": "bounded attribution review",
+      "source_snapshot_commit": null
     }
   ],
   "scholarly_limits": [
     "Texier quoted by Kalinka reports eight TL55 lines; nine printed entry groups and nine frozen rows do not erase that historical statement. Full text/boundary collation, canonical reading acceptance and physical-line certification remain open.",
-    "The first documentary pass covers nine revised lines and 74 apparatus entries. Source label correspondence is not full row equivalence. The independent packet remains PREPARED_NOT_REVIEWED, with no reviewer or accepted readings."
+    "The first documentary pass covers nine revised lines and 74 apparatus entries. Source label correspondence is not full row equivalence. The independent packet remains PREPARED_NOT_REVIEWED, with no reviewer or accepted readings.",
+    "Attribution review inspects pinned native packets, not underlying sources afresh. Its cases and apparatus notes are not independent witnesses or an alternative-pair total."
   ],
-  "native_artifacts_snapshot_commit": "d94994d37c0166ff7be0162ef8dbc89667ef543b"
+  "native_artifacts_snapshot_commit": null,
+  "snapshot_commit_scope": "Mixed inputs retain their per-artifact anchors. New original review artifacts are byte-pinned and identified by published repository history, not assigned to an earlier commit."
 }

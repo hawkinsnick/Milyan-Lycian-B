@@ -67,3 +67,5 @@ Read `research/schuerr2005-tl55-collation.json`, `research/tl55-qualified-collat
 
 
 TL55 review coverage now extends to all9 revised lines and74 apparatus entries; all4 digital break markers are accounted for. The [review packet](review/tl55-independent-review.json) is prepared, with expert adjudication and full sign-level collation still open. [Current comparison guide](docs/SCHUERR2005-TL55-COLLATION.md).
+
+Bounded attribution and comparison review: [source qualifications and remaining gaps](docs/ATTRIBUTION-REVIEW.md).
