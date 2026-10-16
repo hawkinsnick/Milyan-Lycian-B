@@ -1,17 +1,59 @@
 {
-  "status": "bibliography_review_pending",
+  "status": "TL44_METADATA_IDENTIFIED_MODERN_FULL_TEXT_PENDING_TL55_DOCUMENTARY_COMPLETE",
   "targets": [
     {
       "record": "MIL-TL-044-C",
-      "preferred_edition": "Schürr 2016, edition of TL 44c Milyan segment",
+      "preferred_edition": "Schürr, Diether (2016), Zum Agora-Pfeiler in Xanthos V: das Nordgedicht auf Cheriga (TL 44c, 32 ff.), Kadmos 55(1-2), 147-196; DOI 10.1515/kadmos-2016-0008 (pagination roles/conflict in source checkpoint)",
       "secondary": "Melchert/TITUS Lycian Corpus",
-      "task": "Confirm exact bibliographic metadata and line numbering; collate critical apparatus"
+      "task": "Obtain lawful publisher/library access or a user-supplied authorized copy, inspect first/last pages and collate bounded revised text/apparatus.",
+      "bibliographic_identity": {
+        "title": "Zum Agora-Pfeiler in Xanthos V: das Nordgedicht auf Cheriga (TL 44c, 32 ff.)",
+        "author": "Diether Schürr",
+        "doi": "10.1515/kadmos-2016-0008",
+        "volume": "55",
+        "issue": "1-2",
+        "crossref_page_range": "147-196",
+        "published_print": [
+          2016,
+          5,
+          24
+        ],
+        "published_online": null,
+        "metadata_snapshot": "research/source-metadata/crossref-tl44-2016.json",
+        "metadata_sha256": "ae7494844e7881c5d2f91c958c92f8784dd9bf6bb4e3c47b307fe3f6652925ce",
+        "article_pdf_acquired": false,
+        "page_range_confirmed_from_article_pdf": null
+      },
+      "source_checkpoint": "research/tl44-source-checkpoint.json"
     },
     {
       "record": "MIL-TL-044-D",
-      "preferred_edition": "Schürr 2018, edition of TL 44d",
+      "preferred_edition": "Schürr, Diether (2018), Zum Agora-Pfeiler in Xanthos VI: das Westgedicht auf Cheriga und Muni (TL 44d), Kadmos 57(1-2), 55-106; DOI 10.1515/kadmos-2018-0006 (pagination roles/conflict in source checkpoint)",
       "secondary": "Melchert/TITUS Lycian Corpus",
-      "task": "Confirm exact bibliographic metadata, strophe boundaries, variant readings"
+      "task": "Obtain lawful publisher/library access or a user-supplied authorized copy, inspect first/last pages and collate bounded revised text/apparatus.",
+      "bibliographic_identity": {
+        "title": "Zum Agora-Pfeiler in Xanthos VI: das Westgedicht auf Cheriga und Muni (TL 44d)",
+        "author": "Diether Schürr",
+        "doi": "10.1515/kadmos-2018-0006",
+        "volume": "57",
+        "issue": "1-2",
+        "crossref_page_range": "55-106",
+        "published_print": [
+          2018,
+          6,
+          1
+        ],
+        "published_online": [
+          2018,
+          10,
+          8
+        ],
+        "metadata_snapshot": "research/source-metadata/crossref-tl44-2018.json",
+        "metadata_sha256": "2676e7521800505fdf377ad9befe44164007a38e7ee2929bd93c90ab316cbabd",
+        "article_pdf_acquired": false,
+        "page_range_confirmed_from_article_pdf": null
+      },
+      "source_checkpoint": "research/tl44-source-checkpoint.json"
     },
     {
       "record": "MIL-TL-055",
@@ -47,5 +89,5 @@
   ],
   "discovery_source": "Elena Martínez Rodríguez dissertation, index of Lycian inscriptions, section 5.2",
   "source_url": "https://diposit.ub.edu/dspace/bitstream/2445/182952/4/EMR_PhD_THESIS.pdf",
-  "caveat": "TL55 first source-comparison pass covers revised transcription121–122 and apparatus123–129. Full critical collation, independent adjudication and broader modern-edition reuse remain open; full70-page article interpretation is not claimed. Other targets unchanged."
+  "caveat": "TL55 documentary comparison remains complete within its stated bounds. TL44 modern edition identities are resolved by publisher-deposited metadata; article PDFs, critical collation and independent review remain open. West pagination is unresolved between55–105 and55–106; keep source roles separate."
 }

@@ -1,7 +1,7 @@
 {
   "format": "corpus-native-evidence-query-coverage-v1",
   "repository": "hawkinsnick/Milyan-Lycian-B",
-  "profile_sha256": "2ddcac668b0783eacba81337232319bc5448af29133f626672b07ebf4f3e2ada",
+  "profile_sha256": "98ec3c5b1cfb8a24957bb02a26004e0cef9366f03c8d96c2f204468ddc0c0cee",
   "implementation_sha256": "70aa6686802122667b369811fa569c45c407847ed8965b917f58130c5a685550",
   "collections": [
     {
@@ -154,6 +154,62 @@
         "role": "completed documentary comparison with retained non-unique ranges",
         "encoding": "json"
       }
+    },
+    {
+      "name": "tl44-label-routes",
+      "native_unit": "existing digital row to proposed printed label/page route",
+      "record_count": 105,
+      "scope": "105 label routes only. No sign-by-sign collation, physical-line certification, independent witness or expert acceptance.",
+      "example_ids": [
+        "EDIANA-MILYAN-1-ROW-1",
+        "EDIANA-MILYAN-1-ROW-2",
+        "EDIANA-MILYAN-1-ROW-3"
+      ],
+      "provenance": {
+        "path": "research/tl44-source-checkpoint.json",
+        "sha256": "2100d2af995c1ec4ab796a65339fe3567d08190264350eb28e45c607167261ee",
+        "pointer": "/rows",
+        "native_artifacts_snapshot_commit": null,
+        "role": "TL44 source checkpoint",
+        "encoding": "json"
+      }
+    },
+    {
+      "name": "tl44-source-issues",
+      "native_unit": "selected documentary boundary observation",
+      "record_count": 3,
+      "scope": "Three selected observations, not an exhaustive discrepancy inventory.",
+      "example_ids": [
+        "TL44C-BOUNDARY-64-65",
+        "TL44D-PAGE-53-54",
+        "TL44-UNPLACED-FRAGMENTS"
+      ],
+      "provenance": {
+        "path": "research/tl44-source-checkpoint.json",
+        "sha256": "2100d2af995c1ec4ab796a65339fe3567d08190264350eb28e45c607167261ee",
+        "pointer": "/issues",
+        "native_artifacts_snapshot_commit": null,
+        "role": "TL44 source checkpoint",
+        "encoding": "json"
+      }
+    },
+    {
+      "name": "tl44-modern-editions",
+      "native_unit": "modern edition bibliographic target",
+      "record_count": 2,
+      "scope": "Two DOI identities; full article PDFs remain unacquired.",
+      "example_ids": [
+        "TL44C-SCHUERR-2016",
+        "TL44D-SCHUERR-2018"
+      ],
+      "provenance": {
+        "path": "research/tl44-source-checkpoint.json",
+        "sha256": "2100d2af995c1ec4ab796a65339fe3567d08190264350eb28e45c607167261ee",
+        "pointer": "/editions",
+        "native_artifacts_snapshot_commit": null,
+        "role": "TL44 source checkpoint",
+        "encoding": "json"
+      }
     }
   ],
   "context_resources": [
@@ -283,6 +339,14 @@
       "pointer": "",
       "native_artifacts_snapshot_commit": null,
       "role": "completed documentary comparison with retained non-unique ranges",
+      "encoding": "json"
+    },
+    {
+      "path": "research/tl44-source-checkpoint.json",
+      "sha256": "2100d2af995c1ec4ab796a65339fe3567d08190264350eb28e45c607167261ee",
+      "pointer": "",
+      "native_artifacts_snapshot_commit": null,
+      "role": "TL44 source checkpoint",
       "encoding": "json"
     }
   ],

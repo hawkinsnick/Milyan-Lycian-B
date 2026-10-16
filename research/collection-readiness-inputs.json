@@ -53,14 +53,22 @@
     "docs/TL55-SIGN-COMPARISON.md",
     "research/tl55-documentary-sign-review.json",
     "scripts/tl55_documentary_review.py",
-    "docs/TL55-DOCUMENTARY-COMPLETION.md"
+    "docs/TL55-DOCUMENTARY-COMPLETION.md",
+    "research/tl44-source-checkpoint.json",
+    "research/source-metadata/crossref-tl44-2016.json",
+    "research/source-metadata/crossref-tl44-2018.json",
+    "docs/TL44-SOURCE-CHECKPOINT.md",
+    "scripts/tl44_source_checkpoint.py",
+    "tests/test_tl44_source_checkpoint.py"
   ],
   "native_review_links": [
     "docs/METHODOLOGY.md",
     "docs/TL55-SIGN-COMPARISON.md",
     "review/tl55-sign-adjudication.json",
     "research/tl55-documentary-sign-review.json",
-    "docs/TL55-DOCUMENTARY-COMPLETION.md"
+    "docs/TL55-DOCUMENTARY-COMPLETION.md",
+    "research/tl44-source-checkpoint.json",
+    "docs/TL44-SOURCE-CHECKPOINT.md"
   ],
   "scope_rule": "Every row in declared views is indexed; overlapping views are never summed as unique physical objects. Discovery outside these views remains open.",
   "public_payload_rule": "Identifiers, hashes and pointers only; no new source transcriptions or images. Restricted derivatives remain local.",
@@ -68,7 +76,13 @@
   "non_discovery_inputs": [
     "research/tl55-sign-alignment.json",
     "review/tl55-sign-adjudication.json",
-    "research/tl55-documentary-sign-review.json"
+    "research/tl55-documentary-sign-review.json",
+    "research/tl44-source-checkpoint.json",
+    "research/source-metadata/crossref-tl44-2016.json",
+    "research/source-metadata/crossref-tl44-2018.json",
+    "docs/TL44-SOURCE-CHECKPOINT.md",
+    "scripts/tl44_source_checkpoint.py",
+    "tests/test_tl44_source_checkpoint.py"
   ],
   "non_discovery_input_scope": "Byte-pin complete sign comparison and its native adjudication triage, but do not recast thousands of glyph source_label fields or pending comparison items as bibliographic acquisition leads. Their records and questions remain queryable in the native register/packet."
 }

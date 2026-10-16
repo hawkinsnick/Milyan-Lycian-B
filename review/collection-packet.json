@@ -9,14 +9,16 @@
     "uncertainty": "Retain damage, restorations, unreadable signs and competing segmentations; do not silently normalize them."
   },
   "enumerated_record_keys": 119,
-  "evidence_fingerprint": "dd81d1e6c4d84f16eff7009fccf9de2e538e104f5ad0679d26c866b6fdda7c0d",
+  "evidence_fingerprint": "b4e0a0201d5a3cefe9bc7e5585df2fbefc071207371a9be6f628feedc3cc8af4",
   "ledger_path": "research/collection-work-ledger.json",
   "native_review_links": [
     "docs/METHODOLOGY.md",
     "docs/TL55-SIGN-COMPARISON.md",
     "review/tl55-sign-adjudication.json",
     "research/tl55-documentary-sign-review.json",
-    "docs/TL55-DOCUMENTARY-COMPLETION.md"
+    "docs/TL55-DOCUMENTARY-COMPLETION.md",
+    "research/tl44-source-checkpoint.json",
+    "docs/TL44-SOURCE-CHECKPOINT.md"
   ],
   "repository": "hawkinsnick/Milyan-Lycian-B",
   "requests": [
@@ -28,5 +30,5 @@
   "schema_version": "1.0",
   "scientific_approval_granted": false,
   "selection": "Select record_keys from ledger; for restricted A/B records use the existing local derivative and authenticated native audit",
-  "source_lead_count": 237
+  "source_lead_count": 241
 }

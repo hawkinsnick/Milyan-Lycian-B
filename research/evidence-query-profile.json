@@ -65,6 +65,30 @@
       "id_pointer": "/id",
       "unit": "completed documentary comparison case",
       "scope": "58 source-located documentary cases cover152 flagged candidate records, including all36 algorithmic ambiguity records. Not58 new readings, alternative pairs or independent witnesses."
+    },
+    {
+      "name": "tl44-label-routes",
+      "path": "research/tl44-source-checkpoint.json",
+      "pointer": "/rows",
+      "id_pointer": "/reference_row_id",
+      "unit": "existing digital row to proposed printed label/page route",
+      "scope": "105 label routes only. No sign-by-sign collation, physical-line certification, independent witness or expert acceptance."
+    },
+    {
+      "name": "tl44-source-issues",
+      "path": "research/tl44-source-checkpoint.json",
+      "pointer": "/issues",
+      "id_pointer": "/id",
+      "unit": "selected documentary boundary observation",
+      "scope": "Three selected observations, not an exhaustive discrepancy inventory."
+    },
+    {
+      "name": "tl44-modern-editions",
+      "path": "research/tl44-source-checkpoint.json",
+      "pointer": "/editions",
+      "id_pointer": "/id",
+      "unit": "modern edition bibliographic target",
+      "scope": "Two DOI identities; full article PDFs remain unacquired."
     }
   ],
   "relations": [
@@ -201,6 +225,13 @@
       "sha256": "1f3bbebfa39481ef52d8ae09f25c107fde18d1be5dfaad5b203f846b0df823d9",
       "encoding": "json",
       "role": "completed documentary comparison with retained non-unique ranges",
+      "source_snapshot_commit": null
+    },
+    {
+      "path": "research/tl44-source-checkpoint.json",
+      "sha256": "2100d2af995c1ec4ab796a65339fe3567d08190264350eb28e45c607167261ee",
+      "encoding": "json",
+      "role": "TL44 source checkpoint",
       "source_snapshot_commit": null
     }
   ],

@@ -60,3 +60,8 @@ Read `docs/TL55-DOCUMENTARY-COMPLETION.md` and `research/tl55-documentary-sign-r
 Use `research_api.py sign-review --text TL55-REVIEW-55`; `signs` now attaches documentary context while preserving the original ambiguity flags. `tl55_documentary_review.py` verifies exact coverage and qualifiers; optional `--pdf PATH` replays the exact source and preferred positional/placeholder correspondences. A restored letter paired to a lacuna slot does not validate that letter. Brackets and colons are not competing letters. A one-to-two repeated-run comparison does not identify a newly recovered ancient sign. Do not erase the original36 algorithmic flags or claim a unique point mapping for the remaining ranges.
 
 This closes the bounded documentary-comparison task for TL55’s revised transcription and apparatus. It does not close independent expert adjudication, monument autopsy, physical-line certification, a full70-page poetic/lexical study, TL44 source acquisition or broader source rights. Original152-item expert triage remains PREPARED_NOT_REVIEWED; no reviewer, accepted correction or independent assessment is invented. All114 frozen rows and canonical zero remain unchanged.
+
+
+## 2026-10-16 — TL44 source checkpoint
+
+Two modern TL44 edition identities are confirmed from pinned publisher-deposited metadata. All105 existing TL44 digital row labels have Kalinka page routes, with three selected boundary/inventory observations. Modern article PDFs and full sign/apparatus comparison remain pending; West pagination stays unresolved. All114 frozen rows and canonical zero are unchanged. [Source evidence and next actions](docs/TL44-SOURCE-CHECKPOINT.md).

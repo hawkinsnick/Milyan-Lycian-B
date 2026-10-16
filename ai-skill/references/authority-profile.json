@@ -159,6 +159,36 @@
       "path": "docs/TL55-DOCUMENTARY-COMPLETION.md",
       "required": true,
       "role": "completed_documentary_sign_review_not_expert_acceptance"
+    },
+    {
+      "path": "research/tl44-source-checkpoint.json",
+      "required": true,
+      "role": "tl44_metadata_and_label_routing_not_full_collation"
+    },
+    {
+      "path": "research/source-metadata/crossref-tl44-2016.json",
+      "required": true,
+      "role": "tl44_metadata_and_label_routing_not_full_collation"
+    },
+    {
+      "path": "research/source-metadata/crossref-tl44-2018.json",
+      "required": true,
+      "role": "tl44_metadata_and_label_routing_not_full_collation"
+    },
+    {
+      "path": "docs/TL44-SOURCE-CHECKPOINT.md",
+      "required": true,
+      "role": "tl44_metadata_and_label_routing_not_full_collation"
+    },
+    {
+      "path": "scripts/tl44_source_checkpoint.py",
+      "required": true,
+      "role": "tl44_metadata_and_label_routing_not_full_collation"
+    },
+    {
+      "path": "tests/test_tl44_source_checkpoint.py",
+      "required": true,
+      "role": "tl44_metadata_and_label_routing_not_full_collation"
     }
   ]
 }

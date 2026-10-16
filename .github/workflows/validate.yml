@@ -11,6 +11,8 @@ jobs:
         with:
           python-version: '3.12'
       - run: python -m unittest discover -s tests -p test_handoff_non_discovery.py
+      - run: python scripts/tl44_source_checkpoint.py
+      - run: python -m unittest discover -s tests -p test_tl44_source_checkpoint.py
       - run: python scripts/tl55_documentary_review.py
       - run: python -m unittest discover -s tests -p test_tl55_documentary_review.py
       - run: python scripts/tl55_sign_alignment.py

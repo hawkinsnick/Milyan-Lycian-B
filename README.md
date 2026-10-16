@@ -75,3 +75,8 @@ Bounded attribution and comparison review: [source qualifications and remaining 
 
 
 [TL55 documentary comparison completed](docs/TL55-DOCUMENTARY-COMPLETION.md): all152 flagged comparisons now have source-located assessments, with every algorithmic ambiguity explained or retained as a non-unique range. Independent expert adjudication remains open.
+
+
+## 2026-10-16 — TL44 source checkpoint
+
+Two modern TL44 edition identities are confirmed from pinned publisher-deposited metadata. All105 existing TL44 digital row labels have Kalinka page routes, with three selected boundary/inventory observations. Modern article PDFs and full sign/apparatus comparison remain pending; West pagination stays unresolved. All114 frozen rows and canonical zero are unchanged. [Source evidence and next actions](docs/TL44-SOURCE-CHECKPOINT.md).

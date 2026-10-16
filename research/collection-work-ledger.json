@@ -1,8 +1,8 @@
 {
   "builder_sha256": "d1148362b2babd59f1900ed15d8195d84d674976fb6649de57de139b00dad04b",
   "completion_rule": "Enumeration is a completed work map, not completed collation. Resolve every open task using exact inspected evidence or a documented access/rights dependency; leave scientific adjudication to independent review.",
-  "config_sha256": "56b7ac522a299b723bfe33f9809cf3e7146ed03caf8a436314ccc9c526ee37d5",
-  "evidence_fingerprint": "dd81d1e6c4d84f16eff7009fccf9de2e538e104f5ad0679d26c866b6fdda7c0d",
+  "config_sha256": "6a1d581000718a8540431eb5fc0b97d9bb526ed4da743ff50a64868ab1069106",
+  "evidence_fingerprint": "b4e0a0201d5a3cefe9bc7e5585df2fbefc071207371a9be6f628feedc3cc8af4",
   "input_sha256": {
     "analysis/upstream-epidoc-validation.json": "af3266900705a5e7fe0a7b44cc568f875f66e9e004dea1cb21ed5ae70053432f",
     "data/inscriptions.json": "7fa678885ee42fa7124fe15f55479f6de7db59fb1fc038d7b2edd0523457f78f",
@@ -12,6 +12,7 @@
     "docs/AI-INTEGRITY.md": "8619d2ac88ca104eb10570b6c5c83021da5e5cdb57a7af1de076131d185207b0",
     "docs/EDIANA-REFERENCE.md": "9682947ceefedd072e62c2d9ec256af8b7f4f847ec024edf4dca486eebfd1034",
     "docs/SCHUERR2005-TL55-COLLATION.md": "1ccbff8d687b46ae65942feb910b99a01acb9998622ce612dfb6ba6e6dd307c4",
+    "docs/TL44-SOURCE-CHECKPOINT.md": "6442f8666e55ae1b9e6968497e05bb31c94ddf4d4d2a44bb6480bc2bcd29f53c",
     "docs/TL55-COUNT-RECONCILIATION.md": "e4657729c66486c27e71b23c93cc58da837534d88f3944aa6cb98af1d6c7a979",
     "docs/TL55-DOCUMENTARY-COMPLETION.md": "6ae71692843c53ca7fc8e823d51c6a31380971bc81c9bb9d441aca14df1adfc5",
     "docs/TL55-SIGN-COMPARISON.md": "fc347a5b0757cf927e8fbf3d800ab744b312f00c5c912eac0e630def67abda79",
@@ -19,12 +20,15 @@
     "interchange/epidoc/upstream-pins.json": "240d9f8b31142c9146b6c5f63ce29019af9101cefa276a590cbe78ff637ab01a",
     "research/cross-corpus-dependencies.json": "dd10675875646324a036e14d1b9edeb3466b9b75bc0bd94f9564bee88db0de67",
     "research/ediana-reference-crosswalk.json": "dbf6f6465b1db6e1804e3acb5d891bac48157d2d78b4a6c601b76726d184949c",
-    "research/edition-priority.json": "4588441c17ca9fdc69f388bd6fbf2638b58de0fe35c00650349169944f842404",
+    "research/edition-priority.json": "a933143d4b2249835b77461aa7f2b0cfa528b8e0e7dc22961ba98507f3b888b0",
     "research/pre-expert-maximum.json": "cd8d5efd818b926d862d1f96655646d39bc401ee0542686c8037e8132a25b883",
     "research/primary-edition-locator-control.json": "88363904eb79da33f1832cc50755299e1d5ae8aab3c404f7c2a8f7395193ef2f",
     "research/reference-manifest.json": "8b97f89970c4518b6f4c421b1eeffb25ffe0dce29c2067c84633646d2a0a3a30",
     "research/schuerr2005-tl55-collation.json": "e4e7e7c81fe3efff1168af784c80e391b6af9b35dc94d1add74c7d5cd65d710a",
+    "research/source-metadata/crossref-tl44-2016.json": "ae7494844e7881c5d2f91c958c92f8784dd9bf6bb4e3c47b307fe3f6652925ce",
+    "research/source-metadata/crossref-tl44-2018.json": "2676e7521800505fdf377ad9befe44164007a38e7ee2929bd93c90ab316cbabd",
     "research/source-reconciliation.json": "1ba8ce32cd6741a0d315902f0500da8bb7fe46b6926bc1364c8981ac285791db",
+    "research/tl44-source-checkpoint.json": "2100d2af995c1ec4ab796a65339fe3567d08190264350eb28e45c607167261ee",
     "research/tl55-count-reconciliation-2026-10-14.json": "483110da5000eed90881a54c2a7028a8800b2ef81ffc45e7cc6794e104c40af1",
     "research/tl55-documentary-sign-review.json": "1f3bbebfa39481ef52d8ae09f25c107fde18d1be5dfaad5b203f846b0df823d9",
     "research/tl55-first-pass-review.json": "569ce81ab36a50a09f108c758255bec00bcd460a64cdf548a0cf0b0f1b7ac0e0",
@@ -33,19 +37,23 @@
     "review/tl55-independent-review.json": "ce9ef32ba783f9dfa6fdc71ad06b972dabd0b51258643a466e72c5ba71ec3bc5",
     "review/tl55-sign-adjudication.json": "b6ea1af6ddf5fa2e6f973c5293860936b41c5e2ae0244431e3e03f1d26717b6f",
     "scripts/build_reference.py": "40c58078b92ab0b9f1394f21bd70b5fcfc36894e322a52da49ba1bc66d0a8487",
+    "scripts/tl44_source_checkpoint.py": "b171a639c773e64e5b2d07a6dd2fa4947b7d5832598c2b7ffeec595dcff17885",
     "scripts/tl55_collation.py": "b3afdd4271f2cb6e2cdcaed663f1d381f7a18d1c5dfb3a3e4eb2071b8763481f",
     "scripts/tl55_documentary_review.py": "bc360acbe53640d327c27270d38955cdccfdfc389be98bf635a5f1f60722fbe9",
     "scripts/tl55_review.py": "4b85b547e6a191eb62471738eaa47e4d6996335a390e0934ab245709edc2f992",
     "scripts/tl55_sign_alignment.py": "9b8703d09716e0eca08bfacd9f21f7891509be2fba5bf0d3333c0bd1c72b7cd4",
     "scripts/tl55_source_glyphs.py": "511a4f7380275282457df56738eeafcc75b4614aaa1f34b9ec2abd716044b006",
-    "scripts/validate_tl55_reconciliation.py": "d0af5f3851559142141b6c6d1580059f81b8d5bfbe4e627f9889a619e4e8709f"
+    "scripts/validate_tl55_reconciliation.py": "d0af5f3851559142141b6c6d1580059f81b8d5bfbe4e627f9889a619e4e8709f",
+    "tests/test_tl44_source_checkpoint.py": "491e853d3d4dd7f843dc3cdf534f44a81d93837655e3f0d91f1468aa51668534"
   },
   "native_review_links": [
     "docs/METHODOLOGY.md",
     "docs/TL55-SIGN-COMPARISON.md",
     "review/tl55-sign-adjudication.json",
     "research/tl55-documentary-sign-review.json",
-    "docs/TL55-DOCUMENTARY-COMPLETION.md"
+    "docs/TL55-DOCUMENTARY-COMPLETION.md",
+    "research/tl44-source-checkpoint.json",
+    "docs/TL44-SOURCE-CHECKPOINT.md"
   ],
   "question_definitions": {
     "language_or_script_classification": "Attribute membership and classification to named authorities; preserve disagreement.",
@@ -3377,6 +3385,30 @@
       "json_pointer": "/2/bibliography/0",
       "kind": "bibliography",
       "source_path": "research/ediana-reference-crosswalk.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/targets/0/bibliographic_identity/title",
+      "kind": "title",
+      "source_path": "research/edition-priority.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/targets/0/bibliographic_identity/doi",
+      "kind": "doi",
+      "source_path": "research/edition-priority.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/targets/1/bibliographic_identity/title",
+      "kind": "title",
+      "source_path": "research/edition-priority.json"
+    },
+    {
+      "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
+      "json_pointer": "/targets/1/bibliographic_identity/doi",
+      "kind": "doi",
+      "source_path": "research/edition-priority.json"
     },
     {
       "inspection": "REFER_TO_NATIVE_ASSERTION; NOT_INSPECTED_BY_BUILDING_THIS_LEDGER",
