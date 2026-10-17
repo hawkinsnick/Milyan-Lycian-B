@@ -1,7 +1,7 @@
 {
   "format": "corpus-native-evidence-query-coverage-v1",
   "repository": "hawkinsnick/Milyan-Lycian-B",
-  "profile_sha256": "98ec3c5b1cfb8a24957bb02a26004e0cef9366f03c8d96c2f204468ddc0c0cee",
+  "profile_sha256": "4f51864456b81e1f5f6b0a34fc9973234d5f034dd71d348e6920b21a80eb9cac",
   "implementation_sha256": "70aa6686802122667b369811fa569c45c407847ed8965b917f58130c5a685550",
   "collections": [
     {
@@ -210,6 +210,44 @@
         "role": "TL44 source checkpoint",
         "encoding": "json"
       }
+    },
+    {
+      "name": "tl44-boundary-contexts",
+      "native_unit": "qualified documentary boundary context",
+      "record_count": 47,
+      "scope": "All105 frozen TL44 reference rows partitioned; all47 literal // marker contexts visually compared with Kalinka printed43–44. Layout-context routing only: no full-row sign collation, phonetic normalization, modern-edition substitution or unique ancient-sign matching.",
+      "example_ids": [
+        "TL44-C33-MARKER-1",
+        "TL44-C34-MARKER-1",
+        "TL44-C37-MARKER-1"
+      ],
+      "provenance": {
+        "path": "research/tl44-boundary-documentary-review.json",
+        "sha256": "05c81a47f6d837800d56a2eb3cf5c19ebe31afe08be8e09bcfe5066e3349bc3f",
+        "pointer": "/markers",
+        "native_artifacts_snapshot_commit": null,
+        "role": "tl44-boundary-contexts",
+        "encoding": "json"
+      }
+    },
+    {
+      "name": "tl44-span-accounting",
+      "native_unit": "frozen digital row code-point partition",
+      "record_count": 105,
+      "scope": "Exact literal accounting; not ancient-sign units or physical-line identity.",
+      "example_ids": [
+        "EDIANA-MILYAN-1-ROW-1",
+        "EDIANA-MILYAN-1-ROW-2",
+        "EDIANA-MILYAN-1-ROW-3"
+      ],
+      "provenance": {
+        "path": "research/tl44-boundary-documentary-review.json",
+        "sha256": "05c81a47f6d837800d56a2eb3cf5c19ebe31afe08be8e09bcfe5066e3349bc3f",
+        "pointer": "/rows",
+        "native_artifacts_snapshot_commit": null,
+        "role": "tl44-boundary-contexts",
+        "encoding": "json"
+      }
     }
   ],
   "context_resources": [
@@ -347,6 +385,14 @@
       "pointer": "",
       "native_artifacts_snapshot_commit": null,
       "role": "TL44 source checkpoint",
+      "encoding": "json"
+    },
+    {
+      "path": "research/tl44-boundary-documentary-review.json",
+      "sha256": "05c81a47f6d837800d56a2eb3cf5c19ebe31afe08be8e09bcfe5066e3349bc3f",
+      "pointer": "",
+      "native_artifacts_snapshot_commit": null,
+      "role": "tl44-boundary-contexts",
       "encoding": "json"
     }
   ],

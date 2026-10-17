@@ -189,6 +189,31 @@
       "path": "tests/test_tl44_source_checkpoint.py",
       "required": true,
       "role": "tl44_metadata_and_label_routing_not_full_collation"
+    },
+    {
+      "path": "research/tl44-boundary-documentary-review.json",
+      "role": "tl44_boundary_review",
+      "required": true
+    },
+    {
+      "path": "review/tl44-boundary-human-request.json",
+      "role": "tl44_boundary_review",
+      "required": true
+    },
+    {
+      "path": "docs/TL44-BOUNDARY-REVIEW.md",
+      "role": "tl44_boundary_review",
+      "required": true
+    },
+    {
+      "path": "scripts/tl44_boundary_review.py",
+      "role": "tl44_boundary_review",
+      "required": true
+    },
+    {
+      "path": "tests/test_tl44_boundary_review.py",
+      "role": "tl44_boundary_review",
+      "required": true
     }
   ]
 }

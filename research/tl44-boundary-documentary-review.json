@@ -1,0 +1,3779 @@
+{
+  "format": "milyan-tl44-boundary-documentary-review-v1",
+  "checked_local_date": "2026-10-16",
+  "date_basis": "America/Chicago",
+  "scope": "All105 frozen TL44 reference rows partitioned; all47 literal // marker contexts visually compared with Kalinka printed43–44. Layout-context routing only: no full-row sign collation, phonetic normalization, modern-edition substitution or unique ancient-sign matching.",
+  "inputs": [
+    {
+      "path": "data/reference/lines.json",
+      "sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead"
+    },
+    {
+      "path": "research/tl44-source-checkpoint.json",
+      "sha256": "2100d2af995c1ec4ab796a65339fe3567d08190264350eb28e45c607167261ee"
+    }
+  ],
+  "source": {
+    "citation": "Kalinka1901, TAM I, TL44, printed43–44",
+    "url": "https://archive.org/download/gri_33125010455224/gri_33125010455224.pdf",
+    "sha256": "0a25872a235602955772da2d73bc3f8fd6d342bae050ab6abf70216e4368f9da",
+    "bytes": 13372650,
+    "pdf_pages": 154,
+    "rights_basis": "Existing source-register public-domain/provider NOT_IN_COPYRIGHT status; no new rights adjudication.",
+    "source_independence_added": false,
+    "renders": [
+      {
+        "id": "kalinka-53-left",
+        "pdf_ordinal": 53,
+        "render_sha256": "c45ee822ed1348fe4894b415b974c80c12ece96e84d3604a9ea2f9c7c6f39b6a",
+        "redistributed": false,
+        "clip_points": [
+          0,
+          273.6,
+          266.9759967041016,
+          720.0
+        ],
+        "render_matrix": [
+          3,
+          3
+        ],
+        "renderer": "PyMuPDF 1.26.6"
+      },
+      {
+        "id": "kalinka-53-right",
+        "pdf_ordinal": 53,
+        "render_sha256": "2646838441221218b43bb38a70b8240029a3c1181292ce1088e4fc2cc681ca97",
+        "redistributed": false,
+        "clip_points": [
+          237.3119970703125,
+          0,
+          494.3999938964844,
+          720.0
+        ],
+        "render_matrix": [
+          3,
+          3
+        ],
+        "renderer": "PyMuPDF 1.26.6"
+      },
+      {
+        "id": "kalinka-54-upperleft",
+        "pdf_ordinal": 54,
+        "render_sha256": "0da0d9b19046b5c977471ad2afb93f063579467c18f8fe2426af11bafdc13db7",
+        "redistributed": false,
+        "clip_points": [
+          0,
+          0,
+          271.91999664306644,
+          259.2
+        ],
+        "render_matrix": [
+          3,
+          3
+        ],
+        "renderer": "PyMuPDF 1.26.6"
+      },
+      {
+        "id": "kalinka-54-upperright",
+        "pdf_ordinal": 54,
+        "render_sha256": "bd89f37d16dff19c596923478fc45e03f2769d31572c5ebbbc3e54373a368f91",
+        "redistributed": false,
+        "clip_points": [
+          237.3119970703125,
+          0,
+          494.3999938964844,
+          216.0
+        ],
+        "render_matrix": [
+          3,
+          3
+        ],
+        "renderer": "PyMuPDF 1.26.6"
+      }
+    ]
+  },
+  "rows": [
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-1",
+      "source_section": "MIL-TL-044-C",
+      "literal_line_label": "· 32",
+      "text_sha256": "f24c8087d1499ebcec9650e2f57903431e1a22621d510caea16d6d45d72e464a",
+      "codepoints": 54,
+      "spans": [
+        {
+          "start": 0,
+          "end": 54,
+          "role": "reference_fragment",
+          "sha256": "f24c8087d1499ebcec9650e2f57903431e1a22621d510caea16d6d45d72e464a"
+        }
+      ],
+      "boundary_marker_count": 0,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-2",
+      "source_section": "MIL-TL-044-C",
+      "literal_line_label": "· 33",
+      "text_sha256": "accc3611d90034120d11a2d380ed03f6bfaa7836dd7627c61c5040263d15acae",
+      "codepoints": 61,
+      "spans": [
+        {
+          "start": 0,
+          "end": 54,
+          "role": "reference_fragment",
+          "sha256": "c586a03741c6fc4265410b0a2253518b99c36a90137746ed611fe5e3dab80258"
+        },
+        {
+          "start": 54,
+          "end": 56,
+          "role": "literal_boundary_marker",
+          "sha256": "a2c2339691fc48fbd14fb307292dff3e21222712d9240810742d7df0c6d74dfb"
+        },
+        {
+          "start": 56,
+          "end": 61,
+          "role": "reference_fragment",
+          "sha256": "ca2e48ba8231ef25e621a3c6395f40ff8050c5598a3ca3d36eb89d089acabce9"
+        }
+      ],
+      "boundary_marker_count": 1,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-3",
+      "source_section": "MIL-TL-044-C",
+      "literal_line_label": "· 34",
+      "text_sha256": "7af4e9559d96224c2146fefee4127e161e3f8ee7e2222c63320a7e6d90e481f7",
+      "codepoints": 57,
+      "spans": [
+        {
+          "start": 0,
+          "end": 50,
+          "role": "reference_fragment",
+          "sha256": "76ea4758672490ee5d1d92fdc5d870954d5f32c008f17a9891ea147a16a1c4db"
+        },
+        {
+          "start": 50,
+          "end": 52,
+          "role": "literal_boundary_marker",
+          "sha256": "a2c2339691fc48fbd14fb307292dff3e21222712d9240810742d7df0c6d74dfb"
+        },
+        {
+          "start": 52,
+          "end": 57,
+          "role": "reference_fragment",
+          "sha256": "eb21b80a0b52673eeb462aae183132762596d1091864a6aeba8a9f7b00efbbd1"
+        }
+      ],
+      "boundary_marker_count": 1,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-4",
+      "source_section": "MIL-TL-044-C",
+      "literal_line_label": "· 35",
+      "text_sha256": "9227eb599bf6cbb5b65c995c6ebed60fc2568b110d6dec3a3b7844ee04bcabf6",
+      "codepoints": 44,
+      "spans": [
+        {
+          "start": 0,
+          "end": 44,
+          "role": "reference_fragment",
+          "sha256": "9227eb599bf6cbb5b65c995c6ebed60fc2568b110d6dec3a3b7844ee04bcabf6"
+        }
+      ],
+      "boundary_marker_count": 0,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-5",
+      "source_section": "MIL-TL-044-C",
+      "literal_line_label": "· 36",
+      "text_sha256": "d24561f1ee4a9995cc95f7f8ea886626b86b6f2270a1a6ad68d6721454087356",
+      "codepoints": 67,
+      "spans": [
+        {
+          "start": 0,
+          "end": 67,
+          "role": "reference_fragment",
+          "sha256": "d24561f1ee4a9995cc95f7f8ea886626b86b6f2270a1a6ad68d6721454087356"
+        }
+      ],
+      "boundary_marker_count": 0,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-6",
+      "source_section": "MIL-TL-044-C",
+      "literal_line_label": "· 37",
+      "text_sha256": "bacea7bc0b32f1c931e1d9f554865982d0ff988547a528b9becbea013bacaa13",
+      "codepoints": 67,
+      "spans": [
+        {
+          "start": 0,
+          "end": 58,
+          "role": "reference_fragment",
+          "sha256": "e0b1d60058c9b4942350e268093f422b3d14fcd447e18527e2dc5cb28c9030bd"
+        },
+        {
+          "start": 58,
+          "end": 60,
+          "role": "literal_boundary_marker",
+          "sha256": "a2c2339691fc48fbd14fb307292dff3e21222712d9240810742d7df0c6d74dfb"
+        },
+        {
+          "start": 60,
+          "end": 67,
+          "role": "reference_fragment",
+          "sha256": "bf39537798cf84a9520fa79a746e4799a8f1856b49a41722c01840babeb3ce5a"
+        }
+      ],
+      "boundary_marker_count": 1,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-7",
+      "source_section": "MIL-TL-044-C",
+      "literal_line_label": "· 38",
+      "text_sha256": "82fb0150f60372898d083bd57a102acd4560eadaca6d939f6c693e9944e31c89",
+      "codepoints": 60,
+      "spans": [
+        {
+          "start": 0,
+          "end": 60,
+          "role": "reference_fragment",
+          "sha256": "82fb0150f60372898d083bd57a102acd4560eadaca6d939f6c693e9944e31c89"
+        }
+      ],
+      "boundary_marker_count": 0,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-8",
+      "source_section": "MIL-TL-044-C",
+      "literal_line_label": "· 39",
+      "text_sha256": "af7d687b3e027e0563be37c13430bf6d96e3f720c0704941088abee387372101",
+      "codepoints": 53,
+      "spans": [
+        {
+          "start": 0,
+          "end": 53,
+          "role": "reference_fragment",
+          "sha256": "af7d687b3e027e0563be37c13430bf6d96e3f720c0704941088abee387372101"
+        }
+      ],
+      "boundary_marker_count": 0,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-9",
+      "source_section": "MIL-TL-044-C",
+      "literal_line_label": "· 40",
+      "text_sha256": "97fdface2aa4c67685e0ed36bca73691bd9df6b88295590d9ab4e41497373540",
+      "codepoints": 65,
+      "spans": [
+        {
+          "start": 0,
+          "end": 4,
+          "role": "reference_fragment",
+          "sha256": "bc5fca0416951b0100a8ff7517732f0df110eb84b37e0895499d46f59436ca69"
+        },
+        {
+          "start": 4,
+          "end": 6,
+          "role": "literal_boundary_marker",
+          "sha256": "a2c2339691fc48fbd14fb307292dff3e21222712d9240810742d7df0c6d74dfb"
+        },
+        {
+          "start": 6,
+          "end": 65,
+          "role": "reference_fragment",
+          "sha256": "c6153c7e33a9c00294ab8b6d35db20b92725f5fac4316024f90a7c2f5696d6a6"
+        }
+      ],
+      "boundary_marker_count": 1,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-10",
+      "source_section": "MIL-TL-044-C",
+      "literal_line_label": "· 41",
+      "text_sha256": "13f609370125c0555b0823ead4efa8a837cf8de1db835dd6591a0b338c46ee82",
+      "codepoints": 55,
+      "spans": [
+        {
+          "start": 0,
+          "end": 55,
+          "role": "reference_fragment",
+          "sha256": "13f609370125c0555b0823ead4efa8a837cf8de1db835dd6591a0b338c46ee82"
+        }
+      ],
+      "boundary_marker_count": 0,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-11",
+      "source_section": "MIL-TL-044-C",
+      "literal_line_label": "· 42",
+      "text_sha256": "1ea0f621d3608eb85d2017a384e7e801b15164bea0f92ba00ff6ac2d14a16d5a",
+      "codepoints": 71,
+      "spans": [
+        {
+          "start": 0,
+          "end": 65,
+          "role": "reference_fragment",
+          "sha256": "0632b6f2492387b320339c863cb374a95650b92b04fb26348a8caf44ec937c5a"
+        },
+        {
+          "start": 65,
+          "end": 67,
+          "role": "literal_boundary_marker",
+          "sha256": "a2c2339691fc48fbd14fb307292dff3e21222712d9240810742d7df0c6d74dfb"
+        },
+        {
+          "start": 67,
+          "end": 71,
+          "role": "reference_fragment",
+          "sha256": "a7f27fb566912f5d8dc4ec2da59338754a8a8a505f5286afc783ed1c846df23b"
+        }
+      ],
+      "boundary_marker_count": 1,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-12",
+      "source_section": "MIL-TL-044-C",
+      "literal_line_label": "· 43",
+      "text_sha256": "8dc9bcce780ca2497fc793c08eb13f609c64a1e7d94d683c72f1887080d89283",
+      "codepoints": 48,
+      "spans": [
+        {
+          "start": 0,
+          "end": 48,
+          "role": "reference_fragment",
+          "sha256": "8dc9bcce780ca2497fc793c08eb13f609c64a1e7d94d683c72f1887080d89283"
+        }
+      ],
+      "boundary_marker_count": 0,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-13",
+      "source_section": "MIL-TL-044-C",
+      "literal_line_label": "· 44",
+      "text_sha256": "7258b6c82826194e808b8409772fae214c96fbe4a5057fd0eaa4745e68c514d5",
+      "codepoints": 63,
+      "spans": [
+        {
+          "start": 0,
+          "end": 52,
+          "role": "reference_fragment",
+          "sha256": "fa2bb00d63116be72553d053aa2cbf3c83e2f14f27272452baa161ca799e49f6"
+        },
+        {
+          "start": 52,
+          "end": 54,
+          "role": "literal_boundary_marker",
+          "sha256": "a2c2339691fc48fbd14fb307292dff3e21222712d9240810742d7df0c6d74dfb"
+        },
+        {
+          "start": 54,
+          "end": 63,
+          "role": "reference_fragment",
+          "sha256": "ab8c6e34492171fd872b3bc61829b61410c9700a4c4a8a8c2d9a26935c60370d"
+        }
+      ],
+      "boundary_marker_count": 1,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-14",
+      "source_section": "MIL-TL-044-C",
+      "literal_line_label": "· 45",
+      "text_sha256": "4871d231f2e32ba8bf21618f35866d83a69333d0713d4d26962ddb6000b383db",
+      "codepoints": 57,
+      "spans": [
+        {
+          "start": 0,
+          "end": 46,
+          "role": "reference_fragment",
+          "sha256": "00654a772827e81173cf2efefbe67bddd69804598bad33a93f5b71e222a1208b"
+        },
+        {
+          "start": 46,
+          "end": 48,
+          "role": "literal_boundary_marker",
+          "sha256": "a2c2339691fc48fbd14fb307292dff3e21222712d9240810742d7df0c6d74dfb"
+        },
+        {
+          "start": 48,
+          "end": 57,
+          "role": "reference_fragment",
+          "sha256": "2d0c37b0d1978d193597bf6f9b6e5aeb96b09f6739e1f374e65c5f0b28be572c"
+        }
+      ],
+      "boundary_marker_count": 1,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-15",
+      "source_section": "MIL-TL-044-C",
+      "literal_line_label": "· 46",
+      "text_sha256": "5e68d154a8a9eeba11b9f6075b8362db3d49d61bf2d67263ab90be3f06ae4651",
+      "codepoints": 53,
+      "spans": [
+        {
+          "start": 0,
+          "end": 45,
+          "role": "reference_fragment",
+          "sha256": "67b1a6bd7c9532dae8fd7bfb7ca4eea676f57e4cd3b3971c8a85ea5f48253702"
+        },
+        {
+          "start": 45,
+          "end": 47,
+          "role": "literal_boundary_marker",
+          "sha256": "a2c2339691fc48fbd14fb307292dff3e21222712d9240810742d7df0c6d74dfb"
+        },
+        {
+          "start": 47,
+          "end": 53,
+          "role": "reference_fragment",
+          "sha256": "66755784d2f917ca3f7514589a508f831fcdfb2aa549391b81603dbf352fad04"
+        }
+      ],
+      "boundary_marker_count": 1,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-16",
+      "source_section": "MIL-TL-044-C",
+      "literal_line_label": "· 47",
+      "text_sha256": "6d2926d08083277c50449a21f8d6dc2565e4f43cd91ae5d52e9cf0be4f19a50f",
+      "codepoints": 56,
+      "spans": [
+        {
+          "start": 0,
+          "end": 49,
+          "role": "reference_fragment",
+          "sha256": "d96b4dcb88ccf3e34a247971bde2d59348c0d32f3e8ba2d309c928934dbbf391"
+        },
+        {
+          "start": 49,
+          "end": 51,
+          "role": "literal_boundary_marker",
+          "sha256": "a2c2339691fc48fbd14fb307292dff3e21222712d9240810742d7df0c6d74dfb"
+        },
+        {
+          "start": 51,
+          "end": 56,
+          "role": "reference_fragment",
+          "sha256": "b1c608b8207f913be0b6d305b0eca1cf95285555f710a3842629df5fbe0cd2e8"
+        }
+      ],
+      "boundary_marker_count": 1,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-17",
+      "source_section": "MIL-TL-044-C",
+      "literal_line_label": "· 48",
+      "text_sha256": "de1f37f37d5eaa7df3794dc47c26ae10526e7b87b31befcb3924297508e2ad20",
+      "codepoints": 50,
+      "spans": [
+        {
+          "start": 0,
+          "end": 50,
+          "role": "reference_fragment",
+          "sha256": "de1f37f37d5eaa7df3794dc47c26ae10526e7b87b31befcb3924297508e2ad20"
+        }
+      ],
+      "boundary_marker_count": 0,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-18",
+      "source_section": "MIL-TL-044-C",
+      "literal_line_label": "· 49",
+      "text_sha256": "6df1dd9ef12064155babcb9e205535d3886ae4199f2d09b94d19b13e1081a7f4",
+      "codepoints": 70,
+      "spans": [
+        {
+          "start": 0,
+          "end": 64,
+          "role": "reference_fragment",
+          "sha256": "49aecdc24203cfa482de441f2817d8954f64bf472ce0052d51eb7e13c05e1a07"
+        },
+        {
+          "start": 64,
+          "end": 66,
+          "role": "literal_boundary_marker",
+          "sha256": "a2c2339691fc48fbd14fb307292dff3e21222712d9240810742d7df0c6d74dfb"
+        },
+        {
+          "start": 66,
+          "end": 70,
+          "role": "reference_fragment",
+          "sha256": "15f1a4e924339179662efa33eb36314632249110df525c8e6b3b740aaae8e53f"
+        }
+      ],
+      "boundary_marker_count": 1,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-19",
+      "source_section": "MIL-TL-044-C",
+      "literal_line_label": "· 50",
+      "text_sha256": "48ef7f3d4286106d16f92bfae36da41668ad65a7d2822eb4b58010fb7c2da764",
+      "codepoints": 63,
+      "spans": [
+        {
+          "start": 0,
+          "end": 54,
+          "role": "reference_fragment",
+          "sha256": "efbfe67e19963ded1d68ac2e51f84d58a1d39ba1d08d8de8af60afacb68cc2ea"
+        },
+        {
+          "start": 54,
+          "end": 56,
+          "role": "literal_boundary_marker",
+          "sha256": "a2c2339691fc48fbd14fb307292dff3e21222712d9240810742d7df0c6d74dfb"
+        },
+        {
+          "start": 56,
+          "end": 63,
+          "role": "reference_fragment",
+          "sha256": "3ca0243fe9dc3d47a437b6dd340e7a4f39efebb23a74115fcff607f500767104"
+        }
+      ],
+      "boundary_marker_count": 1,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-20",
+      "source_section": "MIL-TL-044-C",
+      "literal_line_label": "· 51",
+      "text_sha256": "9ae8b3addb016f18842e39b6322f056b73cbd83326c06a0ca775d4f1790b0cca",
+      "codepoints": 50,
+      "spans": [
+        {
+          "start": 0,
+          "end": 50,
+          "role": "reference_fragment",
+          "sha256": "9ae8b3addb016f18842e39b6322f056b73cbd83326c06a0ca775d4f1790b0cca"
+        }
+      ],
+      "boundary_marker_count": 0,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-21",
+      "source_section": "MIL-TL-044-C",
+      "literal_line_label": "· 52",
+      "text_sha256": "9f529c88e2a16edd57a251d4e82819f385cf635bbdece3cb139a833583dd8e36",
+      "codepoints": 53,
+      "spans": [
+        {
+          "start": 0,
+          "end": 53,
+          "role": "reference_fragment",
+          "sha256": "9f529c88e2a16edd57a251d4e82819f385cf635bbdece3cb139a833583dd8e36"
+        }
+      ],
+      "boundary_marker_count": 0,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-22",
+      "source_section": "MIL-TL-044-C",
+      "literal_line_label": "· 53",
+      "text_sha256": "2f471470a77fc3ab10ed856fe54c7164724dee04489a7aaf8b3e191a3212ebdd",
+      "codepoints": 52,
+      "spans": [
+        {
+          "start": 0,
+          "end": 52,
+          "role": "reference_fragment",
+          "sha256": "2f471470a77fc3ab10ed856fe54c7164724dee04489a7aaf8b3e191a3212ebdd"
+        }
+      ],
+      "boundary_marker_count": 0,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-23",
+      "source_section": "MIL-TL-044-C",
+      "literal_line_label": "· 54",
+      "text_sha256": "89b1e55d5796864f722b27514264ba1a91acc5c1e82fea6b96b82ae87309e2ac",
+      "codepoints": 65,
+      "spans": [
+        {
+          "start": 0,
+          "end": 60,
+          "role": "reference_fragment",
+          "sha256": "6d08acb735e07904e777d47d0900786e5f151dfb29a0acdee70385cfcf449089"
+        },
+        {
+          "start": 60,
+          "end": 62,
+          "role": "literal_boundary_marker",
+          "sha256": "a2c2339691fc48fbd14fb307292dff3e21222712d9240810742d7df0c6d74dfb"
+        },
+        {
+          "start": 62,
+          "end": 65,
+          "role": "reference_fragment",
+          "sha256": "4d4051e6a6ddfe00b6fceb36dfb33bff47fe1790325bf05fb24faf5f3f25b5aa"
+        }
+      ],
+      "boundary_marker_count": 1,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-24",
+      "source_section": "MIL-TL-044-C",
+      "literal_line_label": "· 55",
+      "text_sha256": "a7b1fb730de26e9160c02f130eb141b099e7abbd7e8b72ba5a9d4dbb417e91e4",
+      "codepoints": 59,
+      "spans": [
+        {
+          "start": 0,
+          "end": 59,
+          "role": "reference_fragment",
+          "sha256": "a7b1fb730de26e9160c02f130eb141b099e7abbd7e8b72ba5a9d4dbb417e91e4"
+        }
+      ],
+      "boundary_marker_count": 0,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-25",
+      "source_section": "MIL-TL-044-C",
+      "literal_line_label": "· 56",
+      "text_sha256": "59b5c48d6ded95509748375ac6e115d9553107b18333182d26a66e559938ce12",
+      "codepoints": 62,
+      "spans": [
+        {
+          "start": 0,
+          "end": 56,
+          "role": "reference_fragment",
+          "sha256": "626bd83f96115629fa58155ba462c5cd6fe9d3a554e79c4869e76046524ca8af"
+        },
+        {
+          "start": 56,
+          "end": 58,
+          "role": "literal_boundary_marker",
+          "sha256": "a2c2339691fc48fbd14fb307292dff3e21222712d9240810742d7df0c6d74dfb"
+        },
+        {
+          "start": 58,
+          "end": 62,
+          "role": "reference_fragment",
+          "sha256": "9d4b0a32fa0732bb0749f515563ee8287dac6943b6b6dc2c29ce1e740564db37"
+        }
+      ],
+      "boundary_marker_count": 1,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-26",
+      "source_section": "MIL-TL-044-C",
+      "literal_line_label": "· 57",
+      "text_sha256": "f0e388d8913758a0495aca5304af0c8e2c62117f80102dd5aab1ece60895205d",
+      "codepoints": 64,
+      "spans": [
+        {
+          "start": 0,
+          "end": 56,
+          "role": "reference_fragment",
+          "sha256": "6e8b9b9855e606675c87c99d5fc9506180081f37a6f33448fb1eebd7b598c976"
+        },
+        {
+          "start": 56,
+          "end": 58,
+          "role": "literal_boundary_marker",
+          "sha256": "a2c2339691fc48fbd14fb307292dff3e21222712d9240810742d7df0c6d74dfb"
+        },
+        {
+          "start": 58,
+          "end": 64,
+          "role": "reference_fragment",
+          "sha256": "7e0905343d1ce984818659b6413c56ff88624c5ec37a98680f4d37981d881eed"
+        }
+      ],
+      "boundary_marker_count": 1,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-27",
+      "source_section": "MIL-TL-044-C",
+      "literal_line_label": "· 58",
+      "text_sha256": "4da78018b321d4aa424195da1430e5e81e0ef56f2ed3cb2de245066635680316",
+      "codepoints": 63,
+      "spans": [
+        {
+          "start": 0,
+          "end": 55,
+          "role": "reference_fragment",
+          "sha256": "18ad14675f2ca3a0bf2c8eab6d2ec72d2206524a273b8e75e39c12acf2fd9c21"
+        },
+        {
+          "start": 55,
+          "end": 57,
+          "role": "literal_boundary_marker",
+          "sha256": "a2c2339691fc48fbd14fb307292dff3e21222712d9240810742d7df0c6d74dfb"
+        },
+        {
+          "start": 57,
+          "end": 63,
+          "role": "reference_fragment",
+          "sha256": "0f2a969794240fcafdfe963cba979043d9537b9769205357675cce6a026e1da8"
+        }
+      ],
+      "boundary_marker_count": 1,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-28",
+      "source_section": "MIL-TL-044-C",
+      "literal_line_label": "· 59",
+      "text_sha256": "e608d8cfe77bebae0114720fee1f10eda440bf53205675595ff140770146e431",
+      "codepoints": 58,
+      "spans": [
+        {
+          "start": 0,
+          "end": 52,
+          "role": "reference_fragment",
+          "sha256": "68b45b2b13e4215ea47cef5bd049de442fe931a964a7cc3dc3595d3086462cb6"
+        },
+        {
+          "start": 52,
+          "end": 54,
+          "role": "literal_boundary_marker",
+          "sha256": "a2c2339691fc48fbd14fb307292dff3e21222712d9240810742d7df0c6d74dfb"
+        },
+        {
+          "start": 54,
+          "end": 58,
+          "role": "reference_fragment",
+          "sha256": "739d45e1039bc2d3b5ff40569a6499f16cd18991a2377ef3c7db3a314a4be861"
+        }
+      ],
+      "boundary_marker_count": 1,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-29",
+      "source_section": "MIL-TL-044-C",
+      "literal_line_label": "· 60",
+      "text_sha256": "81a7856ae2c5496672ac3f1362f3ff69e42ce0525b8fb3fb051ee4bb8c80adfb",
+      "codepoints": 63,
+      "spans": [
+        {
+          "start": 0,
+          "end": 58,
+          "role": "reference_fragment",
+          "sha256": "8dbecae7ff38226f3d7bffaab3a8455fdbc28ca46ed2339dde87fef41c317449"
+        },
+        {
+          "start": 58,
+          "end": 60,
+          "role": "literal_boundary_marker",
+          "sha256": "a2c2339691fc48fbd14fb307292dff3e21222712d9240810742d7df0c6d74dfb"
+        },
+        {
+          "start": 60,
+          "end": 63,
+          "role": "reference_fragment",
+          "sha256": "e3274f6bbd018f920e7d629ba035d211e68e41f23f28f5a9f9b89b7b0ea860db"
+        }
+      ],
+      "boundary_marker_count": 1,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-30",
+      "source_section": "MIL-TL-044-C",
+      "literal_line_label": "· 61",
+      "text_sha256": "19d5c5fe8c61f411bbf635ce4b0b37cd9fa8a9d55b6ae636192046b0057fe4b7",
+      "codepoints": 62,
+      "spans": [
+        {
+          "start": 0,
+          "end": 53,
+          "role": "reference_fragment",
+          "sha256": "a02f3bac44d4a0d36bea3917107effc8d5c422aa0a1db21238913d6e3c2bb7dc"
+        },
+        {
+          "start": 53,
+          "end": 55,
+          "role": "literal_boundary_marker",
+          "sha256": "a2c2339691fc48fbd14fb307292dff3e21222712d9240810742d7df0c6d74dfb"
+        },
+        {
+          "start": 55,
+          "end": 62,
+          "role": "reference_fragment",
+          "sha256": "68a58e2ffb65b1292d0ce755d60331df53507ea353ac42c3c68090cf6c28612c"
+        }
+      ],
+      "boundary_marker_count": 1,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-31",
+      "source_section": "MIL-TL-044-C",
+      "literal_line_label": "· 62",
+      "text_sha256": "3457ae742c59960d0d9d661898c6c9afddc5ebb99aea9c48d68e852acfdb1d31",
+      "codepoints": 58,
+      "spans": [
+        {
+          "start": 0,
+          "end": 58,
+          "role": "reference_fragment",
+          "sha256": "3457ae742c59960d0d9d661898c6c9afddc5ebb99aea9c48d68e852acfdb1d31"
+        }
+      ],
+      "boundary_marker_count": 0,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-32",
+      "source_section": "MIL-TL-044-C",
+      "literal_line_label": "· 63",
+      "text_sha256": "64e8195d385aadf8a928a6b406e617f1b72bdb792353a03392d80cf076ad7f5b",
+      "codepoints": 64,
+      "spans": [
+        {
+          "start": 0,
+          "end": 57,
+          "role": "reference_fragment",
+          "sha256": "56e897343c57d860189ca935f0cfe49ecf887d724ef4d077c0b1f1d2d6c89717"
+        },
+        {
+          "start": 57,
+          "end": 59,
+          "role": "literal_boundary_marker",
+          "sha256": "a2c2339691fc48fbd14fb307292dff3e21222712d9240810742d7df0c6d74dfb"
+        },
+        {
+          "start": 59,
+          "end": 64,
+          "role": "reference_fragment",
+          "sha256": "eb21b80a0b52673eeb462aae183132762596d1091864a6aeba8a9f7b00efbbd1"
+        }
+      ],
+      "boundary_marker_count": 1,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-33",
+      "source_section": "MIL-TL-044-C",
+      "literal_line_label": "· 64",
+      "text_sha256": "b71622ec47eec60e2e13254224d2425f09ba3cc0017daebfe3aed2cd959ff37b",
+      "codepoints": 55,
+      "spans": [
+        {
+          "start": 0,
+          "end": 49,
+          "role": "reference_fragment",
+          "sha256": "00c4d7b5244a7840022cb77119090d541fda54df2643bacbc4980e03323ddacb"
+        },
+        {
+          "start": 49,
+          "end": 51,
+          "role": "literal_boundary_marker",
+          "sha256": "a2c2339691fc48fbd14fb307292dff3e21222712d9240810742d7df0c6d74dfb"
+        },
+        {
+          "start": 51,
+          "end": 55,
+          "role": "reference_fragment",
+          "sha256": "833062a5d4b874aeb2fd091c6d5237e4b3917f488c96e60ab1845f0bf860608b"
+        }
+      ],
+      "boundary_marker_count": 1,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-34",
+      "source_section": "MIL-TL-044-C",
+      "literal_line_label": "· 65",
+      "text_sha256": "45e59346255ff53f8edda97fc99dbc9f3ab5430e925b08cb9df1b0f2736c885e",
+      "codepoints": 13,
+      "spans": [
+        {
+          "start": 0,
+          "end": 13,
+          "role": "reference_fragment",
+          "sha256": "45e59346255ff53f8edda97fc99dbc9f3ab5430e925b08cb9df1b0f2736c885e"
+        }
+      ],
+      "boundary_marker_count": 0,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-36",
+      "source_section": "MIL-TL-044-D",
+      "literal_line_label": "· 1",
+      "text_sha256": "29f8b299ac56b172d4bfd711896f98b68c9c273cb94ca36145a7597936fa0859",
+      "codepoints": 58,
+      "spans": [
+        {
+          "start": 0,
+          "end": 58,
+          "role": "reference_fragment",
+          "sha256": "29f8b299ac56b172d4bfd711896f98b68c9c273cb94ca36145a7597936fa0859"
+        }
+      ],
+      "boundary_marker_count": 0,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-37",
+      "source_section": "MIL-TL-044-D",
+      "literal_line_label": "· 2",
+      "text_sha256": "20aa1befe68b6a925d4edf7320529a8b6ee18ca6dbe81b81bb72a19d9b1448fe",
+      "codepoints": 55,
+      "spans": [
+        {
+          "start": 0,
+          "end": 45,
+          "role": "reference_fragment",
+          "sha256": "7c871ff9cf2133fa2832ef5521464a87efb3b2d75831b9f7a624d218a10d5a24"
+        },
+        {
+          "start": 45,
+          "end": 47,
+          "role": "literal_boundary_marker",
+          "sha256": "a2c2339691fc48fbd14fb307292dff3e21222712d9240810742d7df0c6d74dfb"
+        },
+        {
+          "start": 47,
+          "end": 55,
+          "role": "reference_fragment",
+          "sha256": "6acb4c35d0cc02e181861d2f369b862650f480c71b3d6ab75eb95bba20125eed"
+        }
+      ],
+      "boundary_marker_count": 1,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-38",
+      "source_section": "MIL-TL-044-D",
+      "literal_line_label": "· 3",
+      "text_sha256": "342c4af8a43dd5d7b8c669a52ead213449f66f077accace11638c11684aef83b",
+      "codepoints": 33,
+      "spans": [
+        {
+          "start": 0,
+          "end": 33,
+          "role": "reference_fragment",
+          "sha256": "342c4af8a43dd5d7b8c669a52ead213449f66f077accace11638c11684aef83b"
+        }
+      ],
+      "boundary_marker_count": 0,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-39",
+      "source_section": "MIL-TL-044-D",
+      "literal_line_label": "· 4",
+      "text_sha256": "183be72afba842e9c83cb24e6bae8b697d41cb7727f3526292739dd70bb2c3e6",
+      "codepoints": 48,
+      "spans": [
+        {
+          "start": 0,
+          "end": 43,
+          "role": "reference_fragment",
+          "sha256": "6d02fe46e0b27abd6b5d89cddb9d880f0361acc2245aa1da08151ef5d36ce377"
+        },
+        {
+          "start": 43,
+          "end": 45,
+          "role": "literal_boundary_marker",
+          "sha256": "a2c2339691fc48fbd14fb307292dff3e21222712d9240810742d7df0c6d74dfb"
+        },
+        {
+          "start": 45,
+          "end": 48,
+          "role": "reference_fragment",
+          "sha256": "b323ba8eb5a4df2f162b251ea20b37f6887c7f88714de8ab70ebb4dc99beade5"
+        }
+      ],
+      "boundary_marker_count": 1,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-40",
+      "source_section": "MIL-TL-044-D",
+      "literal_line_label": "· 5",
+      "text_sha256": "b988d5cbbf8b86fb5ff15c722f158e68b8caef2b8e2f3059652f3f753b8d5fd4",
+      "codepoints": 34,
+      "spans": [
+        {
+          "start": 0,
+          "end": 34,
+          "role": "reference_fragment",
+          "sha256": "b988d5cbbf8b86fb5ff15c722f158e68b8caef2b8e2f3059652f3f753b8d5fd4"
+        }
+      ],
+      "boundary_marker_count": 0,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-41",
+      "source_section": "MIL-TL-044-D",
+      "literal_line_label": "· 6",
+      "text_sha256": "29c9d0378337b21cf30d9b3a8456a2e5a639a7b270d17497182ec0e132f8d6e5",
+      "codepoints": 51,
+      "spans": [
+        {
+          "start": 0,
+          "end": 44,
+          "role": "reference_fragment",
+          "sha256": "f675ee20a6deee771687103f94a4da57f1ae0198b1600d41e73294f8ce3a0fe4"
+        },
+        {
+          "start": 44,
+          "end": 46,
+          "role": "literal_boundary_marker",
+          "sha256": "a2c2339691fc48fbd14fb307292dff3e21222712d9240810742d7df0c6d74dfb"
+        },
+        {
+          "start": 46,
+          "end": 51,
+          "role": "reference_fragment",
+          "sha256": "a4e84dd3985c0616f2e54a0f08eb95658374e845ad1d921486647b0d798e89b2"
+        }
+      ],
+      "boundary_marker_count": 1,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-42",
+      "source_section": "MIL-TL-044-D",
+      "literal_line_label": "· 7",
+      "text_sha256": "fdd719f2f07b573a2fc540dfe7e777aef9bcf7c3a059f2b368b74c45943a487e",
+      "codepoints": 48,
+      "spans": [
+        {
+          "start": 0,
+          "end": 45,
+          "role": "reference_fragment",
+          "sha256": "5d8be5a94b7f79bb875960499f09c4839588831bbda849eeaa7bd6dfb8a0871b"
+        },
+        {
+          "start": 45,
+          "end": 47,
+          "role": "literal_boundary_marker",
+          "sha256": "a2c2339691fc48fbd14fb307292dff3e21222712d9240810742d7df0c6d74dfb"
+        },
+        {
+          "start": 47,
+          "end": 48,
+          "role": "reference_fragment",
+          "sha256": "3f79bb7b435b05321651daefd374cdc681dc06faa65e374e38337b88ca046dea"
+        }
+      ],
+      "boundary_marker_count": 1,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-43",
+      "source_section": "MIL-TL-044-D",
+      "literal_line_label": "· 8",
+      "text_sha256": "814e080cb9b75a21ac8b3787a3d2dfc795a7334f3057bfcc950b48b022160b0f",
+      "codepoints": 51,
+      "spans": [
+        {
+          "start": 0,
+          "end": 42,
+          "role": "reference_fragment",
+          "sha256": "99d2f73b9ff5bec752f765c0084546a55406e6af3c870c32906273b8265b0379"
+        },
+        {
+          "start": 42,
+          "end": 44,
+          "role": "literal_boundary_marker",
+          "sha256": "a2c2339691fc48fbd14fb307292dff3e21222712d9240810742d7df0c6d74dfb"
+        },
+        {
+          "start": 44,
+          "end": 51,
+          "role": "reference_fragment",
+          "sha256": "51bb9093dd80f0d3b1cb24641b9afc38ae2a9fcc02bb7301794ca26cbae00f38"
+        }
+      ],
+      "boundary_marker_count": 1,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-44",
+      "source_section": "MIL-TL-044-D",
+      "literal_line_label": "· 9",
+      "text_sha256": "897ec1bcb093bc21818db342f0804ae38596cc31cf1fcc82f30d5557075ab777",
+      "codepoints": 30,
+      "spans": [
+        {
+          "start": 0,
+          "end": 30,
+          "role": "reference_fragment",
+          "sha256": "897ec1bcb093bc21818db342f0804ae38596cc31cf1fcc82f30d5557075ab777"
+        }
+      ],
+      "boundary_marker_count": 0,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-45",
+      "source_section": "MIL-TL-044-D",
+      "literal_line_label": "· 10",
+      "text_sha256": "334722ca3b237fec8f8284ce9baad8d3d39519901ae42918fcece33b4b68a714",
+      "codepoints": 45,
+      "spans": [
+        {
+          "start": 0,
+          "end": 45,
+          "role": "reference_fragment",
+          "sha256": "334722ca3b237fec8f8284ce9baad8d3d39519901ae42918fcece33b4b68a714"
+        }
+      ],
+      "boundary_marker_count": 0,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-46",
+      "source_section": "MIL-TL-044-D",
+      "literal_line_label": "· 11",
+      "text_sha256": "c54bcc74986296f578320936c673d0737a4cdc7918b48718510c01e34c7005b1",
+      "codepoints": 42,
+      "spans": [
+        {
+          "start": 0,
+          "end": 42,
+          "role": "reference_fragment",
+          "sha256": "c54bcc74986296f578320936c673d0737a4cdc7918b48718510c01e34c7005b1"
+        }
+      ],
+      "boundary_marker_count": 0,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-47",
+      "source_section": "MIL-TL-044-D",
+      "literal_line_label": "· 12",
+      "text_sha256": "a477f492ee2339c124e15586468d9e3d436642ed84f93f9e0ead32e167305736",
+      "codepoints": 48,
+      "spans": [
+        {
+          "start": 0,
+          "end": 42,
+          "role": "reference_fragment",
+          "sha256": "21d5d0fd524d0d379d81b8743a8262179b288f5b8ff52a3e87c9359991e33139"
+        },
+        {
+          "start": 42,
+          "end": 44,
+          "role": "literal_boundary_marker",
+          "sha256": "a2c2339691fc48fbd14fb307292dff3e21222712d9240810742d7df0c6d74dfb"
+        },
+        {
+          "start": 44,
+          "end": 48,
+          "role": "reference_fragment",
+          "sha256": "592490b2f02e1f6e903571f0142cceca3baa2964c2b70ffccdf94f3ceebf6f91"
+        }
+      ],
+      "boundary_marker_count": 1,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-48",
+      "source_section": "MIL-TL-044-D",
+      "literal_line_label": "· 13",
+      "text_sha256": "2e5a819f34b298feda6bbdfe9408d9ac3648521ff4a45d1dba65e519a45c5fe0",
+      "codepoints": 57,
+      "spans": [
+        {
+          "start": 0,
+          "end": 46,
+          "role": "reference_fragment",
+          "sha256": "a4f683f7d779c1b111e3c2cf9a59340aef765524eda95cfaff9c52578fb8ad66"
+        },
+        {
+          "start": 46,
+          "end": 48,
+          "role": "literal_boundary_marker",
+          "sha256": "a2c2339691fc48fbd14fb307292dff3e21222712d9240810742d7df0c6d74dfb"
+        },
+        {
+          "start": 48,
+          "end": 57,
+          "role": "reference_fragment",
+          "sha256": "e779d2a1e325ff15780637747280221326402c2609011af343de56b29bf10c96"
+        }
+      ],
+      "boundary_marker_count": 1,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-49",
+      "source_section": "MIL-TL-044-D",
+      "literal_line_label": "· 14",
+      "text_sha256": "422a099247208eb5aa9682e83720da07cf5537562a3c5cf69af641cd4fe81cc0",
+      "codepoints": 36,
+      "spans": [
+        {
+          "start": 0,
+          "end": 36,
+          "role": "reference_fragment",
+          "sha256": "422a099247208eb5aa9682e83720da07cf5537562a3c5cf69af641cd4fe81cc0"
+        }
+      ],
+      "boundary_marker_count": 0,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-50",
+      "source_section": "MIL-TL-044-D",
+      "literal_line_label": "· 15",
+      "text_sha256": "0119ab605d7526820d757fa62e96767c5f00c99177f79a96f627e5b563a1869a",
+      "codepoints": 42,
+      "spans": [
+        {
+          "start": 0,
+          "end": 42,
+          "role": "reference_fragment",
+          "sha256": "0119ab605d7526820d757fa62e96767c5f00c99177f79a96f627e5b563a1869a"
+        }
+      ],
+      "boundary_marker_count": 0,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-51",
+      "source_section": "MIL-TL-044-D",
+      "literal_line_label": "· 16",
+      "text_sha256": "bde115c7838f27ba9ec3ffd2fcfcacb380cd4b114755bcf44f9729c4eaaab3e1",
+      "codepoints": 46,
+      "spans": [
+        {
+          "start": 0,
+          "end": 46,
+          "role": "reference_fragment",
+          "sha256": "bde115c7838f27ba9ec3ffd2fcfcacb380cd4b114755bcf44f9729c4eaaab3e1"
+        }
+      ],
+      "boundary_marker_count": 0,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-52",
+      "source_section": "MIL-TL-044-D",
+      "literal_line_label": "· 17",
+      "text_sha256": "3539352071cb012193d1b1a941374952130f266d70db775a38a0ab021c13005a",
+      "codepoints": 46,
+      "spans": [
+        {
+          "start": 0,
+          "end": 46,
+          "role": "reference_fragment",
+          "sha256": "3539352071cb012193d1b1a941374952130f266d70db775a38a0ab021c13005a"
+        }
+      ],
+      "boundary_marker_count": 0,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-53",
+      "source_section": "MIL-TL-044-D",
+      "literal_line_label": "· 18",
+      "text_sha256": "c47ab709485f59b98f77ed1122f79e4b28758771ad1b6bde0173568e6d28605d",
+      "codepoints": 58,
+      "spans": [
+        {
+          "start": 0,
+          "end": 58,
+          "role": "reference_fragment",
+          "sha256": "c47ab709485f59b98f77ed1122f79e4b28758771ad1b6bde0173568e6d28605d"
+        }
+      ],
+      "boundary_marker_count": 0,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-54",
+      "source_section": "MIL-TL-044-D",
+      "literal_line_label": "· 19",
+      "text_sha256": "4cdfa7f4cada2ce6297bf2768476ea3d31b0e797700338b4228d215888959195",
+      "codepoints": 46,
+      "spans": [
+        {
+          "start": 0,
+          "end": 46,
+          "role": "reference_fragment",
+          "sha256": "4cdfa7f4cada2ce6297bf2768476ea3d31b0e797700338b4228d215888959195"
+        }
+      ],
+      "boundary_marker_count": 0,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-55",
+      "source_section": "MIL-TL-044-D",
+      "literal_line_label": "· 20",
+      "text_sha256": "621b8c183d3952b5e3a7e5e812097adfaba0b890e01295fa328868acddac9cc0",
+      "codepoints": 42,
+      "spans": [
+        {
+          "start": 0,
+          "end": 42,
+          "role": "reference_fragment",
+          "sha256": "621b8c183d3952b5e3a7e5e812097adfaba0b890e01295fa328868acddac9cc0"
+        }
+      ],
+      "boundary_marker_count": 0,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-56",
+      "source_section": "MIL-TL-044-D",
+      "literal_line_label": "· 21",
+      "text_sha256": "b28eeb58c652c2ea6a7a962daac82eacfc20e7a60b6896a790f56c639a4d89b7",
+      "codepoints": 45,
+      "spans": [
+        {
+          "start": 0,
+          "end": 45,
+          "role": "reference_fragment",
+          "sha256": "b28eeb58c652c2ea6a7a962daac82eacfc20e7a60b6896a790f56c639a4d89b7"
+        }
+      ],
+      "boundary_marker_count": 0,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-57",
+      "source_section": "MIL-TL-044-D",
+      "literal_line_label": "· 22",
+      "text_sha256": "fcdd6e6ac5b4a9eebafaed5c8316ac4b0b70607af19d1d1508c79d97babee43e",
+      "codepoints": 50,
+      "spans": [
+        {
+          "start": 0,
+          "end": 50,
+          "role": "reference_fragment",
+          "sha256": "fcdd6e6ac5b4a9eebafaed5c8316ac4b0b70607af19d1d1508c79d97babee43e"
+        }
+      ],
+      "boundary_marker_count": 0,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-58",
+      "source_section": "MIL-TL-044-D",
+      "literal_line_label": "· 23",
+      "text_sha256": "d0ef0dce5d15578242aba4ce26a0db7e7ba9dfb2493f272b994c323fed4ef0f8",
+      "codepoints": 46,
+      "spans": [
+        {
+          "start": 0,
+          "end": 46,
+          "role": "reference_fragment",
+          "sha256": "d0ef0dce5d15578242aba4ce26a0db7e7ba9dfb2493f272b994c323fed4ef0f8"
+        }
+      ],
+      "boundary_marker_count": 0,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-59",
+      "source_section": "MIL-TL-044-D",
+      "literal_line_label": "· 24",
+      "text_sha256": "89b8bec61b75c37e96a5ccb49ddecc62d49c099c3911c021f0f6bd499c5aeaff",
+      "codepoints": 46,
+      "spans": [
+        {
+          "start": 0,
+          "end": 46,
+          "role": "reference_fragment",
+          "sha256": "89b8bec61b75c37e96a5ccb49ddecc62d49c099c3911c021f0f6bd499c5aeaff"
+        }
+      ],
+      "boundary_marker_count": 0,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-60",
+      "source_section": "MIL-TL-044-D",
+      "literal_line_label": "· 25",
+      "text_sha256": "8f8776aa0955b690f844c370399f10cd79aae081cf13b6edf6c9d670063cd719",
+      "codepoints": 41,
+      "spans": [
+        {
+          "start": 0,
+          "end": 41,
+          "role": "reference_fragment",
+          "sha256": "8f8776aa0955b690f844c370399f10cd79aae081cf13b6edf6c9d670063cd719"
+        }
+      ],
+      "boundary_marker_count": 0,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-61",
+      "source_section": "MIL-TL-044-D",
+      "literal_line_label": "· 26",
+      "text_sha256": "df32863858cdbfcf70e751938e97b2132c3a04f382ed523ce77c47a92fa4dff0",
+      "codepoints": 42,
+      "spans": [
+        {
+          "start": 0,
+          "end": 42,
+          "role": "reference_fragment",
+          "sha256": "df32863858cdbfcf70e751938e97b2132c3a04f382ed523ce77c47a92fa4dff0"
+        }
+      ],
+      "boundary_marker_count": 0,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-62",
+      "source_section": "MIL-TL-044-D",
+      "literal_line_label": "· 27",
+      "text_sha256": "e298e4afd40967f471099964f43ced7f13e63372e5fde6873b1e81cfa6075208",
+      "codepoints": 45,
+      "spans": [
+        {
+          "start": 0,
+          "end": 45,
+          "role": "reference_fragment",
+          "sha256": "e298e4afd40967f471099964f43ced7f13e63372e5fde6873b1e81cfa6075208"
+        }
+      ],
+      "boundary_marker_count": 0,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-63",
+      "source_section": "MIL-TL-044-D",
+      "literal_line_label": "· 28",
+      "text_sha256": "a8a95a1c51404f790bb09643ddd707ff3827d58cd8282732b6e96db7a03fa1fd",
+      "codepoints": 42,
+      "spans": [
+        {
+          "start": 0,
+          "end": 42,
+          "role": "reference_fragment",
+          "sha256": "a8a95a1c51404f790bb09643ddd707ff3827d58cd8282732b6e96db7a03fa1fd"
+        }
+      ],
+      "boundary_marker_count": 0,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-64",
+      "source_section": "MIL-TL-044-D",
+      "literal_line_label": "· 29",
+      "text_sha256": "334d10987be0b40e3bc00fd2bbd586f53d6ea5c0de2d2f9c468f112fa363f9e6",
+      "codepoints": 50,
+      "spans": [
+        {
+          "start": 0,
+          "end": 43,
+          "role": "reference_fragment",
+          "sha256": "80f43dd857162e01199262edbab7d4db359b6865a55a6cadfca8f3a550f22e86"
+        },
+        {
+          "start": 43,
+          "end": 45,
+          "role": "literal_boundary_marker",
+          "sha256": "a2c2339691fc48fbd14fb307292dff3e21222712d9240810742d7df0c6d74dfb"
+        },
+        {
+          "start": 45,
+          "end": 50,
+          "role": "reference_fragment",
+          "sha256": "a678e3222f31780589f04bdf59a0d4c1bfb9bd4aba399fba15ca18cd95c1ef1f"
+        }
+      ],
+      "boundary_marker_count": 1,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-65",
+      "source_section": "MIL-TL-044-D",
+      "literal_line_label": "· 30",
+      "text_sha256": "7f0b20ca68f0bfc7d8ba145517cc56d2c3e8ca481d39c07f1cf0ed2f9e027bf7",
+      "codepoints": 38,
+      "spans": [
+        {
+          "start": 0,
+          "end": 33,
+          "role": "reference_fragment",
+          "sha256": "42b865398ecf6b5cfd1c81cfbd520ebe8e0d6103fe269345469ea61b37925189"
+        },
+        {
+          "start": 33,
+          "end": 35,
+          "role": "literal_boundary_marker",
+          "sha256": "a2c2339691fc48fbd14fb307292dff3e21222712d9240810742d7df0c6d74dfb"
+        },
+        {
+          "start": 35,
+          "end": 38,
+          "role": "reference_fragment",
+          "sha256": "93de2241598e647b6693cc39b08f425b42140135cf2e52503af53d3bd5df91b5"
+        }
+      ],
+      "boundary_marker_count": 1,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-66",
+      "source_section": "MIL-TL-044-D",
+      "literal_line_label": "· 31",
+      "text_sha256": "34d91342bec81e006c1a73d378330e8d75299832878ead3ac9e915add1a08bd1",
+      "codepoints": 43,
+      "spans": [
+        {
+          "start": 0,
+          "end": 37,
+          "role": "reference_fragment",
+          "sha256": "26b111f9fd4fb5e90313ab64ad206076117c3dea30cf757fa83caccb7d0b0b91"
+        },
+        {
+          "start": 37,
+          "end": 39,
+          "role": "literal_boundary_marker",
+          "sha256": "a2c2339691fc48fbd14fb307292dff3e21222712d9240810742d7df0c6d74dfb"
+        },
+        {
+          "start": 39,
+          "end": 43,
+          "role": "reference_fragment",
+          "sha256": "13797df89f125d88bac516959103efa4b7077661c4f4036ff2f77b56c69b35a8"
+        }
+      ],
+      "boundary_marker_count": 1,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-67",
+      "source_section": "MIL-TL-044-D",
+      "literal_line_label": "· 32",
+      "text_sha256": "0f7993b65c40aa9a7d4aae489638ae62f7e77e566005026f9bec91fc7494323f",
+      "codepoints": 36,
+      "spans": [
+        {
+          "start": 0,
+          "end": 36,
+          "role": "reference_fragment",
+          "sha256": "0f7993b65c40aa9a7d4aae489638ae62f7e77e566005026f9bec91fc7494323f"
+        }
+      ],
+      "boundary_marker_count": 0,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-68",
+      "source_section": "MIL-TL-044-D",
+      "literal_line_label": "· 33",
+      "text_sha256": "5852a972259c87a9d083c32bb2a6bf35cb43723aedf9e4c262a303e543c90e29",
+      "codepoints": 41,
+      "spans": [
+        {
+          "start": 0,
+          "end": 41,
+          "role": "reference_fragment",
+          "sha256": "5852a972259c87a9d083c32bb2a6bf35cb43723aedf9e4c262a303e543c90e29"
+        }
+      ],
+      "boundary_marker_count": 0,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-69",
+      "source_section": "MIL-TL-044-D",
+      "literal_line_label": "· 34",
+      "text_sha256": "136e98fd83c6b506d2b956bdd83f94999054f448fa263dd996ba0081896f8897",
+      "codepoints": 55,
+      "spans": [
+        {
+          "start": 0,
+          "end": 48,
+          "role": "reference_fragment",
+          "sha256": "8b21e9b5a1912a2c30868089020b5d276922aa3f1e91e879f6bd991e9a29a867"
+        },
+        {
+          "start": 48,
+          "end": 50,
+          "role": "literal_boundary_marker",
+          "sha256": "a2c2339691fc48fbd14fb307292dff3e21222712d9240810742d7df0c6d74dfb"
+        },
+        {
+          "start": 50,
+          "end": 55,
+          "role": "reference_fragment",
+          "sha256": "51504d2fdf6571447d1a29ba9517e4c15478478caddadab2fd95d106ade7186a"
+        }
+      ],
+      "boundary_marker_count": 1,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-70",
+      "source_section": "MIL-TL-044-D",
+      "literal_line_label": "· 35",
+      "text_sha256": "ecf98546b6c00009862dc2082ad85a711249ef4931ad220e2e27a41768fbab4a",
+      "codepoints": 34,
+      "spans": [
+        {
+          "start": 0,
+          "end": 34,
+          "role": "reference_fragment",
+          "sha256": "ecf98546b6c00009862dc2082ad85a711249ef4931ad220e2e27a41768fbab4a"
+        }
+      ],
+      "boundary_marker_count": 0,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-71",
+      "source_section": "MIL-TL-044-D",
+      "literal_line_label": "· 36",
+      "text_sha256": "37f91645ebf160018ed0a18f28d8139d4884ec34f7b8f0bccb2e170de6415596",
+      "codepoints": 51,
+      "spans": [
+        {
+          "start": 0,
+          "end": 44,
+          "role": "reference_fragment",
+          "sha256": "b583a8c339f49a37ef38954a4b75ed423891cd879553d43ea755fe4fd6bfc9c0"
+        },
+        {
+          "start": 44,
+          "end": 46,
+          "role": "literal_boundary_marker",
+          "sha256": "a2c2339691fc48fbd14fb307292dff3e21222712d9240810742d7df0c6d74dfb"
+        },
+        {
+          "start": 46,
+          "end": 51,
+          "role": "reference_fragment",
+          "sha256": "c5e424c893f0ea623849351c972c46573e3615623ccf9331bae669555ed11a5f"
+        }
+      ],
+      "boundary_marker_count": 1,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-72",
+      "source_section": "MIL-TL-044-D",
+      "literal_line_label": "· 37",
+      "text_sha256": "af3894efef7a512ffdc4ce090ea3f4b4583a63f362eae99a4c5c7550c86664d3",
+      "codepoints": 41,
+      "spans": [
+        {
+          "start": 0,
+          "end": 41,
+          "role": "reference_fragment",
+          "sha256": "af3894efef7a512ffdc4ce090ea3f4b4583a63f362eae99a4c5c7550c86664d3"
+        }
+      ],
+      "boundary_marker_count": 0,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-73",
+      "source_section": "MIL-TL-044-D",
+      "literal_line_label": "· 38",
+      "text_sha256": "789cd11686ff7824f38aa8c15ebca808b81071448f653570af2b75537ac8401e",
+      "codepoints": 41,
+      "spans": [
+        {
+          "start": 0,
+          "end": 41,
+          "role": "reference_fragment",
+          "sha256": "789cd11686ff7824f38aa8c15ebca808b81071448f653570af2b75537ac8401e"
+        }
+      ],
+      "boundary_marker_count": 0,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-74",
+      "source_section": "MIL-TL-044-D",
+      "literal_line_label": "· 39",
+      "text_sha256": "9c0c6d7d49ab63b7ddf7305e7a853ae24f0e4ae3b4edee87dc456620fcc6c5ec",
+      "codepoints": 45,
+      "spans": [
+        {
+          "start": 0,
+          "end": 39,
+          "role": "reference_fragment",
+          "sha256": "7203228454a1706c7eee2bb841752f77efa38619d634d55d006650c2706b4fe4"
+        },
+        {
+          "start": 39,
+          "end": 41,
+          "role": "literal_boundary_marker",
+          "sha256": "a2c2339691fc48fbd14fb307292dff3e21222712d9240810742d7df0c6d74dfb"
+        },
+        {
+          "start": 41,
+          "end": 45,
+          "role": "reference_fragment",
+          "sha256": "fb4a8aa9a56bc9b0d17d37e19a7a5919694ab03873826970d5322aef3641297e"
+        }
+      ],
+      "boundary_marker_count": 1,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-75",
+      "source_section": "MIL-TL-044-D",
+      "literal_line_label": "· 40",
+      "text_sha256": "f0c2aff2708b34a71ac86066078c14a8560401052faa8c265c0560cdacc133df",
+      "codepoints": 47,
+      "spans": [
+        {
+          "start": 0,
+          "end": 47,
+          "role": "reference_fragment",
+          "sha256": "f0c2aff2708b34a71ac86066078c14a8560401052faa8c265c0560cdacc133df"
+        }
+      ],
+      "boundary_marker_count": 0,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-76",
+      "source_section": "MIL-TL-044-D",
+      "literal_line_label": "· 41",
+      "text_sha256": "602d461799e4a4170abda7495038671a42c7ac888c387d06f775e3a806bdab80",
+      "codepoints": 44,
+      "spans": [
+        {
+          "start": 0,
+          "end": 37,
+          "role": "reference_fragment",
+          "sha256": "725607acb11ac666201192896fcf22d94f55d4ca37efdcb21202f2ba57559bc2"
+        },
+        {
+          "start": 37,
+          "end": 39,
+          "role": "literal_boundary_marker",
+          "sha256": "a2c2339691fc48fbd14fb307292dff3e21222712d9240810742d7df0c6d74dfb"
+        },
+        {
+          "start": 39,
+          "end": 44,
+          "role": "reference_fragment",
+          "sha256": "a0317e8055464ad0a56b1b572f020a17f5d5cd99c33dcc91bd4578d2aab2de96"
+        }
+      ],
+      "boundary_marker_count": 1,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-77",
+      "source_section": "MIL-TL-044-D",
+      "literal_line_label": "· 42",
+      "text_sha256": "86a8ed40abafb2ef126802af1b861b54edefe80e3f77005b9ae04ed8914dda29",
+      "codepoints": 43,
+      "spans": [
+        {
+          "start": 0,
+          "end": 35,
+          "role": "reference_fragment",
+          "sha256": "b3bed0450caca2278b6f633e91545b2bc2d0c39f3e7b38c3e627a70fb5dc1b02"
+        },
+        {
+          "start": 35,
+          "end": 37,
+          "role": "literal_boundary_marker",
+          "sha256": "a2c2339691fc48fbd14fb307292dff3e21222712d9240810742d7df0c6d74dfb"
+        },
+        {
+          "start": 37,
+          "end": 43,
+          "role": "reference_fragment",
+          "sha256": "05a688a6efc3529c064f57a74cb956ab87e844cbe0fe5022320e574f2093d2d4"
+        }
+      ],
+      "boundary_marker_count": 1,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-78",
+      "source_section": "MIL-TL-044-D",
+      "literal_line_label": "· 43",
+      "text_sha256": "bf01edfd84f9c09b4e97356f7a8b91aa483df6d56243d9a2e724aa1bafb710c4",
+      "codepoints": 36,
+      "spans": [
+        {
+          "start": 0,
+          "end": 31,
+          "role": "reference_fragment",
+          "sha256": "3325474850ba7bce92fb08ac114d74401520f638af134bbc42e88f87c36a950e"
+        },
+        {
+          "start": 31,
+          "end": 33,
+          "role": "literal_boundary_marker",
+          "sha256": "a2c2339691fc48fbd14fb307292dff3e21222712d9240810742d7df0c6d74dfb"
+        },
+        {
+          "start": 33,
+          "end": 36,
+          "role": "reference_fragment",
+          "sha256": "fcf6cf980d378f6bfaa64741857740ca6fbcfb337a4ff17f4ac2e751e065d93c"
+        }
+      ],
+      "boundary_marker_count": 1,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-79",
+      "source_section": "MIL-TL-044-D",
+      "literal_line_label": "· 44",
+      "text_sha256": "e12b0af963f68a4c0fa5cc837a5ba5ae620623aba307436382df50b419da50ca",
+      "codepoints": 42,
+      "spans": [
+        {
+          "start": 0,
+          "end": 42,
+          "role": "reference_fragment",
+          "sha256": "e12b0af963f68a4c0fa5cc837a5ba5ae620623aba307436382df50b419da50ca"
+        }
+      ],
+      "boundary_marker_count": 0,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-80",
+      "source_section": "MIL-TL-044-D",
+      "literal_line_label": "· 45",
+      "text_sha256": "91123ab8b4ca6238d3eae18303517114ecffb484be335697f85769ee9b714ce4",
+      "codepoints": 48,
+      "spans": [
+        {
+          "start": 0,
+          "end": 48,
+          "role": "reference_fragment",
+          "sha256": "91123ab8b4ca6238d3eae18303517114ecffb484be335697f85769ee9b714ce4"
+        }
+      ],
+      "boundary_marker_count": 0,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-81",
+      "source_section": "MIL-TL-044-D",
+      "literal_line_label": "· 46",
+      "text_sha256": "e091938b2b66708bed2b1aa83d690f81458953c466b2349cdb3dbf59d204c525",
+      "codepoints": 52,
+      "spans": [
+        {
+          "start": 0,
+          "end": 46,
+          "role": "reference_fragment",
+          "sha256": "2c4ac2fd3ab8081d1767f875f40c9c89d40a42eedab86918fe189107ec464818"
+        },
+        {
+          "start": 46,
+          "end": 48,
+          "role": "literal_boundary_marker",
+          "sha256": "a2c2339691fc48fbd14fb307292dff3e21222712d9240810742d7df0c6d74dfb"
+        },
+        {
+          "start": 48,
+          "end": 52,
+          "role": "reference_fragment",
+          "sha256": "2d3d52a890b0d8907028f8db1dd3151d774aaac64efcee90addbe2f90539ce29"
+        }
+      ],
+      "boundary_marker_count": 1,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-82",
+      "source_section": "MIL-TL-044-D",
+      "literal_line_label": "· 47",
+      "text_sha256": "383c7bafb5eac1b996ab91069b1dff47c182bc7a15e7c8c4bf4efc245050b19f",
+      "codepoints": 44,
+      "spans": [
+        {
+          "start": 0,
+          "end": 44,
+          "role": "reference_fragment",
+          "sha256": "383c7bafb5eac1b996ab91069b1dff47c182bc7a15e7c8c4bf4efc245050b19f"
+        }
+      ],
+      "boundary_marker_count": 0,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-83",
+      "source_section": "MIL-TL-044-D",
+      "literal_line_label": "· 48",
+      "text_sha256": "e2ebc29a6fcf008da5d67250bddf04c162d98566ea15a0ccf52a9fd911d5d004",
+      "codepoints": 54,
+      "spans": [
+        {
+          "start": 0,
+          "end": 50,
+          "role": "reference_fragment",
+          "sha256": "ead04bebf863a1d54b144e87765ff7eba4158a62749b87eef4728fda59df6ae0"
+        },
+        {
+          "start": 50,
+          "end": 52,
+          "role": "literal_boundary_marker",
+          "sha256": "a2c2339691fc48fbd14fb307292dff3e21222712d9240810742d7df0c6d74dfb"
+        },
+        {
+          "start": 52,
+          "end": 54,
+          "role": "reference_fragment",
+          "sha256": "225ed6562f6887b1074b9d0908100afedb97b49e883ed40361f7470b990f43a4"
+        }
+      ],
+      "boundary_marker_count": 1,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-84",
+      "source_section": "MIL-TL-044-D",
+      "literal_line_label": "· 49",
+      "text_sha256": "9593790248b8f6694dd6560400f1f149401dc0e9e19badedfd5c3291ca256d11",
+      "codepoints": 38,
+      "spans": [
+        {
+          "start": 0,
+          "end": 38,
+          "role": "reference_fragment",
+          "sha256": "9593790248b8f6694dd6560400f1f149401dc0e9e19badedfd5c3291ca256d11"
+        }
+      ],
+      "boundary_marker_count": 0,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-85",
+      "source_section": "MIL-TL-044-D",
+      "literal_line_label": "· 50",
+      "text_sha256": "aa8ee16f840ff2d1270618e7581aa2750f57f56997b4f6cdcff0fc2216bc8d13",
+      "codepoints": 55,
+      "spans": [
+        {
+          "start": 0,
+          "end": 49,
+          "role": "reference_fragment",
+          "sha256": "cc4a79c4d2eca80b61f4e0492d9b41885b10deab731e3669cc56f59f40146c09"
+        },
+        {
+          "start": 49,
+          "end": 51,
+          "role": "literal_boundary_marker",
+          "sha256": "a2c2339691fc48fbd14fb307292dff3e21222712d9240810742d7df0c6d74dfb"
+        },
+        {
+          "start": 51,
+          "end": 55,
+          "role": "reference_fragment",
+          "sha256": "a721c1db5e61fc1bd9968c2c9d7d981edcf8f87c6bdbb9d0fdd8962e3c39a7b5"
+        }
+      ],
+      "boundary_marker_count": 1,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-86",
+      "source_section": "MIL-TL-044-D",
+      "literal_line_label": "· 51",
+      "text_sha256": "c1711741c135c3c0df986c363c5ce536cd50659dfe942628098edadca0ae027b",
+      "codepoints": 50,
+      "spans": [
+        {
+          "start": 0,
+          "end": 45,
+          "role": "reference_fragment",
+          "sha256": "474043046e41eb8ee90dfb25fdc7cf08658860e264676d23042c10ff4b3b9f1d"
+        },
+        {
+          "start": 45,
+          "end": 47,
+          "role": "literal_boundary_marker",
+          "sha256": "a2c2339691fc48fbd14fb307292dff3e21222712d9240810742d7df0c6d74dfb"
+        },
+        {
+          "start": 47,
+          "end": 50,
+          "role": "reference_fragment",
+          "sha256": "62ae857098cfd642f81489ec211300c4dbd48b1f6705dbeaf8f7864d5b237a44"
+        }
+      ],
+      "boundary_marker_count": 1,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-87",
+      "source_section": "MIL-TL-044-D",
+      "literal_line_label": "· 52",
+      "text_sha256": "5d94454671d7eae3d090892c543ae56f80cbb9e3552b3f15e83a72bf82f4fcae",
+      "codepoints": 45,
+      "spans": [
+        {
+          "start": 0,
+          "end": 45,
+          "role": "reference_fragment",
+          "sha256": "5d94454671d7eae3d090892c543ae56f80cbb9e3552b3f15e83a72bf82f4fcae"
+        }
+      ],
+      "boundary_marker_count": 0,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-88",
+      "source_section": "MIL-TL-044-D",
+      "literal_line_label": "· 53",
+      "text_sha256": "babf595d8e3df96ae5c6f1efc2f10b73b3336564c3e84fd0190784867f86b4ed",
+      "codepoints": 50,
+      "spans": [
+        {
+          "start": 0,
+          "end": 44,
+          "role": "reference_fragment",
+          "sha256": "26e5da8f7f3b6b130e1baa5d914a57be16d72ec955dfd023892298da2c234da9"
+        },
+        {
+          "start": 44,
+          "end": 46,
+          "role": "literal_boundary_marker",
+          "sha256": "a2c2339691fc48fbd14fb307292dff3e21222712d9240810742d7df0c6d74dfb"
+        },
+        {
+          "start": 46,
+          "end": 50,
+          "role": "reference_fragment",
+          "sha256": "ef61d819b252f0bae12ede1dd197006c76fca6cee887a1443b2e3f63033a5834"
+        }
+      ],
+      "boundary_marker_count": 1,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-89",
+      "source_section": "MIL-TL-044-D",
+      "literal_line_label": "· 54",
+      "text_sha256": "123c29fdbec90049c6d1465bf5cd37979b1d014ca2076120d9714e2da5d4d7d6",
+      "codepoints": 43,
+      "spans": [
+        {
+          "start": 0,
+          "end": 43,
+          "role": "reference_fragment",
+          "sha256": "123c29fdbec90049c6d1465bf5cd37979b1d014ca2076120d9714e2da5d4d7d6"
+        }
+      ],
+      "boundary_marker_count": 0,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-90",
+      "source_section": "MIL-TL-044-D",
+      "literal_line_label": "· 55",
+      "text_sha256": "a927e62162f73818ba23db024f050c1f4de9d40c71ef39fca3493efc752229e4",
+      "codepoints": 46,
+      "spans": [
+        {
+          "start": 0,
+          "end": 46,
+          "role": "reference_fragment",
+          "sha256": "a927e62162f73818ba23db024f050c1f4de9d40c71ef39fca3493efc752229e4"
+        }
+      ],
+      "boundary_marker_count": 0,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-91",
+      "source_section": "MIL-TL-044-D",
+      "literal_line_label": "· 56",
+      "text_sha256": "d12ac10ef5bc78130d808e5ab77ee95eb0b9b8e902fdbcf34b71c2cc17fd2448",
+      "codepoints": 49,
+      "spans": [
+        {
+          "start": 0,
+          "end": 49,
+          "role": "reference_fragment",
+          "sha256": "d12ac10ef5bc78130d808e5ab77ee95eb0b9b8e902fdbcf34b71c2cc17fd2448"
+        }
+      ],
+      "boundary_marker_count": 0,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-92",
+      "source_section": "MIL-TL-044-D",
+      "literal_line_label": "· 57",
+      "text_sha256": "a6e85d80de6fe4a176bfcd8fd0492f6b96bbe659d70e4196f1eceb61d8aa7bb0",
+      "codepoints": 44,
+      "spans": [
+        {
+          "start": 0,
+          "end": 44,
+          "role": "reference_fragment",
+          "sha256": "a6e85d80de6fe4a176bfcd8fd0492f6b96bbe659d70e4196f1eceb61d8aa7bb0"
+        }
+      ],
+      "boundary_marker_count": 0,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-93",
+      "source_section": "MIL-TL-044-D",
+      "literal_line_label": "· 58",
+      "text_sha256": "aae3fb6897136652c826a56e29775340748d0909cfe1f9fc5465ba1238c70a10",
+      "codepoints": 43,
+      "spans": [
+        {
+          "start": 0,
+          "end": 43,
+          "role": "reference_fragment",
+          "sha256": "aae3fb6897136652c826a56e29775340748d0909cfe1f9fc5465ba1238c70a10"
+        }
+      ],
+      "boundary_marker_count": 0,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-94",
+      "source_section": "MIL-TL-044-D",
+      "literal_line_label": "· 59",
+      "text_sha256": "f84ea8df5c1ab2b8223fc4e19b16a5399723ba1ee7c2bd3c1a779e1859f407f8",
+      "codepoints": 48,
+      "spans": [
+        {
+          "start": 0,
+          "end": 48,
+          "role": "reference_fragment",
+          "sha256": "f84ea8df5c1ab2b8223fc4e19b16a5399723ba1ee7c2bd3c1a779e1859f407f8"
+        }
+      ],
+      "boundary_marker_count": 0,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-95",
+      "source_section": "MIL-TL-044-D",
+      "literal_line_label": "· 60",
+      "text_sha256": "28a88e3f078cf30c52880fd722c05e8cb8dca6f0396da11f1358be3cd0c17ea5",
+      "codepoints": 55,
+      "spans": [
+        {
+          "start": 0,
+          "end": 47,
+          "role": "reference_fragment",
+          "sha256": "c84b9748db07f687ffad38058d731c0f196fc2dc640b89f1dc564926f0db8e03"
+        },
+        {
+          "start": 47,
+          "end": 49,
+          "role": "literal_boundary_marker",
+          "sha256": "a2c2339691fc48fbd14fb307292dff3e21222712d9240810742d7df0c6d74dfb"
+        },
+        {
+          "start": 49,
+          "end": 55,
+          "role": "reference_fragment",
+          "sha256": "950f094cf441e04ae1c5487cfc1223e8e8948bc3fea37269c3230271211dc154"
+        }
+      ],
+      "boundary_marker_count": 1,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-96",
+      "source_section": "MIL-TL-044-D",
+      "literal_line_label": "· 61",
+      "text_sha256": "83d15ede6e4b43c0cbaa7f661fa240dd9c5e79cb1a2cc0e56ac5a6d972926f21",
+      "codepoints": 43,
+      "spans": [
+        {
+          "start": 0,
+          "end": 38,
+          "role": "reference_fragment",
+          "sha256": "cceb5be9394dc00f091b6e57a5ecfb009ed2562efb1f578e1c6191357f9bd3c0"
+        },
+        {
+          "start": 38,
+          "end": 40,
+          "role": "literal_boundary_marker",
+          "sha256": "a2c2339691fc48fbd14fb307292dff3e21222712d9240810742d7df0c6d74dfb"
+        },
+        {
+          "start": 40,
+          "end": 43,
+          "role": "reference_fragment",
+          "sha256": "4d4051e6a6ddfe00b6fceb36dfb33bff47fe1790325bf05fb24faf5f3f25b5aa"
+        }
+      ],
+      "boundary_marker_count": 1,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-97",
+      "source_section": "MIL-TL-044-D",
+      "literal_line_label": "· 62",
+      "text_sha256": "de50452d04c498817b7ae9a70a296c43281c4a1269c27c294407f50cde356682",
+      "codepoints": 44,
+      "spans": [
+        {
+          "start": 0,
+          "end": 44,
+          "role": "reference_fragment",
+          "sha256": "de50452d04c498817b7ae9a70a296c43281c4a1269c27c294407f50cde356682"
+        }
+      ],
+      "boundary_marker_count": 0,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-98",
+      "source_section": "MIL-TL-044-D",
+      "literal_line_label": "· 63",
+      "text_sha256": "d3f50764fe93801fe757d9bac0dfc56472ae1e21f23a449c9ae75a3613368687",
+      "codepoints": 48,
+      "spans": [
+        {
+          "start": 0,
+          "end": 48,
+          "role": "reference_fragment",
+          "sha256": "d3f50764fe93801fe757d9bac0dfc56472ae1e21f23a449c9ae75a3613368687"
+        }
+      ],
+      "boundary_marker_count": 0,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-99",
+      "source_section": "MIL-TL-044-D",
+      "literal_line_label": "· 64",
+      "text_sha256": "6726ceaac44fc96f34e459eaf359b80b5a68da73b95da024c24da7d29141e8f4",
+      "codepoints": 47,
+      "spans": [
+        {
+          "start": 0,
+          "end": 41,
+          "role": "reference_fragment",
+          "sha256": "1bf333da58794fe758c741161eaa8dc6b70d978842f40706a8e41abfdd563c6e"
+        },
+        {
+          "start": 41,
+          "end": 43,
+          "role": "literal_boundary_marker",
+          "sha256": "a2c2339691fc48fbd14fb307292dff3e21222712d9240810742d7df0c6d74dfb"
+        },
+        {
+          "start": 43,
+          "end": 47,
+          "role": "reference_fragment",
+          "sha256": "9d0178f37dfd225259bc5f76b9dbb218b8a6c6881253b7b0ea6f4e5b5f31b293"
+        }
+      ],
+      "boundary_marker_count": 1,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-100",
+      "source_section": "MIL-TL-044-D",
+      "literal_line_label": "· 65",
+      "text_sha256": "85caf57d4f2c21b93c17beef82a34d0d56d27776d3e2b7bba309ea7baf5cc728",
+      "codepoints": 41,
+      "spans": [
+        {
+          "start": 0,
+          "end": 41,
+          "role": "reference_fragment",
+          "sha256": "85caf57d4f2c21b93c17beef82a34d0d56d27776d3e2b7bba309ea7baf5cc728"
+        }
+      ],
+      "boundary_marker_count": 0,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-101",
+      "source_section": "MIL-TL-044-D",
+      "literal_line_label": "· 66",
+      "text_sha256": "b01e969e3914b52deca455ca6b3a41428d031bdd120054a3ea15ecb78ae74a37",
+      "codepoints": 53,
+      "spans": [
+        {
+          "start": 0,
+          "end": 45,
+          "role": "reference_fragment",
+          "sha256": "83e03bea367881ba465b2a8f1a3cf4bdd724c6a5dda6591ee412775757b2d12b"
+        },
+        {
+          "start": 45,
+          "end": 47,
+          "role": "literal_boundary_marker",
+          "sha256": "a2c2339691fc48fbd14fb307292dff3e21222712d9240810742d7df0c6d74dfb"
+        },
+        {
+          "start": 47,
+          "end": 53,
+          "role": "reference_fragment",
+          "sha256": "feff6364bae3ba39b2bdcaec119eceaf03556f1c8ce36b56bca734b77708ed7f"
+        }
+      ],
+      "boundary_marker_count": 1,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-102",
+      "source_section": "MIL-TL-044-D",
+      "literal_line_label": "· 67",
+      "text_sha256": "001e44913562e6a1a9223cabcfd7a00d20470f068e40ff926e150a05aada1a85",
+      "codepoints": 48,
+      "spans": [
+        {
+          "start": 0,
+          "end": 40,
+          "role": "reference_fragment",
+          "sha256": "e6589f4e0cad73b9b301ec10c9661e549eb95523807df90da8f33fe2380cce51"
+        },
+        {
+          "start": 40,
+          "end": 42,
+          "role": "literal_boundary_marker",
+          "sha256": "a2c2339691fc48fbd14fb307292dff3e21222712d9240810742d7df0c6d74dfb"
+        },
+        {
+          "start": 42,
+          "end": 48,
+          "role": "reference_fragment",
+          "sha256": "a08ff293e97a6a9494bbc8a7b709453824ee26b1c1abbf548dca39606d527ab2"
+        }
+      ],
+      "boundary_marker_count": 1,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-103",
+      "source_section": "MIL-TL-044-D",
+      "literal_line_label": "· 68",
+      "text_sha256": "4fe699ee6af4a2e117dc3ee0ca521e388982f64ba38a0e83771b040ae9951684",
+      "codepoints": 40,
+      "spans": [
+        {
+          "start": 0,
+          "end": 40,
+          "role": "reference_fragment",
+          "sha256": "4fe699ee6af4a2e117dc3ee0ca521e388982f64ba38a0e83771b040ae9951684"
+        }
+      ],
+      "boundary_marker_count": 0,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-104",
+      "source_section": "MIL-TL-044-D",
+      "literal_line_label": "· 69",
+      "text_sha256": "7093321ff8fb779bd7299ad5f52d48f2f5e33fc9433c86274aaac8c1ba4badc7",
+      "codepoints": 51,
+      "spans": [
+        {
+          "start": 0,
+          "end": 42,
+          "role": "reference_fragment",
+          "sha256": "3aab01a1da1489cad954c70f3643a0a838e2fedb5f9eb3fcef9e54ee932cc07a"
+        },
+        {
+          "start": 42,
+          "end": 44,
+          "role": "literal_boundary_marker",
+          "sha256": "a2c2339691fc48fbd14fb307292dff3e21222712d9240810742d7df0c6d74dfb"
+        },
+        {
+          "start": 44,
+          "end": 51,
+          "role": "reference_fragment",
+          "sha256": "cf96026e5abd1e96fa995f818a7d1e06b59763afb25e622c3f6b26f87e114893"
+        }
+      ],
+      "boundary_marker_count": 1,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-105",
+      "source_section": "MIL-TL-044-D",
+      "literal_line_label": "· 70",
+      "text_sha256": "8a9d3d901ac9cf0d947c484bb7cf5055f225951315a6af979fc255117fc6040b",
+      "codepoints": 47,
+      "spans": [
+        {
+          "start": 0,
+          "end": 47,
+          "role": "reference_fragment",
+          "sha256": "8a9d3d901ac9cf0d947c484bb7cf5055f225951315a6af979fc255117fc6040b"
+        }
+      ],
+      "boundary_marker_count": 0,
+      "full_row_sign_collation_complete": false
+    },
+    {
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-106",
+      "source_section": "MIL-TL-044-D",
+      "literal_line_label": "· 71",
+      "text_sha256": "8119ea9c4b764815a050488a9a4de7d2d341214ac832897958c3b3fa15ee483b",
+      "codepoints": 46,
+      "spans": [
+        {
+          "start": 0,
+          "end": 46,
+          "role": "reference_fragment",
+          "sha256": "8119ea9c4b764815a050488a9a4de7d2d341214ac832897958c3b3fa15ee483b"
+        }
+      ],
+      "boundary_marker_count": 0,
+      "full_row_sign_collation_complete": false
+    }
+  ],
+  "markers": [
+    {
+      "id": "TL44-C33-MARKER-1",
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-2",
+      "marker_start": 54,
+      "marker_end": 56,
+      "literal_prefix": "natri : slati : xusttedi : sebe xñtabu [:] sebe ñte la",
+      "literal_suffix": "cra :",
+      "proposed_printed_context": [
+        "c33",
+        "c34"
+      ],
+      "printed_pages": [
+        43
+      ],
+      "pdf_ordinals": [
+        53
+      ],
+      "consultation_crops": [
+        "kalinka-53-left"
+      ],
+      "documentary_disposition": "BOUNDARY_CONTEXT_COMPARED_WITHOUT_STRING_EQUIVALENCE",
+      "observation": "Printed boundary context visually compared; retain source-specific spelling, damage and editorial layers. This is not unique sign alignment.",
+      "source_layout_context_visually_compared": true,
+      "exact_transcription_equivalence_established": false,
+      "physical_line_identity_verified": false,
+      "canonical_reading_admitted": false,
+      "independent_review": false
+    },
+    {
+      "id": "TL44-C34-MARKER-1",
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-3",
+      "marker_start": 50,
+      "marker_end": 52,
+      "literal_prefix": "trujeli : zazati : nbb : ) : trqqizkkepe : mede zp",
+      "literal_suffix": "pli :",
+      "proposed_printed_context": [
+        "c34",
+        "c35"
+      ],
+      "printed_pages": [
+        43
+      ],
+      "pdf_ordinals": [
+        53
+      ],
+      "consultation_crops": [
+        "kalinka-53-left"
+      ],
+      "documentary_disposition": "BOUNDARY_CONTEXT_COMPARED_WITHOUT_STRING_EQUIVALENCE",
+      "observation": "Printed boundary context visually compared; retain source-specific spelling, damage and editorial layers. This is not unique sign alignment.",
+      "source_layout_context_visually_compared": true,
+      "exact_transcription_equivalence_established": false,
+      "physical_line_identity_verified": false,
+      "canonical_reading_admitted": false,
+      "independent_review": false
+    },
+    {
+      "id": "TL44-C37-MARKER-1",
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-6",
+      "marker_start": 58,
+      "marker_end": 60,
+      "literal_prefix": "lacra : trbbdi : xeriga : me xbadiz : kudi : mrccd[i : wa]",
+      "literal_suffix": "x!ssa :",
+      "proposed_printed_context": [
+        "c37",
+        "c38"
+      ],
+      "printed_pages": [
+        43
+      ],
+      "pdf_ordinals": [
+        53
+      ],
+      "consultation_crops": [
+        "kalinka-53-left"
+      ],
+      "documentary_disposition": "BOUNDARY_CONTEXT_COMPARED_WITHOUT_STRING_EQUIVALENCE",
+      "observation": "Printed boundary context visually compared; retain source-specific spelling, damage and editorial layers. This is not unique sign alignment.",
+      "source_layout_context_visually_compared": true,
+      "exact_transcription_equivalence_established": false,
+      "physical_line_identity_verified": false,
+      "canonical_reading_admitted": false,
+      "independent_review": false
+    },
+    {
+      "id": "TL44-C40-MARKER-1",
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-9",
+      "marker_start": 4,
+      "marker_end": 6,
+      "literal_prefix": "[eb]",
+      "literal_suffix": "udi : slãmati : zrbblã : m̃qrẽ : muri : tupleleimi [.....-]",
+      "proposed_printed_context": [
+        "c39",
+        "c40"
+      ],
+      "printed_pages": [
+        43
+      ],
+      "pdf_ordinals": [
+        53
+      ],
+      "consultation_crops": [
+        "kalinka-53-left"
+      ],
+      "documentary_disposition": "MARKER_PRECEDES_MATCHING_PRINTED_LABEL",
+      "observation": "The prefix before the marker is restored/damaged. Printed c40 begins at the following fragment; do not assign this marker automatically to c40/c41.",
+      "source_layout_context_visually_compared": true,
+      "exact_transcription_equivalence_established": false,
+      "physical_line_identity_verified": false,
+      "canonical_reading_admitted": false,
+      "independent_review": false
+    },
+    {
+      "id": "TL44-C42-MARKER-1",
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-11",
+      "marker_start": 65,
+      "marker_end": 67,
+      "literal_prefix": "pe nike : waxsi : pibi : krese : rm͂pali : predi : xapaxi : l?[..",
+      "literal_suffix": "]adi",
+      "proposed_printed_context": [
+        "c42",
+        "c43"
+      ],
+      "printed_pages": [
+        43
+      ],
+      "pdf_ordinals": [
+        53
+      ],
+      "consultation_crops": [
+        "kalinka-53-left"
+      ],
+      "documentary_disposition": "BRACKETED_DAMAGE_CROSSES_MARKER",
+      "observation": "The marker occurs inside an open uncertainty bracket; retain bracket context across the partition.",
+      "source_layout_context_visually_compared": true,
+      "exact_transcription_equivalence_established": false,
+      "physical_line_identity_verified": false,
+      "canonical_reading_admitted": false,
+      "independent_review": false
+    },
+    {
+      "id": "TL44-C44-MARKER-1",
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-13",
+      "marker_start": 52,
+      "marker_end": 54,
+      "literal_prefix": "zrbblã : ) meuwe kemijedi : waxsadi : zrqqiti zireim",
+      "literal_suffix": "e{me}di :",
+      "proposed_printed_context": [
+        "c44",
+        "c45"
+      ],
+      "printed_pages": [
+        43
+      ],
+      "pdf_ordinals": [
+        53
+      ],
+      "consultation_crops": [
+        "kalinka-53-left"
+      ],
+      "documentary_disposition": "BOUNDARY_CONTEXT_COMPARED_WITHOUT_STRING_EQUIVALENCE",
+      "observation": "Printed boundary context visually compared; retain source-specific spelling, damage and editorial layers. This is not unique sign alignment.",
+      "source_layout_context_visually_compared": true,
+      "exact_transcription_equivalence_established": false,
+      "physical_line_identity_verified": false,
+      "canonical_reading_admitted": false,
+      "independent_review": false
+    },
+    {
+      "id": "TL44-C45-MARKER-1",
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-14",
+      "marker_start": 46,
+      "marker_end": 48,
+      "literal_prefix": "xbadasadi kudi mawate : klleima : wijedri : ñt",
+      "literal_suffix": "uwitẽni :",
+      "proposed_printed_context": [
+        "c45",
+        "c46"
+      ],
+      "printed_pages": [
+        43
+      ],
+      "pdf_ordinals": [
+        53
+      ],
+      "consultation_crops": [
+        "kalinka-53-left"
+      ],
+      "documentary_disposition": "BOUNDARY_CONTEXT_COMPARED_WITHOUT_STRING_EQUIVALENCE",
+      "observation": "Printed boundary context visually compared; retain source-specific spelling, damage and editorial layers. This is not unique sign alignment.",
+      "source_layout_context_visually_compared": true,
+      "exact_transcription_equivalence_established": false,
+      "physical_line_identity_verified": false,
+      "canonical_reading_admitted": false,
+      "independent_review": false
+    },
+    {
+      "id": "TL44-C46-MARKER-1",
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-15",
+      "marker_start": 45,
+      "marker_end": 47,
+      "literal_prefix": "pduradi : sebe pasbã : ) ñtene puketi : xbide",
+      "literal_suffix": "wñni :",
+      "proposed_printed_context": [
+        "c46",
+        "c47"
+      ],
+      "printed_pages": [
+        43
+      ],
+      "pdf_ordinals": [
+        53
+      ],
+      "consultation_crops": [
+        "kalinka-53-left"
+      ],
+      "documentary_disposition": "BOUNDARY_CONTEXT_COMPARED_WITHOUT_STRING_EQUIVALENCE",
+      "observation": "Printed boundary context visually compared; retain source-specific spelling, damage and editorial layers. This is not unique sign alignment.",
+      "source_layout_context_visually_compared": true,
+      "exact_transcription_equivalence_established": false,
+      "physical_line_identity_verified": false,
+      "canonical_reading_admitted": false,
+      "independent_review": false
+    },
+    {
+      "id": "TL44-C47-MARKER-1",
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-16",
+      "marker_start": 49,
+      "marker_end": 51,
+      "literal_prefix": "ulaxadi : zrẽtẽni : sebẽn ari : kupriti : turaxss",
+      "literal_suffix": "ali :",
+      "proposed_printed_context": [
+        "c47",
+        "c48"
+      ],
+      "printed_pages": [
+        43
+      ],
+      "pdf_ordinals": [
+        53
+      ],
+      "consultation_crops": [
+        "kalinka-53-left"
+      ],
+      "documentary_disposition": "HISTORICAL_BOUNDARY_READING_DIFFERS",
+      "observation": "Digital following fragment ali and printed c48 a[d]i are not certified equivalent; historical and modern conventions remain separate.",
+      "source_layout_context_visually_compared": true,
+      "exact_transcription_equivalence_established": false,
+      "physical_line_identity_verified": false,
+      "canonical_reading_admitted": false,
+      "independent_review": false
+    },
+    {
+      "id": "TL44-C49-MARKER-1",
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-18",
+      "marker_start": 64,
+      "marker_end": 66,
+      "literal_prefix": "ẽkebei xust&lang;t&rang;ite umrggazñ : klleimedi : sbirtẽ : xbad",
+      "literal_suffix": "iz :",
+      "proposed_printed_context": [
+        "c49",
+        "c50"
+      ],
+      "printed_pages": [
+        43
+      ],
+      "pdf_ordinals": [
+        53
+      ],
+      "consultation_crops": [
+        "kalinka-53-left"
+      ],
+      "documentary_disposition": "BOUNDARY_CONTEXT_COMPARED_WITHOUT_STRING_EQUIVALENCE",
+      "observation": "Printed boundary context visually compared; retain source-specific spelling, damage and editorial layers. This is not unique sign alignment.",
+      "source_layout_context_visually_compared": true,
+      "exact_transcription_equivalence_established": false,
+      "physical_line_identity_verified": false,
+      "canonical_reading_admitted": false,
+      "independent_review": false
+    },
+    {
+      "id": "TL44-C50-MARKER-1",
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-19",
+      "marker_start": 54,
+      "marker_end": 56,
+      "literal_prefix": "tuwipene : padrete : xeriga : waxsa : murei : sebe zri",
+      "literal_suffix": "q!ali :",
+      "proposed_printed_context": [
+        "c50",
+        "c51"
+      ],
+      "printed_pages": [
+        43
+      ],
+      "pdf_ordinals": [
+        53
+      ],
+      "consultation_crops": [
+        "kalinka-53-left"
+      ],
+      "documentary_disposition": "BOUNDARY_CONTEXT_COMPARED_WITHOUT_STRING_EQUIVALENCE",
+      "observation": "Printed boundary context visually compared; retain source-specific spelling, damage and editorial layers. This is not unique sign alignment.",
+      "source_layout_context_visually_compared": true,
+      "exact_transcription_equivalence_established": false,
+      "physical_line_identity_verified": false,
+      "canonical_reading_admitted": false,
+      "independent_review": false
+    },
+    {
+      "id": "TL44-C54-MARKER-1",
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-23",
+      "marker_start": 60,
+      "marker_end": 62,
+      "literal_prefix": "xãzbi : tuminesi : hñtawã : kridesi : sebedi : qirzẽ : ziw",
+      "literal_suffix": "i :",
+      "proposed_printed_context": [
+        "c54",
+        "c55"
+      ],
+      "printed_pages": [
+        43
+      ],
+      "pdf_ordinals": [
+        53
+      ],
+      "consultation_crops": [
+        "kalinka-53-left"
+      ],
+      "documentary_disposition": "BOUNDARY_CONTEXT_COMPARED_WITHOUT_STRING_EQUIVALENCE",
+      "observation": "Printed boundary context visually compared; retain source-specific spelling, damage and editorial layers. This is not unique sign alignment.",
+      "source_layout_context_visually_compared": true,
+      "exact_transcription_equivalence_established": false,
+      "physical_line_identity_verified": false,
+      "canonical_reading_admitted": false,
+      "independent_review": false
+    },
+    {
+      "id": "TL44-C56-MARKER-1",
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-25",
+      "marker_start": 56,
+      "marker_end": 58,
+      "literal_prefix": "sebe : pasb{b}ã : ) nepe kiwisiu utetu ñtelija : pidritẽ",
+      "literal_suffix": "ni :",
+      "proposed_printed_context": [
+        "c56",
+        "c57"
+      ],
+      "printed_pages": [
+        43
+      ],
+      "pdf_ordinals": [
+        53
+      ],
+      "consultation_crops": [
+        "kalinka-53-left"
+      ],
+      "documentary_disposition": "BOUNDARY_CONTEXT_COMPARED_WITHOUT_STRING_EQUIVALENCE",
+      "observation": "Printed boundary context visually compared; retain source-specific spelling, damage and editorial layers. This is not unique sign alignment.",
+      "source_layout_context_visually_compared": true,
+      "exact_transcription_equivalence_established": false,
+      "physical_line_identity_verified": false,
+      "canonical_reading_admitted": false,
+      "independent_review": false
+    },
+    {
+      "id": "TL44-C57-MARKER-1",
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-26",
+      "marker_start": 56,
+      "marker_end": 58,
+      "literal_prefix": "pirli : murẽnedi : tuburiz : uples!iz : sike tesi : arpp",
+      "literal_suffix": "axus :",
+      "proposed_printed_context": [
+        "c57",
+        "c58"
+      ],
+      "printed_pages": [
+        43
+      ],
+      "pdf_ordinals": [
+        53
+      ],
+      "consultation_crops": [
+        "kalinka-53-left"
+      ],
+      "documentary_disposition": "BOUNDARY_CONTEXT_COMPARED_WITHOUT_STRING_EQUIVALENCE",
+      "observation": "Printed boundary context visually compared; retain source-specific spelling, damage and editorial layers. This is not unique sign alignment.",
+      "source_layout_context_visually_compared": true,
+      "exact_transcription_equivalence_established": false,
+      "physical_line_identity_verified": false,
+      "canonical_reading_admitted": false,
+      "independent_review": false
+    },
+    {
+      "id": "TL44-C58-MARKER-1",
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-27",
+      "marker_start": 55,
+      "marker_end": 57,
+      "literal_prefix": "ẽti : tm͂pewẽti : ) kibeuwe neu : psseje : qidridi : la",
+      "literal_suffix": "xadi :",
+      "proposed_printed_context": [
+        "c58",
+        "c59"
+      ],
+      "printed_pages": [
+        43
+      ],
+      "pdf_ordinals": [
+        53
+      ],
+      "consultation_crops": [
+        "kalinka-53-left",
+        "kalinka-53-right"
+      ],
+      "documentary_disposition": "SAME_PAGE_COLUMN_TRANSITION",
+      "observation": "The c58/c59 boundary moves from the left column to the top of the right column on printed43.",
+      "source_layout_context_visually_compared": true,
+      "exact_transcription_equivalence_established": false,
+      "physical_line_identity_verified": false,
+      "canonical_reading_admitted": false,
+      "independent_review": false
+    },
+    {
+      "id": "TL44-C59-MARKER-1",
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-28",
+      "marker_start": 52,
+      "marker_end": 54,
+      "literal_prefix": "zirẽple : med erẽple : xradi : waxsa : truijele : mẽ",
+      "literal_suffix": "mi :",
+      "proposed_printed_context": [
+        "c59",
+        "c60"
+      ],
+      "printed_pages": [
+        43
+      ],
+      "pdf_ordinals": [
+        53
+      ],
+      "consultation_crops": [
+        "kalinka-53-right"
+      ],
+      "documentary_disposition": "BOUNDARY_CONTEXT_COMPARED_WITHOUT_STRING_EQUIVALENCE",
+      "observation": "Printed boundary context visually compared; retain source-specific spelling, damage and editorial layers. This is not unique sign alignment.",
+      "source_layout_context_visually_compared": true,
+      "exact_transcription_equivalence_established": false,
+      "physical_line_identity_verified": false,
+      "canonical_reading_admitted": false,
+      "independent_review": false
+    },
+    {
+      "id": "TL44-C60-MARKER-1",
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-29",
+      "marker_start": 58,
+      "marker_end": 60,
+      "literal_prefix": "mawili klleimedi : alcãnalax : ) kize : qle : pẽnịu : tub",
+      "literal_suffix": "edi",
+      "proposed_printed_context": [
+        "c60",
+        "c61"
+      ],
+      "printed_pages": [
+        43
+      ],
+      "pdf_ordinals": [
+        53
+      ],
+      "consultation_crops": [
+        "kalinka-53-right"
+      ],
+      "documentary_disposition": "BOUNDARY_CONTEXT_COMPARED_WITHOUT_STRING_EQUIVALENCE",
+      "observation": "Printed boundary context visually compared; retain source-specific spelling, damage and editorial layers. This is not unique sign alignment.",
+      "source_layout_context_visually_compared": true,
+      "exact_transcription_equivalence_established": false,
+      "physical_line_identity_verified": false,
+      "canonical_reading_admitted": false,
+      "independent_review": false
+    },
+    {
+      "id": "TL44-C61-MARKER-1",
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-30",
+      "marker_start": 53,
+      "marker_end": 55,
+      "literal_prefix": "lebi : kudi : pubrati : pere : medijetike : xuzrñtas",
+      "literal_suffix": "i{si} :",
+      "proposed_printed_context": [
+        "c61",
+        "c62"
+      ],
+      "printed_pages": [
+        43
+      ],
+      "pdf_ordinals": [
+        53
+      ],
+      "consultation_crops": [
+        "kalinka-53-right"
+      ],
+      "documentary_disposition": "EDITORIAL_DELETION_LAYER",
+      "observation": "Keep the digital deletion notation in the suffix separate from the older printed sequence; do not flatten editorial layers.",
+      "source_layout_context_visually_compared": true,
+      "exact_transcription_equivalence_established": false,
+      "physical_line_identity_verified": false,
+      "canonical_reading_admitted": false,
+      "independent_review": false
+    },
+    {
+      "id": "TL44-C63-MARKER-1",
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-32",
+      "marker_start": 57,
+      "marker_end": 59,
+      "literal_prefix": "wixsaba laba : metm͂me xbade : lẽm̃pe : tunewñni : seberẽ",
+      "literal_suffix": "pli :",
+      "proposed_printed_context": [
+        "c63",
+        "c64"
+      ],
+      "printed_pages": [
+        43
+      ],
+      "pdf_ordinals": [
+        53
+      ],
+      "consultation_crops": [
+        "kalinka-53-right"
+      ],
+      "documentary_disposition": "BOUNDARY_CONTEXT_COMPARED_WITHOUT_STRING_EQUIVALENCE",
+      "observation": "Printed boundary context visually compared; retain source-specific spelling, damage and editorial layers. This is not unique sign alignment.",
+      "source_layout_context_visually_compared": true,
+      "exact_transcription_equivalence_established": false,
+      "physical_line_identity_verified": false,
+      "canonical_reading_admitted": false,
+      "independent_review": false
+    },
+    {
+      "id": "TL44-C64-MARKER-1",
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-33",
+      "marker_start": 49,
+      "marker_end": 51,
+      "literal_prefix": "sabaka : qetbeleima : trqqiz : tbisu : serijekabu",
+      "literal_suffix": "rã :",
+      "proposed_printed_context": [
+        "c64",
+        "c65"
+      ],
+      "printed_pages": [
+        43
+      ],
+      "pdf_ordinals": [
+        53
+      ],
+      "consultation_crops": [
+        "kalinka-53-right"
+      ],
+      "documentary_disposition": "BOUNDARY_CONTEXT_COMPARED_WITHOUT_STRING_EQUIVALENCE",
+      "observation": "Printed boundary context visually compared; retain source-specific spelling, damage and editorial layers. This is not unique sign alignment.",
+      "source_layout_context_visually_compared": true,
+      "exact_transcription_equivalence_established": false,
+      "physical_line_identity_verified": false,
+      "canonical_reading_admitted": false,
+      "independent_review": false
+    },
+    {
+      "id": "TL44-D2-MARKER-1",
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-37",
+      "marker_start": 45,
+      "marker_end": 47,
+      "literal_prefix": "[z]ireimedi : sebedẽnẽ : slãtu : xbadiz : qrb",
+      "literal_suffix": "ḅledi :",
+      "proposed_printed_context": [
+        "d2",
+        "d3"
+      ],
+      "printed_pages": [
+        43
+      ],
+      "pdf_ordinals": [
+        53
+      ],
+      "consultation_crops": [
+        "kalinka-53-right"
+      ],
+      "documentary_disposition": "BOUNDARY_CONTEXT_COMPARED_WITHOUT_STRING_EQUIVALENCE",
+      "observation": "Printed boundary context visually compared; retain source-specific spelling, damage and editorial layers. This is not unique sign alignment.",
+      "source_layout_context_visually_compared": true,
+      "exact_transcription_equivalence_established": false,
+      "physical_line_identity_verified": false,
+      "canonical_reading_admitted": false,
+      "independent_review": false
+    },
+    {
+      "id": "TL44-D4-MARKER-1",
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-39",
+      "marker_start": 43,
+      "marker_end": 45,
+      "literal_prefix": "wisidi : pruwa ) albrãnake : mlati : trqqñt",
+      "literal_suffix": "asa",
+      "proposed_printed_context": [
+        "d4",
+        "d5"
+      ],
+      "printed_pages": [
+        43
+      ],
+      "pdf_ordinals": [
+        53
+      ],
+      "consultation_crops": [
+        "kalinka-53-right"
+      ],
+      "documentary_disposition": "BOUNDARY_CONTEXT_COMPARED_WITHOUT_STRING_EQUIVALENCE",
+      "observation": "Printed boundary context visually compared; retain source-specific spelling, damage and editorial layers. This is not unique sign alignment.",
+      "source_layout_context_visually_compared": true,
+      "exact_transcription_equivalence_established": false,
+      "physical_line_identity_verified": false,
+      "canonical_reading_admitted": false,
+      "independent_review": false
+    },
+    {
+      "id": "TL44-D6-MARKER-1",
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-41",
+      "marker_start": 44,
+      "marker_end": 46,
+      "literal_prefix": "zrppedunike qezm̃mi : {w}er[i]ḳlebẽke : xñt",
+      "literal_suffix": "abã :",
+      "proposed_printed_context": [
+        "d6",
+        "d7"
+      ],
+      "printed_pages": [
+        43
+      ],
+      "pdf_ordinals": [
+        53
+      ],
+      "consultation_crops": [
+        "kalinka-53-right"
+      ],
+      "documentary_disposition": "BOUNDARY_CONTEXT_COMPARED_WITHOUT_STRING_EQUIVALENCE",
+      "observation": "Printed boundary context visually compared; retain source-specific spelling, damage and editorial layers. This is not unique sign alignment.",
+      "source_layout_context_visually_compared": true,
+      "exact_transcription_equivalence_established": false,
+      "physical_line_identity_verified": false,
+      "canonical_reading_admitted": false,
+      "independent_review": false
+    },
+    {
+      "id": "TL44-D7-MARKER-1",
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-42",
+      "marker_start": 45,
+      "marker_end": 47,
+      "literal_prefix": "uweti : sukrẽ : ) albmubẽ : ti : zawa : qttid",
+      "literal_suffix": "e",
+      "proposed_printed_context": [
+        "d7",
+        "d8"
+      ],
+      "printed_pages": [
+        43
+      ],
+      "pdf_ordinals": [
+        53
+      ],
+      "consultation_crops": [
+        "kalinka-53-right"
+      ],
+      "documentary_disposition": "BOUNDARY_CONTEXT_COMPARED_WITHOUT_STRING_EQUIVALENCE",
+      "observation": "Printed boundary context visually compared; retain source-specific spelling, damage and editorial layers. This is not unique sign alignment.",
+      "source_layout_context_visually_compared": true,
+      "exact_transcription_equivalence_established": false,
+      "physical_line_identity_verified": false,
+      "canonical_reading_admitted": false,
+      "independent_review": false
+    },
+    {
+      "id": "TL44-D8-MARKER-1",
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-43",
+      "marker_start": 42,
+      "marker_end": 44,
+      "literal_prefix": "ziti : qñnãtba : xuzrñta xerigasa : tu[k]a",
+      "literal_suffix": "drala :",
+      "proposed_printed_context": [
+        "d8",
+        "d9"
+      ],
+      "printed_pages": [
+        43
+      ],
+      "pdf_ordinals": [
+        53
+      ],
+      "consultation_crops": [
+        "kalinka-53-right"
+      ],
+      "documentary_disposition": "BOUNDARY_CONTEXT_COMPARED_WITHOUT_STRING_EQUIVALENCE",
+      "observation": "Printed boundary context visually compared; retain source-specific spelling, damage and editorial layers. This is not unique sign alignment.",
+      "source_layout_context_visually_compared": true,
+      "exact_transcription_equivalence_established": false,
+      "physical_line_identity_verified": false,
+      "canonical_reading_admitted": false,
+      "independent_review": false
+    },
+    {
+      "id": "TL44-D12-MARKER-1",
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-47",
+      "marker_start": 42,
+      "marker_end": 44,
+      "literal_prefix": "ne tubidi : urtu : mrssxã : trqqiz esetesi",
+      "literal_suffix": "[k]e",
+      "proposed_printed_context": [
+        "d12",
+        "d13"
+      ],
+      "printed_pages": [
+        43
+      ],
+      "pdf_ordinals": [
+        53
+      ],
+      "consultation_crops": [
+        "kalinka-53-right"
+      ],
+      "documentary_disposition": "BOUNDARY_CONTEXT_COMPARED_WITHOUT_STRING_EQUIVALENCE",
+      "observation": "Printed boundary context visually compared; retain source-specific spelling, damage and editorial layers. This is not unique sign alignment.",
+      "source_layout_context_visually_compared": true,
+      "exact_transcription_equivalence_established": false,
+      "physical_line_identity_verified": false,
+      "canonical_reading_admitted": false,
+      "independent_review": false
+    },
+    {
+      "id": "TL44-D13-MARKER-1",
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-48",
+      "marker_start": 46,
+      "marker_end": 48,
+      "literal_prefix": "er[b]besike : lusasi esẽnẽmla : ) mepe : stt",
+      "literal_suffix": "[ẽ/ã]ni :",
+      "proposed_printed_context": [
+        "d13",
+        "d14"
+      ],
+      "printed_pages": [
+        43
+      ],
+      "pdf_ordinals": [
+        53
+      ],
+      "consultation_crops": [
+        "kalinka-53-right"
+      ],
+      "documentary_disposition": "ALTERNATIVE_IN_SUFFIX",
+      "observation": "The suffix contains a vowel alternative. A single slash inside the alternative is not the double-slash boundary marker.",
+      "source_layout_context_visually_compared": true,
+      "exact_transcription_equivalence_established": false,
+      "physical_line_identity_verified": false,
+      "canonical_reading_admitted": false,
+      "independent_review": false
+    },
+    {
+      "id": "TL44-D29-MARKER-1",
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-64",
+      "marker_start": 43,
+      "marker_end": 45,
+      "literal_prefix": "kibe meredi : ) nik m̃qrimiz ñtuwitẽni : up",
+      "literal_suffix": "lesiz",
+      "proposed_printed_context": [
+        "d29",
+        "d30"
+      ],
+      "printed_pages": [
+        43
+      ],
+      "pdf_ordinals": [
+        53
+      ],
+      "consultation_crops": [
+        "kalinka-53-right"
+      ],
+      "documentary_disposition": "BOUNDARY_CONTEXT_COMPARED_WITHOUT_STRING_EQUIVALENCE",
+      "observation": "Printed boundary context visually compared; retain source-specific spelling, damage and editorial layers. This is not unique sign alignment.",
+      "source_layout_context_visually_compared": true,
+      "exact_transcription_equivalence_established": false,
+      "physical_line_identity_verified": false,
+      "canonical_reading_admitted": false,
+      "independent_review": false
+    },
+    {
+      "id": "TL44-D30-MARKER-1",
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-65",
+      "marker_start": 33,
+      "marker_end": 35,
+      "literal_prefix": "waxssadi {kibe meredi : nik m͂qri",
+      "literal_suffix": "miz",
+      "proposed_printed_context": [
+        "d30",
+        "d31"
+      ],
+      "printed_pages": [
+        43
+      ],
+      "pdf_ordinals": [
+        53
+      ],
+      "consultation_crops": [
+        "kalinka-53-right"
+      ],
+      "documentary_disposition": "EDITORIAL_BRACE_CROSSES_ROWS",
+      "observation": "A digital brace remains open across this row boundary; boundary accounting does not sanction deletion or relocation.",
+      "source_layout_context_visually_compared": true,
+      "exact_transcription_equivalence_established": false,
+      "physical_line_identity_verified": false,
+      "canonical_reading_admitted": false,
+      "independent_review": false
+    },
+    {
+      "id": "TL44-D31-MARKER-1",
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-66",
+      "marker_start": 37,
+      "marker_end": 39,
+      "literal_prefix": "ñtuwiteni : uplesiz : waxssadi :} tub",
+      "literal_suffix": "uriz",
+      "proposed_printed_context": [
+        "d31",
+        "d32"
+      ],
+      "printed_pages": [
+        43
+      ],
+      "pdf_ordinals": [
+        53
+      ],
+      "consultation_crops": [
+        "kalinka-53-right"
+      ],
+      "documentary_disposition": "EDITORIAL_BRACE_CLOSES_IN_ROW",
+      "observation": "A closing digital brace occurs before the marker. Preserve its source context rather than normalizing it away.",
+      "source_layout_context_visually_compared": true,
+      "exact_transcription_equivalence_established": false,
+      "physical_line_identity_verified": false,
+      "canonical_reading_admitted": false,
+      "independent_review": false
+    },
+    {
+      "id": "TL44-D34-MARKER-1",
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-69",
+      "marker_start": 48,
+      "marker_end": 50,
+      "literal_prefix": "lacra : ) me muni : trbbdi : tuwi : uwadra : met",
+      "literal_suffix": "upene",
+      "proposed_printed_context": [
+        "d34",
+        "d35"
+      ],
+      "printed_pages": [
+        43
+      ],
+      "pdf_ordinals": [
+        53
+      ],
+      "consultation_crops": [
+        "kalinka-53-right"
+      ],
+      "documentary_disposition": "BOUNDARY_CONTEXT_COMPARED_WITHOUT_STRING_EQUIVALENCE",
+      "observation": "Printed boundary context visually compared; retain source-specific spelling, damage and editorial layers. This is not unique sign alignment.",
+      "source_layout_context_visually_compared": true,
+      "exact_transcription_equivalence_established": false,
+      "physical_line_identity_verified": false,
+      "canonical_reading_admitted": false,
+      "independent_review": false
+    },
+    {
+      "id": "TL44-D36-MARKER-1",
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-71",
+      "marker_start": 44,
+      "marker_end": 46,
+      "literal_prefix": "xezm͂ : xbadasa : alasi dadupe : sebe : pasb",
+      "literal_suffix": "asi :",
+      "proposed_printed_context": [
+        "d36",
+        "d37"
+      ],
+      "printed_pages": [
+        43
+      ],
+      "pdf_ordinals": [
+        53
+      ],
+      "consultation_crops": [
+        "kalinka-53-right"
+      ],
+      "documentary_disposition": "BOUNDARY_CONTEXT_COMPARED_WITHOUT_STRING_EQUIVALENCE",
+      "observation": "Printed boundary context visually compared; retain source-specific spelling, damage and editorial layers. This is not unique sign alignment.",
+      "source_layout_context_visually_compared": true,
+      "exact_transcription_equivalence_established": false,
+      "physical_line_identity_verified": false,
+      "canonical_reading_admitted": false,
+      "independent_review": false
+    },
+    {
+      "id": "TL44-D39-MARKER-1",
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-74",
+      "marker_start": 39,
+      "marker_end": 41,
+      "literal_prefix": "kupttle : muxssa : pijelu mlez : ñtemle",
+      "literal_suffix": "si :",
+      "proposed_printed_context": [
+        "d39",
+        "d40"
+      ],
+      "printed_pages": [
+        43
+      ],
+      "pdf_ordinals": [
+        53
+      ],
+      "consultation_crops": [
+        "kalinka-53-right"
+      ],
+      "documentary_disposition": "BOUNDARY_CONTEXT_COMPARED_WITHOUT_STRING_EQUIVALENCE",
+      "observation": "Printed boundary context visually compared; retain source-specific spelling, damage and editorial layers. This is not unique sign alignment.",
+      "source_layout_context_visually_compared": true,
+      "exact_transcription_equivalence_established": false,
+      "physical_line_identity_verified": false,
+      "canonical_reading_admitted": false,
+      "independent_review": false
+    },
+    {
+      "id": "TL44-D41-MARKER-1",
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-76",
+      "marker_start": 37,
+      "marker_end": 39,
+      "literal_prefix": "xñtabupe : kñtre : eluwipe : busawwñn",
+      "literal_suffix": "[a]la",
+      "proposed_printed_context": [
+        "d41",
+        "d42"
+      ],
+      "printed_pages": [
+        43
+      ],
+      "pdf_ordinals": [
+        53
+      ],
+      "consultation_crops": [
+        "kalinka-53-right"
+      ],
+      "documentary_disposition": "BOUNDARY_CONTEXT_COMPARED_WITHOUT_STRING_EQUIVALENCE",
+      "observation": "Printed boundary context visually compared; retain source-specific spelling, damage and editorial layers. This is not unique sign alignment.",
+      "source_layout_context_visually_compared": true,
+      "exact_transcription_equivalence_established": false,
+      "physical_line_identity_verified": false,
+      "canonical_reading_admitted": false,
+      "independent_review": false
+    },
+    {
+      "id": "TL44-D42-MARKER-1",
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-77",
+      "marker_start": 35,
+      "marker_end": 37,
+      "literal_prefix": "tralije : wijedribe : albaxã : m̃qr",
+      "literal_suffix": "eime :",
+      "proposed_printed_context": [
+        "d42",
+        "d43"
+      ],
+      "printed_pages": [
+        43
+      ],
+      "pdf_ordinals": [
+        53
+      ],
+      "consultation_crops": [
+        "kalinka-53-right"
+      ],
+      "documentary_disposition": "BOUNDARY_CONTEXT_COMPARED_WITHOUT_STRING_EQUIVALENCE",
+      "observation": "Printed boundary context visually compared; retain source-specific spelling, damage and editorial layers. This is not unique sign alignment.",
+      "source_layout_context_visually_compared": true,
+      "exact_transcription_equivalence_established": false,
+      "physical_line_identity_verified": false,
+      "canonical_reading_admitted": false,
+      "independent_review": false
+    },
+    {
+      "id": "TL44-D43-MARKER-1",
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-78",
+      "marker_start": 31,
+      "marker_end": 33,
+      "literal_prefix": "mulẽnipe : zppli : ẽtrebe : asx",
+      "literal_suffix": "[xa",
+      "proposed_printed_context": [
+        "d43",
+        "d44"
+      ],
+      "printed_pages": [
+        43
+      ],
+      "pdf_ordinals": [
+        53
+      ],
+      "consultation_crops": [
+        "kalinka-53-right"
+      ],
+      "documentary_disposition": "DAMAGED_HISTORICAL_CONTEXT",
+      "observation": "Historical damaged context does not establish unique character correspondence for the digital suffix; retain unresolved allocation.",
+      "source_layout_context_visually_compared": true,
+      "exact_transcription_equivalence_established": false,
+      "physical_line_identity_verified": false,
+      "canonical_reading_admitted": false,
+      "independent_review": false
+    },
+    {
+      "id": "TL44-D46-MARKER-1",
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-81",
+      "marker_start": 46,
+      "marker_end": 48,
+      "literal_prefix": "trppalau : ripssedi : prlleli : kedipe : ñt[e]",
+      "literal_suffix": "nẽ :",
+      "proposed_printed_context": [
+        "d46",
+        "d47"
+      ],
+      "printed_pages": [
+        43
+      ],
+      "pdf_ordinals": [
+        53
+      ],
+      "consultation_crops": [
+        "kalinka-53-right"
+      ],
+      "documentary_disposition": "BOUNDARY_CONTEXT_COMPARED_WITHOUT_STRING_EQUIVALENCE",
+      "observation": "Printed boundary context visually compared; retain source-specific spelling, damage and editorial layers. This is not unique sign alignment.",
+      "source_layout_context_visually_compared": true,
+      "exact_transcription_equivalence_established": false,
+      "physical_line_identity_verified": false,
+      "canonical_reading_admitted": false,
+      "independent_review": false
+    },
+    {
+      "id": "TL44-D48-MARKER-1",
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-83",
+      "marker_start": 50,
+      "marker_end": 52,
+      "literal_prefix": "uwaxa : mlati : wzza{:}ijesi : me welpumi : mrc[c]",
+      "literal_suffix": "di",
+      "proposed_printed_context": [
+        "d48",
+        "d49"
+      ],
+      "printed_pages": [
+        43
+      ],
+      "pdf_ordinals": [
+        53
+      ],
+      "consultation_crops": [
+        "kalinka-53-right"
+      ],
+      "documentary_disposition": "BOUNDARY_CONTEXT_COMPARED_WITHOUT_STRING_EQUIVALENCE",
+      "observation": "Printed boundary context visually compared; retain source-specific spelling, damage and editorial layers. This is not unique sign alignment.",
+      "source_layout_context_visually_compared": true,
+      "exact_transcription_equivalence_established": false,
+      "physical_line_identity_verified": false,
+      "canonical_reading_admitted": false,
+      "independent_review": false
+    },
+    {
+      "id": "TL44-D50-MARKER-1",
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-85",
+      "marker_start": 49,
+      "marker_end": 51,
+      "literal_prefix": "ziu : sukredi : kibe : pasbu : ) urttu : qelid[e]",
+      "literal_suffix": "li :",
+      "proposed_printed_context": [
+        "d50",
+        "d51"
+      ],
+      "printed_pages": [
+        43
+      ],
+      "pdf_ordinals": [
+        53
+      ],
+      "consultation_crops": [
+        "kalinka-53-right"
+      ],
+      "documentary_disposition": "BOUNDARY_CONTEXT_COMPARED_WITHOUT_STRING_EQUIVALENCE",
+      "observation": "Printed boundary context visually compared; retain source-specific spelling, damage and editorial layers. This is not unique sign alignment.",
+      "source_layout_context_visually_compared": true,
+      "exact_transcription_equivalence_established": false,
+      "physical_line_identity_verified": false,
+      "canonical_reading_admitted": false,
+      "independent_review": false
+    },
+    {
+      "id": "TL44-D51-MARKER-1",
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-86",
+      "marker_start": 45,
+      "marker_end": 47,
+      "literal_prefix": "kibei mei : perepñ : nestte : mlati : xba[da]",
+      "literal_suffix": "siz",
+      "proposed_printed_context": [
+        "d51",
+        "d52"
+      ],
+      "printed_pages": [
+        43
+      ],
+      "pdf_ordinals": [
+        53
+      ],
+      "consultation_crops": [
+        "kalinka-53-right"
+      ],
+      "documentary_disposition": "BOUNDARY_CONTEXT_COMPARED_WITHOUT_STRING_EQUIVALENCE",
+      "observation": "Printed boundary context visually compared; retain source-specific spelling, damage and editorial layers. This is not unique sign alignment.",
+      "source_layout_context_visually_compared": true,
+      "exact_transcription_equivalence_established": false,
+      "physical_line_identity_verified": false,
+      "canonical_reading_admitted": false,
+      "independent_review": false
+    },
+    {
+      "id": "TL44-D53-MARKER-1",
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-88",
+      "marker_start": 44,
+      "marker_end": 46,
+      "literal_prefix": "kibe : pruxssi : rbbinezi{s} : ) me xeri[ga]",
+      "literal_suffix": "zñ :",
+      "proposed_printed_context": [
+        "d53",
+        "d54"
+      ],
+      "printed_pages": [
+        43,
+        44
+      ],
+      "pdf_ordinals": [
+        53,
+        54
+      ],
+      "consultation_crops": [
+        "kalinka-53-right",
+        "kalinka-54-upperleft"
+      ],
+      "documentary_disposition": "PRINTED_PAGE_TRANSITION",
+      "observation": "The d53/d54 context continues from printed43/PDF53 to printed44/PDF54; no missing row or new witness is implied.",
+      "source_layout_context_visually_compared": true,
+      "exact_transcription_equivalence_established": false,
+      "physical_line_identity_verified": false,
+      "canonical_reading_admitted": false,
+      "independent_review": false
+    },
+    {
+      "id": "TL44-D60-MARKER-1",
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-95",
+      "marker_start": 47,
+      "marker_end": 49,
+      "literal_prefix": "sebe lijeiz : ddelupeliz : niuwe : lugãtu : sm͂",
+      "literal_suffix": "mẽte :",
+      "proposed_printed_context": [
+        "d60",
+        "d61"
+      ],
+      "printed_pages": [
+        44
+      ],
+      "pdf_ordinals": [
+        54
+      ],
+      "consultation_crops": [
+        "kalinka-54-upperleft"
+      ],
+      "documentary_disposition": "BOUNDARY_CONTEXT_COMPARED_WITHOUT_STRING_EQUIVALENCE",
+      "observation": "Printed boundary context visually compared; retain source-specific spelling, damage and editorial layers. This is not unique sign alignment.",
+      "source_layout_context_visually_compared": true,
+      "exact_transcription_equivalence_established": false,
+      "physical_line_identity_verified": false,
+      "canonical_reading_admitted": false,
+      "independent_review": false
+    },
+    {
+      "id": "TL44-D61-MARKER-1",
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-96",
+      "marker_start": 38,
+      "marker_end": 40,
+      "literal_prefix": "klleime qñtiliuwe : plluwi : mlu xr!ãt",
+      "literal_suffix": "i :",
+      "proposed_printed_context": [
+        "d61",
+        "d62"
+      ],
+      "printed_pages": [
+        44
+      ],
+      "pdf_ordinals": [
+        54
+      ],
+      "consultation_crops": [
+        "kalinka-54-upperleft"
+      ],
+      "documentary_disposition": "HISTORICAL_PREFIX_DIFFERENCE",
+      "observation": "Printed d61 boundary context and digital prefix use different historical/current representations; matching the continuation initial does not certify the whole word.",
+      "source_layout_context_visually_compared": true,
+      "exact_transcription_equivalence_established": false,
+      "physical_line_identity_verified": false,
+      "canonical_reading_admitted": false,
+      "independent_review": false
+    },
+    {
+      "id": "TL44-D64-MARKER-1",
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-99",
+      "marker_start": 41,
+      "marker_end": 43,
+      "literal_prefix": "trbbẽniti nekm͂mẽti : punãmadedi : asãnãm",
+      "literal_suffix": "la :",
+      "proposed_printed_context": [
+        "d64",
+        "d65"
+      ],
+      "printed_pages": [
+        44
+      ],
+      "pdf_ordinals": [
+        54
+      ],
+      "consultation_crops": [
+        "kalinka-54-upperleft"
+      ],
+      "documentary_disposition": "BOUNDARY_CONTEXT_COMPARED_WITHOUT_STRING_EQUIVALENCE",
+      "observation": "Printed boundary context visually compared; retain source-specific spelling, damage and editorial layers. This is not unique sign alignment.",
+      "source_layout_context_visually_compared": true,
+      "exact_transcription_equivalence_established": false,
+      "physical_line_identity_verified": false,
+      "canonical_reading_admitted": false,
+      "independent_review": false
+    },
+    {
+      "id": "TL44-D66-MARKER-1",
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-101",
+      "marker_start": 45,
+      "marker_end": 47,
+      "literal_prefix": "mirẽñne : xinasike : sesi : m̃qri kebura sebẽ",
+      "literal_suffix": "nesike",
+      "proposed_printed_context": [
+        "d66",
+        "d67"
+      ],
+      "printed_pages": [
+        44
+      ],
+      "pdf_ordinals": [
+        54
+      ],
+      "consultation_crops": [
+        "kalinka-54-upperleft"
+      ],
+      "documentary_disposition": "BOUNDARY_CONTEXT_COMPARED_WITHOUT_STRING_EQUIVALENCE",
+      "observation": "Printed boundary context visually compared; retain source-specific spelling, damage and editorial layers. This is not unique sign alignment.",
+      "source_layout_context_visually_compared": true,
+      "exact_transcription_equivalence_established": false,
+      "physical_line_identity_verified": false,
+      "canonical_reading_admitted": false,
+      "independent_review": false
+    },
+    {
+      "id": "TL44-D67-MARKER-1",
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-102",
+      "marker_start": 40,
+      "marker_end": 42,
+      "literal_prefix": "tedesike : xugasi : xñtawat!a : ) mire k",
+      "literal_suffix": "ẹdije",
+      "proposed_printed_context": [
+        "d67",
+        "d68"
+      ],
+      "printed_pages": [
+        44
+      ],
+      "pdf_ordinals": [
+        54
+      ],
+      "consultation_crops": [
+        "kalinka-54-upperleft",
+        "kalinka-54-upperright"
+      ],
+      "documentary_disposition": "SAME_PAGE_COLUMN_TRANSITION",
+      "observation": "The d67/d68 context continues from the left column to the top of the right column on printed44, not to a new page.",
+      "source_layout_context_visually_compared": true,
+      "exact_transcription_equivalence_established": false,
+      "physical_line_identity_verified": false,
+      "canonical_reading_admitted": false,
+      "independent_review": false
+    },
+    {
+      "id": "TL44-D69-MARKER-1",
+      "reference_row_id": "EDIANA-MILYAN-1-ROW-104",
+      "marker_start": 42,
+      "marker_end": 44,
+      "literal_prefix": "xupdidu : qiqlẽniredi : treixali : kitssel",
+      "literal_suffix": "[ẽ]m̃ :",
+      "proposed_printed_context": [
+        "d69",
+        "d70"
+      ],
+      "printed_pages": [
+        44
+      ],
+      "pdf_ordinals": [
+        54
+      ],
+      "consultation_crops": [
+        "kalinka-54-upperright"
+      ],
+      "documentary_disposition": "BOUNDARY_CONTEXT_COMPARED_WITHOUT_STRING_EQUIVALENCE",
+      "observation": "Printed boundary context visually compared; retain source-specific spelling, damage and editorial layers. This is not unique sign alignment.",
+      "source_layout_context_visually_compared": true,
+      "exact_transcription_equivalence_established": false,
+      "physical_line_identity_verified": false,
+      "canonical_reading_admitted": false,
+      "independent_review": false
+    }
+  ],
+  "limits": {
+    "reference_rows_changed": false,
+    "canonical_readings_added": 0,
+    "physical_objects_added": 0,
+    "independent_reviews_added": 0,
+    "modern_articles_acquired": 0,
+    "full_row_sign_collations_completed": 0
+  },
+  "component_license": "CC-BY-SA-4.0 for eDiAna-derived literal segments and project comparison annotations; Kalinka source remains separately public domain under its recorded source status.",
+  "attribution": "eDiAna Milyan directory, source snapshot as pinned in data/reference/ediana-milyan-source.json; Kalinka1901 TAM I, TL44; original boundary annotations by this project."
+}

@@ -1,0 +1,9 @@
+# TL44 boundary comparison and scoped human review
+
+All105 frozen TL44 reference rows are accounted for in199 exact code-point spans, including all47 literal `//` markers. Kalinka printed43–44/PDF53–54 was reacquired with its pinned SHA-256 and visually consulted in four enlarged column crops. Every marker has a qualified printed-context route and an explicit disposition. This completes this bounded documentary boundary-context pass; it is not105 sign collations or47 accepted sign/line correspondences.
+
+The c40 marker follows a restored/damaged prefix and precedes the fragment at printed c40; blindly applying “current label plus one” gives the wrong proposed context. The c58/c59 and d67/d68 contexts cross columns on the same printed page. The d53/d54 context crosses pages. Damage brackets, vowel alternatives and braces crossing digital rows remain literal. Historical/current boundary strings sometimes differ, including c47/c48 and d61/d62; the routes do not establish exact transcription equality or unique ancient-sign pairing.
+
+Use `python scripts/tl44_boundary_review.py --pdf /path/to/lawful/Kalinka.pdf` to verify input bytes and accounting. Query `tl44-boundary-contexts` and `tl44-span-accounting` through the native evidence query. Literal fragments and annotations retain the eDiAna-derived component's CC-BY-SA-4.0 terms and attribution. Source PDF/crops are not redistributed.
+
+`review/tl44-boundary-human-request.json` enumerates47 exact target IDs, source prerequisites and questions. It is prepared, not reviewed: reviewer fields remain null and decisions empty. Submit separately attributable human decisions through existing native review/maintainer procedures. This request cannot automatically admit readings. The missing Schürr2016/2018 articles remain acquisition prerequisites for updated full critical collation; this historical-source pass does not replace them.

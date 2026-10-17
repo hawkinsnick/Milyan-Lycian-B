@@ -35,3 +35,5 @@ The project-original first-pass review notes in `research/tl55-first-pass-review
 The literal reference units and original comparison annotations in `research/tl55-sign-alignment.json` retain CC-BY-SA-4.0 component terms. Source-position coordinates and uncertainty descriptors do not license the source edition. The full decoded source transcription, PDF and images are excluded from GitHub. The optional exact-PDF audit operates on the researcher’s lawfully held local source and grants no redistribution permission.
 
 `research/tl55-documentary-sign-review.json` contains original source-comparison notes under the CC-BY-SA-4.0 comparison-component exception. It does not redistribute the source PDF, full transcription, apparatus or images, or relicense them.
+
+`research/tl44-boundary-documentary-review.json` literal reference fragments, code-point partitions and original comparison annotations retain the eDiAna-derived CC-BY-SA-4.0 component exception. Kalinka source status is separate; the PDF/crops are not redistributed. No modern article rights are granted.

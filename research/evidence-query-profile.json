@@ -89,6 +89,22 @@
       "id_pointer": "/id",
       "unit": "modern edition bibliographic target",
       "scope": "Two DOI identities; full article PDFs remain unacquired."
+    },
+    {
+      "name": "tl44-boundary-contexts",
+      "path": "research/tl44-boundary-documentary-review.json",
+      "pointer": "/markers",
+      "id_pointer": "/id",
+      "unit": "qualified documentary boundary context",
+      "scope": "All105 frozen TL44 reference rows partitioned; all47 literal // marker contexts visually compared with Kalinka printed43–44. Layout-context routing only: no full-row sign collation, phonetic normalization, modern-edition substitution or unique ancient-sign matching."
+    },
+    {
+      "name": "tl44-span-accounting",
+      "path": "research/tl44-boundary-documentary-review.json",
+      "pointer": "/rows",
+      "id_pointer": "/reference_row_id",
+      "unit": "frozen digital row code-point partition",
+      "scope": "Exact literal accounting; not ancient-sign units or physical-line identity."
     }
   ],
   "relations": [
@@ -112,6 +128,13 @@
       "from_pointer": "/source_label",
       "to_pointer": "/source_line",
       "label": "SAME_REPORTED_SOURCE_LINE_LABEL_NOT_PHYSICAL_LINE_CERTIFICATION"
+    },
+    {
+      "from": "source-text-rows",
+      "to": "tl44-boundary-contexts",
+      "from_pointer": "/id",
+      "to_pointer": "/reference_row_id",
+      "label": "EXACT_REFERENCE_ROW_BOUNDARY_CONTEXT_NOT_SIGN_OR_OBJECT_CERTIFICATION"
     }
   ],
   "artifacts": [
@@ -232,6 +255,13 @@
       "sha256": "2100d2af995c1ec4ab796a65339fe3567d08190264350eb28e45c607167261ee",
       "encoding": "json",
       "role": "TL44 source checkpoint",
+      "source_snapshot_commit": null
+    },
+    {
+      "path": "research/tl44-boundary-documentary-review.json",
+      "sha256": "05c81a47f6d837800d56a2eb3cf5c19ebe31afe08be8e09bcfe5066e3349bc3f",
+      "encoding": "json",
+      "role": "tl44-boundary-contexts",
       "source_snapshot_commit": null
     }
   ],
