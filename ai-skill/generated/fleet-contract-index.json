@@ -29,8 +29,8 @@
     },
     {
       "path": "LICENSING.md",
-      "sha256": "0269c1a41883947f32f8286c085d7702ad1329c985593a0a1b5564b0896906a8",
-      "bytes": 4389
+      "sha256": "ceffbd9d0b2d7d3ed13f1a43b30f580cb897cb0874ed9140062fa208f923019b",
+      "bytes": 4696
     },
     {
       "path": "NOTICE",
@@ -39,18 +39,18 @@
     },
     {
       "path": "README.md",
-      "sha256": "b3d0d52902915e0703c2bc7965dbe1a3833c55a5319dfa9d32bd8d033881917d",
-      "bytes": 9746
+      "sha256": "4723786af521e5fde0b665ea5d5f062bcf824c3a6cb7b8c281cf8f065b66776c",
+      "bytes": 10030
     },
     {
       "path": "ai-skill/SKILL.md",
-      "sha256": "9157c2f32bf5f893d7eec328748490ff512d5d6e976949c8809170d4f763b01d",
-      "bytes": 16270
+      "sha256": "70883f9e150222509ce9de45fc33cf0932acce740d9857dbdc7cf0dffc1cb3ab",
+      "bytes": 16770
     },
     {
       "path": "ai-skill/generated/research-bundle-index.json",
-      "sha256": "7bb917094b4eecb4330680999231be7254a5f1c1e3914f981747e0313475c94e",
-      "bytes": 14612
+      "sha256": "0b5ab6a9197c7c337b97efe410747f4202c451c0f1cdd55f1ba5670d5f71d384",
+      "bytes": 15638
     },
     {
       "path": "ai-skill/manifest.json",
@@ -59,8 +59,8 @@
     },
     {
       "path": "ai-skill/references/authority-profile.json",
-      "sha256": "af1a2afe6f63a0d644d9ad5d69faa92081ca0abd7c16c55035c151ba5a5f730a",
-      "bytes": 5690
+      "sha256": "98f3722bcff2d88a37804e0a13371dae68d9f134e32a14f75933e276dbbc19a0",
+      "bytes": 6328
     },
     {
       "path": "ai-skill/references/corpus-project-contract.md",
@@ -99,8 +99,8 @@
     },
     {
       "path": "analysis/evidence-query-coverage.json",
-      "sha256": "639012059dea7c872a0ddeb8947efbb16489f3de74f062f4d41feb46c5373f55",
-      "bytes": 14957
+      "sha256": "8a9cb4c8634bf23c4f22ddb0d4bfc69b4ca7e90683384806bd458739db11084c",
+      "bytes": 16826
     },
     {
       "path": "analysis/upstream-epidoc-validation.json",
@@ -173,6 +173,11 @@
       "bytes": 6197
     },
     {
+      "path": "docs/TL44-BOUNDARY-REVIEW.md",
+      "sha256": "7f905c23a3b7f8f97944793d6262ca6144776ed0a3d71938d37783177be77a34",
+      "bytes": 1909
+    },
+    {
       "path": "docs/TL44-SOURCE-CHECKPOINT.md",
       "sha256": "6442f8666e55ae1b9e6968497e05bb31c94ddf4d4d2a44bb6480bc2bcd29f53c",
       "bytes": 4981
@@ -229,8 +234,8 @@
     },
     {
       "path": "research/evidence-query-profile.json",
-      "sha256": "98ec3c5b1cfb8a24957bb02a26004e0cef9366f03c8d96c2f204468ddc0c0cee",
-      "bytes": 11192
+      "sha256": "4f51864456b81e1f5f6b0a34fc9973234d5f034dd71d348e6920b21a80eb9cac",
+      "bytes": 12545
     },
     {
       "path": "research/primary-edition-locator-control.json",
@@ -261,6 +266,11 @@
       "path": "research/source-reconciliation.json",
       "sha256": "1ba8ce32cd6741a0d315902f0500da8bb7fe46b6926bc1364c8981ac285791db",
       "bytes": 2880
+    },
+    {
+      "path": "research/tl44-boundary-documentary-review.json",
+      "sha256": "05c81a47f6d837800d56a2eb3cf5c19ebe31afe08be8e09bcfe5066e3349bc3f",
+      "bytes": 125647
     },
     {
       "path": "research/tl44-source-checkpoint.json",
@@ -296,6 +306,11 @@
       "path": "review/collection-packet.json",
       "sha256": "252132c17b5920f134acf5367e041780b1c8ef77208f0318da3bd8ae19c1e395",
       "bytes": 2077
+    },
+    {
+      "path": "review/tl44-boundary-human-request.json",
+      "sha256": "b5fb5aca452db5127ef77f12041b5dc981ee205ea2e27d912edcbe131b9674db",
+      "bytes": 2584
     },
     {
       "path": "review/tl55-independent-review.json",
@@ -343,6 +358,11 @@
       "bytes": 6771
     },
     {
+      "path": "scripts/tl44_boundary_review.py",
+      "sha256": "8e5dd8311d7437f1371e66be139f8145ff759df0d0de054bbbd2064ff8197e66",
+      "bytes": 5307
+    },
+    {
       "path": "scripts/tl44_source_checkpoint.py",
       "sha256": "b171a639c773e64e5b2d07a6dd2fa4947b7d5832598c2b7ffeec595dcff17885",
       "bytes": 5528
@@ -381,6 +401,11 @@
       "path": "scripts/validate_upstream_epidoc.py",
       "sha256": "e54a492d8954c04578b4ca41a7e2dc81b7a319bf5d0865610d12e93815e2ad63",
       "bytes": 3546
+    },
+    {
+      "path": "tests/test_tl44_boundary_review.py",
+      "sha256": "a159a124b93ada8331493cd2368515bba09103831ab01890347457a34f62b31c",
+      "bytes": 2493
     },
     {
       "path": "tests/test_tl44_source_checkpoint.py",
