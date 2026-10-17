@@ -39,18 +39,18 @@
     },
     {
       "path": "README.md",
-      "sha256": "4723786af521e5fde0b665ea5d5f062bcf824c3a6cb7b8c281cf8f065b66776c",
-      "bytes": 10030
+      "sha256": "e9ab1a1c3e91ab6564d15ad48be49d1403218d5d50ac4b5d4dbdcf857d358a13",
+      "bytes": 10326
     },
     {
       "path": "ai-skill/SKILL.md",
-      "sha256": "70883f9e150222509ce9de45fc33cf0932acce740d9857dbdc7cf0dffc1cb3ab",
-      "bytes": 16770
+      "sha256": "ee421fa249b4621d8f0e4a49d7f6a8a7618f532437e2444817aa2a3b1ff3f888",
+      "bytes": 17786
     },
     {
       "path": "ai-skill/generated/research-bundle-index.json",
-      "sha256": "0b5ab6a9197c7c337b97efe410747f4202c451c0f1cdd55f1ba5670d5f71d384",
-      "bytes": 15638
+      "sha256": "21562eaa6ee262e2c490f926976620b8369ba2f8d4b2162393d37f4ce71ab20a",
+      "bytes": 16433
     },
     {
       "path": "ai-skill/manifest.json",
@@ -74,8 +74,8 @@
     },
     {
       "path": "ai-skill/scripts/build_bundle.py",
-      "sha256": "53363cd8d5cf5c012dba7c0e2fd64e297ec954c239beb87de6848e4f0d704bf8",
-      "bytes": 2605
+      "sha256": "54d47408bb952118b7ad2fe67e889fbe26fbc407c44dcdda728f2bd4abcbf471",
+      "bytes": 2796
     },
     {
       "path": "ai-skill/scripts/fleet_contract.py",
@@ -101,6 +101,11 @@
       "path": "analysis/evidence-query-coverage.json",
       "sha256": "8a9cb4c8634bf23c4f22ddb0d4bfc69b4ca7e90683384806bd458739db11084c",
       "bytes": 16826
+    },
+    {
+      "path": "analysis/research-delivery.json",
+      "sha256": "fd359c14b6d9cdc1035812001dfd5778bef064aa1ab71b377b576f23fb298da1",
+      "bytes": 16840
     },
     {
       "path": "analysis/upstream-epidoc-validation.json",
@@ -166,6 +171,11 @@
       "path": "docs/RESEARCH-API.md",
       "sha256": "d67eb5234a157a17f3ba9c63bd429507684dc15443e7cde8e35f55ea9351078d",
       "bytes": 1063
+    },
+    {
+      "path": "docs/RESEARCH-DELIVERY.md",
+      "sha256": "e745c98907a4134dc4c1e7b7b89aa584215482be81ceccd835495e84aa889189",
+      "bytes": 4065
     },
     {
       "path": "docs/SCHUERR2005-TL55-COLLATION.md",
@@ -348,6 +358,11 @@
       "bytes": 5720
     },
     {
+      "path": "scripts/research_delivery.py",
+      "sha256": "2c113043ed51a459b82dc3959b7f56849bf1aa8c2223719ef3fdaa1321decf8d",
+      "bytes": 10075
+    },
+    {
       "path": "scripts/test_attribution_review.py",
       "sha256": "d81e1c610325e822a1e079db18a619defe57654d7318a13a8be336760b37cae0",
       "bytes": 3274
@@ -356,6 +371,11 @@
       "path": "scripts/test_native_evidence_query.py",
       "sha256": "ddd2af2ce39904014c8a58122278e524e7ae9d504c47218e26f1ba581bb581f4",
       "bytes": 6771
+    },
+    {
+      "path": "scripts/test_research_delivery.py",
+      "sha256": "70d2149542b267fdd633d43dd925644dbeeb5d5e66f27675b28c77de7109464b",
+      "bytes": 5678
     },
     {
       "path": "scripts/tl44_boundary_review.py",
