@@ -87,3 +87,18 @@ The reacquired Kalinka1901 scan matches the earlier hash; printed41,43,44 were v
 ## TL44 boundary review and human scope
 
 Read `docs/TL44-BOUNDARY-REVIEW.md`, `research/tl44-boundary-documentary-review.json` and `review/tl44-boundary-human-request.json` for105-row/47-marker documentary accounting. Keep c40 exceptional routing, damage/editorial layers and page/column transitions with the exact query result. These are qualified source-layout contexts, not accepted ancient-sign matches. Preserve missing modern-edition acquisition and native independent-human acceptance gates.
+
+## Research delivery, evidence answers and feedback
+
+Read `docs/RESEARCH-DELIVERY.md` and verify `analysis/research-delivery.json`
+with `python scripts/research_delivery.py --check` before using delivery claims.
+Use `--dossier ID --collection COLLECTION` for exact evidence-bound answers;
+preserve the complete native payload, citations, categories and limitations.
+Use `--search TEXT` for source-record retrieval. Do not convert file pointers
+into missing primary-edition citations, catalogue rows into unique objects,
+source dependence into independent confirmation, or review forms into acceptance.
+Prepare bounded review drafts with `--review-template`; validate submissions with
+`--validate-review`, then require native human-maintainer acceptance. Treat delivery
+and deterministic answer tests as engineering checks, not empirical LLM validation
+or completion of scholarly/source-permission work. Local packaging grants no new
+redistribution rights. Label any model-generated analysis separately and cite it.

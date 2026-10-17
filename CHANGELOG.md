@@ -69,3 +69,10 @@ Two modern TL44 edition identities are confirmed from pinned publisher-deposited
 ## 2026-10-16 scoped human-validation preparation
 
 Added exact evidence-bound decision routing and preserved acquisition/maintainer prerequisites. [TL44 boundary review](docs/TL44-BOUNDARY-REVIEW.md) accounts for105 rows and47 documentary marker contexts without accepting readings.
+
+## 2026-10-17 — Research delivery controls
+
+Add checksum-bound native search/evidence responses, deterministic local research
+packaging and offline replay, revision-bound review submission forms and rejection
+tests. Update individual AI instructions and documentation. No source record,
+reading, expert acceptance or redistribution permission is added by this change.

@@ -84,3 +84,9 @@ Two modern TL44 edition identities are confirmed from pinned publisher-deposited
 ## 2026-10-16 scoped human-validation preparation
 
 Added exact evidence-bound decision routing and preserved acquisition/maintainer prerequisites. [TL44 boundary review](docs/TL44-BOUNDARY-REVIEW.md) accounts for105 rows and47 documentary marker contexts without accepting readings.
+
+## Research delivery and feedback
+
+[Search, reproducible local packages, evidence-bound answers and review submissions](docs/RESEARCH-DELIVERY.md).
+[Measured delivery scope](analysis/research-delivery.json) retains native evidence
+units and all scholarly, rights and expert-review dependencies.

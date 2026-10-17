@@ -1,0 +1,432 @@
+{
+  "format": "native-research-delivery-v1",
+  "repository": "hawkinsnick/Milyan-Lycian-B",
+  "status": "PASS_DELIVERY_CONTROLS_ONLY",
+  "source_attribution_completeness": "NOT_CERTIFIED_BY_FILE_POINTERS",
+  "facts_hypotheses_policy": "PRESERVE_NATIVE_CATEGORIES_NO_AUTOMATIC_PROMOTION",
+  "scholarly_completeness": false,
+  "expert_acceptance_added": false,
+  "model_behavior_empirically_validated": false,
+  "collections": [
+    {
+      "name": "digital-entries",
+      "native_unit": "digital catalogue entry",
+      "record_count": 2,
+      "scope": "Two source records; not two independently verified objects.",
+      "example_ids": [
+        "EDIANA-MILYAN-0",
+        "EDIANA-MILYAN-1"
+      ],
+      "provenance": {
+        "path": "data/reference/records.json",
+        "sha256": "315d64c998b380d84616e217c79636979f5576f8814dabeb815cbd07758c1565",
+        "pointer": "",
+        "native_artifacts_snapshot_commit": null,
+        "role": "digital-entries",
+        "encoding": "json"
+      }
+    },
+    {
+      "name": "source-text-rows",
+      "native_unit": "digital source text row",
+      "record_count": 114,
+      "scope": "Source rows and physical inscribed lines are different units.",
+      "example_ids": [
+        "EDIANA-MILYAN-0-ROW-1",
+        "EDIANA-MILYAN-0-ROW-2",
+        "EDIANA-MILYAN-0-ROW-3"
+      ],
+      "provenance": {
+        "path": "data/reference/lines.json",
+        "sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+        "pointer": "",
+        "native_artifacts_snapshot_commit": null,
+        "role": "source-text-rows",
+        "encoding": "json"
+      }
+    },
+    {
+      "name": "qualified-tl55-rows",
+      "native_unit": "qualified source-label comparison row",
+      "record_count": 9,
+      "scope": "Nine source-label correspondences with first-pass documentary notes; not full text equivalence or expert acceptance.",
+      "example_ids": [
+        "EDIANA-MILYAN-0-ROW-1",
+        "EDIANA-MILYAN-0-ROW-2",
+        "EDIANA-MILYAN-0-ROW-3"
+      ],
+      "provenance": {
+        "path": "research/tl55-qualified-collation.json",
+        "sha256": "d9bc1e5377e0690519c6757bf30695f159477b0b20398afcd7d4fc002f96db1e",
+        "pointer": "/rows",
+        "native_artifacts_snapshot_commit": null,
+        "role": "qualified-tl55-rows",
+        "encoding": "json"
+      }
+    },
+    {
+      "name": "selected-tl55-issues",
+      "native_unit": "selected source-comparison issue",
+      "record_count": 6,
+      "scope": "Six selected issues; not an exhaustive discrepancy count.",
+      "example_ids": [
+        "MIL-TL055-S2005-OPENING",
+        "MIL-TL055-S2005-LINE2-R",
+        "MIL-TL055-S2005-LINE4-PL"
+      ],
+      "provenance": {
+        "path": "research/schuerr2005-tl55-collation.json",
+        "sha256": "e4e7e7c81fe3efff1168af784c80e391b6af9b35dc94d1add74c7d5cd65d710a",
+        "pointer": "/issues",
+        "native_artifacts_snapshot_commit": null,
+        "role": "selected-tl55-issues",
+        "encoding": "json"
+      }
+    },
+    {
+      "name": "tl55-apparatus-review",
+      "native_unit": "first-pass apparatus review entry",
+      "record_count": 74,
+      "scope": "74 attributed editorial apparatus notes, reviewed but not adjudicated.",
+      "example_ids": [
+        "S2005-A1-01",
+        "S2005-A1-02",
+        "S2005-A1-03"
+      ],
+      "provenance": {
+        "path": "research/tl55-first-pass-review.json",
+        "sha256": "569ce81ab36a50a09f108c758255bec00bcd460a64cdf548a0cf0b0f1b7ac0e0",
+        "pointer": "/apparatus_entries",
+        "native_artifacts_snapshot_commit": null,
+        "role": "tl55-apparatus-review",
+        "encoding": "json"
+      }
+    },
+    {
+      "name": "attribution-review",
+      "native_unit": "bounded documentary attribution review task",
+      "record_count": 77,
+      "scope": "All74 attributed Schürr apparatus notes, the Texier-through-Kalinka count distinction and two unacquired TL44 edition targets. First documentary review is not independent acceptance.",
+      "example_ids": [
+        "MIL-TL55-COUNT-VOICE",
+        "S2005-A1-01",
+        "S2005-A1-02"
+      ],
+      "provenance": {
+        "path": "research/attribution-review.json",
+        "sha256": "e4f190a90b5e3bf02063618c01b42afae0e26402ac590854c42695bb2115be86",
+        "pointer": "/cases",
+        "native_artifacts_snapshot_commit": null,
+        "role": "bounded attribution review",
+        "encoding": "json"
+      }
+    },
+    {
+      "name": "tl55-sign-alignments",
+      "native_unit": "candidate encoded-glyph comparison record",
+      "record_count": 1441,
+      "scope": "Exhaustive1348-reference/1233-source-unit accounting;36 ambiguous records. Mixed notation/print units, not ancient signs, independent witnesses, accepted readings or alternative-pair counts.",
+      "example_ids": [
+        "TL55-L1-A001",
+        "TL55-L1-A002",
+        "TL55-L1-A003"
+      ],
+      "provenance": {
+        "path": "research/tl55-sign-alignment.json",
+        "sha256": "d1a8f561442c2475f9ac293b35cd5710d9825301dc7f43ad256aede7875d294d",
+        "pointer": "/alignments",
+        "native_artifacts_snapshot_commit": null,
+        "role": "qualified glyph comparison and exact source-position metadata",
+        "encoding": "json"
+      }
+    },
+    {
+      "name": "tl55-documentary-sign-review",
+      "native_unit": "completed documentary comparison case",
+      "record_count": 58,
+      "scope": "58 source-located documentary cases cover152 flagged candidate records, including all36 algorithmic ambiguity records. Not58 new readings, alternative pairs or independent witnesses.",
+      "example_ids": [
+        "TL55-REVIEW-01",
+        "TL55-REVIEW-02",
+        "TL55-REVIEW-03"
+      ],
+      "provenance": {
+        "path": "research/tl55-documentary-sign-review.json",
+        "sha256": "1f3bbebfa39481ef52d8ae09f25c107fde18d1be5dfaad5b203f846b0df823d9",
+        "pointer": "/cases",
+        "native_artifacts_snapshot_commit": null,
+        "role": "completed documentary comparison with retained non-unique ranges",
+        "encoding": "json"
+      }
+    },
+    {
+      "name": "tl44-label-routes",
+      "native_unit": "existing digital row to proposed printed label/page route",
+      "record_count": 105,
+      "scope": "105 label routes only. No sign-by-sign collation, physical-line certification, independent witness or expert acceptance.",
+      "example_ids": [
+        "EDIANA-MILYAN-1-ROW-1",
+        "EDIANA-MILYAN-1-ROW-2",
+        "EDIANA-MILYAN-1-ROW-3"
+      ],
+      "provenance": {
+        "path": "research/tl44-source-checkpoint.json",
+        "sha256": "2100d2af995c1ec4ab796a65339fe3567d08190264350eb28e45c607167261ee",
+        "pointer": "/rows",
+        "native_artifacts_snapshot_commit": null,
+        "role": "TL44 source checkpoint",
+        "encoding": "json"
+      }
+    },
+    {
+      "name": "tl44-source-issues",
+      "native_unit": "selected documentary boundary observation",
+      "record_count": 3,
+      "scope": "Three selected observations, not an exhaustive discrepancy inventory.",
+      "example_ids": [
+        "TL44C-BOUNDARY-64-65",
+        "TL44D-PAGE-53-54",
+        "TL44-UNPLACED-FRAGMENTS"
+      ],
+      "provenance": {
+        "path": "research/tl44-source-checkpoint.json",
+        "sha256": "2100d2af995c1ec4ab796a65339fe3567d08190264350eb28e45c607167261ee",
+        "pointer": "/issues",
+        "native_artifacts_snapshot_commit": null,
+        "role": "TL44 source checkpoint",
+        "encoding": "json"
+      }
+    },
+    {
+      "name": "tl44-modern-editions",
+      "native_unit": "modern edition bibliographic target",
+      "record_count": 2,
+      "scope": "Two DOI identities; full article PDFs remain unacquired.",
+      "example_ids": [
+        "TL44C-SCHUERR-2016",
+        "TL44D-SCHUERR-2018"
+      ],
+      "provenance": {
+        "path": "research/tl44-source-checkpoint.json",
+        "sha256": "2100d2af995c1ec4ab796a65339fe3567d08190264350eb28e45c607167261ee",
+        "pointer": "/editions",
+        "native_artifacts_snapshot_commit": null,
+        "role": "TL44 source checkpoint",
+        "encoding": "json"
+      }
+    },
+    {
+      "name": "tl44-boundary-contexts",
+      "native_unit": "qualified documentary boundary context",
+      "record_count": 47,
+      "scope": "All105 frozen TL44 reference rows partitioned; all47 literal // marker contexts visually compared with Kalinka printed43–44. Layout-context routing only: no full-row sign collation, phonetic normalization, modern-edition substitution or unique ancient-sign matching.",
+      "example_ids": [
+        "TL44-C33-MARKER-1",
+        "TL44-C34-MARKER-1",
+        "TL44-C37-MARKER-1"
+      ],
+      "provenance": {
+        "path": "research/tl44-boundary-documentary-review.json",
+        "sha256": "05c81a47f6d837800d56a2eb3cf5c19ebe31afe08be8e09bcfe5066e3349bc3f",
+        "pointer": "/markers",
+        "native_artifacts_snapshot_commit": null,
+        "role": "tl44-boundary-contexts",
+        "encoding": "json"
+      }
+    },
+    {
+      "name": "tl44-span-accounting",
+      "native_unit": "frozen digital row code-point partition",
+      "record_count": 105,
+      "scope": "Exact literal accounting; not ancient-sign units or physical-line identity.",
+      "example_ids": [
+        "EDIANA-MILYAN-1-ROW-1",
+        "EDIANA-MILYAN-1-ROW-2",
+        "EDIANA-MILYAN-1-ROW-3"
+      ],
+      "provenance": {
+        "path": "research/tl44-boundary-documentary-review.json",
+        "sha256": "05c81a47f6d837800d56a2eb3cf5c19ebe31afe08be8e09bcfe5066e3349bc3f",
+        "pointer": "/rows",
+        "native_artifacts_snapshot_commit": null,
+        "role": "tl44-boundary-contexts",
+        "encoding": "json"
+      }
+    }
+  ],
+  "scholarly_limits": [
+    "Texier quoted by Kalinka reports eight TL55 lines; nine printed entry groups and nine frozen rows do not erase that historical statement. Full text/boundary collation, canonical reading acceptance and physical-line certification remain open.",
+    "The first documentary pass covers nine revised lines and 74 apparatus entries. Source label correspondence is not full row equivalence. The independent packet remains PREPARED_NOT_REVIEWED, with no reviewer or accepted readings.",
+    "Attribution review inspects pinned native packets, not underlying sources afresh. Its cases and apparatus notes are not independent witnesses or an alternative-pair total.",
+    "The encoded-sign comparison is exhaustive position accounting with candidate alignments;36 ambiguous records and152 pending triage items are not independently verified disagreements. Source PDF replay reproduces the encoding/alignment method, not epigraphic acceptance. No unit counts may be pooled into physical objects, ancient signs or independent witnesses.",
+    "Documentary follow-up covers every flagged TL55 candidate;19 ambiguity records have positional explanations,2 repeated-run and15 range-only dispositions. Original algorithm flags and pending external adjudication remain unchanged. Completion does not confer independent scientific acceptance."
+  ],
+  "inputs": [
+    {
+      "path": "LICENSE",
+      "sha256": "a6483079a3962d57e0174a735f70813ce644e4371869e1108114dfee6cfd5674",
+      "bytes": 582
+    },
+    {
+      "path": "LICENSE-CODE",
+      "sha256": "ea6e83e9f7dc37fc72af7937c6020e5d4d28858f89be65579752784b9a291a15",
+      "bytes": 444
+    },
+    {
+      "path": "LICENSE-CONTENT.md",
+      "sha256": "08625edd17ac64b3d837499b654d3178240bae5db9c165ae4ec04bb7782ec2a1",
+      "bytes": 1267
+    },
+    {
+      "path": "LICENSING.md",
+      "sha256": "ceffbd9d0b2d7d3ed13f1a43b30f580cb897cb0874ed9140062fa208f923019b",
+      "bytes": 4696
+    },
+    {
+      "path": "NOTICE",
+      "sha256": "e6a95d9900cacac45c4f8e75a1ab8939370655dc2c74996f6d9161364f2be143",
+      "bytes": 1216
+    },
+    {
+      "path": "ai-skill/SKILL.md",
+      "sha256": "ee421fa249b4621d8f0e4a49d7f6a8a7618f532437e2444817aa2a3b1ff3f888",
+      "bytes": 17786
+    },
+    {
+      "path": "data/reference/lines.json",
+      "sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+      "bytes": 110279
+    },
+    {
+      "path": "data/reference/records.json",
+      "sha256": "315d64c998b380d84616e217c79636979f5576f8814dabeb815cbd07758c1565",
+      "bytes": 5402
+    },
+    {
+      "path": "docs/METHODOLOGY.md",
+      "sha256": "3bafeba0679354b180bf48897cb802aa2748925b292ec9fa5e28a7a262500a2b",
+      "bytes": 1122
+    },
+    {
+      "path": "docs/RESEARCH-DELIVERY.md",
+      "sha256": "e745c98907a4134dc4c1e7b7b89aa584215482be81ceccd835495e84aa889189",
+      "bytes": 4065
+    },
+    {
+      "path": "docs/TL44-SOURCE-CHECKPOINT.md",
+      "sha256": "6442f8666e55ae1b9e6968497e05bb31c94ddf4d4d2a44bb6480bc2bcd29f53c",
+      "bytes": 4981
+    },
+    {
+      "path": "docs/TL55-DOCUMENTARY-COMPLETION.md",
+      "sha256": "6ae71692843c53ca7fc8e823d51c6a31380971bc81c9bb9d441aca14df1adfc5",
+      "bytes": 4240
+    },
+    {
+      "path": "docs/TL55-SIGN-COMPARISON.md",
+      "sha256": "fc347a5b0757cf927e8fbf3d800ab744b312f00c5c912eac0e630def67abda79",
+      "bytes": 7634
+    },
+    {
+      "path": "research/attribution-review.json",
+      "sha256": "e4f190a90b5e3bf02063618c01b42afae0e26402ac590854c42695bb2115be86",
+      "bytes": 70819
+    },
+    {
+      "path": "research/collection-work-ledger.json",
+      "sha256": "b41b94a949220138597d6fb1beb9de177d71a9a1e9723e17ba4c94eb6ff02fed",
+      "bytes": 157734
+    },
+    {
+      "path": "research/evidence-query-profile.json",
+      "sha256": "4f51864456b81e1f5f6b0a34fc9973234d5f034dd71d348e6920b21a80eb9cac",
+      "bytes": 12545
+    },
+    {
+      "path": "research/primary-edition-locator-control.json",
+      "sha256": "88363904eb79da33f1832cc50755299e1d5ae8aab3c404f7c2a8f7395193ef2f",
+      "bytes": 4083
+    },
+    {
+      "path": "research/reference-manifest.json",
+      "sha256": "8b97f89970c4518b6f4c421b1eeffb25ffe0dce29c2067c84633646d2a0a3a30",
+      "bytes": 2187
+    },
+    {
+      "path": "research/schuerr2005-tl55-collation.json",
+      "sha256": "e4e7e7c81fe3efff1168af784c80e391b6af9b35dc94d1add74c7d5cd65d710a",
+      "bytes": 11230
+    },
+    {
+      "path": "research/source-reconciliation.json",
+      "sha256": "1ba8ce32cd6741a0d315902f0500da8bb7fe46b6926bc1364c8981ac285791db",
+      "bytes": 2880
+    },
+    {
+      "path": "research/tl44-boundary-documentary-review.json",
+      "sha256": "05c81a47f6d837800d56a2eb3cf5c19ebe31afe08be8e09bcfe5066e3349bc3f",
+      "bytes": 125647
+    },
+    {
+      "path": "research/tl44-source-checkpoint.json",
+      "sha256": "2100d2af995c1ec4ab796a65339fe3567d08190264350eb28e45c607167261ee",
+      "bytes": 79617
+    },
+    {
+      "path": "research/tl55-count-reconciliation-2026-10-14.json",
+      "sha256": "483110da5000eed90881a54c2a7028a8800b2ef81ffc45e7cc6794e104c40af1",
+      "bytes": 2539
+    },
+    {
+      "path": "research/tl55-documentary-sign-review.json",
+      "sha256": "1f3bbebfa39481ef52d8ae09f25c107fde18d1be5dfaad5b203f846b0df823d9",
+      "bytes": 146982
+    },
+    {
+      "path": "research/tl55-first-pass-review.json",
+      "sha256": "569ce81ab36a50a09f108c758255bec00bcd460a64cdf548a0cf0b0f1b7ac0e0",
+      "bytes": 47051
+    },
+    {
+      "path": "research/tl55-qualified-collation.json",
+      "sha256": "d9bc1e5377e0690519c6757bf30695f159477b0b20398afcd7d4fc002f96db1e",
+      "bytes": 77217
+    },
+    {
+      "path": "research/tl55-sign-alignment.json",
+      "sha256": "d1a8f561442c2475f9ac293b35cd5710d9825301dc7f43ad256aede7875d294d",
+      "bytes": 964708
+    },
+    {
+      "path": "review/collection-packet.json",
+      "sha256": "252132c17b5920f134acf5367e041780b1c8ef77208f0318da3bd8ae19c1e395",
+      "bytes": 2077
+    },
+    {
+      "path": "review/tl55-independent-review.json",
+      "sha256": "ce9ef32ba783f9dfa6fdc71ad06b972dabd0b51258643a466e72c5ba71ec3bc5",
+      "bytes": 3690
+    },
+    {
+      "path": "review/tl55-sign-adjudication.json",
+      "sha256": "b6ea1af6ddf5fa2e6f973c5293860936b41c5e2ae0244431e3e03f1d26717b6f",
+      "bytes": 35101
+    },
+    {
+      "path": "scripts/evidence_query.py",
+      "sha256": "70aa6686802122667b369811fa569c45c407847ed8965b917f58130c5a685550",
+      "bytes": 11289
+    },
+    {
+      "path": "scripts/research_delivery.py",
+      "sha256": "2c113043ed51a459b82dc3959b7f56849bf1aa8c2223719ef3fdaa1321decf8d",
+      "bytes": 10075
+    },
+    {
+      "path": "scripts/test_research_delivery.py",
+      "sha256": "70d2149542b267fdd633d43dd925644dbeeb5d5e66f27675b28c77de7109464b",
+      "bytes": 5678
+    }
+  ],
+  "boundary": "Source assertions, hypotheses and review tasks retain their native categories. Retrieval and byte replay establish neither scholarly completeness nor expert acceptance. Missing source attribution, access, permission and independent review remain open where recorded."
+}
