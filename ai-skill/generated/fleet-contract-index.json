@@ -13,6 +13,11 @@
   "scientific_approval_granted": false,
   "artifacts": [
     {
+      "path": ".github/workflows/ai-skill-function.yml",
+      "sha256": "bd930d865b6081bf4cef842e5aed1ef256c14b5f47ad468b5601a10e8d346364",
+      "bytes": 789
+    },
+    {
       "path": "LICENSE",
       "sha256": "a6483079a3962d57e0174a735f70813ce644e4371869e1108114dfee6cfd5674",
       "bytes": 582
@@ -39,23 +44,23 @@
     },
     {
       "path": "README.md",
-      "sha256": "e9ab1a1c3e91ab6564d15ad48be49d1403218d5d50ac4b5d4dbdcf857d358a13",
-      "bytes": 10326
+      "sha256": "5fbced3c2526db538f4e529d94f954e142b36431d88e9c5b33ed3425d6898296",
+      "bytes": 10784
     },
     {
       "path": "ai-skill/SKILL.md",
-      "sha256": "ee421fa249b4621d8f0e4a49d7f6a8a7618f532437e2444817aa2a3b1ff3f888",
-      "bytes": 17786
+      "sha256": "35e12635c2a483e65674243b4bb7defc4838b9d2d59d5616e9239883586f552a",
+      "bytes": 19150
     },
     {
       "path": "ai-skill/generated/research-bundle-index.json",
-      "sha256": "21562eaa6ee262e2c490f926976620b8369ba2f8d4b2162393d37f4ce71ab20a",
-      "bytes": 16433
+      "sha256": "c35edf8f792ae48064226f95b3769b5f5863f039d84327192c4b9a957cd10035",
+      "bytes": 17428
     },
     {
       "path": "ai-skill/manifest.json",
-      "sha256": "2aeda7a342417059f0e1b4a49dfd7b6ccef4f403a3ec5adeb735513127e20ade",
-      "bytes": 826
+      "sha256": "3a1ff3fbcfcf5b45613127af794af2ea9ddc87fe43b6b0563c0824b954df5f07",
+      "bytes": 883
     },
     {
       "path": "ai-skill/references/authority-profile.json",
@@ -74,8 +79,8 @@
     },
     {
       "path": "ai-skill/scripts/build_bundle.py",
-      "sha256": "54d47408bb952118b7ad2fe67e889fbe26fbc407c44dcdda728f2bd4abcbf471",
-      "bytes": 2796
+      "sha256": "92cd8827955798cbcf33723352b99bb026e04096115f5e9973df1d04ea62169f",
+      "bytes": 3083
     },
     {
       "path": "ai-skill/scripts/fleet_contract.py",
@@ -104,7 +109,7 @@
     },
     {
       "path": "analysis/research-delivery.json",
-      "sha256": "fd359c14b6d9cdc1035812001dfd5778bef064aa1ab71b377b576f23fb298da1",
+      "sha256": "61599090a92529ae60aaf1dcd278792160a112eb17316f24f7e007e890cc8ae1",
       "bytes": 16840
     },
     {
@@ -141,6 +146,11 @@
       "path": "docs/AI-INTEGRITY.md",
       "sha256": "8619d2ac88ca104eb10570b6c5c83021da5e5cdb57a7af1de076131d185207b0",
       "bytes": 1766
+    },
+    {
+      "path": "docs/AI-SKILL-VALIDATION.md",
+      "sha256": "9d9671f72d198d010367cc22ad85b6f14b293c2feff8d7b15591eb4b6075f38c",
+      "bytes": 3197
     },
     {
       "path": "docs/ATTRIBUTION-REVIEW.md",
@@ -359,8 +369,13 @@
     },
     {
       "path": "scripts/research_delivery.py",
-      "sha256": "2c113043ed51a459b82dc3959b7f56849bf1aa8c2223719ef3fdaa1321decf8d",
-      "bytes": 10075
+      "sha256": "2c82a9f1fdac786da4b9583c3d463002a77d45fcdd604be86e4234b09070d756",
+      "bytes": 10387
+    },
+    {
+      "path": "scripts/test_ai_skill_validation.py",
+      "sha256": "5c4405e2b856e976bbeb6838ff011c7f3b3d59e910d18e182ac3e6f16b737d57",
+      "bytes": 2395
     },
     {
       "path": "scripts/test_attribution_review.py",
@@ -411,6 +426,11 @@
       "path": "scripts/tl55_source_glyphs.py",
       "sha256": "511a4f7380275282457df56738eeafcc75b4614aaa1f34b9ec2abd716044b006",
       "bytes": 3651
+    },
+    {
+      "path": "scripts/validate_ai_skill.py",
+      "sha256": "aacfb721bcf218975802968d4e260abc2dc24a300ac41eac44c0bd0d15fcb9d1",
+      "bytes": 10829
     },
     {
       "path": "scripts/validate_tl55_reconciliation.py",

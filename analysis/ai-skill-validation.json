@@ -1,0 +1,188 @@
+{
+  "format": "corpus-ai-skill-function-check-v1",
+  "repository": "hawkinsnick/Milyan-Lycian-B",
+  "status": "PASS_SCOPED_FUNCTIONAL_CHECKS",
+  "scope": "NATIVE_EVIDENCE_RETRIEVAL",
+  "skill_name": "milyan-corpus-research",
+  "skill_version": "0.3.1",
+  "skill_sha256": "35e12635c2a483e65674243b4bb7defc4838b9d2d59d5616e9239883586f552a",
+  "bundle_source_commit": "2095b43cb83f0e73e74d4d30e5985156b2634775",
+  "bundle_sha256": "c35edf8f792ae48064226f95b3769b5f5863f039d84327192c4b9a957cd10035",
+  "indexed_artifact_entries_checked": 79,
+  "unique_indexed_paths_checked": 79,
+  "lookups": [
+    {
+      "collection": "digital-entries",
+      "id": "EDIANA-MILYAN-0",
+      "native_unit": "digital catalogue entry",
+      "provenance": {
+        "path": "data/reference/records.json",
+        "sha256": "315d64c998b380d84616e217c79636979f5576f8814dabeb815cbd07758c1565",
+        "pointer": "/0",
+        "native_artifacts_snapshot_commit": null,
+        "role": "digital-entries",
+        "encoding": "json"
+      }
+    },
+    {
+      "collection": "source-text-rows",
+      "id": "EDIANA-MILYAN-0-ROW-1",
+      "native_unit": "digital source text row",
+      "provenance": {
+        "path": "data/reference/lines.json",
+        "sha256": "c9e91db653d9fed2e0ac9d0428127623ad7175f4bbef7e08bc2f8a85cc399ead",
+        "pointer": "/0",
+        "native_artifacts_snapshot_commit": null,
+        "role": "source-text-rows",
+        "encoding": "json"
+      }
+    },
+    {
+      "collection": "qualified-tl55-rows",
+      "id": "EDIANA-MILYAN-0-ROW-1",
+      "native_unit": "qualified source-label comparison row",
+      "provenance": {
+        "path": "research/tl55-qualified-collation.json",
+        "sha256": "d9bc1e5377e0690519c6757bf30695f159477b0b20398afcd7d4fc002f96db1e",
+        "pointer": "/rows/0",
+        "native_artifacts_snapshot_commit": null,
+        "role": "qualified-tl55-rows",
+        "encoding": "json"
+      }
+    },
+    {
+      "collection": "selected-tl55-issues",
+      "id": "MIL-TL055-S2005-OPENING",
+      "native_unit": "selected source-comparison issue",
+      "provenance": {
+        "path": "research/schuerr2005-tl55-collation.json",
+        "sha256": "e4e7e7c81fe3efff1168af784c80e391b6af9b35dc94d1add74c7d5cd65d710a",
+        "pointer": "/issues/0",
+        "native_artifacts_snapshot_commit": null,
+        "role": "selected-tl55-issues",
+        "encoding": "json"
+      }
+    },
+    {
+      "collection": "tl55-apparatus-review",
+      "id": "S2005-A1-01",
+      "native_unit": "first-pass apparatus review entry",
+      "provenance": {
+        "path": "research/tl55-first-pass-review.json",
+        "sha256": "569ce81ab36a50a09f108c758255bec00bcd460a64cdf548a0cf0b0f1b7ac0e0",
+        "pointer": "/apparatus_entries/0",
+        "native_artifacts_snapshot_commit": null,
+        "role": "tl55-apparatus-review",
+        "encoding": "json"
+      }
+    },
+    {
+      "collection": "attribution-review",
+      "id": "MIL-TL55-COUNT-VOICE",
+      "native_unit": "bounded documentary attribution review task",
+      "provenance": {
+        "path": "research/attribution-review.json",
+        "sha256": "e4f190a90b5e3bf02063618c01b42afae0e26402ac590854c42695bb2115be86",
+        "pointer": "/cases/0",
+        "native_artifacts_snapshot_commit": null,
+        "role": "bounded attribution review",
+        "encoding": "json"
+      }
+    },
+    {
+      "collection": "tl55-sign-alignments",
+      "id": "TL55-L1-A001",
+      "native_unit": "candidate encoded-glyph comparison record",
+      "provenance": {
+        "path": "research/tl55-sign-alignment.json",
+        "sha256": "d1a8f561442c2475f9ac293b35cd5710d9825301dc7f43ad256aede7875d294d",
+        "pointer": "/alignments/0",
+        "native_artifacts_snapshot_commit": null,
+        "role": "qualified glyph comparison and exact source-position metadata",
+        "encoding": "json"
+      }
+    },
+    {
+      "collection": "tl55-documentary-sign-review",
+      "id": "TL55-REVIEW-01",
+      "native_unit": "completed documentary comparison case",
+      "provenance": {
+        "path": "research/tl55-documentary-sign-review.json",
+        "sha256": "1f3bbebfa39481ef52d8ae09f25c107fde18d1be5dfaad5b203f846b0df823d9",
+        "pointer": "/cases/0",
+        "native_artifacts_snapshot_commit": null,
+        "role": "completed documentary comparison with retained non-unique ranges",
+        "encoding": "json"
+      }
+    },
+    {
+      "collection": "tl44-label-routes",
+      "id": "EDIANA-MILYAN-1-ROW-1",
+      "native_unit": "existing digital row to proposed printed label/page route",
+      "provenance": {
+        "path": "research/tl44-source-checkpoint.json",
+        "sha256": "2100d2af995c1ec4ab796a65339fe3567d08190264350eb28e45c607167261ee",
+        "pointer": "/rows/0",
+        "native_artifacts_snapshot_commit": null,
+        "role": "TL44 source checkpoint",
+        "encoding": "json"
+      }
+    },
+    {
+      "collection": "tl44-source-issues",
+      "id": "TL44C-BOUNDARY-64-65",
+      "native_unit": "selected documentary boundary observation",
+      "provenance": {
+        "path": "research/tl44-source-checkpoint.json",
+        "sha256": "2100d2af995c1ec4ab796a65339fe3567d08190264350eb28e45c607167261ee",
+        "pointer": "/issues/0",
+        "native_artifacts_snapshot_commit": null,
+        "role": "TL44 source checkpoint",
+        "encoding": "json"
+      }
+    },
+    {
+      "collection": "tl44-modern-editions",
+      "id": "TL44C-SCHUERR-2016",
+      "native_unit": "modern edition bibliographic target",
+      "provenance": {
+        "path": "research/tl44-source-checkpoint.json",
+        "sha256": "2100d2af995c1ec4ab796a65339fe3567d08190264350eb28e45c607167261ee",
+        "pointer": "/editions/0",
+        "native_artifacts_snapshot_commit": null,
+        "role": "TL44 source checkpoint",
+        "encoding": "json"
+      }
+    },
+    {
+      "collection": "tl44-boundary-contexts",
+      "id": "TL44-C33-MARKER-1",
+      "native_unit": "qualified documentary boundary context",
+      "provenance": {
+        "path": "research/tl44-boundary-documentary-review.json",
+        "sha256": "05c81a47f6d837800d56a2eb3cf5c19ebe31afe08be8e09bcfe5066e3349bc3f",
+        "pointer": "/markers/0",
+        "native_artifacts_snapshot_commit": null,
+        "role": "tl44-boundary-contexts",
+        "encoding": "json"
+      }
+    },
+    {
+      "collection": "tl44-span-accounting",
+      "id": "EDIANA-MILYAN-1-ROW-1",
+      "native_unit": "frozen digital row code-point partition",
+      "provenance": {
+        "path": "research/tl44-boundary-documentary-review.json",
+        "sha256": "05c81a47f6d837800d56a2eb3cf5c19ebe31afe08be8e09bcfe5066e3349bc3f",
+        "pointer": "/rows/0",
+        "native_artifacts_snapshot_commit": null,
+        "role": "tl44-boundary-contexts",
+        "encoding": "json"
+      }
+    }
+  ],
+  "missing_id_rejected": true,
+  "scholarly_acceptance_granted": false,
+  "empirical_model_accuracy_established": false,
+  "limits": "Deterministic workflow checks only. Independent model usage exercises are recorded separately; no cross-platform accuracy or scholarly acceptance is inferred."
+}
