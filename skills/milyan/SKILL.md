@@ -1,3 +1,12 @@
-# Milyan corpus research skill
+---
+name: milyan-legacy-entry
+description: Redirect historical corpus skill entry requests to the current repository-bound research skill.
+---
 
-Use the repository's structured records as evidence, not as a source of automatically established translations. Check `docs/METHODOLOGY.md` and record-level citations. Distinguish Milyan/Lycian B from Lycian A. Never manufacture missing readings, etymologies, translations, dates, or citations. Clearly label proposed interpretations and competing scholarly analyses. Require source and rights checks before adding transcriptions or images. Report verified coverage and unverified gaps separately. Update this skill and the master corpus skill whenever the corpus data or methodology changes. Current corpus contains zero verified inscription records.
+# Historical entry point
+
+Load `ai-skill/SKILL.md` from this repository before research or corpus changes.
+Use `docs/AI-SKILL-VALIDATION.md` and run `python scripts/validate_ai_skill.py`
+from the repository root. This historical path is not an independent research
+skill, a master skill, or evidence of current corpus coverage. Preserve the
+canonical individual skill's source-specific rights, uncertainty and review gates.

@@ -13,5 +13,6 @@
   "rights": "source specific; frozen eDiAna reference CC-BY-SA-4.0",
   "master_contract_0_3_1": "IMPLEMENTED",
   "validation_status": "REPLAY_REQUIRED",
-  "note": "Replay validates software contracts and authority integrity, not epigraphic truth or source permissions."
+  "note": "Replay validates software contracts and authority integrity, not epigraphic truth or source permissions.",
+  "function_validation": "scripts/validate_ai_skill.py"
 }

@@ -3,6 +3,28 @@ name: milyan-corpus-research
 description: Evidence-first Milyan (Lycian B) inscription research and source criticism.
 version: 0.3.1
 ---
+
+## Load and validate this repository-bound skill
+
+Use this file as the canonical individual skill. Load the complete matching
+repository checkout or give the AI access to its files; this Markdown file alone
+contains instructions, not the corpus. Do not claim that supplying a GitHub URL
+installs a skill or makes private/local files available to an AI platform.
+Resolve the paths below from the repository root. With Python 3.10+ available,
+run `python scripts/validate_ai_skill.py` before describing this skill as
+operational on the supplied checkout. Read `docs/AI-SKILL-VALIDATION.md` for the
+exact workflow, examples, dependencies, validation scope and limitations.
+If execution or source access is unavailable, say which step was not run and
+make no fresh validation claim. Preserve all native source/rights restrictions.
+
+Discover exact IDs with `python scripts/evidence_query.py --coverage` and
+`python scripts/evidence_query.py --list COLLECTION`. Retrieve evidence with
+`python scripts/evidence_query.py --record ID --collection COLLECTION`;
+use `python scripts/research_delivery.py --dossier ID --collection COLLECTION`
+for its evidence-only answer frame. Return the exact source path/hash/pointer,
+attribution, uncertainty and native evidence unit. A missing ID means absent
+from the selected view; never invent a replacement or infer global absence.
+
 # Milyan corpus skill
 
 Load `ai-skill/references/authority-profile.json` and `ai-skill/generated/research-bundle-index.json` first. Canonical evidence is `data/inscriptions.json`, not this skill. Milyan/Lycian B is distinct from Lycian A. Distinguish monument, inscription, face and line; TL 44c and TL 44d share a physical monument. Treat provisional metadata as leads, never verified epigraphy. No text, reading, translation or morphological analysis is authenticated yet. Every assertion must cite a record ID and an edition locator. Keep competing analyses and uncertainty visible. Never infer language relationships from cross-corpus infrastructure. Enforce source-specific rights. For comparison, follow the master skill's comparability gate. Rebuild the bundle index, review this skill and update the master registry when the dataset changes.
