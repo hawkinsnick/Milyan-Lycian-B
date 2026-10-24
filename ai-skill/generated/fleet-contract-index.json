@@ -44,18 +44,18 @@
     },
     {
       "path": "README.md",
-      "sha256": "5fbced3c2526db538f4e529d94f954e142b36431d88e9c5b33ed3425d6898296",
-      "bytes": 10784
+      "sha256": "bcf1c5e3502818748ef824c38ae2bb535c7a9d28f6d54c91669e9ca7149f6969",
+      "bytes": 10909
     },
     {
       "path": "ai-skill/SKILL.md",
-      "sha256": "35e12635c2a483e65674243b4bb7defc4838b9d2d59d5616e9239883586f552a",
-      "bytes": 19150
+      "sha256": "6cdcea04e93e38986f7a4a96b127f5c413d84975fb47667ac66645f372547e69",
+      "bytes": 19680
     },
     {
       "path": "ai-skill/generated/research-bundle-index.json",
-      "sha256": "71d9ac3c15aa41a75c021186ef4ac6f9eb44aba9530d8babc70291a5f03b91f9",
-      "bytes": 17428
+      "sha256": "17019bf01ba9ec025744ae838e2fd48c11ee60318d7b96674e86a04b40f8f8d6",
+      "bytes": 17624
     },
     {
       "path": "ai-skill/manifest.json",
@@ -79,8 +79,8 @@
     },
     {
       "path": "ai-skill/scripts/build_bundle.py",
-      "sha256": "92cd8827955798cbcf33723352b99bb026e04096115f5e9973df1d04ea62169f",
-      "bytes": 3083
+      "sha256": "df9d79055623ef3c35b1220aa2857daf80865b3d19dec2ee8ed7f7c03ff5f1a8",
+      "bytes": 3124
     },
     {
       "path": "ai-skill/scripts/fleet_contract.py",
@@ -109,7 +109,7 @@
     },
     {
       "path": "analysis/research-delivery.json",
-      "sha256": "61599090a92529ae60aaf1dcd278792160a112eb17316f24f7e007e890cc8ae1",
+      "sha256": "86076b79f4a4dbc122458a557f2d3e6641d644489cdcb9d768b13b48cf3cd27e",
       "bytes": 16840
     },
     {
@@ -176,6 +176,11 @@
       "path": "docs/METHODOLOGY.md",
       "sha256": "3bafeba0679354b180bf48897cb802aa2748925b292ec9fa5e28a7a262500a2b",
       "bytes": 1122
+    },
+    {
+      "path": "docs/MILYAN-SOURCE-UNION.md",
+      "sha256": "3c630173c0024200529362f31393f7444fe648325111dda348452a17bba552ff",
+      "bytes": 1308
     },
     {
       "path": "docs/RESEARCH-API.md",
