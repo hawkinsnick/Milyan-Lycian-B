@@ -11,6 +11,7 @@ paths |= {p for _,p in [("research_delivery", p) for p in ['scripts/research_del
 if any(p.startswith('ai-skill/generated/') for p in paths):raise ValueError('native source inputs cannot include generated bundle cycles')
 paths |= {'scripts/test_ai_skill_validation.py', 'ai-skill/manifest.json', '.github/workflows/ai-skill-function.yml', 'docs/AI-SKILL-VALIDATION.md', 'scripts/validate_ai_skill.py', 'ai-skill/SKILL.md'}
 paths |= {'ai-skill/scripts/validate_bundle.py', 'ai-skill/scripts/build_bundle.py'}
+paths |= {'docs/MILYAN-SOURCE-UNION.md'}
 old={a['path']:a for a in index.get('artifacts',[])};artifacts=[]
 for p in sorted(paths):
  f=(ROOT/p).resolve()

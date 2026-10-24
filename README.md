@@ -1,5 +1,7 @@
 # Milyan (Lycian B) Corpus
 
+[Shared Milyan source union](docs/MILYAN-SOURCE-UNION.md): count digital source rows once and retain both provenance paths.
+
 
 ## Use the AI research skill
 
