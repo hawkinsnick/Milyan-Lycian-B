@@ -49,12 +49,12 @@
     },
     {
       "path": "ai-skill/SKILL.md",
-      "sha256": "6cdcea04e93e38986f7a4a96b127f5c413d84975fb47667ac66645f372547e69",
-      "bytes": 19680
+      "sha256": "ceb86ca2bd155f3026fc3de6f2212017469d3ca7c8547884fccaea5fbebe7712",
+      "bytes": 20252
     },
     {
       "path": "ai-skill/generated/research-bundle-index.json",
-      "sha256": "a779d5fce4cac02a6e71579cfed57fc59b16605a49f6bff26e62df2fecbce945",
+      "sha256": "3180894eef34b35e2fc0df2bceaed08576780a8a2b33e66eaa1ec9b4bbc2b108",
       "bytes": 17624
     },
     {
@@ -109,7 +109,7 @@
     },
     {
       "path": "analysis/research-delivery.json",
-      "sha256": "86076b79f4a4dbc122458a557f2d3e6641d644489cdcb9d768b13b48cf3cd27e",
+      "sha256": "886b01a9d4bf63efd277e28afcdf281a6b8ef7e512598af3ba8cb0cbba889dde",
       "bytes": 16840
     },
     {
@@ -149,8 +149,8 @@
     },
     {
       "path": "docs/AI-SKILL-VALIDATION.md",
-      "sha256": "9d9671f72d198d010367cc22ad85b6f14b293c2feff8d7b15591eb4b6075f38c",
-      "bytes": 3197
+      "sha256": "7dc795a66768da6dba76001c233027148dcc28600d0908949cb4b8fa2e499555",
+      "bytes": 4591
     },
     {
       "path": "docs/ATTRIBUTION-REVIEW.md",
@@ -379,8 +379,8 @@
     },
     {
       "path": "scripts/test_ai_skill_validation.py",
-      "sha256": "5c4405e2b856e976bbeb6838ff011c7f3b3d59e910d18e182ac3e6f16b737d57",
-      "bytes": 2395
+      "sha256": "b44c6f0fc3c35cd1dd51ec040e95136dd3bba107ef8caab4492e52d593661e6c",
+      "bytes": 3879
     },
     {
       "path": "scripts/test_attribution_review.py",
@@ -434,8 +434,8 @@
     },
     {
       "path": "scripts/validate_ai_skill.py",
-      "sha256": "aacfb721bcf218975802968d4e260abc2dc24a300ac41eac44c0bd0d15fcb9d1",
-      "bytes": 10829
+      "sha256": "802f7e46534c9d26a87217bf95eece124a5624085054537c2314d0419e9586de",
+      "bytes": 11280
     },
     {
       "path": "scripts/validate_tl55_reconciliation.py",
