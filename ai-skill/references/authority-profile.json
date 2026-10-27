@@ -214,6 +214,11 @@
       "path": "tests/test_tl44_boundary_review.py",
       "role": "tl44_boundary_review",
       "required": true
+    },
+    {
+      "role": "nonreview_workflow",
+      "path": "docs/NONREVIEW-WORK.md",
+      "required": true
     }
   ]
 }
