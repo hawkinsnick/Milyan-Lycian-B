@@ -49,13 +49,13 @@
     },
     {
       "path": "ai-skill/SKILL.md",
-      "sha256": "ceb86ca2bd155f3026fc3de6f2212017469d3ca7c8547884fccaea5fbebe7712",
-      "bytes": 20252
+      "sha256": "5675c799dd9494e19fb5ade2b82cc073ef6cff2e7b3c23d46c72a4a35fea6236",
+      "bytes": 21899
     },
     {
       "path": "ai-skill/generated/research-bundle-index.json",
-      "sha256": "0babb05f1d113357a40f4a0241f38fe36ec8a02f4adeaf8d88639de9ba0361e0",
-      "bytes": 17624
+      "sha256": "b7da3712248518941982974c22c1f59c1a4220963ac53ab1111e4d5bcfa96a4e",
+      "bytes": 17815
     },
     {
       "path": "ai-skill/manifest.json",
@@ -64,8 +64,8 @@
     },
     {
       "path": "ai-skill/references/authority-profile.json",
-      "sha256": "98f3722bcff2d88a37804e0a13371dae68d9f134e32a14f75933e276dbbc19a0",
-      "bytes": 6328
+      "sha256": "35b00c764335236fe1d112eeb10251a01283f63702ec83e4f50e58e0c0d9fdfe",
+      "bytes": 6440
     },
     {
       "path": "ai-skill/references/corpus-project-contract.md",
@@ -109,8 +109,8 @@
     },
     {
       "path": "analysis/research-delivery.json",
-      "sha256": "886b01a9d4bf63efd277e28afcdf281a6b8ef7e512598af3ba8cb0cbba889dde",
-      "bytes": 16840
+      "sha256": "bd4b2c129684fee2d45e028c0a5bf5b275657f4463a0122e7147b7a11bba95e6",
+      "bytes": 16997
     },
     {
       "path": "analysis/upstream-epidoc-validation.json",
@@ -181,6 +181,11 @@
       "path": "docs/MILYAN-SOURCE-UNION.md",
       "sha256": "3c630173c0024200529362f31393f7444fe648325111dda348452a17bba552ff",
       "bytes": 1308
+    },
+    {
+      "path": "docs/NONREVIEW-WORK.md",
+      "sha256": "76fbe468ed40366e1cfd370b778fe291d30b66be8d2a3afe58597a42c0887b84",
+      "bytes": 3025
     },
     {
       "path": "docs/RESEARCH-API.md",
@@ -374,8 +379,8 @@
     },
     {
       "path": "scripts/research_delivery.py",
-      "sha256": "2c82a9f1fdac786da4b9583c3d463002a77d45fcdd604be86e4234b09070d756",
-      "bytes": 10387
+      "sha256": "41a6e40571391e2a4303b06a9a6eb4bf8575a84ca715d3932b8907edda64566c",
+      "bytes": 10514
     },
     {
       "path": "scripts/test_ai_skill_validation.py",
